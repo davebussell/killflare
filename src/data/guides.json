@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "home-ignition-zone-explained",
+    "title": "The Home Ignition Zone, Explained",
+    "description": "FireSmart Canada and NFPA Firewise divide the space around your home into zones. Here's what each one means and what to buy for it.",
+    "readTime": "6 min",
+    "sections": [
+      {
+        "heading": "Why zones, not distance",
+        "body": "Research from the Insurance Institute for Business & Home Safety and Canada's FireSmart program shows that most homes are lost not to a wall of flame but to embers landing on or near the house, and to small fires spreading through fuel that's touching the structure. So the framework works from the house outward: the closer to the walls, the stricter the rules."
+      },
+      {
+        "heading": "Zone 0 — Immediate zone (0 to 1.5 m / 5 ft)",
+        "body": "Nothing combustible. Replace bark mulch with crushed rock or gravel. Move firewood, propane cylinders, planters with dry plants, doormats and patio cushions. Screen under decks with 1/8 in metal mesh. Clean gutters and install metal gutter guards. Replace or screen every vent. This is where ember-resistant vents, stainless mesh, gutter guards and propane covers pay for themselves.",
+        "products": ["vulcan-vents", "stainless-ember-mesh", "steel-micro-mesh-gutter-guard", "propane-tank-fire-cover"]
+      },
+      {
+        "heading": "Zone 1 — Intermediate zone (1.5 to 10 m / 5 to 30 ft)",
+        "body": "Lean, clean and green. Mow grass short, limb conifers to 2 m off the ground, remove dead vegetation, and space trees so crowns don't touch. Keep sheds and woodpiles out of this zone if you can. A pole saw and a McLeod rake are the tools; a seasonal coat of long-term retardant on fences and decks adds a margin.",
+        "products": ["battery-pole-saw", "mcleod-fire-rake", "phos-chek-home-defense"]
+      },
+      {
+        "heading": "Zone 2 — Extended zone (10 to 30 m / 30 to 100 ft)",
+        "body": "Reduce fuel density. Thin trees, remove ladder fuels and dead material. You're not clearing the forest — you're making sure a fire arriving here drops to the ground instead of running through the canopy toward the house."
+      },
+      {
+        "heading": "The structure itself",
+        "body": "Class A roofing, metal gutters, ember-resistant vents, dual-pane tempered windows, non-combustible siding at the base of walls, and enclosed eaves. Exterior sprinklers and gels are the active layer you add on top of a hardened structure — not a replacement for one.",
+        "products": ["wasp-wildfire-protection-full-kit", "barricade-fire-gel", "portable-gas-fire-pump"]
+      }
+    ]
+  },
+  {
+    "slug": "sprinklers-vs-gel-vs-retardant",
+    "title": "Sprinklers vs. Gel vs. Retardant: Which Active Defense Should You Buy First?",
+    "description": "Three product categories claim to protect your house when the fire arrives. They work in different ways, on different timelines, and at very different prices.",
+    "readTime": "7 min",
+    "sections": [
+      {
+        "heading": "Timeline is the whole question",
+        "body": "Long-term retardant is applied days or weeks ahead. Gel is applied in the last hour before you leave. Sprinklers run while the fire passes. Which one is right depends on how much warning you'll realistically get, whether you'll be home, and whether your water will keep flowing."
+      },
+      {
+        "heading": "Exterior sprinklers",
+        "body": "Highest impact, most dependent on infrastructure. A roof and gutter sprinkler kit raises humidity around the house, wets the roof and knocks down embers for as long as water flows. The failure mode is obvious: when municipal pressure drops — which it does in nearly every large wildfire — a hose-fed kit stops. Pair it with a pump and a pool or tank and it becomes the most effective consumer product on this site.",
+        "products": ["wasp-wildfire-protection-full-kit", "platypus-wildfire-sprinkler", "portable-gas-fire-pump"]
+      },
+      {
+        "heading": "Fire-blocking gel",
+        "body": "Gel clings to walls, windows, decks and fences and holds a water layer against radiant heat and embers for six to twenty-four hours. It needs no ongoing water once applied, which makes it the right product for people who evacuate. The catch: you need forty psi at the hose bib to apply it, and you need to be there to apply it.",
+        "products": ["barricade-fire-gel", "thermo-gel-200l"]
+      },
+      {
+        "heading": "Long-term retardant",
+        "body": "Phos-Chek Home Defense is the same ammonium phosphate chemistry as aerial retardant. Sprayed on fences, decks, mulch and siding in early fire season, it interrupts combustion until rain washes it off. It's the cheapest of the three and the only one that doesn't require you to be home when the fire comes.",
+        "products": ["phos-chek-home-defense"]
+      },
+      {
+        "heading": "Our recommendation",
+        "body": "Buy in this order: retardant first (cheap, no timing pressure), then a gutter sprinkler kit, then a pump and water storage if you have the property for it, then gel as a final layer for the last hour. And harden the structure — vents, gutters, Zone 0 — before any of it."
+      }
+    ]
+  },
+  {
+    "slug": "evacuation-go-bag-checklist",
+    "title": "The Wildfire Go-Bag Checklist",
+    "description": "A 72-hour kit is the base. Here's what to add so you're not scrambling with 30 minutes' notice.",
+    "readTime": "5 min",
+    "sections": [
+      {
+        "heading": "One bag per person, packed in spring",
+        "body": "Pack in June, not when the smoke arrives. Each person gets their own bag with water, food, medications, a change of clothes, a headlamp, a phone charger and a respirator. Start from a pre-built 72-hour kit and customize.",
+        "products": ["72-hour-emergency-kit", "n95-p100-respirators"]
+      },
+      {
+        "heading": "Documents and devices",
+        "body": "Passports, insurance policies, deeds, prescriptions and a USB drive with everything scanned, in a fireproof pouch. A power station or large power bank keeps phones, and therefore alerts and maps, running.",
+        "products": ["fireproof-document-bag", "portable-power-station"]
+      },
+      {
+        "heading": "Pets",
+        "body": "A carrier for each animal, a week of food, leash, medications and vaccination records. Evacuation centres often require proof of vaccination for animals."
+      },
+      {
+        "heading": "The vehicle",
+        "body": "Keep the tank above half through fire season. Back into the driveway. Keep a paper map — cell data goes first. A second respirator set lives in the car."
+      },
+      {
+        "heading": "Before you leave the house",
+        "body": "If you have time: close all windows and doors, shut off gas at the meter, move flammable furniture inside, turn on sprinklers, apply gel, leave exterior lights on so crews can see the house through smoke, and leave a note on the door saying you've evacuated.",
+        "products": ["barricade-fire-gel", "wasp-wildfire-protection-full-kit"]
+      }
+    ]
+  },
+  {
+    "slug": "smoke-season-indoor-air",
+    "title": "Surviving Smoke Season: Indoor Air Quality",
+    "description": "Wildfire smoke reaches cities hundreds of kilometres from any fire. Here's how to keep the air inside your home breathable for weeks at a time.",
+    "readTime": "5 min",
+    "sections": [
+      {
+        "heading": "The problem is PM2.5",
+        "body": "Wildfire smoke is dominated by fine particulate under 2.5 microns, which passes deep into the lungs and bloodstream. Health agencies in both Canada and the US now treat multi-week smoke events as routine. Indoor air is only cleaner than outdoor air if you make it so."
+      },
+      {
+        "heading": "Seal, then filter",
+        "body": "Close windows, seal obvious gaps, switch HVAC to recirculate, and upgrade the furnace filter to MERV 13. Then add HEPA purifiers, sized by CADR, to the rooms you sleep and spend the day in.",
+        "products": ["hepa-air-purifier-large-room", "corsi-rosenthal-box-kit"]
+      },
+      {
+        "heading": "Measure it",
+        "body": "A PM2.5 monitor tells you whether your purifiers are keeping up and when it's actually safe to open the windows. Outdoor AQI maps lag your street by hours.",
+        "products": ["pm25-air-quality-monitor"]
+      },
+      {
+        "heading": "Outside the house",
+        "body": "NIOSH N95 or P100 respirators, properly fitted, for any time outdoors during a smoke event. Cloth and surgical masks do nothing for PM2.5.",
+        "products": ["n95-p100-respirators"]
+      }
+    ]
+  }
+]

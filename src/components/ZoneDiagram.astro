@@ -1,0 +1,49 @@
+---
+// To-scale plan view of the Home Ignition Zone (FireSmart Canada / NFPA Firewise).
+// Radii: house ~6 m half-width, Zone 0 = +1.5 m, Zone 1 = to 10 m, Zone 2 = to 30 m. 1 m = 5 px.
+const S = 5;
+const cx = 200, cy = 200;
+const house = 6 * S;
+const z0 = house + 1.5 * S;
+const z1 = house + 10 * S;
+const z2 = house + 30 * S;
+---
+<figure class="zd">
+  <svg viewBox="0 0 400 400" role="img" aria-labelledby="zd-title zd-desc">
+    <title id="zd-title">Home Ignition Zone, to scale</title>
+    <desc id="zd-desc">Concentric zones around a house: immediate zone to 1.5 metres, intermediate zone to 10 metres, extended zone to 30 metres.</desc>
+    <circle cx={cx} cy={cy} r={z2} class="zd__z2" />
+    <circle cx={cx} cy={cy} r={z1} class="zd__z1" />
+    <circle cx={cx} cy={cy} r={z0} class="zd__z0" />
+    <rect x={cx - house} y={cy - house} width={house * 2} height={house * 2} class="zd__house" />
+    <path d={`M${cx - house} ${cy - house} L${cx} ${cy - house - 8} L${cx + house} ${cy - house}`} class="zd__house" />
+
+    <!-- radial scale -->
+    <line x1={cx} y1={cy} x2={cx + z2} y2={cy} class="zd__axis" />
+    {[[z0, '1.5 m'], [z1, '10 m'], [z2, '30 m']].map(([r, label]) => (
+      <>
+        <line x1={cx + (r as number)} y1={cy - 5} x2={cx + (r as number)} y2={cy + 5} class="zd__tick" />
+        <text x={cx + (r as number)} y={cy + 18} class="zd__lbl" text-anchor="middle">{label}</text>
+      </>
+    ))}
+
+    <text x={cx} y={cy - z2 + 16} class="zd__zone" text-anchor="middle">ZONE 2 · EXTENDED</text>
+    <text x={cx} y={cy - z1 + 14} class="zd__zone" text-anchor="middle">ZONE 1 · INTERMEDIATE</text>
+    <text x={cx} y={cy + z0 + 30} class="zd__zone zd__zone--0" text-anchor="middle">ZONE 0 · NON-COMBUSTIBLE</text>
+  </svg>
+  <figcaption>Home Ignition Zone, drawn to scale (1 m = 5 px). Source: FireSmart Canada / NFPA Firewise.</figcaption>
+</figure>
+<style>
+  .zd { margin: 0; }
+  .zd svg { width: 100%; height: auto; }
+  .zd__z2 { fill: color-mix(in srgb, var(--moss) 12%, transparent); stroke: var(--moss); stroke-width: 1; stroke-dasharray: 4 4; }
+  .zd__z1 { fill: color-mix(in srgb, var(--moss) 22%, transparent); stroke: var(--moss); stroke-width: 1.2; }
+  .zd__z0 { fill: color-mix(in srgb, var(--ember) 30%, transparent); stroke: var(--ember); stroke-width: 1.5; }
+  .zd__house { fill: var(--ink); stroke: var(--ink); stroke-width: 1.5; stroke-linejoin: round; }
+  .zd__axis { stroke: var(--ink); stroke-width: 0.8; }
+  .zd__tick { stroke: var(--ink); stroke-width: 1; }
+  .zd__lbl { font-family: var(--mono); font-size: 9px; fill: var(--ink); }
+  .zd__zone { font-family: var(--mono); font-size: 8px; letter-spacing: 0.08em; fill: var(--ink-2); }
+  .zd__zone--0 { fill: var(--ember); }
+  figcaption { font-family: var(--mono); font-size: 0.7rem; color: var(--ink-3); margin-top: 0.5rem; }
+</style>

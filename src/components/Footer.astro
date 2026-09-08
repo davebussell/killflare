@@ -1,0 +1,53 @@
+---
+import Logo from './Logo.astro';
+import categories from '../data/categories.json';
+const year = new Date().getFullYear();
+---
+<footer class="ftr">
+  <div class="wrap ftr__in">
+    <div class="ftr__brand">
+      <Logo size={26} />
+      <p>Independent guides to the equipment that keeps a house standing when the forest burns. Written for homeowners in Canada and the United States.</p>
+      <p class="ftr__fine">Killflare is reader-supported. When you buy through links on this site we may earn a commission from Amazon and other retailers, at no extra cost to you. We don't sell products and we don't accept payment for placement.</p>
+    </div>
+    <div>
+      <h4 class="ftr__h">Gear</h4>
+      <ul class="ftr__list">
+        {categories.map((c) => <li><a href={`/categories/${c.slug}/`}>{c.short}</a></li>)}
+      </ul>
+    </div>
+    <div>
+      <h4 class="ftr__h">Site</h4>
+      <ul class="ftr__list">
+        <li><a href="/start-here/">Start here</a></li>
+        <li><a href="/guides/">Guides</a></li>
+        <li><a href="/about/">About &amp; disclosure</a></li>
+        <li><a href="/about/#contact">Contact</a></li>
+      </ul>
+      <h4 class="ftr__h">Official resources</h4>
+      <ul class="ftr__list">
+        <li><a href="https://firesmartcanada.ca/" rel="noopener">FireSmart Canada</a></li>
+        <li><a href="https://www.nfpa.org/education-and-research/wildfire/preparing-homes-for-wildfire" rel="noopener">NFPA Firewise (US)</a></li>
+        <li><a href="https://www.fire.ca.gov/dspace" rel="noopener">CAL FIRE Defensible Space</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap ftr__base">
+    <span>© {year} Killflare · killflare.com</span>
+    <span>Not emergency guidance. Follow evacuation orders from your local authority.</span>
+  </div>
+</footer>
+<style>
+  .ftr { background: var(--char); color: var(--char-ink-2); margin-top: clamp(3rem, 8vw, 6rem); }
+  .ftr__in { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 2.5rem; padding-block: 3rem 2rem; }
+  .ftr__brand { color: var(--char-ink); }
+  .ftr__brand p { margin-top: 1rem; color: var(--char-ink-2); font-size: 0.95rem; }
+  .ftr__fine { font-size: 0.8rem !important; }
+  .ftr__h { font-family: var(--mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--char-ink); margin: 0 0 0.6rem; font-weight: 500; }
+  .ftr__h + .ftr__list + .ftr__h { margin-top: 1.5rem; }
+  .ftr__list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.35rem; font-size: 0.92rem; }
+  .ftr__list a { color: var(--char-ink-2); text-decoration: none; }
+  .ftr__list a:hover { color: var(--char-ink); }
+  .ftr__base { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; padding-block: 1rem 1.5rem; border-top: 1px solid #333936; font-family: var(--mono); font-size: 0.72rem; }
+  @media (max-width: 760px) { .ftr__in { grid-template-columns: 1fr 1fr; } .ftr__brand { grid-column: 1 / -1; } }
+</style>

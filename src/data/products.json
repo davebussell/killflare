@@ -1,0 +1,510 @@
+[
+  {
+    "slug": "wasp-wildfire-protection-full-kit",
+    "name": "WASP Wildfire Protection Full Kit",
+    "brand": "WASP Wildfire",
+    "category": "exterior-sprinklers",
+    "pick": "Best gutter-mount kit",
+    "priceBand": "$$$",
+    "priceNote": "Kit pricing varies by number of heads and hose length",
+    "region": ["CA", "US"],
+    "summary": "Canadian-designed gutter-clip sprinkler heads that install in minutes without tools and run off a standard garden hose. The full kit covers a typical roofline and includes hoses and splitters.",
+    "pros": ["No-tool gutter clip install", "Made in Canada, widely stocked by Canadian retailers", "Runs off garden hose pressure"],
+    "cons": ["Depends on municipal pressure unless paired with a pump", "Coverage limited on steep or multi-level roofs"],
+    "bestFor": "Homeowners who want a same-day DIY sprinkler defense.",
+    "links": [
+      { "label": "WASP Wildfire (CA store)", "url": "https://shop.waspwildfire.ca/", "kind": "direct" },
+      { "label": "Flash Wildfire Services", "url": "https://www.flashwildfireservices.ca/collections/wildfire-sprinkler-kits", "kind": "direct" },
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=WASP+wildfire+sprinkler+kit&tag=AFFILIATE_TAG", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "frontline-wildfire-defense-system",
+    "name": "Frontline Wildfire Defense System",
+    "brand": "Frontline",
+    "category": "exterior-sprinklers",
+    "pick": "Best installed system",
+    "priceBand": "$$$$",
+    "priceNote": "Professionally installed; quote-based",
+    "region": ["US"],
+    "summary": "Permanently installed roof sprinkler system with its own pump, water storage and app-based remote activation. Coats the home in a foam-water mix that clings to surfaces. Aimed at high-value homes in California and the Western US.",
+    "pros": ["Remote activation from anywhere", "Integrated water storage and pump", "Firefighting foam adds surface protection"],
+    "cons": ["Expensive", "Requires professional install", "US-only service area"],
+    "bestFor": "Owners who won't be home when a fire arrives and want automation.",
+    "links": [
+      { "label": "Frontline Wildfire Defense", "url": "https://www.frontlinewildfire.com/", "kind": "direct" }
+    ]
+  },
+  {
+    "slug": "platypus-wildfire-sprinkler",
+    "name": "Platypus Roof Sprinkler",
+    "brand": "Platypus",
+    "category": "exterior-sprinklers",
+    "pick": "Best roof-peak head",
+    "priceBand": "$$",
+    "priceNote": "Sold per head; typical home needs 2–4",
+    "region": ["US", "CA"],
+    "summary": "A brass roof-ridge sprinkler that straddles the peak and throws a wide circular pattern over both roof slopes. Originally from Australia, where roof sprinklers are standard in bushfire zones.",
+    "pros": ["All-metal construction survives radiant heat", "Wide coverage per head", "Semi-permanent mount stays in place all season"],
+    "cons": ["Needs ladder access to install", "Higher flow demand per head"],
+    "bestFor": "Single-storey homes with a simple gable roof.",
+    "links": [
+      { "label": "Platypus Sprinkler USA", "url": "https://platypussprinklerusa.com/", "kind": "direct" },
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=roof+ridge+wildfire+sprinkler+brass&tag=AFFILIATE_TAG", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "tripod-impact-sprinkler-kit",
+    "name": "Brass Impact Sprinkler on Tripod",
+    "brand": "Various (Orbit, Melnor, Rain Bird)",
+    "category": "exterior-sprinklers",
+    "pick": "Budget pick",
+    "priceBand": "$",
+    "priceNote": "Commodity item; buy two or three",
+    "region": ["US", "CA"],
+    "summary": "A hardware-store brass impact sprinkler on an adjustable tripod, aimed at walls and decks, is the cheapest exterior wetting you can set up. Not a roof solution, but a real improvement for the Zone 0 perimeter.",
+    "pros": ["Very cheap and available everywhere", "Covers deck, siding and the 1.5 m zone", "Reusable for lawn watering"],
+    "cons": ["Does not wet the roof", "Plastic tripods deform in heat — choose metal"],
+    "bestFor": "Renters and anyone wanting an immediate, low-cost improvement.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=brass+impact+sprinkler+tripod+metal&tag=AFFILIATE_TAG", "kind": "affiliate" },
+      { "label": "Search on Amazon.ca", "url": "https://www.amazon.ca/s?k=brass+impact+sprinkler+tripod+metal&tag=AFFILIATE_TAG_CA", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "phos-chek-home-defense",
+    "name": "Phos-Chek Wildfire Home Defense",
+    "brand": "Perimeter Solutions",
+    "category": "fire-retardant-gel",
+    "pick": "Best long-term retardant",
+    "priceBand": "$$",
+    "priceNote": "1-gal concentrate with hose-end sprayer",
+    "region": ["US", "CA"],
+    "summary": "The consumer version of the red retardant dropped from air tankers. Applied days or weeks ahead to fences, decks, mulch and siding; stays effective until rinsed by heavy rain. Dries clear.",
+    "pros": ["Apply early — no last-minute scramble", "Same chemistry as aerial retardant", "Dries clear on most surfaces"],
+    "cons": ["Washes off in rain", "Covers surfaces, not the whole structure"],
+    "bestFor": "Seasonal treatment of fences, wood decks and mulch beds.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=Phos-Chek+Wildfire+Home+Defense&tag=AFFILIATE_TAG", "kind": "affiliate" },
+      { "label": "Search on Amazon.ca", "url": "https://www.amazon.ca/s?k=Phos-Chek+Wildfire+Home+Defense&tag=AFFILIATE_TAG_CA", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "barricade-fire-gel",
+    "name": "Barricade Fire Blocking Gel",
+    "brand": "Barricade International",
+    "category": "fire-retardant-gel",
+    "pick": "Best last-minute gel",
+    "priceBand": "$$$",
+    "priceNote": "Sold in 1-gal jugs and 5-gal home kits with applicator",
+    "region": ["US", "CA"],
+    "summary": "A superabsorbent polymer gel that clings to vertical surfaces and holds a water barrier for hours. Used by fire departments; the home kit includes a hose-end applicator. Apply when evacuation is ordered.",
+    "pros": ["Proven in departmental use", "Clings to siding, windows and decks", "Hose-end applicator included in kits"],
+    "cons": ["Effective window is 6–24 hours", "Cleanup after the fact takes work", "Needs ~40 psi water pressure"],
+    "bestFor": "Homes in the path of an approaching fire with an hour to spare.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=Barricade+fire+blocking+gel&tag=AFFILIATE_TAG", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "thermo-gel-200l",
+    "name": "Thermo-Gel 200L",
+    "brand": "Thermo Technologies",
+    "category": "fire-retardant-gel",
+    "pick": "Runner-up gel",
+    "priceBand": "$$$",
+    "priceNote": "Concentrate; needs an eductor or hose-end applicator",
+    "region": ["US"],
+    "summary": "Another fire-department-grade gel concentrate. Slightly cheaper per litre than Barricade but the applicator is sold separately. Good choice if you already own a foam eductor.",
+    "pros": ["Cost-effective in volume", "Long shelf life as concentrate"],
+    "cons": ["Applicator sold separately", "Harder to find in Canada"],
+    "bestFor": "Property owners protecting multiple buildings.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=Thermo-Gel+fire+retardant&tag=AFFILIATE_TAG", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "vulcan-vents",
+    "name": "Vulcan Ember-Resistant Vents",
+    "brand": "Vulcan Technologies",
+    "category": "ember-resistant-vents",
+    "pick": "Best attic & soffit vent",
+    "priceBand": "$$",
+    "priceNote": "Per vent; typical home needs 8–20",
+    "region": ["US", "CA"],
+    "summary": "WUI-listed vents with an intumescent honeycomb that expands and seals at roughly 350°F, plus 1/8 in mesh. Available in soffit, gable, foundation and dormer formats in standard sizes.",
+    "pros": ["Intumescent seal blocks flame, not just embers", "Full range of sizes", "California WUI listed"],
+    "cons": ["Pricier than mesh-only vents", "Once activated, vents must be replaced"],
+    "bestFor": "Whole-house vent replacement.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=Vulcan+ember+resistant+vent&tag=AFFILIATE_TAG", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "brandguard-vents",
+    "name": "Brandguard Ember & Flame Vents",
+    "brand": "Brandguard",
+    "category": "ember-resistant-vents",
+    "pick": "Best baffle-style vent",
+    "priceBand": "$$",
+    "priceNote": "Per vent",
+    "region": ["US", "CA"],
+    "summary": "Uses a patented baffle design to stop embers without relying on fine mesh that clogs. Good airflow numbers and a wide catalogue of eave, gable and foundation models.",
+    "pros": ["High net free area (airflow)", "Baffle design resists clogging", "WUI listed"],
+    "cons": ["Some models are deeper than the vents they replace"],
+    "bestFor": "Homes where attic ventilation is already marginal.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=Brandguard+vent&tag=AFFILIATE_TAG", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "stainless-ember-mesh",
+    "name": "1/8 in Stainless Steel Ember Mesh",
+    "brand": "Various",
+    "category": "ember-resistant-vents",
+    "pick": "Budget retrofit",
+    "priceBand": "$",
+    "priceNote": "Sold by the roll",
+    "region": ["US", "CA"],
+    "summary": "A roll of 1/8 in (3 mm) stainless mesh stapled or screwed over existing vents is the recommended retrofit when replacement isn't practical. Also use it to close gaps under decks and at the base of siding.",
+    "pros": ["Cheapest effective ember defense", "Covers decks, gaps and odd-size vents", "Stainless won't rust or burn"],
+    "cons": ["Does not seal against flame contact", "Reduces airflow somewhat"],
+    "bestFor": "Renters, older homes, and under-deck screening.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=1%2F8+inch+stainless+steel+mesh+ember+screen&tag=AFFILIATE_TAG", "kind": "affiliate" },
+      { "label": "Search on Amazon.ca", "url": "https://www.amazon.ca/s?k=1%2F8+inch+stainless+steel+mesh+screen&tag=AFFILIATE_TAG_CA", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "steel-micro-mesh-gutter-guard",
+    "name": "Stainless Micro-Mesh Gutter Guard",
+    "brand": "Various (Raptor, A-M, LeafFilter-style)",
+    "category": "gutter-and-roof",
+    "pick": "Best gutter guard",
+    "priceBand": "$$",
+    "priceNote": "Priced per linear foot; measure your gutters",
+    "region": ["US", "CA"],
+    "summary": "Stainless micro-mesh on an aluminum frame blocks pine needles and seeds while letting water through. Non-combustible by design, which is the whole point in a wildfire zone.",
+    "pros": ["Blocks pine needles", "All-metal — will not ignite", "DIY install with screws"],
+    "cons": ["Needs occasional brushing", "May interfere with gutter-clip sprinklers"],
+    "bestFor": "Homes under conifers.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=stainless+steel+micro+mesh+gutter+guard&tag=AFFILIATE_TAG", "kind": "affiliate" },
+      { "label": "Search on Amazon.ca", "url": "https://www.amazon.ca/s?k=stainless+steel+micro+mesh+gutter+guard&tag=AFFILIATE_TAG_CA", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "firezat-structure-wrap",
+    "name": "Firezat Fire Shield Structure Wrap",
+    "brand": "Firezat",
+    "category": "fire-blankets-and-wraps",
+    "pick": "Best structure wrap",
+    "priceBand": "$$$$",
+    "priceNote": "Sold by the roll; a cabin needs several",
+    "region": ["US"],
+    "summary": "Aluminized fibreglass wrap of the type used by the US Forest Service to protect historic cabins and lookouts. Reflects up to 95% of radiant heat. Realistic for sheds, cabins, pump houses and tank enclosures.",
+    "pros": ["Proven on real fires", "Reflects radiant heat and blocks embers", "Reusable if handled carefully"],
+    "cons": ["Hours of labour and multiple people to install", "Impractical for large homes", "Must be sealed at every seam"],
+    "bestFor": "Cabins, outbuildings and anything you can wrap in an afternoon.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=Firezat+fire+shield+wrap&tag=AFFILIATE_TAG", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "propane-tank-fire-cover",
+    "name": "Fire-Resistant Propane Tank Cover",
+    "brand": "Various",
+    "category": "fire-blankets-and-wraps",
+    "pick": "Cheap essential",
+    "priceBand": "$",
+    "priceNote": "Sized for 20 lb and 100 lb cylinders",
+    "region": ["US", "CA"],
+    "summary": "A silica or aluminized cover for BBQ and heating propane cylinders. Tanks venting near a house are a major secondary ignition source; a cover buys time and reduces radiant heat on the tank.",
+    "pros": ["Inexpensive", "Fits in a go-kit", "Also protects tank from UV year-round"],
+    "cons": ["Better solution is moving the tank 10 m from the house"],
+    "bestFor": "Everyone with a BBQ tank on the deck.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=fire+resistant+propane+tank+cover+welding+blanket&tag=AFFILIATE_TAG", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "portable-gas-fire-pump",
+    "name": "Portable Gas Fire Pump (1.5 in)",
+    "brand": "Various (Honda WX / Mark 3-style / Koshin)",
+    "category": "pumps-and-water",
+    "pick": "Best home fire pump",
+    "priceBand": "$$$",
+    "priceNote": "Buy with a suction kit and foot valve",
+    "region": ["US", "CA"],
+    "summary": "A high-pressure 1.5 in gas pump moves water from a pool, pond or tank at enough pressure to run a roof sprinkler kit plus a hose line. The Honda-engine models are the reliability benchmark; buy the high-pressure variant, not the trash-pump variant.",
+    "pros": ["Independent of municipal water", "Drives sprinklers and hose simultaneously", "Also useful for flood pumping"],
+    "cons": ["Gas storage and monthly test-runs required", "Noisy; must run outdoors"],
+    "bestFor": "Any home with a pool, pond or storage tank.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=high+pressure+fire+pump+1.5+inch+gas&tag=AFFILIATE_TAG", "kind": "affiliate" },
+      { "label": "Search on Amazon.ca", "url": "https://www.amazon.ca/s?k=high+pressure+fire+pump+1.5+inch+gas&tag=AFFILIATE_TAG_CA", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "fire-hose-and-nozzle-kit",
+    "name": "1.5 in Fire Hose & Fog Nozzle Kit",
+    "brand": "Various",
+    "category": "pumps-and-water",
+    "pick": "Essential add-on",
+    "priceBand": "$$",
+    "priceNote": "50 ft or 100 ft lengths; NH or camlock fittings",
+    "region": ["US", "CA"],
+    "summary": "Real fire hose with a fog/straight adjustable nozzle. Match the fitting thread to your pump (NH/NST in North America). Garden hose melts and kinks; this doesn't.",
+    "pros": ["Handles pump pressure", "Fog pattern knocks down embers", "Lays flat for storage"],
+    "cons": ["Thread standards are confusing — check before buying"],
+    "bestFor": "Anyone buying a fire pump.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=1.5+inch+fire+hose+fog+nozzle+NH&tag=AFFILIATE_TAG", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "poly-water-storage-tank",
+    "name": "Poly Water Storage Tank (1,000–2,500 gal)",
+    "brand": "Various (Norwesco, Bushman, Enduraplas)",
+    "category": "pumps-and-water",
+    "pick": "Water source",
+    "priceBand": "$$$$",
+    "priceNote": "Freight delivery; local dealers often cheaper",
+    "region": ["US", "CA"],
+    "summary": "If you don't have a pool, a dedicated poly tank is the practical way to guarantee water when the hydrants drop. Site it away from the house with a 1.5 in outlet and camlock fitting ready for your pump.",
+    "pros": ["Guarantees supply", "Doubles for irrigation and outage water"],
+    "cons": ["Bulky; freight cost", "Needs a level pad and winterization in Canada"],
+    "bestFor": "Rural and acreage homes without a pool.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=1500+gallon+poly+water+storage+tank&tag=AFFILIATE_TAG", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "battery-pole-saw",
+    "name": "Battery Pole Saw",
+    "brand": "Various (EGO, DeWalt, Milwaukee, Stihl)",
+    "category": "defensible-space-tools",
+    "pick": "Highest-leverage tool",
+    "priceBand": "$$",
+    "priceNote": "Buy in the battery platform you already own",
+    "region": ["US", "CA"],
+    "summary": "Limbing conifers to 2 m (6 ft) off the ground removes the ladder fuel that carries a ground fire into the canopy. A battery pole saw makes it a weekend job instead of a contractor call.",
+    "pros": ["Quiet, no fuel", "Reaches 3–4 m", "Same battery as your other yard tools"],
+    "cons": ["Slower than gas on big limbs"],
+    "bestFor": "Treed lots in Zone 1 (1.5–10 m).",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=battery+pole+saw&tag=AFFILIATE_TAG", "kind": "affiliate" },
+      { "label": "Search on Amazon.ca", "url": "https://www.amazon.ca/s?k=battery+pole+saw&tag=AFFILIATE_TAG_CA", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "mcleod-fire-rake",
+    "name": "McLeod Fire Rake / Hoe",
+    "brand": "Council Tool / Various",
+    "category": "defensible-space-tools",
+    "pick": "Wildland standard",
+    "priceBand": "$",
+    "priceNote": "One-time buy",
+    "region": ["US", "CA"],
+    "summary": "The combination rake-and-hoe wildland crews use to scrape fuel down to mineral soil. Ideal for clearing needle litter, cutting a small control line and smothering spot fires.",
+    "pros": ["Two tools in one", "Nearly indestructible", "Cheap"],
+    "cons": ["Heavy for extended use"],
+    "bestFor": "Needle-litter cleanup and spot-fire response.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=McLeod+fire+rake+tool&tag=AFFILIATE_TAG", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "72-hour-emergency-kit",
+    "name": "72-Hour Emergency Kit (2–4 person)",
+    "brand": "Various (Ready America, Sustain Supply, Redfora)",
+    "category": "go-bags-and-evacuation",
+    "pick": "Best base kit",
+    "priceBand": "$$",
+    "priceNote": "Customize after purchase",
+    "region": ["US", "CA"],
+    "summary": "A pre-built backpack with water, food, first aid, light and warmth for 72 hours. Treat it as a starting point: add medications, documents, chargers, cash and respirators.",
+    "pros": ["Everything in one grab", "Water and food already packed"],
+    "cons": ["Generic contents — always customize", "Check expiry dates annually"],
+    "bestFor": "Every household in an evacuation-prone area.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=72+hour+emergency+kit+4+person&tag=AFFILIATE_TAG", "kind": "affiliate" },
+      { "label": "Search on Amazon.ca", "url": "https://www.amazon.ca/s?k=72+hour+emergency+kit+4+person&tag=AFFILIATE_TAG_CA", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "fireproof-document-bag",
+    "name": "Fireproof & Waterproof Document Bag",
+    "brand": "Various",
+    "category": "go-bags-and-evacuation",
+    "pick": "Cheap essential",
+    "priceBand": "$",
+    "priceNote": "Silica-fibre pouch",
+    "region": ["US", "CA"],
+    "summary": "A silica-fibre pouch for passports, insurance policies, deeds, and a USB drive of scanned records. Lives in the go-bag, not the filing cabinet.",
+    "pros": ["Inexpensive", "Holds a laptop-size stack of documents"],
+    "cons": ["Fire-rated for minutes, not hours — it's for the go-bag, not for leaving behind"],
+    "bestFor": "Everyone.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=fireproof+document+bag&tag=AFFILIATE_TAG", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "n95-p100-respirators",
+    "name": "N95 / P100 Respirators (family pack)",
+    "brand": "3M and NIOSH-approved brands",
+    "category": "smoke-and-air-quality",
+    "pick": "Non-negotiable",
+    "priceBand": "$",
+    "priceNote": "Buy several sizes to find fit",
+    "region": ["US", "CA"],
+    "summary": "NIOSH-approved N95 or P100 masks for every person in the house, including during evacuation drives through smoke. Fit is everything; a valved P100 half-mask is far more comfortable for extended wear.",
+    "pros": ["Cheap", "The single most effective smoke-health product"],
+    "cons": ["Poor fit = little protection", "Not made for children under ~7"],
+    "bestFor": "Everyone in a smoke-affected region.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=3M+N95+respirator+NIOSH+smoke&tag=AFFILIATE_TAG", "kind": "affiliate" },
+      { "label": "Search on Amazon.ca", "url": "https://www.amazon.ca/s?k=3M+N95+respirator+NIOSH&tag=AFFILIATE_TAG_CA", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "hepa-air-purifier-large-room",
+    "name": "HEPA Air Purifier (large room)",
+    "brand": "Various (Coway, Blueair, Levoit, Winix)",
+    "category": "smoke-and-air-quality",
+    "pick": "Best for smoke season",
+    "priceBand": "$$",
+    "priceNote": "Size by CADR to your bedroom",
+    "region": ["US", "CA"],
+    "summary": "A true-HEPA purifier with a high smoke CADR rating, sized to give 4–5 air changes an hour in your bedroom. Run continuously through smoke events and keep spare filters on hand.",
+    "pros": ["Measurably reduces PM2.5 indoors", "Helps year-round with allergens"],
+    "cons": ["Filters are a recurring cost", "One unit per room, not per house"],
+    "bestFor": "Bedrooms and the room where kids or elders spend the day.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=HEPA+air+purifier+wildfire+smoke+large+room&tag=AFFILIATE_TAG", "kind": "affiliate" },
+      { "label": "Search on Amazon.ca", "url": "https://www.amazon.ca/s?k=HEPA+air+purifier+large+room&tag=AFFILIATE_TAG_CA", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "corsi-rosenthal-box-kit",
+    "name": "Corsi-Rosenthal Box (DIY: box fan + 4 MERV-13 filters)",
+    "brand": "DIY",
+    "category": "smoke-and-air-quality",
+    "pick": "Budget pick",
+    "priceBand": "$",
+    "priceNote": "Box fan + four 20×20 MERV-13 filters + tape",
+    "region": ["US", "CA"],
+    "summary": "A box fan taped to a cube of four MERV-13 furnace filters. Peer-reviewed testing shows it rivals commercial purifiers costing several times more. Build one per room.",
+    "pros": ["Very cheap for the airflow", "Parts available at any hardware store"],
+    "cons": ["Loud on high", "Not pretty"],
+    "bestFor": "Whole-house coverage on a budget.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=20x20+MERV+13+furnace+filter+4+pack&tag=AFFILIATE_TAG", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "pm25-air-quality-monitor",
+    "name": "Indoor/Outdoor PM2.5 Monitor",
+    "brand": "Various (PurpleAir, Temtop, IQAir)",
+    "category": "smoke-and-air-quality",
+    "pick": "Know when to open windows",
+    "priceBand": "$$",
+    "priceNote": "Indoor units are cheaper than outdoor sensors",
+    "region": ["US", "CA"],
+    "summary": "A laser particle counter that tells you actual PM2.5 in your bedroom, so you can decide when purifiers are winning and when it's safe to ventilate. Outdoor units also contribute to public smoke maps.",
+    "pros": ["Real data instead of guessing", "Outdoor units help your neighbours too"],
+    "cons": ["Consumer sensors read high in humidity"],
+    "bestFor": "Anyone running purifiers seriously.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=PM2.5+air+quality+monitor+indoor&tag=AFFILIATE_TAG", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "noaa-weather-radio",
+    "name": "Emergency Weather Radio (NOAA / Weatheradio Canada)",
+    "brand": "Midland / Various",
+    "category": "detection-and-alerts",
+    "pick": "Works when the towers don't",
+    "priceBand": "$",
+    "priceNote": "Get one with SAME alerting and battery backup",
+    "region": ["US", "CA"],
+    "summary": "A dedicated weather radio with SAME county/region alerting wakes you up for evacuation orders even when cell networks are congested. Weatheradio Canada broadcasts on the same frequencies.",
+    "pros": ["Independent of internet and cell", "Alarm wakes you at night"],
+    "cons": ["Alert coverage varies by region — check your local transmitter"],
+    "bestFor": "Rural homes and anywhere cell coverage is weak.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=Midland+NOAA+weather+radio+SAME&tag=AFFILIATE_TAG", "kind": "affiliate" },
+      { "label": "Search on Amazon.ca", "url": "https://www.amazon.ca/s?k=Midland+weather+radio+SAME+alert&tag=AFFILIATE_TAG_CA", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "outdoor-security-camera",
+    "name": "Outdoor Wi-Fi Camera (solar or battery)",
+    "brand": "Various (Reolink, Eufy, Ring)",
+    "category": "detection-and-alerts",
+    "pick": "Check on your home after evacuating",
+    "priceBand": "$$",
+    "priceNote": "Pair with a battery backup on your router",
+    "region": ["US", "CA"],
+    "summary": "A camera pointed at the house and the approach lets you see smoke, spot fires and whether the sprinklers are running — from the evacuation centre. Solar units keep working through short outages.",
+    "pros": ["Remote situational awareness", "Also useful as ordinary security"],
+    "cons": ["Dead if the internet goes down — add router backup power"],
+    "bestFor": "Anyone who evacuates early (which should be everyone).",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=solar+outdoor+wifi+security+camera&tag=AFFILIATE_TAG", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "portable-power-station",
+    "name": "Portable Power Station (500–1,000 Wh)",
+    "brand": "Various (EcoFlow, Jackery, Anker, Bluetti)",
+    "category": "detection-and-alerts",
+    "pick": "Keeps alerts alive",
+    "priceBand": "$$$",
+    "priceNote": "Look for a unit with pass-through UPS mode",
+    "region": ["US", "CA"],
+    "summary": "Keeps the router, cameras, phones and a purifier running through the power shutoffs that increasingly accompany high fire danger. Also the heart of a vehicle evacuation kit.",
+    "pros": ["Silent, indoor-safe", "Solar-rechargeable"],
+    "cons": ["Won't run a fire pump — that needs gas"],
+    "bestFor": "Everyone in an area with public safety power shutoffs.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=portable+power+station+1000wh&tag=AFFILIATE_TAG", "kind": "affiliate" },
+      { "label": "Search on Amazon.ca", "url": "https://www.amazon.ca/s?k=portable+power+station+1000wh&tag=AFFILIATE_TAG_CA", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "backpack-pump-sprayer",
+    "name": "5-Gallon Backpack Fire Pump (Indian / Smith-style)",
+    "brand": "Indian Fire Pump / Smith / Various",
+    "category": "fire-extinguishers",
+    "pick": "Wildland standard",
+    "priceBand": "$$",
+    "priceNote": "Trombone-style hand pump; no batteries or gas",
+    "region": ["US", "CA"],
+    "summary": "The refillable water backpack every wildland crew carries. Knocks down spot fires on mulch, decks and grass with a directed stream. Fill it from any bucket or tank.",
+    "pros": ["Refillable, no consumables", "Precise aim", "Works with no power"],
+    "cons": ["Heavy when full (~20 kg)"],
+    "bestFor": "Spot fires after the front passes.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=backpack+fire+pump+5+gallon+wildland&tag=AFFILIATE_TAG", "kind": "affiliate" }
+    ]
+  },
+  {
+    "slug": "10lb-abc-extinguisher",
+    "name": "10 lb ABC Fire Extinguisher (garage & deck)",
+    "brand": "Amerex / Kidde / First Alert",
+    "category": "fire-extinguishers",
+    "pick": "Buy the big one",
+    "priceBand": "$",
+    "priceNote": "Rechargeable metal-valve models last decades",
+    "region": ["US", "CA"],
+    "summary": "A 10 lb ABC extinguisher gives you 20+ seconds of discharge, versus 8 seconds from a kitchen model. Mount one at the garage door and one by the deck. Choose rechargeable metal-valve units.",
+    "pros": ["Much more capacity than kitchen units", "Handles wood, electrical and fuel fires"],
+    "cons": ["Dry chemical is messy — that's fine, it's a fire"],
+    "bestFor": "Every garage and deck.",
+    "links": [
+      { "label": "Search on Amazon", "url": "https://www.amazon.com/s?k=10+lb+ABC+fire+extinguisher+rechargeable&tag=AFFILIATE_TAG", "kind": "affiliate" },
+      { "label": "Search on Amazon.ca", "url": "https://www.amazon.ca/s?k=10+lb+ABC+fire+extinguisher&tag=AFFILIATE_TAG_CA", "kind": "affiliate" }
+    ]
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "slug": "exterior-sprinklers",
+    "name": "Exterior Sprinkler Systems",
+    "short": "Roof & gutter sprinklers",
+    "zone": "structure",
+    "icon": "sprinkler",
+    "tagline": "Keep your roof, walls and the 1.5 m around your home wet when embers arrive.",
+    "intro": "Exterior sprinkler kits mount on gutters, roof peaks or tripods and wet down the structure and immediate zone ahead of a fire front. Consumer kits run off a garden hose or a gas-powered pump drawing from a pool, pond or tank. They are the single most effective product-based defense a homeowner can add — but only if you have a water source that keeps working when municipal pressure drops.",
+    "buyingNotes": [
+      "Water source matters more than the sprinkler. Municipal pressure often collapses during a wildfire; a pump plus a pool, cistern or IBC tote is the resilient setup.",
+      "Look for brass or metal sprinkler heads and UV-rated hose — plastic heads fail in radiant heat.",
+      "Gutter-mounted kits (WASP-style) are the fastest DIY install; roof-peak kits cover more surface but need a ladder and hardware.",
+      "Coverage is rated in metres/feet of radius per head. Measure your roofline and buy 20% more heads than the math says.",
+      "Turn on early — 30 to 60 minutes before the front arrives — and keep an eye on your water budget."
+    ]
+  },
+  {
+    "slug": "fire-retardant-gel",
+    "name": "Fire Retardant Gel & Spray",
+    "short": "Gels, foams & inhibitors",
+    "zone": "structure",
+    "icon": "spray",
+    "tagline": "Coat siding, decks and fences with a protective barrier before you evacuate.",
+    "intro": "Fire-blocking gels and long-term retardant sprays create a heat-absorbing barrier on wood, vinyl and composite surfaces. Gels (Barricade, Thermo-Gel, FireIce) are applied with a hose-end sprayer minutes before evacuation and last several hours. Long-term retardants (Phos-Chek Home Defense) are applied days or weeks ahead and stay effective until washed off by rain.",
+    "buyingNotes": [
+      "Gels are a last-minute product: apply when evacuation is ordered, not the week before. They dry out in 6–24 hours depending on heat and wind.",
+      "Long-term retardants are seasonal: apply to fences, decks and mulch beds in early fire season and refresh after heavy rain.",
+      "A 5-gallon (19 L) gel concentrate typically covers a 2,000 sq ft (185 m²) home exterior. Buy two if you have outbuildings.",
+      "Check the applicator: hose-end sprayers need ~40 psi. If your pressure drops in an emergency, a backpack sprayer is more reliable.",
+      "Gel is not a substitute for sprinklers — it protects surfaces from radiant heat and embers, but it does not stop a crown fire."
+    ]
+  },
+  {
+    "slug": "ember-resistant-vents",
+    "name": "Ember-Resistant Vents",
+    "short": "Attic, soffit & crawlspace vents",
+    "zone": "structure",
+    "icon": "vent",
+    "tagline": "Most homes are lost to embers that get inside — not to flames.",
+    "intro": "Wind-driven embers can travel over a kilometre ahead of the fire front and enter through attic, soffit, gable, foundation and dryer vents. Ember-resistant vents use fine metal mesh (1/8 in / 3 mm or smaller), baffles, or intumescent coatings that expand and seal at high temperatures. Replacing vents is one of the highest-return hardening jobs you can do for a few hundred dollars.",
+    "buyingNotes": [
+      "Look for WUI-listed (California Wildland-Urban Interface, ASTM E2886) products. That listing is the benchmark everywhere, including Canada.",
+      "Mesh size is critical: 1/8 in (3 mm) blocks embers while still allowing airflow. 1/16 in (1.6 mm) clogs with debris and is discouraged.",
+      "Measure every existing vent opening before ordering — sizes vary by builder and era.",
+      "Don't forget the dryer vent, the range hood exhaust and any gable-end louvres.",
+      "If replacement isn't possible, stainless 1/8 in mesh screening retrofitted over existing vents is the budget alternative."
+    ]
+  },
+  {
+    "slug": "gutter-and-roof",
+    "name": "Gutter Guards & Roof Protection",
+    "short": "Gutter guards & roof",
+    "zone": "structure",
+    "icon": "roof",
+    "tagline": "A gutter full of dry needles is a fuse leading straight into your attic.",
+    "intro": "Gutters collect exactly the fuel embers love: dry leaves, pine needles and twigs. Metal gutter guards keep them clean, and non-combustible gutter and downspout materials keep a small ignition from spreading to the eave. Pair this category with ember-resistant vents to close off the roofline.",
+    "buyingNotes": [
+      "Choose metal (steel or aluminum) guards. Plastic and foam inserts melt and can ignite.",
+      "Micro-mesh guards block needles; larger perforated guards let pine needles through. Match to your trees.",
+      "If you have vinyl gutters, plan to replace with aluminum — vinyl drops burning material onto siding.",
+      "Roof sprinklers and gutter guards conflict on some profiles; check compatibility if you're buying both.",
+      "Clean gutters at the start of fire season regardless of guards."
+    ]
+  },
+  {
+    "slug": "fire-blankets-and-wraps",
+    "name": "Fire Blankets & Structure Wraps",
+    "short": "Blankets & wraps",
+    "zone": "structure",
+    "icon": "blanket",
+    "tagline": "Aluminized wraps reflect radiant heat — used by the US Forest Service on historic cabins.",
+    "intro": "Structure wrap is a fibreglass or silica fabric with an aluminized face, stapled over an entire building to reflect radiant heat and block embers. It's labour-intensive and best suited to small buildings, sheds, and propane tanks. Personal fire blankets and fire-escape blankets belong in every kitchen and go-bag regardless.",
+    "buyingNotes": [
+      "Structure wrap needs 2–4 people and several hours to install; buy it well before fire season and rehearse the install.",
+      "Wrap must overlap and be sealed at every seam and edge — embers find gaps.",
+      "Small propane tank covers are cheap and worthwhile; propane tanks venting near a home are a major ignition source.",
+      "Kitchen fire blankets (1 m × 1 m fibreglass) are not wildfire products but should be in every home.",
+      "Personal fire shelters (as used by wildland crews) are a last resort and require training — they are not a substitute for evacuating early."
+    ]
+  },
+  {
+    "slug": "pumps-and-water",
+    "name": "Pumps, Hoses & Water Storage",
+    "short": "Pumps & water",
+    "zone": "structure",
+    "icon": "pump",
+    "tagline": "When the hydrants go dry, your pump is the only pressure you have.",
+    "intro": "A portable gas or battery fire pump drawing from a pool, pond, cistern or tank is the backbone of a serious home defense setup. Combined with fire hose, a nozzle and an exterior sprinkler kit, it gives you 30–90 minutes of protection regardless of what the municipal system is doing.",
+    "buyingNotes": [
+      "Match pump output (GPM / LPM) to your sprinkler kit's total demand plus one hose line.",
+      "Gas pumps are the standard; keep fuel stabilized and test-run monthly in fire season.",
+      "A 1,000–2,500 gallon (4,000–10,000 L) poly tank is the practical minimum for a sprinkler-defended home without a pool.",
+      "Use 1.5 in fire hose with camlock or NH-threaded fittings — garden hose kinks and melts.",
+      "Store the pump, hose and fittings in one pre-connected kit. In an evacuation you will not have time to hunt for adapters."
+    ]
+  },
+  {
+    "slug": "defensible-space-tools",
+    "name": "Defensible Space & Yard Tools",
+    "short": "Yard & clearing tools",
+    "zone": "yard",
+    "icon": "tools",
+    "tagline": "The first 10 metres decide whether your house survives.",
+    "intro": "FireSmart Canada and NFPA Firewise both emphasise the same thing: what's within 1.5 m of the house should be non-combustible, and 1.5–10 m should be thinned, limbed and cleared of ladder fuels. The tools here are ordinary — rakes, pole saws, chippers — but buying them with wildfire in mind changes what you prioritize.",
+    "buyingNotes": [
+      "Priority one is Zone 0 (0–1.5 m): replace bark mulch with rock, move firewood and propane away, clear under decks.",
+      "A pole saw for limbing conifers to 2 m from the ground is the highest-leverage tool you can buy.",
+      "Battery tools are fine for maintenance; a small gas chipper pays for itself if you're thinning a treed lot.",
+      "Buy a steel leaf rake and a McLeod (fire rake) — dry needle accumulation is the fuel you'll be fighting all season.",
+      "Non-combustible mulch (crushed rock, pea gravel) is a product too — plan delivery early in the season."
+    ]
+  },
+  {
+    "slug": "go-bags-and-evacuation",
+    "name": "Go-Bags & Evacuation Kits",
+    "short": "Go-bags & evacuation",
+    "zone": "people",
+    "icon": "bag",
+    "tagline": "You leave with what you packed in June, not what you remember in August.",
+    "intro": "Evacuation orders can come with under an hour's notice. A 72-hour go-bag for each person, plus a vehicle kit and a document pouch, is the baseline. This category covers pre-built kits and the components most kits leave out — N95 respirators, headlamps, power banks and pet supplies.",
+    "buyingNotes": [
+      "Buy a pre-built 72-hour kit as a base, then customise: medications, glasses, phone chargers, cash, copies of ID.",
+      "N95 or P100 respirators for every family member — smoke exposure is the most common wildfire injury.",
+      "A fire-rated document bag for passports, insurance and deeds; scan everything to cloud storage too.",
+      "Pets need their own kit: carrier, food, leash, vaccination records.",
+      "Keep the vehicle fuelled above half a tank throughout fire season, and back it into the driveway."
+    ]
+  },
+  {
+    "slug": "smoke-and-air-quality",
+    "name": "Smoke & Air Quality",
+    "short": "Air purifiers & masks",
+    "zone": "people",
+    "icon": "air",
+    "tagline": "Wildfire smoke season now lasts months. Clean indoor air is a health product.",
+    "intro": "Even hundreds of kilometres from a fire, PM2.5 from wildfire smoke reaches hazardous levels for days or weeks. HEPA air purifiers sized for your rooms, MERV-13 furnace filters, portable air quality monitors and properly fitted respirators make the difference between a sealed house and a smoky one.",
+    "buyingNotes": [
+      "Size purifiers by CADR: you want at least 4–5 air changes per hour in the room where you sleep.",
+      "Upgrade your furnace filter to MERV 13 for smoke season and run the fan continuously.",
+      "A DIY Corsi-Rosenthal box (box fan + four MERV-13 filters) is a proven budget alternative.",
+      "A PM2.5 monitor tells you when to open windows again — outdoor AQI maps lag your neighbourhood.",
+      "N95 fit matters more than brand. Buy a few sizes/styles and test them."
+    ]
+  },
+  {
+    "slug": "detection-and-alerts",
+    "name": "Detection, Alerts & Monitoring",
+    "short": "Alerts & monitoring",
+    "zone": "people",
+    "icon": "alert",
+    "tagline": "Know about the fire before the sheriff knocks.",
+    "intro": "Wildfire alert apps, weather radios, outdoor cameras with heat detection and smoke detectors that talk to your phone give you the early warning that makes everything else in this guide possible. This category is inexpensive and worth setting up first.",
+    "buyingNotes": [
+      "A NOAA / Environment Canada weather radio with battery backup works when cell towers are congested or down.",
+      "Outdoor cameras let you check your property remotely after evacuating — and confirm it's safe to return.",
+      "Wi-Fi smoke and heat detectors in the garage and attic catch ember ignitions early.",
+      "Free apps (Watch Duty in the US, provincial wildfire apps in Canada) should be on every phone in the house.",
+      "A portable power station keeps your router, cameras and phones alive through outages."
+    ]
+  },
+  {
+    "slug": "fire-extinguishers",
+    "name": "Extinguishers & Spot-Fire Tools",
+    "short": "Extinguishers",
+    "zone": "structure",
+    "icon": "extinguisher",
+    "tagline": "Most homes are saved by someone knocking down a spot fire in the first two minutes.",
+    "intro": "If you stay to defend (only ever with a plan and a safe exit), or return after the front passes, spot fires on decks, in mulch and under eaves are what you'll actually fight. Backpack water sprayers, ABC extinguishers and a hose with a fog nozzle are the tools for that job.",
+    "buyingNotes": [
+      "A 5-gallon (19 L) backpack pump sprayer is the wildland standard — cheap, refillable and easy to aim.",
+      "Buy 10 lb ABC extinguishers for the garage and deck, not the 2.5 lb kitchen models.",
+      "A shovel and a McLeod rake let you smother and scrape smouldering material.",
+      "Fog nozzles (adjustable pattern) on a hose knock down embers far better than a jet.",
+      "Never plan to stay and defend in a crown fire. These tools are for spot fires only."
+    ]
+  }
+]

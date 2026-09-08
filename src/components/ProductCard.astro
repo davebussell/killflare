@@ -1,0 +1,32 @@
+---
+import categories from '../data/categories.json';
+interface Props { product: any; showCategory?: boolean }
+const { product: p, showCategory = false } = Astro.props;
+const cat = categories.find((c) => c.slug === p.category);
+const regions = p.region.map((r: string) => (r === 'CA' ? '🇨🇦' : '🇺🇸')).join(' ');
+---
+<a href={`/products/${p.slug}/`} class={`card pc zone-${cat?.zone}`}>
+  <div class="pc__top">
+    <span class="pc__pick">{p.pick}</span>
+    <span class="pc__price mono" title={p.priceNote}>{p.priceBand}</span>
+  </div>
+  <h3 class="pc__name">{p.name}</h3>
+  <div class="pc__brand mono">{p.brand} · <span aria-label={p.region.join(', ')}>{regions}</span></div>
+  <p class="pc__sum">{p.summary}</p>
+  <div class="pc__foot">
+    {showCategory && cat && <span class="pc__cat">{cat.short}</span>}
+    <span class="pc__cta">Read the pick →</span>
+  </div>
+</a>
+<style>
+  .pc { padding: 1.1rem 1.25rem 1rem; border-top: 4px solid var(--zone); gap: 0.5rem; }
+  .pc__top { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; }
+  .pc__pick { font-family: var(--mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--zone); font-weight: 500; }
+  .pc__price { font-size: 0.8rem; color: var(--ink-3); letter-spacing: 0.15em; }
+  .pc__name { font-size: 1.55rem; line-height: 1.05; }
+  .pc__brand { font-size: 0.75rem; color: var(--ink-3); }
+  .pc__sum { font-size: 0.93rem; color: var(--ink-2); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .pc__foot { margin-top: auto; padding-top: 0.75rem; display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; }
+  .pc__cat { font-family: var(--mono); font-size: 0.7rem; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.08em; }
+  .pc__cta { font-family: var(--display); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; font-size: 1rem; color: var(--ink); margin-left: auto; }
+</style>

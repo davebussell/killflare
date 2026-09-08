@@ -1,0 +1,55 @@
+---
+import Base from '../layouts/Base.astro';
+import products from '../data/products.json';
+const byId = (s: string) => products.find((p) => p.slug === s)!;
+const steps = [
+  { tier: 'This weekend', cost: 'Under $100', zone: 'people', title: 'Get warned, get masked', body: 'Put a wildfire alert app on every phone, buy a weather radio with SAME alerting, and buy NIOSH respirators for everyone in the house. This is the cheapest and most important tier.', picks: ['noaa-weather-radio', 'n95-p100-respirators'] },
+  { tier: 'This month', cost: '$100–$500', zone: 'structure', title: 'Close the ember gaps', body: 'Screen or replace vents, screen under the deck, install metal gutter guards, cover the propane tank, and clear Zone 0 of everything that burns. Add a 10 lb extinguisher to the garage.', picks: ['stainless-ember-mesh', 'steel-micro-mesh-gutter-guard', 'propane-tank-fire-cover', '10lb-abc-extinguisher'] },
+  { tier: 'Early fire season', cost: '$100–$400', zone: 'yard', title: 'Treat and thin', body: 'Spray long-term retardant on fences, decks and mulch. Limb conifers to 2 m. Rake needle litter. Pack the go-bags while you still have a calendar, not a countdown.', picks: ['phos-chek-home-defense', 'battery-pole-saw', '72-hour-emergency-kit'] },
+  { tier: 'When you can', cost: '$500–$2,500', zone: 'structure', title: 'Add the active layer', body: 'A gutter-mount sprinkler kit, then a pump and water storage so it keeps running when the hydrants drop. A jug of gel for the last hour before you leave.', picks: ['wasp-wildfire-protection-full-kit', 'portable-gas-fire-pump', 'barricade-fire-gel'] },
+  { tier: 'Smoke season', cost: '$150–$600', zone: 'people', title: 'Clean the indoor air', body: 'One HEPA purifier per bedroom (or a Corsi-Rosenthal box), a MERV-13 furnace filter, and a PM2.5 monitor so you know when it\'s working.', picks: ['hepa-air-purifier-large-room', 'corsi-rosenthal-box-kit', 'pm25-air-quality-monitor'] },
+];
+---
+<Base title="Start here" description="The order to buy wildfire home defense supplies in, from a $50 weather radio to a pump-fed sprinkler system — ranked by impact per dollar.">
+  <section class="section">
+    <div class="wrap">
+      <span class="eyebrow eyebrow--ember">Start here</span>
+      <h1>Buy in this order</h1>
+      <p class="lede">Ranked by impact per dollar, not by price. A house with screened vents and a clean Zone 0 survives more fires than a house with an expensive sprinkler system and pine needles in the gutters.</p>
+
+      <ol class="steps">
+        {steps.map((s, i) => (
+          <li class={`step zone-${s.zone}`}>
+            <div class="step__n mono">{String(i + 1).padStart(2, '0')}</div>
+            <div class="step__body">
+              <div class="step__meta mono"><span>{s.tier}</span><span>{s.cost}</span></div>
+              <h2>{s.title}</h2>
+              <p>{s.body}</p>
+              <ul class="step__picks">
+                {s.picks.map((id) => { const p = byId(id); return <li><a href={`/products/${p.slug}/`}><span class="mono">{p.priceBand}</span> {p.name}</a></li>; })}
+              </ul>
+            </div>
+          </li>
+        ))}
+      </ol>
+
+      <div class="notice">
+        <p><strong>What we deliberately left off:</strong> permanently installed whole-house systems and structure wrap. Both work, both are covered in their categories, and neither belongs on a priority list until everything above is done.</p>
+      </div>
+    </div>
+  </section>
+</Base>
+<style>
+  .lede { color: var(--ink-2); margin: 0.75rem 0 2.5rem; font-size: 1.1rem; }
+  .steps { list-style: none; margin: 0 0 2rem; padding: 0; display: grid; gap: 0; border-top: 2px solid var(--ink); max-width: 900px; }
+  .step { display: grid; grid-template-columns: 4.5rem 1fr; gap: 1rem; padding: 1.75rem 0; border-bottom: 1px solid var(--line); }
+  .step__n { font-family: var(--display); font-weight: 700; font-size: 2.75rem; line-height: 1; color: var(--zone); }
+  .step__meta { display: flex; gap: 1.5rem; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-3); margin-bottom: 0.4rem; }
+  .step h2 { text-transform: none; font-size: clamp(1.6rem, 3vw, 2.1rem); }
+  .step p { margin-top: 0.5rem; color: var(--ink-2); }
+  .step__picks { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: 0.35rem; }
+  .step__picks a { text-decoration: none; font-weight: 500; display: flex; gap: 0.75rem; align-items: baseline; }
+  .step__picks a:hover { color: var(--zone); }
+  .step__picks .mono { font-size: 0.72rem; color: var(--ink-3); letter-spacing: 0.15em; min-width: 3.2rem; }
+  .notice { max-width: 900px; }
+</style>

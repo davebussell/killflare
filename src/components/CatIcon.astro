@@ -1,0 +1,19 @@
+---
+interface Props { name: string; size?: number }
+const { name, size = 28 } = Astro.props;
+const paths: Record<string, string> = {
+  sprinkler: 'M12 20V10M6 10h12M12 10V4M8 4l4 6 4-6M5 14l-2 3M19 14l2 3M9 14l-1 4M15 14l1 4',
+  spray: 'M8 22h8V10H8zM10 10V6h4v4M14 6h4l2-2M18 4V2',
+  vent: 'M4 4h16v16H4zM4 9h16M4 14h16M4 19h16',
+  roof: 'M2 12L12 3l10 9M5 10v10h14V10M9 20v-6h6v6',
+  blanket: 'M4 6h16v12H4zM4 10h16M4 14h16M8 6v12M16 6v12',
+  pump: 'M4 14h10v6H4zM14 17h3l3-3V9M9 14V8a3 3 0 0 1 6 0M2 20h20',
+  tools: 'M4 20l7-7M9 8l7 7M14 4l6 6-3 3-6-6zM4 20l3-3',
+  bag: 'M6 8h12l1 13H5zM9 8V5a3 3 0 0 1 6 0v3M9 13h6',
+  air: 'M3 8h11a3 3 0 1 0-3-3M3 12h16a3 3 0 1 1-3 3M3 16h8a2 2 0 1 1-2 2',
+  alert: 'M12 3l10 18H2zM12 10v5M12 18v.5',
+  extinguisher: 'M9 8h6v13H9zM12 8V5M12 5H8M8 5l-3 3M15 10h3V7',
+};
+const d = paths[name] ?? paths.alert;
+---
+<svg viewBox="0 0 24 24" width={size} height={size} fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={d} /></svg>

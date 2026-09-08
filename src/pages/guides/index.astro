@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import guides from '../../data/guides.json';
+---
+<Base title="Guides" description="Longer reads on wildfire home defense: the Home Ignition Zone, sprinklers vs gel vs retardant, go-bag checklists and smoke-season air quality.">
+  <section class="section">
+    <div class="wrap">
+      <span class="eyebrow eyebrow--ember">Guides</span>
+      <h1>The thinking behind the list</h1>
+      <p class="lede">Product picks are only useful if you know why one thing comes before another. These guides cover the decisions.</p>
+      <div class="grid grid--2">
+        {guides.map((g) => (
+          <a href={`/guides/${g.slug}/`} class="card gcard">
+            <span class="eyebrow">{g.readTime} read</span>
+            <h3>{g.title}</h3>
+            <p>{g.description}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>
+<style>
+  .lede { color: var(--ink-2); margin: 0.75rem 0 2rem; font-size: 1.1rem; }
+  .gcard { padding: 1.5rem; gap: 0.6rem; }
+  .gcard h3 { text-transform: none; }
+  .gcard p { color: var(--ink-2); font-size: 0.95rem; }
+</style>

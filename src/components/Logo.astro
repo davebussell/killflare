@@ -1,0 +1,16 @@
+---
+interface Props { size?: number }
+const { size = 30 } = Astro.props;
+---
+<span class="logo" style={`--s:${size}px`}>
+  <svg viewBox="0 0 32 32" width={size} height={size} aria-hidden="true">
+    <path d="M16 2c1 6-6 8-6 15a6 6 0 0 0 12 0c0-3-1.5-5-3-7 0 3-2 4-2 4s-1-4 1-6c0-2-1-4-2-6z" fill="var(--ember)"/>
+    <path d="M6 27h20l-3 3H9z" fill="currentColor"/>
+  </svg>
+  <span class="logo__word">Kill<b>flare</b></span>
+</span>
+<style>
+  .logo { display: inline-flex; align-items: center; gap: 0.45rem; }
+  .logo__word { font-family: var(--display); font-weight: 700; font-size: calc(var(--s) * 0.95); line-height: 1; text-transform: uppercase; letter-spacing: 0.02em; }
+  .logo__word b { color: var(--ember); font-weight: 700; }
+</style>
