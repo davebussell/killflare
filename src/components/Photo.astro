@@ -1,0 +1,56 @@
+---
+import { Image } from 'astro:assets';
+import photos from '../data/photos.json';
+
+interface Props {
+  name: string;
+  widths?: number[];
+  sizes?: string;
+  eager?: boolean;
+  ratio?: string;
+  credit?: boolean;
+  className?: string;
+}
+const { name, widths = [640, 1000, 1600], sizes = '100vw', eager = false, ratio = '16 / 9', credit = true, className = '' } = Astro.props;
+
+const meta = (photos as Record<string, any>)[name];
+const files = import.meta.glob<{ default: ImageMetadata }>('../assets/photos/*.jpg', { eager: true });
+const entry = files[`../assets/photos/${name}.jpg`];
+---
+{entry && meta && (
+  <figure class={`photo ${className}`} style={`--ratio:${ratio}`}>
+    <Image
+      src={entry.default}
+      alt={meta.alt}
+      widths={widths}
+      sizes={sizes}
+      loading={eager ? 'eager' : 'lazy'}
+      decoding={eager ? 'sync' : 'async'}
+      fetchpriority={eager ? 'high' : 'auto'}
+    />
+    {credit && (
+      <figcaption class="photo__credit mono">
+        Photo <a href={meta.sourceUrl} rel="noopener nofollow" target="_blank">{meta.credit}</a> / Unsplash
+      </figcaption>
+    )}
+  </figure>
+)}
+<style>
+  .photo { margin: 0; position: relative; }
+  .photo :global(img) {
+    width: 100%;
+    height: auto;
+    aspect-ratio: var(--ratio);
+    object-fit: cover;
+    background: var(--bg-2);
+    display: block;
+  }
+  .photo__credit {
+    position: absolute; right: 0; bottom: 0;
+    font-size: 0.62rem; letter-spacing: 0.04em;
+    color: #fff; background: rgba(12,14,13,0.62);
+    padding: 0.18rem 0.5rem;
+    backdrop-filter: blur(3px);
+  }
+  .photo__credit a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+</style>

@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import ProductCard from '../../components/ProductCard.astro';
 import CatIcon from '../../components/CatIcon.astro';
+import Photo from '../../components/Photo.astro';
 import categories from '../../data/categories.json';
 import products from '../../data/products.json';
 
@@ -13,6 +14,9 @@ const picks = products.filter((p) => p.category === cat.slug);
 const zoneLabel = { structure: 'Structure', yard: 'Yard & zones', people: 'People & air' }[cat.zone];
 ---
 <Base title={cat.name} description={`${cat.tagline} Our picks and buying notes for ${cat.name.toLowerCase()}.`}>
+  <div class={`catbanner zone-${cat.zone}`}>
+    <Photo name={cat.photo} eager={true} ratio="21 / 6" sizes="100vw" />
+  </div>
   <section class={`section catpage zone-${cat.zone}`}>
     <div class="wrap">
       <nav class="crumb mono" aria-label="Breadcrumb"><a href="/categories/">Gear</a> / {zoneLabel}</nav>
@@ -46,6 +50,9 @@ const zoneLabel = { structure: 'Structure', yard: 'Yard & zones', people: 'Peopl
   </section>
 </Base>
 <style>
+  .catbanner { position: relative; border-bottom: 4px solid var(--zone); }
+  .catbanner::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 40%, color-mix(in srgb, var(--bg) 72%, transparent)); pointer-events: none; }
+  .catpage { padding-top: clamp(1.5rem, 3vw, 2.5rem); }
   .crumb { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-3); margin-bottom: 1.5rem; }
   .crumb a { color: inherit; text-decoration: none; }
   .cathead { display: flex; gap: 1.25rem; align-items: flex-start; }

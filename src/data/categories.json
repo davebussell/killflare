@@ -13,7 +13,8 @@
       "Gutter-mounted kits (WASP-style) are the fastest DIY install; roof-peak kits cover more surface but need a ladder and hardware.",
       "Coverage is rated in metres/feet of radius per head. Measure your roofline and buy 20% more heads than the math says.",
       "Turn on early — 30 to 60 minutes before the front arrives — and keep an eye on your water budget."
-    ]
+    ],
+    "photo": "exterior-sprinklers"
   },
   {
     "slug": "fire-retardant-gel",
@@ -29,7 +30,8 @@
       "A 5-gallon (19 L) gel concentrate typically covers a 2,000 sq ft (185 m²) home exterior. Buy two if you have outbuildings.",
       "Check the applicator: hose-end sprayers need ~40 psi. If your pressure drops in an emergency, a backpack sprayer is more reliable.",
       "Gel is not a substitute for sprinklers — it protects surfaces from radiant heat and embers, but it does not stop a crown fire."
-    ]
+    ],
+    "photo": "fire-retardant-gel"
   },
   {
     "slug": "ember-resistant-vents",
@@ -45,7 +47,8 @@
       "Measure every existing vent opening before ordering — sizes vary by builder and era.",
       "Don't forget the dryer vent, the range hood exhaust and any gable-end louvres.",
       "If replacement isn't possible, stainless 1/8 in mesh screening retrofitted over existing vents is the budget alternative."
-    ]
+    ],
+    "photo": "ember-resistant-vents"
   },
   {
     "slug": "gutter-and-roof",
@@ -61,7 +64,8 @@
       "If you have vinyl gutters, plan to replace with aluminum — vinyl drops burning material onto siding.",
       "Roof sprinklers and gutter guards conflict on some profiles; check compatibility if you're buying both.",
       "Clean gutters at the start of fire season regardless of guards."
-    ]
+    ],
+    "photo": "gutter-and-roof"
   },
   {
     "slug": "fire-blankets-and-wraps",
@@ -77,7 +81,8 @@
       "Small propane tank covers are cheap and worthwhile; propane tanks venting near a home are a major ignition source.",
       "Kitchen fire blankets (1 m × 1 m fibreglass) are not wildfire products but should be in every home.",
       "Personal fire shelters (as used by wildland crews) are a last resort and require training — they are not a substitute for evacuating early."
-    ]
+    ],
+    "photo": "fire-blankets-and-wraps"
   },
   {
     "slug": "pumps-and-water",
@@ -93,7 +98,8 @@
       "A 1,000–2,500 gallon (4,000–10,000 L) poly tank is the practical minimum for a sprinkler-defended home without a pool.",
       "Use 1.5 in fire hose with camlock or NH-threaded fittings — garden hose kinks and melts.",
       "Store the pump, hose and fittings in one pre-connected kit. In an evacuation you will not have time to hunt for adapters."
-    ]
+    ],
+    "photo": "pumps-and-water"
   },
   {
     "slug": "defensible-space-tools",
@@ -109,7 +115,8 @@
       "Battery tools are fine for maintenance; a small gas chipper pays for itself if you're thinning a treed lot.",
       "Buy a steel leaf rake and a McLeod (fire rake) — dry needle accumulation is the fuel you'll be fighting all season.",
       "Non-combustible mulch (crushed rock, pea gravel) is a product too — plan delivery early in the season."
-    ]
+    ],
+    "photo": "defensible-space-tools"
   },
   {
     "slug": "go-bags-and-evacuation",
@@ -125,7 +132,8 @@
       "A fire-rated document bag for passports, insurance and deeds; scan everything to cloud storage too.",
       "Pets need their own kit: carrier, food, leash, vaccination records.",
       "Keep the vehicle fuelled above half a tank throughout fire season, and back it into the driveway."
-    ]
+    ],
+    "photo": "go-bags-and-evacuation"
   },
   {
     "slug": "smoke-and-air-quality",
@@ -141,7 +149,8 @@
       "A DIY Corsi-Rosenthal box (box fan + four MERV-13 filters) is a proven budget alternative.",
       "A PM2.5 monitor tells you when to open windows again — outdoor AQI maps lag your neighbourhood.",
       "N95 fit matters more than brand. Buy a few sizes/styles and test them."
-    ]
+    ],
+    "photo": "smoke-and-air-quality"
   },
   {
     "slug": "detection-and-alerts",
@@ -157,7 +166,8 @@
       "Wi-Fi smoke and heat detectors in the garage and attic catch ember ignitions early.",
       "Free apps (Watch Duty in the US, provincial wildfire apps in Canada) should be on every phone in the house.",
       "A portable power station keeps your router, cameras and phones alive through outages."
-    ]
+    ],
+    "photo": "detection-and-alerts"
   },
   {
     "slug": "fire-extinguishers",
@@ -173,6 +183,7 @@
       "A shovel and a McLeod rake let you smother and scrape smouldering material.",
       "Fog nozzles (adjustable pattern) on a hose knock down embers far better than a jet.",
       "Never plan to stay and defend in a crown fire. These tools are for spot fires only."
-    ]
+    ],
+    "photo": "fire-extinguishers"
   }
 ]

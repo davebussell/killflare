@@ -1,0 +1,98 @@
+{
+  "hero": {
+    "alt": "Wildfire burning across a hillside at dusk",
+    "credit": "Matt Palmer",
+    "creditUrl": "https://unsplash.com/@mattpalmer?utm_source=killflare&utm_medium=referral",
+    "sourceUrl": "https://unsplash.com/photos/kbTp7dBzHyY?utm_source=killflare&utm_medium=referral"
+  },
+  "exterior-sprinklers": {
+    "alt": "Lawn sprinklers throwing water at sunset",
+    "credit": "Alef Morais",
+    "creditUrl": "https://unsplash.com/@alef_visuals?utm_source=killflare&utm_medium=referral",
+    "sourceUrl": "https://unsplash.com/photos/RjxqFCXpt2c?utm_source=killflare&utm_medium=referral"
+  },
+  "fire-retardant-gel": {
+    "alt": "Spraying a treatment across ground cover",
+    "credit": "Anastasiya Badun",
+    "creditUrl": "https://unsplash.com/@badun?utm_source=killflare&utm_medium=referral",
+    "sourceUrl": "https://unsplash.com/photos/ZsWQ9cK9kKo?utm_source=killflare&utm_medium=referral"
+  },
+  "ember-resistant-vents": {
+    "alt": "A roof vent set into metal roofing",
+    "credit": "Belov Sergey",
+    "creditUrl": "https://unsplash.com/@belov7043?utm_source=killflare&utm_medium=referral",
+    "sourceUrl": "https://unsplash.com/photos/M0rIVjcWMkE?utm_source=killflare&utm_medium=referral"
+  },
+  "gutter-and-roof": {
+    "alt": "Debris-filled gutters along a roof edge",
+    "credit": "Aleksi Partanen",
+    "creditUrl": "https://unsplash.com/@aleksi_p?utm_source=killflare&utm_medium=referral",
+    "sourceUrl": "https://unsplash.com/photos/kBc9SXXjezA?utm_source=killflare&utm_medium=referral"
+  },
+  "fire-blankets-and-wraps": {
+    "alt": "Crumpled reflective foil catching light",
+    "credit": "Patrick Pankalla",
+    "creditUrl": "https://unsplash.com/@patrickpankalla?utm_source=killflare&utm_medium=referral",
+    "sourceUrl": "https://unsplash.com/photos/wpOnFM9hjNI?utm_source=killflare&utm_medium=referral"
+  },
+  "pumps-and-water": {
+    "alt": "Water outlet running with forest behind",
+    "credit": "fr0ggy5",
+    "creditUrl": "https://unsplash.com/@fr0ggy5_?utm_source=killflare&utm_medium=referral",
+    "sourceUrl": "https://unsplash.com/photos/lWQKun47tCM?utm_source=killflare&utm_medium=referral"
+  },
+  "defensible-space-tools": {
+    "alt": "Cutting a tree with a chainsaw, sawdust flying",
+    "credit": "Patti Black",
+    "creditUrl": "https://unsplash.com/@pattib?utm_source=killflare&utm_medium=referral",
+    "sourceUrl": "https://unsplash.com/photos/DZJ3XHuqD1E?utm_source=killflare&utm_medium=referral"
+  },
+  "go-bags-and-evacuation": {
+    "alt": "An open emergency kit with supplies laid out",
+    "credit": "Mathurin NAPOLY",
+    "creditUrl": "https://unsplash.com/@matnapo?utm_source=killflare&utm_medium=referral",
+    "sourceUrl": "https://unsplash.com/photos/MaKsx8JNbiI?utm_source=killflare&utm_medium=referral"
+  },
+  "smoke-and-air-quality": {
+    "alt": "A city under heavy wildfire smoke",
+    "credit": "Jessica Christian",
+    "creditUrl": "https://unsplash.com/@lovesquish?utm_source=killflare&utm_medium=referral",
+    "sourceUrl": "https://unsplash.com/photos/iX1UVhJi1Jw?utm_source=killflare&utm_medium=referral"
+  },
+  "detection-and-alerts": {
+    "alt": "A skyline shrouded in hazy warm light",
+    "credit": "kyle lvpc",
+    "creditUrl": "https://unsplash.com/@kylelvpc?utm_source=killflare&utm_medium=referral",
+    "sourceUrl": "https://unsplash.com/photos/NTLVIoqJU-Y?utm_source=killflare&utm_medium=referral"
+  },
+  "fire-extinguishers": {
+    "alt": "A red fire extinguisher mounted on a wall",
+    "credit": "Erik Mclean",
+    "creditUrl": "https://unsplash.com/@introspectivedsgn?utm_source=killflare&utm_medium=referral",
+    "sourceUrl": "https://unsplash.com/photos/-loCA-0LGQc?utm_source=killflare&utm_medium=referral"
+  },
+  "guide-home-ignition-zone-explained": {
+    "alt": "A wooden house in the middle of forest",
+    "credit": "Björn Grochla",
+    "creditUrl": "https://unsplash.com/@bejayoern?utm_source=killflare&utm_medium=referral",
+    "sourceUrl": "https://unsplash.com/photos/jXJEnwB1C5Q?utm_source=killflare&utm_medium=referral"
+  },
+  "guide-sprinklers-vs-gel-vs-retardant": {
+    "alt": "A sprinkler spraying water over planting",
+    "credit": "benjamin lehman",
+    "creditUrl": "https://unsplash.com/@abject?utm_source=killflare&utm_medium=referral",
+    "sourceUrl": "https://unsplash.com/photos/-aoS5-3k060?utm_source=killflare&utm_medium=referral"
+  },
+  "guide-evacuation-go-bag-checklist": {
+    "alt": "A packed backpack on rock at last light",
+    "credit": "Josiah Weiss",
+    "creditUrl": "https://unsplash.com/@jsweissphoto?utm_source=killflare&utm_medium=referral",
+    "sourceUrl": "https://unsplash.com/photos/8sjBzL1IyMo?utm_source=killflare&utm_medium=referral"
+  },
+  "guide-smoke-season-indoor-air": {
+    "alt": "A skyline blotted out by thick orange haze",
+    "credit": "Matt Palmer",
+    "creditUrl": "https://unsplash.com/@mattpalmer?utm_source=killflare&utm_medium=referral",
+    "sourceUrl": "https://unsplash.com/photos/vt7LZoR6OWE?utm_source=killflare&utm_medium=referral"
+  }
+}

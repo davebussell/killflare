@@ -1,11 +1,13 @@
 ---
 import categories from '../data/categories.json';
+import ProductImage from './ProductImage.astro';
 interface Props { product: any; showCategory?: boolean }
 const { product: p, showCategory = false } = Astro.props;
 const cat = categories.find((c) => c.slug === p.category);
 const regions = p.region.map((r: string) => (r === 'CA' ? '🇨🇦' : '🇺🇸')).join(' ');
 ---
 <a href={`/products/${p.slug}/`} class={`card pc zone-${cat?.zone}`}>
+  <ProductImage product={p} ratio="16 / 7" size={40} />
   <div class="pc__top">
     <span class="pc__pick">{p.pick}</span>
     <span class="pc__price mono" title={p.priceNote}>{p.priceBand}</span>
@@ -19,7 +21,9 @@ const regions = p.region.map((r: string) => (r === 'CA' ? '🇨🇦' : '🇺🇸
   </div>
 </a>
 <style>
-  .pc { padding: 1.1rem 1.25rem 1rem; border-top: 4px solid var(--zone); gap: 0.5rem; }
+  .pc { padding: 0 0 1rem; border-top: 4px solid var(--zone); gap: 0.5rem; }
+  .pc > :not(:first-child) { padding-inline: 1.25rem; }
+  .pc__top { margin-top: 0.9rem; }
   .pc__top { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; }
   .pc__pick { font-family: var(--mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--zone); font-weight: 500; }
   .pc__price { font-size: 0.8rem; color: var(--ink-3); letter-spacing: 0.15em; }

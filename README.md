@@ -18,6 +18,38 @@ All content is JSON in `src/data/`:
 
 Pages are generated from these files. Add a product = add an object to `products.json`.
 
+## Images
+
+Two separate systems.
+
+**Editorial photography** — `src/assets/photos/*.jpg`, credited in `src/data/photos.json`.
+All from Unsplash under the Unsplash License (free for commercial use). Rendered through
+`src/components/Photo.astro`, which uses Astro's `<Image>` for responsive WebP/AVIF output
+and stamps a photographer credit. Categories and guides reference a photo by its `photo`
+key; the filename matches.
+
+**Product images** — none yet, by design. OEM product shots are the manufacturers' copyright
+and are not safe to reuse on a commercial affiliate site. The licensed route is the Amazon
+Product Advertising API, which grants image rights to Associates (requires 3 qualifying sales
+before API access is granted).
+
+Until then `src/components/ProductImage.astro` renders a designed spec-plate fallback using
+the category icon and price band, so cards look intentional rather than broken.
+
+To switch a product to a real image, fill its `image` and `asin` fields in `products.json`:
+
+    "asin": "B08XXXXXXX",
+    "image": {
+      "src": "https://m.media-amazon.com/images/I/XXXXXXXX._AC_SL1000_.jpg",
+      "width": 1000,
+      "height": 1000,
+      "alt": "WASP gutter sprinkler head clipped to a gutter",
+      "credit": "Amazon"
+    }
+
+`m.media-amazon.com` and `images-na.ssl-images-amazon.com` are already allowlisted in
+`astro.config.mjs`. No component changes needed — `ProductImage` swaps automatically.
+
 ## Affiliate tags
 
 Search-and-replace before launch:

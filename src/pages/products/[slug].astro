@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ProductCard from '../../components/ProductCard.astro';
+import ProductImage from '../../components/ProductImage.astro';
 import categories from '../../data/categories.json';
 import products from '../../data/products.json';
 
@@ -56,6 +57,7 @@ const jsonLd = {
         </div>
 
         <aside class="prod__buy">
+          <ProductImage product={p} ratio="4 / 3" size={72} eager={true} />
           <span class="eyebrow">Where to buy</span>
           <div class="buy__links">
             {affiliate.map((l: any) => <a href={l.url} class="btn btn--ember" rel="sponsored noopener" target="_blank">{l.label}</a>)}
@@ -97,7 +99,8 @@ const jsonLd = {
   .prod__pc ul { margin: 0; padding-left: 1.1rem; display: grid; gap: 0.4rem; font-size: 0.97rem; }
   .prod__best { margin-top: 2rem; padding: 1rem 1.25rem; background: var(--surface); border-left: 4px solid var(--zone); }
   .prod__best p { margin-top: 0.25rem; font-weight: 500; }
-  .prod__buy { position: sticky; top: 1rem; background: var(--surface); border: 1px solid var(--line); padding: 1.25rem; display: grid; gap: 1rem; }
+  .prod__buy { position: sticky; top: 1rem; background: var(--surface); border: 1px solid var(--line); padding: 0 1.25rem 1.25rem; display: grid; gap: 1rem; }
+  .prod__buy > :global(.pimg) { margin: 0 -1.25rem 0.25rem; }
   .buy__links { display: grid; gap: 0.5rem; }
   .buy__links .btn { justify-content: center; text-align: center; }
   .buy__fine { font-size: 0.8rem; color: var(--ink-3); max-width: none; }

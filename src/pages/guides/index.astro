@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import guides from '../../data/guides.json';
+import Photo from '../../components/Photo.astro';
 ---
 <Base title="Guides" description="Longer reads on wildfire home defense: the Home Ignition Zone, sprinklers vs gel vs retardant, go-bag checklists and smoke-season air quality.">
   <section class="section">
@@ -11,6 +12,7 @@ import guides from '../../data/guides.json';
       <div class="grid grid--2">
         {guides.map((g) => (
           <a href={`/guides/${g.slug}/`} class="card gcard">
+            <Photo name={g.photo} ratio="16 / 7" sizes="(max-width: 700px) 100vw, 45vw" credit={false} className="gcard__img" />
             <span class="eyebrow">{g.readTime} read</span>
             <h3>{g.title}</h3>
             <p>{g.description}</p>
@@ -22,7 +24,9 @@ import guides from '../../data/guides.json';
 </Base>
 <style>
   .lede { color: var(--ink-2); margin: 0.75rem 0 2rem; font-size: 1.1rem; }
-  .gcard { padding: 1.5rem; gap: 0.6rem; }
+  .gcard { padding: 0 0 1.5rem; gap: 0.6rem; }
+  .gcard > :global(.gcard__img) { margin-bottom: 0.75rem; }
+  .gcard > :not(.gcard__img) { padding-inline: 1.5rem; }
   .gcard h3 { text-transform: none; }
   .gcard p { color: var(--ink-2); font-size: 0.95rem; }
 </style>
