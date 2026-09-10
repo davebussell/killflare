@@ -1,0 +1,73 @@
+---
+import Base from '../../layouts/Base.astro';
+import regions from '../../data/regions.json';
+
+const riskRank: Record<string, number> = { 'Extreme': 0, 'High': 1, 'Moderate': 2, 'Low': 3, 'Very low': 4 };
+const groups = [
+  { key: 'Extreme', blurb: 'Repeated large-scale evacuations and structural losses in the last three seasons.' },
+  { key: 'High', blurb: 'Serious recent fires, or major smoke exposure, or both.' },
+  { key: 'Moderate', blurb: 'Heavy forest cover and growing interface exposure, smaller recorded burns.' },
+  { key: 'Low', blurb: 'Minimal wildfire history; imported smoke is the realistic exposure.' },
+  { key: 'Very low', blurb: 'Above the treeline. Structural fire, not wildfire, is the risk.' },
+];
+---
+<Base title="Regional guides" description="Wildfire preparedness guides for every Canadian province and territory — fire season timing, fuel types, recent fires, provincial FireSmart programs and the gear that matters in each region.">
+  <section class="section">
+    <div class="wrap">
+      <span class="eyebrow eyebrow--ember">Regions</span>
+      <h1>Canada, province by province</h1>
+      <p class="lede">Wildfire risk in Canada is not one problem — it is a dozen different ones. What threatens a cottage in the Whiteshell is not what threatens a house in West Kelowna or an outport on the Avalon. Each guide covers the local fire season, the fuel you are actually surrounded by, the recent fires worth knowing about, the provincial programs available to you, and what to buy first.</p>
+
+      {groups.map((g) => {
+        const rs = regions.filter((r) => r.risk === g.key);
+        if (!rs.length) return null;
+        return (
+          <div class="rgroup">
+            <div class="rgroup__head">
+              <h2>{g.key} risk</h2>
+              <p>{g.blurb}</p>
+            </div>
+            <div class="grid grid--3">
+              {rs.map((r) => (
+                <a href={`/regions/${r.slug}/`} class={`card rcard risk-${r.risk.toLowerCase().replace(' ', '-')}`}>
+                  <span class="rcard__code mono">{r.code}</span>
+                  <h3>{r.name}</h3>
+                  <p class="rcard__note">{r.riskNote}</p>
+                  <dl class="rcard__stats mono">
+                    <div><dt>Season</dt><dd>{r.season.split(',')[0]}</dd></div>
+                    {r.burned2025 !== '—' && <div><dt>Burned 2025</dt><dd>{r.burned2025}</dd></div>}
+                  </dl>
+                </a>
+              ))}
+            </div>
+          </div>
+        );
+      })}
+
+      <div class="notice">
+        <p><strong>Figures and links were checked in September 2026.</strong> Fire season dates, provincial programs and rebate offers change — always confirm with the provincial agency linked on each page before you rely on it. Area-burned figures come from provincial and national reporting for the seasons named.</p>
+      </div>
+    </div>
+  </section>
+</Base>
+<style>
+  .lede { color: var(--ink-2); margin: 0.75rem 0 2.5rem; font-size: 1.1rem; }
+  .rgroup { margin-bottom: clamp(2rem, 4vw, 3rem); }
+  .rgroup__head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem 1.5rem; border-bottom: 2px solid var(--ink); padding-bottom: 0.6rem; margin-bottom: 1.25rem; }
+  .rgroup__head h2 { font-size: clamp(1.4rem, 2.6vw, 1.9rem); }
+  .rgroup__head p { color: var(--ink-2); font-size: 0.95rem; }
+  .rcard { padding: 1.1rem 1.25rem 1rem; gap: 0.4rem; border-top: 4px solid var(--rk); --rk: var(--ink-3); }
+  .rcard.risk-extreme { --rk: var(--ember); }
+  .rcard.risk-high { --rk: var(--amber); }
+  .rcard.risk-moderate { --rk: var(--moss); }
+  .rcard.risk-low { --rk: var(--water); }
+  .rcard.risk-very-low { --rk: var(--ink-3); }
+  .rcard__code { font-size: 0.7rem; letter-spacing: 0.18em; color: var(--rk); font-weight: 500; }
+  .rcard h3 { text-transform: none; }
+  .rcard__note { font-size: 0.92rem; color: var(--ink-2); }
+  .rcard__stats { margin: auto 0 0; padding-top: 0.9rem; display: grid; gap: 0.25rem; font-size: 0.72rem; }
+  .rcard__stats div { display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid var(--line); padding-top: 0.25rem; }
+  .rcard__stats dt { color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.08em; }
+  .rcard__stats dd { margin: 0; color: var(--ink); }
+  .notice { margin-top: 1rem; }
+</style>

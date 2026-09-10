@@ -1,0 +1,887 @@
+[
+  {
+    "slug": "british-columbia",
+    "code": "BC",
+    "name": "British Columbia",
+    "short": "BC",
+    "risk": "Extreme",
+    "riskNote": "Canada's most consistently fire-affected province",
+    "season": "April to October, peaking July–August",
+    "fuel": "Interior Douglas-fir, ponderosa pine and lodgepole pine; dense beetle-killed stands through the Cariboo and Thompson-Okanagan",
+    "burned2025": "886,419 ha",
+    "burned2023": "2,840,104 ha",
+    "agency": {
+      "name": "BC Wildfire Service",
+      "url": "https://www2.gov.bc.ca/gov/content/safety/wildfire-status"
+    },
+    "program": {
+      "name": "FireSmart BC",
+      "url": "https://firesmartbc.ca/"
+    },
+    "assessment": {
+      "name": "Wildfire Mitigation Program — free certified assessment",
+      "url": "https://firesmartbc.ca/wmp"
+    },
+    "priorities": [
+      "exterior-sprinklers",
+      "ember-resistant-vents",
+      "pumps-and-water",
+      "defensible-space-tools"
+    ],
+    "lede": "If you own a home in the BC Interior, you are living in the most fire-exposed residential landscape in Canada. The province has a mature FireSmart apparatus and real rebate money behind it — use both.",
+    "sections": [
+      {
+        "heading": "What the risk actually looks like here",
+        "body": "British Columbia has burned more than any other province in the last decade of bad years, and the losses have been residential rather than remote. The 2023 season put 2.84 million hectares to the torch across 2,293 fires and forced more than 59,000 people out under 208 separate evacuation orders. The McDougall Creek fire alone, burning into West Kelowna, produced around $730 million in insured damage. In 2025 the province burned another 886,000 hectares, with the Prince George Fire Centre losing roughly a tenth of its land base across two seasons and northeast BC entering a multi-year drought that keeps 'zombie' fires smouldering through winter and re-emerging in spring. The pattern that matters for a homeowner is that these were interface fires: they arrived at subdivisions, not just at bush camps."
+      },
+      {
+        "heading": "Fire season and what drives it",
+        "body": "The BC season opens in April in the southern Interior and runs to October, with the dangerous window from early July through late August. Two things drive severity: a poor snowpack that leaves fuels dry by June, and lightning storms that arrive with little rain. Coastal BC is a different animal — historically wet, now increasingly exposed in late summer, as the Mount Underwood fire near Port Alberni showed. If you are on the coast and assumed you were exempt, that assumption expired."
+      },
+      {
+        "heading": "The provincial programs worth using",
+        "body": "BC has the most developed homeowner support in the country. The Wildfire Mitigation Program will send a certified professional to assess your property at no cost — book through the FireSmart BC map. Local FireSmart Coordinators operate in most regional districts and run neighbourhood assessments. Critically, several regional districts run genuine rebate programs: the Thompson-Nicola Regional District and the City of Kamloops both reimburse homeowners for qualifying work such as vent replacement, roof upgrades and Zone 0 clearing. Check your regional district before you spend anything — the money is real and it is routinely underclaimed."
+      },
+      {
+        "heading": "What to buy first in BC",
+        "body": "Given the ember-driven loss pattern and the frequency of interface fires, prioritise structure hardening over spectacle. Ember-resistant vents and metal gutter guards close the two most common entry points. A gutter-mounted sprinkler kit is the highest-value active layer, but municipal pressure regularly fails during Interior fires — if you have a pool, a pond or the room for a tank, a gas pump turns that kit from decorative into functional. On treed lots through the Cariboo and Kootenays, a pole saw and a season of limbing does more than any product."
+      },
+      {
+        "heading": "Water is the BC-specific catch",
+        "body": "This deserves its own line because it is the mistake we see most often here. During the 2023 Okanagan fires, municipal systems were drawn down by firefighting demand and by hundreds of homeowners running sprinklers at once. A hose-fed kit that works beautifully in a test in June can produce nothing at 2am in August. Every serious BC setup we would build ends at an independent water source: pool, cistern, dugout or a 4,000-litre-plus poly tank on a level pad, with a 1.5-inch gas pump and camlock fittings pre-connected in one box."
+      },
+      {
+        "heading": "Evacuation and alerts",
+        "body": "BC uses a three-stage system — Evacuation Alert (be ready), Evacuation Order (go now), Evacuation Rescinded. Alerts come through your regional district and through the provincial Emergency Info BC channel; many districts also run their own text or voice notification lists that you must opt into. Do that today, not in July. Keep the tank above half through the season and back the vehicle into the driveway."
+      },
+      {
+        "heading": "Insurance, and what it will not do for you",
+        "body": "BC homeowners in high-risk postal codes are increasingly finding wildfire coverage restricted, surcharged or — in a small but growing number of interface areas — declined at renewal. Insurers are pricing on modelled risk, and FireSmart work is starting to move that number. Two practical points. First, document everything: photograph your Zone 0 clearing, keep receipts for vent and roof upgrades, and tell your broker at renewal, because some carriers now recognise FireSmart assessments. Second, do a contents inventory now — video every room on your phone and put it in cloud storage. Claims after the Okanagan fires were slowed badly by people trying to reconstruct from memory what had been in a house that no longer existed."
+      },
+      {
+        "heading": "A realistic first season in BC",
+        "body": "If you are starting from nothing, this is the order we would work in. March: book the free Wildfire Mitigation Program assessment and phone your regional district about rebates. April: clear Zone 0 — mulch out, rock in, firewood moved 10 m, propane relocated, under-deck screened with 1/8 in metal mesh, gutters cleaned. May: replace or screen every vent, fit metal gutter guards, limb conifers to 2 m within the first 10 m. June: install the sprinkler kit and, if you have the water, the pump and hose. Pack the go-bags. July onward: maintain, watch the danger rating, and keep the fuel tank above half. That sequence spends the cheap, high-return money first."
+      },
+      {
+        "heading": "Where to get local help",
+        "body": "Certified assessors reach most of the Interior through the Wildfire Mitigation Program, and regional districts including the RDOS, CSRD and RDCK run their own neighbourhood assessment programs. For installation, a small commercial sector now serves BC homeowners directly — see our installer directory for the companies we have been able to verify. For vegetation work on treed lots, look for arborists advertising FireSmart or wildfire-mitigation experience specifically; ordinary tree services will happily remove the wrong things."
+      }
+    ]
+  },
+  {
+    "slug": "alberta",
+    "code": "AB",
+    "name": "Alberta",
+    "short": "Alberta",
+    "risk": "Extreme",
+    "riskNote": "Boreal forest meets rapid exurban growth",
+    "season": "March 1 to October 31 (legislated fire season), peaking May and again in August",
+    "fuel": "Boreal mixedwood, aspen and black spruce; foothills lodgepole pine along the Rockies",
+    "burned2025": "676,252 ha",
+    "burned2023": "2,222,900 ha",
+    "agency": {
+      "name": "Alberta Wildfire",
+      "url": "https://www.alberta.ca/wildfire-status"
+    },
+    "program": {
+      "name": "FireSmart Alberta",
+      "url": "https://www.alberta.ca/firesmart"
+    },
+    "assessment": {
+      "name": "FireSmart Alberta — community and home assessments",
+      "url": "https://www.alberta.ca/firesmart"
+    },
+    "priorities": [
+      "ember-resistant-vents",
+      "exterior-sprinklers",
+      "defensible-space-tools",
+      "go-bags-and-evacuation"
+    ],
+    "lede": "Alberta learned its lesson expensively at Fort McMurray in 2016 and has been rebuilding policy around it ever since. The province's legislated fire season starts on 1 March — earlier than most homeowners expect.",
+    "sections": [
+      {
+        "heading": "What the risk actually looks like here",
+        "body": "Alberta's exposure is the boreal forest pressing directly against fast-growing communities. 2023 was the worst modern season: 2.22 million hectares across 1,088 fires, a provincial state of emergency declared on 6 May, and roughly 43,000 people evacuated from Drayton Valley, Edson, Fox Creek, Evansburg, Rainbow Lake and a dozen other towns. 2025 burned another 676,000 hectares, and the Chipewyan Lake fire destroyed the community's water treatment plant, health centre and seniors' centre — a reminder that in smaller northern communities the infrastructure loss often outlasts the housing loss. Oil sands operations shut in temporarily, which is what tends to put Alberta fires on the national news."
+      },
+      {
+        "heading": "Fire season and what drives it",
+        "body": "Alberta's legislated wildfire season runs 1 March to 31 October, and the March start is not ceremonial — spring fires burning in cured grass and last year's leaf litter, before green-up, move terrifyingly fast in wind. That April–May window before the canopy leafs out is historically when Alberta's worst interface fires happen, Fort McMurray and Slave Lake included. A second peak arrives in August when the boreal dries through. Chinook-driven wind events are the multiplier."
+      },
+      {
+        "heading": "The provincial programs worth using",
+        "body": "FireSmart Alberta runs through the Forest Management and Wildfire Mitigation Branch and coordinates community assessments, the FireSmart Neighbourhood Recognition Program and local vegetation-management grants. Municipal programs are where the homeowner money sits: the Regional Municipality of Wood Buffalo runs a FireSmart rebate that reimburses residents for wildfire-resistant upgrades. If you are in a forested municipality, phone the municipal office and ask specifically about rebates and free assessments — provision varies enormously and is rarely advertised well."
+      },
+      {
+        "heading": "What to buy first in Alberta",
+        "body": "Alberta's spring grass-fire pattern changes the priority order slightly. Zone 0 discipline matters more than almost anywhere: bark mulch against the foundation, dry grass to the wall, and firewood stacked on the deck are the three things that burn Alberta houses. Rock mulch, mowing short and moving the woodpile costs almost nothing. After that, ember-resistant vents and metal gutter guards; then a sprinkler kit. For acreages, a pole saw for limbing spruce to 2 m is the single best tool purchase."
+      },
+      {
+        "heading": "The northern-community factor",
+        "body": "If you live in a smaller northern Alberta community, plan for the possibility that the community's own services fail before your house does — water treatment, power, the health centre. That shifts weight toward the evacuation half of preparedness: a genuinely packed go-bag per person, a portable power station that keeps the router and phones alive, N95s for the drive out through smoke, and documents scanned to cloud storage. Highway 63 and Highway 88 have both been the only way out of somewhere, more than once."
+      },
+      {
+        "heading": "Evacuation and alerts",
+        "body": "Alberta issues alerts through the Alberta Emergency Alert system, which reaches phones without any opt-in, plus municipal channels. Download the Alberta Wildfire app for fire locations and the Alberta Emergency Alert app for orders. Fire bans, restrictions and OHV restrictions are posted at albertafirebans.ca and are worth checking before any yard work involving a spark."
+      },
+      {
+        "heading": "Insurance and rebuilding",
+        "body": "Fort McMurray remains the most expensive insured disaster in Canadian history and reset how insurers think about Alberta interface risk. Practically, that means checking two things on your policy: whether you have guaranteed replacement cost or a capped rebuild figure, and what your additional living expenses coverage actually pays for and for how long — Fort McMurray residents were out for months, not weeks. Photograph your contents room by room and store it in the cloud. If you have done FireSmart work, tell your broker; a growing number of Alberta carriers will note it."
+      },
+      {
+        "heading": "A realistic first season in Alberta",
+        "body": "Alberta's 1 March season start means the work happens earlier than instinct suggests. February and early March: clear last year's dead grass from around the structure, get the firewood off the deck and away from the wall, and check that nothing combustible sits in the first metre and a half. April: gutters cleaned, metal guards fitted, vents replaced or screened, under-deck meshed. May: limb spruce and pine to 2 m within 10 m of the house, apply long-term retardant to fences and decks. June: sprinklers and pump if you are going that route; go-bags packed and in the vehicle. Then maintain through August's second peak."
+      },
+      {
+        "heading": "Where to get local help",
+        "body": "FireSmart Alberta coordinates community-level assessments; start with your municipality rather than the province, because delivery is local and varies. In the Regional Municipality of Wood Buffalo there is a homeowner rebate worth claiming. For installation, a handful of companies serve Alberta homeowners for exterior sprinkler work — our installer directory lists the ones we could verify. For lot thinning on acreages, ask specifically for FireSmart or wildfire-mitigation experience."
+      }
+    ]
+  },
+  {
+    "slug": "saskatchewan",
+    "code": "SK",
+    "name": "Saskatchewan",
+    "short": "Saskatchewan",
+    "risk": "Extreme",
+    "riskNote": "Second-highest area burned nationally in 2025",
+    "season": "April to September, peaking late May through July",
+    "fuel": "Boreal jack pine and black spruce north of the agricultural belt; extremely flammable lichen understory",
+    "burned2025": "2,931,885 ha",
+    "burned2023": "—",
+    "agency": {
+      "name": "Saskatchewan Public Safety Agency",
+      "url": "https://www.saskpublicsafety.ca/emergencies-and-response/active-incidents"
+    },
+    "program": {
+      "name": "FireSmart Saskatchewan (SPSA)",
+      "url": "https://www.saskpublicsafety.ca/public-resources/firesmart"
+    },
+    "assessment": {
+      "name": "SPSA FireSmart — community assessments",
+      "url": "https://www.saskpublicsafety.ca/public-resources/firesmart"
+    },
+    "priorities": [
+      "ember-resistant-vents",
+      "go-bags-and-evacuation",
+      "exterior-sprinklers",
+      "detection-and-alerts"
+    ],
+    "lede": "Saskatchewan's 2025 season burned nearly 2.93 million hectares and destroyed the community of Denare Beach. If you live north of the grain belt, this is not a theoretical risk.",
+    "sections": [
+      {
+        "heading": "What the risk actually looks like here",
+        "body": "2025 was Saskatchewan's reckoning. The Shoe fire passed 407,000 hectares and merged with the Camp fire; the Pisew fire burned 83,630 hectares. Roughly 26,400 people were evacuated by early August, Flin Flon and Creighton went out on 28 May, and about 7,500 people left the La Ronge area on 2 June. Denare Beach was destroyed. A provincial state of emergency ran from 29 May to 27 June, and 163 structures were confirmed lost. The province burned more than any other in Canada except Manitoba that year."
+      },
+      {
+        "heading": "Fire season and what drives it",
+        "body": "The northern Saskatchewan season opens in April as snow leaves and runs hard from late May through July. The fuel here is the concern: jack pine and black spruce over a lichen and feather-moss floor that dries within days of rain ending, and carries fire at ground level with remarkable efficiency. Lightning ignition dominates, and the fires are remote at ignition and enormous by the time they threaten anyone — which means warning times can be long, then suddenly very short when wind shifts."
+      },
+      {
+        "heading": "The provincial programs worth using",
+        "body": "FireSmart in Saskatchewan runs through the Saskatchewan Public Safety Agency, which coordinates community assessments and FireSmart planning with northern municipalities and Indigenous communities. Saskatchewan First Nations Emergency Management runs its own FireSmart program for First Nations communities. Homeowner-level rebates are thinner here than in BC — assume you are funding your own upgrades and that the provincial contribution is expertise and planning rather than cash."
+      },
+      {
+        "heading": "What to buy first in Saskatchewan",
+        "body": "The 2025 evacuation numbers argue for weighting preparedness toward leaving well, because in northern Saskatchewan you very likely will. A properly packed 72-hour bag per person, a fire-rated document pouch, N95 respirators and a portable power station belong at the top of the list. On the structure side, ember-resistant vents and metal gutter guards are the highest-return spend, followed by clearing needle litter and moving anything combustible out of the first metre and a half. A gutter sprinkler kit is worth having, but pair it with a pump if you are drawing from a lake — many northern properties have exactly that advantage."
+      },
+      {
+        "heading": "Cabin and lake-property notes",
+        "body": "A large share of Saskatchewan's exposed structures are seasonal cabins on lakes, often unoccupied when fire arrives. That changes the calculus completely: sprinklers you cannot turn on are useless. Long-term retardant applied to decks and fences in early season, structure wrap on a small cabin, and ember-resistant vents all work without you being present. If the cabin has a lake at the bottom of the property, a pump and a pre-plumbed sprinkler line that a neighbour or the local fire department can start is worth arranging."
+      },
+      {
+        "heading": "Evacuation and alerts",
+        "body": "SPSA publishes active incidents and evacuation notices, and northern municipalities and band offices distribute orders directly. Cell coverage in northern Saskatchewan is patchy enough that a battery weather radio with SAME alerting is not redundant — it is often the only channel that works. Register with your municipality's notification list, and if you are at a cabin, tell someone the dates you will be there."
+      },
+      {
+        "heading": "Insurance and the northern reality",
+        "body": "Northern Saskatchewan property, particularly seasonal cabins, is often underinsured relative to rebuild cost — remote construction costs far more than the replacement figure written years ago. Review the rebuild number rather than the market value, because in a remote community they are unrelated. Photograph contents and store it off-site. If your cabin is on leased Crown land, understand what your policy covers and what it does not before fire season, not during it."
+      },
+      {
+        "heading": "A realistic first season in Saskatchewan",
+        "body": "April: pack the go-bags and put them where you can grab them, register for municipal or band notifications, and buy the weather radio. May: gutters and roof cleared of needles, vents replaced or screened with 1/8 in metal mesh, under-deck closed off, Zone 0 cleared of firewood, propane and dry vegetation. June: limb conifers to 2 m, apply long-term retardant to decks and fences, and if you are lake-adjacent, get the pump and sprinkler line set up and tested. Through July: maintain and watch the danger ratings, and if the cabin sits empty, make sure someone local can act on your behalf."
+      },
+      {
+        "heading": "Where to get local help",
+        "body": "SPSA coordinates FireSmart planning with northern municipalities, and Saskatchewan First Nations Emergency Management runs a parallel program for First Nations communities. Homeowner-level commercial installation is thin on the ground in northern Saskatchewan; realistically most of this work is DIY or done through a local contractor without a wildfire specialisation. Our installer directory lists the Canada-wide equipment suppliers that will ship to you, which is often the practical answer here."
+      }
+    ]
+  },
+  {
+    "slug": "manitoba",
+    "code": "MB",
+    "name": "Manitoba",
+    "short": "Manitoba",
+    "risk": "Extreme",
+    "riskNote": "Highest area burned in Canada in 2025; two fatalities",
+    "season": "April to September, peaking May through July",
+    "fuel": "Boreal spruce and jack pine across the Shield; grass and aspen in the southeast Whiteshell corridor",
+    "burned2025": "2,169,092 ha",
+    "burned2023": "—",
+    "agency": {
+      "name": "Manitoba Wildfire Service",
+      "url": "https://www.gov.mb.ca/nrnd/wildfire_program/"
+    },
+    "program": {
+      "name": "Manitoba Wildfire Program",
+      "url": "https://www.gov.mb.ca/wildfire/resources.html"
+    },
+    "assessment": {
+      "name": "Manitoba Wildfire Service — FireSmart resources",
+      "url": "https://www.gov.mb.ca/wildfire/resources.html"
+    },
+    "priorities": [
+      "go-bags-and-evacuation",
+      "ember-resistant-vents",
+      "detection-and-alerts",
+      "smoke-and-air-quality"
+    ],
+    "lede": "Manitoba burned more than any other province in 2025 and lost two residents at Lac du Bonnet in May. The province declared two states of emergency in a single season.",
+    "sections": [
+      {
+        "heading": "What the risk actually looks like here",
+        "body": "Manitoba's 2025 season was the worst in the country by area: 2.17 million hectares. The Lac du Bonnet fire in mid-May burned about 4,000 hectares and killed two people — a rare and sobering outcome in Canadian wildfire, and one that happened in the populated southeast rather than the remote north. A fire north of Whiteshell Provincial Park passed 100,000 hectares. Around 85,000 evacuees were registered over the season, roughly 45,000 of them from First Nations communities, and Flin Flon was emptied entirely. Two provincial states of emergency were declared, on 28 May and again on 10 July. Winnipeg hit 37°C on 13 May, breaking a 125-year-old record."
+      },
+      {
+        "heading": "Fire season and what drives it",
+        "body": "Manitoba's season opens in April and runs through September, with the sharp end from May to July. The May pattern is the dangerous one, and Lac du Bonnet illustrated it: hot, dry, windy conditions before green-up, in a landscape of cottage properties threaded through pine and mixed bush. The southeast — Whiteshell, Lac du Bonnet, Pinawa, Falcon Lake — combines high fuel loads with dense seasonal housing and limited road access, which is precisely the geometry that produces fast, dangerous evacuations."
+      },
+      {
+        "heading": "The provincial programs worth using",
+        "body": "The Manitoba Wildfire Service coordinates FireSmart activity and publishes homeowner resources. Manitoba's homeowner-facing programming is less built out than BC's or Alberta's — there is no broad provincial rebate to claim. What does exist is municipal and cottage-association organising, which in the Whiteshell and Lac du Bonnet areas is genuinely active and worth joining. FireSmart Canada's Neighbourhood Recognition Program is the framework most Manitoba cottage communities use."
+      },
+      {
+        "heading": "What to buy first in Manitoba",
+        "body": "Given that Manitoba's 2025 losses were driven by fast-moving fires in cottage country and by mass evacuation, put alerts and go-bags first. A weather radio with SAME alerting matters here because a good deal of the exposed housing is in areas with mediocre cell coverage. Then ember-resistant vents and gutter guards, then Zone 0 clearing — for cottage properties, that means getting the firewood pile and the propane tank away from the wall and the needle litter off the roof and out of the gutters. Sprinklers are worthwhile if the property is occupied or if a neighbour can start them."
+      },
+      {
+        "heading": "Smoke is a Manitoba-wide problem, not just a north one",
+        "body": "Winnipeg and southern Manitoba spent long stretches of 2025 under smoke from fires hundreds of kilometres north. If you live in the city, your wildfire exposure is almost entirely respiratory, and the response is indoor air quality: a HEPA purifier sized by CADR for the bedroom, a MERV-13 furnace filter run continuously, and a PM2.5 monitor so you know when it is safe to open windows again. A Corsi-Rosenthal box does the same job for a fraction of the price if you do not mind the noise."
+      },
+      {
+        "heading": "Evacuation and alerts",
+        "body": "Manitoba distributes emergency information through the province and through municipal and band offices; cottage-country evacuations often move through cottage associations first. Keep the vehicle fuelled, know your second route out — many Whiteshell and Lac du Bonnet properties have only one — and if you own a seasonal property, make sure the municipality has current contact details for you."
+      },
+      {
+        "heading": "Insurance and cottage properties",
+        "body": "Seasonal properties are the Manitoba weak point. Cottage policies often carry lower limits, longer vacancy exclusions and narrower coverage than a principal residence, and many Whiteshell and Lac du Bonnet owners have not looked at the wording in years. Check the vacancy clause specifically — some policies restrict coverage after 30 days unoccupied, which describes most cottages for most of the year. Photograph contents, store it in the cloud, and confirm the rebuild figure reflects what building on a lake lot actually costs now."
+      },
+      {
+        "heading": "A realistic first season in Manitoba",
+        "body": "April: buy the weather radio, register for municipal and cottage-association notifications, and pack go-bags for every person in the household. Early May — before green-up, when Manitoba's dangerous fires happen: clear dead grass and leaf litter from around the structure, move firewood and propane well away, clean gutters and roof valleys. Late May: vents replaced or screened, metal gutter guards, under-deck mesh. June: limb conifers, apply retardant to decks and fences, set up sprinklers if the property is occupied. Through the summer, the indoor air quality kit earns its keep in the city as much as at the lake."
+      },
+      {
+        "heading": "Where to get local help",
+        "body": "The Manitoba Wildfire Service publishes FireSmart resources, and in the southeast the practical organising happens through cottage associations and municipalities rather than the province. FireSmart Canada's Neighbourhood Recognition Program is the framework to ask about. Commercial wildfire installers serving Manitoba homeowners are scarce; equipment suppliers who ship nationally are usually the realistic route, and our installer directory lists those."
+      }
+    ]
+  },
+  {
+    "slug": "ontario",
+    "code": "ON",
+    "name": "Ontario",
+    "short": "Ontario",
+    "risk": "High",
+    "riskNote": "Northwestern fire belt; smoke exposure province-wide",
+    "season": "April 1 to October 31 (legislated), peaking June and July",
+    "fuel": "Boreal jack pine and black spruce across the northwest; mixed hardwood and pine through the near north and Shield cottage country",
+    "burned2025": "597,522 ha",
+    "burned2023": "—",
+    "agency": {
+      "name": "Ontario Forest Fires (MNR)",
+      "url": "https://www.ontario.ca/page/forest-fires"
+    },
+    "program": {
+      "name": "FireSmart Ontario (MNR)",
+      "url": "https://www.ontario.ca/page/forest-fires"
+    },
+    "assessment": {
+      "name": "Ontario MNR — FireSmart community programming",
+      "url": "https://www.ontario.ca/page/forest-fires"
+    },
+    "priorities": [
+      "ember-resistant-vents",
+      "smoke-and-air-quality",
+      "go-bags-and-evacuation",
+      "gutter-and-roof"
+    ],
+    "lede": "Ontario's fire problem is concentrated in the northwest, but its smoke problem is province-wide. Toronto has repeatedly ranked among the worst air quality in the world during recent seasons.",
+    "sections": [
+      {
+        "heading": "What the risk actually looks like here",
+        "body": "Ontario's structural fire risk sits in the northwest, around Red Lake, Kenora, Sioux Lookout and Pikangikum. In 2025 the province burned 597,522 hectares, with the Red Lake 12 fire passing 150,000 hectares and Red Lake 62 reaching 31,000. Sandy Lake First Nation, North Spirit Lake First Nation and Pikangikum — around 2,000 residents — were evacuated, and five communities lost power. Fires crossed into Manitoba. For the vast majority of Ontarians, though, the wildfire experience of recent years has been smoke: weeks of degraded air in Toronto, Ottawa and southern Ontario from fires burning in Quebec and the northwest."
+      },
+      {
+        "heading": "Fire season and what drives it",
+        "body": "Ontario's legislated fire season runs 1 April to 31 October, with the dangerous window from June into July in the northwest. Lightning drives most of the large northern fires; human ignition dominates in the cottage-country south. The pattern that catches people out is the shoulder season — dry, windy days in late April and May before green-up, when last year's grass and leaf litter carry fire fast through areas that feel green enough to be safe."
+      },
+      {
+        "heading": "The provincial programs worth using",
+        "body": "FireSmart in Ontario runs through the Ministry of Natural Resources, which coordinates community-level FireSmart planning, particularly with northern and First Nations communities. Homeowner-facing rebates are not a feature of the Ontario landscape the way they are in BC — assume you are self-funding. What Ontario does well is public fire information: the interactive forest fire map is genuinely good and updated frequently, and restricted fire zones are clearly published."
+      },
+      {
+        "heading": "What to buy first in Ontario",
+        "body": "Where you live changes the answer more here than in any other province. In the northwest and in Shield cottage country: ember-resistant vents, metal gutter guards, and religious clearing of pine and cedar litter from the roof and gutters, then Zone 0 discipline. In the southern cities: the entire priority list is indoor air quality, because that is your actual exposure. A HEPA purifier sized by CADR for the bedroom, a MERV-13 furnace filter run continuously through smoke events, a PM2.5 monitor, and properly fitted N95s for going outside."
+      },
+      {
+        "heading": "Cottage country specifics",
+        "body": "Muskoka, Haliburton, the Kawarthas and the near north combine dense seasonal housing, single-track access roads and heavy pine and cedar fuel loads — plus properties that sit empty most of the year. Long-term retardant on decks and fences works without you present. So do ember-resistant vents and metal gutter guards. Screening under decks with 1/8 in metal mesh closes the gap that catches most cottage properties. If your road in is the only road out, know that, and know the water route if there is one."
+      },
+      {
+        "heading": "Smoke seasons are the majority experience",
+        "body": "Between 2023 and 2025, southern Ontario spent weeks under wildfire smoke from fires hundreds or thousands of kilometres away. Toronto and Ottawa both registered among the world's worst urban air quality on multiple days. The response is unglamorous and effective: seal the house, switch HVAC to recirculate, upgrade to a MERV-13 filter and run the fan continuously, and put a real HEPA purifier in the bedroom. A Corsi-Rosenthal box — a box fan taped to four MERV-13 filters — performs comparably to units costing several times more."
+      },
+      {
+        "heading": "Insurance notes",
+        "body": "Ontario wildfire coverage is generally still routine outside the far northwest, but the smoke question is worth raising with your broker: smoke damage to contents and to HVAC systems is treated differently by different carriers, and it is the claim southern Ontarians are most likely to make. Document contents by video and store it in the cloud. In the northwest, check your rebuild figure against what construction actually costs in a remote community."
+      },
+      {
+        "heading": "A realistic first season in Ontario",
+        "body": "April: clean gutters and roof valleys of last year's needles, clear dead grass and leaf litter from the first metre and a half, register for your municipality's alerts. May: fit metal gutter guards, replace or screen vents, mesh under decks, move firewood and propane away from the structure. June: limb conifers to 2 m within 10 m, apply retardant to decks and fences at cottage properties. Any time before July: build or buy the indoor air kit, because you will use it whether or not a fire comes near you."
+      },
+      {
+        "heading": "Where to get local help",
+        "body": "Start with your municipality and, in the northwest, with the MNR district office. FireSmart Canada's Neighbourhood Recognition Program is the framework most organised Ontario communities use. A small number of commercial exterior-sprinkler installers now serve Ontario homeowners; our installer directory lists the ones we could verify. For vegetation work, ask arborists specifically about FireSmart or wildfire-mitigation experience."
+      }
+    ]
+  },
+  {
+    "slug": "quebec",
+    "code": "QC",
+    "name": "Quebec",
+    "short": "Québec",
+    "risk": "High",
+    "riskNote": "Home of Canada's single largest provincial burn on record",
+    "season": "April to September, peaking late May through July",
+    "fuel": "Boreal black spruce and jack pine north of the St. Lawrence; vast, continuous and remote",
+    "burned2025": "6,597 ha",
+    "burned2023": "5,200,000 ha",
+    "agency": {
+      "name": "SOPFEU",
+      "url": "https://sopfeu.qc.ca/en/"
+    },
+    "program": {
+      "name": "SOPFEU — FireSmart / Intelli-feu",
+      "url": "https://sopfeu.qc.ca/en/"
+    },
+    "assessment": {
+      "name": "SOPFEU — prevention resources",
+      "url": "https://sopfeu.qc.ca/en/"
+    },
+    "priorities": [
+      "ember-resistant-vents",
+      "smoke-and-air-quality",
+      "go-bags-and-evacuation",
+      "defensible-space-tools"
+    ],
+    "lede": "Quebec burned 5.2 million hectares in 2023 — the largest single-province total in Canadian record — then had one of its quietest seasons on record in 2025. Both facts should inform how you plan.",
+    "sections": [
+      {
+        "heading": "What the risk actually looks like here",
+        "body": "2023 was extraordinary. Quebec recorded 446 fires by 10 June against a ten-year average of 212 for the same date, and finished the season with 5.2 million hectares burned — more than any other province in the worst national fire year on record. Chibougamau evacuated 7,500 people; Lebel-sur-Quévillon moved 2,100; Mistissini, Waswanipi, Chapais, Val-Paradis and Beaucanton all emptied. The smoke from those fires darkened New York and reached Europe. Then 2025 burned just 6,597 hectares. That volatility is the Quebec lesson: the province can go from quiet to catastrophic within a single season, and preparation done in a quiet year is what carries you through a bad one."
+      },
+      {
+        "heading": "Fire season and what drives it",
+        "body": "Quebec's season runs April to September with the sharp end from late May through July. Lightning ignition in the boreal north dominates the large-fire record; human causes lead in the settled south. The 2023 driver was a persistent blocking pattern that delivered heat and lightning without rain across the entire boreal belt at once — which is why so many fires started simultaneously and why suppression resources were overwhelmed rather than simply outmatched by any single fire."
+      },
+      {
+        "heading": "The provincial programs worth using",
+        "body": "SOPFEU — the Société de protection des forêts contre le feu — handles both suppression and prevention in Quebec and is the FireSmart liaison for the province. Its site carries the fire danger map, current restrictions and prevention material, in French and English. Quebec's homeowner programming is delivered largely through municipalities and MRCs rather than as a provincial rebate. If you are in the Abitibi, Saguenay–Lac-Saint-Jean or Nord-du-Québec regions, the municipal office is the place to ask about local FireSmart or Intelli-feu activity."
+      },
+      {
+        "heading": "What to buy first in Quebec",
+        "body": "For homes in the boreal belt and in the chalet regions north of the St. Lawrence, the standard order applies: ember-resistant vents and metal gutter guards first, Zone 0 cleared of firewood, propane and dry vegetation, then limbing conifers within the first 10 metres. For the Montreal and Quebec City corridors, your exposure in 2023 was smoke and it will be smoke again — build the indoor air kit. A HEPA purifier for the bedroom, a MERV-13 furnace filter, and a PM2.5 monitor to tell you when the air outside is genuinely better than the air inside."
+      },
+      {
+        "heading": "Chalet and remote-property notes",
+        "body": "Quebec has an enormous stock of seasonal chalets threaded through spruce, often on private roads and often unoccupied. The measures that work unattended are the ones to spend on: long-term retardant on decks, stairs and fences applied in early season; ember-resistant vents; metal gutter guards; 1/8 in mesh under decks and galleries; and firewood moved well clear of the building. If the chalet sits on a lake, a pump and pre-plumbed sprinkler line that a neighbour can start is a reasonable investment for a property you cannot reach quickly."
+      },
+      {
+        "heading": "The 2023 smoke event as a planning baseline",
+        "body": "Montreal ranked among the worst air quality in the world on several days in June 2023. Plan on that recurring. Sealing the house and running filtration is most of the answer, and the equipment is inexpensive relative to what it does for a household with children, older adults or anyone with a respiratory condition. Keep spare filters, because they sell out province-wide within days of a smoke event starting."
+      },
+      {
+        "heading": "Insurance notes",
+        "body": "Wildfire is a covered peril under standard Quebec homeowner policies, and outside the far north coverage has not tightened the way it has in parts of BC. The practical steps are the same everywhere: verify the rebuild figure rather than the market value, understand what your additional living expenses coverage pays and for how long, and video your contents room by room into cloud storage. For chalets, read the vacancy clause — seasonal properties frequently carry restrictions that surprise their owners."
+      },
+      {
+        "heading": "A realistic first season in Quebec",
+        "body": "April: clear the first metre and a half of everything combustible, clean gutters and roof valleys, register with your municipality for alerts. May: vents replaced or screened, metal gutter guards fitted, galleries and decks meshed underneath. June: limb conifers to 2 m within 10 m of the structure, apply long-term retardant at chalet properties, pack go-bags. Before the end of June: assemble the indoor air kit, whichever region you live in."
+      },
+      {
+        "heading": "Where to get local help",
+        "body": "SOPFEU is the authority for fire information and prevention guidance. For hands-on work, start with your municipality or MRC. Commercial wildfire-specific installers serving Quebec homeowners are limited; national equipment suppliers that ship across Canada are usually the practical route, and our installer directory lists those alongside the certified installers we could verify in other provinces."
+      }
+    ]
+  },
+  {
+    "slug": "new-brunswick",
+    "code": "NB",
+    "name": "New Brunswick",
+    "short": "New Brunswick",
+    "risk": "Moderate",
+    "riskNote": "Extensive forest cover; smaller but growing interface exposure",
+    "season": "April to October, peaking May and August",
+    "fuel": "Acadian mixedwood: spruce, fir, pine and hardwood, with heavy softwood plantations",
+    "burned2025": "3,275 ha",
+    "burned2023": "—",
+    "agency": {
+      "name": "NB Fire Watch",
+      "url": "https://www.gnb.ca/en/emergency/fire-watch.html"
+    },
+    "program": {
+      "name": "NB Dept. Natural Resources — Wildfire Management",
+      "url": "https://www.gnb.ca/en/emergency/fire-watch.html"
+    },
+    "assessment": {
+      "name": "NB DNR — FireSmart programming",
+      "url": "https://www.gnb.ca/en/emergency/fire-watch.html"
+    },
+    "priorities": [
+      "ember-resistant-vents",
+      "gutter-and-roof",
+      "defensible-space-tools",
+      "go-bags-and-evacuation"
+    ],
+    "lede": "New Brunswick is the most heavily forested province in Canada by proportion, and its interface risk is quietly growing as rural residential development spreads into softwood plantation.",
+    "sections": [
+      {
+        "heading": "What the risk actually looks like here",
+        "body": "New Brunswick's recorded burns are modest — 3,275 hectares in 2025 — but the pattern is worth attention. In early August 2025 the Maple Hills fire burned near Moncton and the Irishtown fire prompted evacuations of properties near Miramichi, with a boil-water advisory issued in Moncton. These were small fires that reached the edge of populated areas quickly, which is the interface problem in miniature. The province is roughly 83 percent forested, much of it in managed softwood, and residential development has been pushing into it steadily."
+      },
+      {
+        "heading": "Fire season and what drives it",
+        "body": "The season runs April through October with two peaks: spring before green-up, and August when the Acadian forest dries. Human ignition dominates — escaped debris burns, equipment sparks and campfires account for most New Brunswick starts, which is why the province's daily fire weather index and burn restrictions matter so much. Softwood plantation is the fuel concern: dense, even-aged spruce and fir stands with closed canopies and heavy needle litter carry crown fire readily once conditions align."
+      },
+      {
+        "heading": "The provincial programs worth using",
+        "body": "Wildfire Management sits within the Department of Natural Resources, and NB Fire Watch publishes the daily fire weather index, burn restrictions and active fire information. Burning permits are required through much of the season and are the province's principal prevention lever. FireSmart programming exists at the provincial liaison level but homeowner-facing delivery is limited; expect to self-fund and self-organise."
+      },
+      {
+        "heading": "What to buy first in New Brunswick",
+        "body": "Standard ember-defence order applies. Ember-resistant vents or 1/8 in stainless mesh over existing ones; metal gutter guards, particularly if you are under spruce or pine; gutters and roof valleys cleared of needle litter; and Zone 0 emptied of firewood, propane, dry vegetation and stored lumber. A pole saw for limbing softwood to 2 m within the first 10 metres is the highest-value tool on a rural lot here, because plantation spruce grown close to a house is the province's characteristic hazard."
+      },
+      {
+        "heading": "Plantation and woodlot properties",
+        "body": "A great many New Brunswick homes sit on or beside private woodlots, often planted softwood. If that describes you, the most useful thing you can do is create genuine separation: thin the stand within 30 metres of the structure, limb what remains, and keep the ground clear of accumulated needles and slash. This is real work and it is the difference between a fire arriving at ground level and a fire arriving in the canopy. Woodlot owners often already have the equipment; it is a question of directing it at the house rather than at the harvest."
+      },
+      {
+        "heading": "Insurance notes",
+        "body": "Wildfire coverage in New Brunswick remains routine and unremarkable, which is the good news. The usual diligence still applies: verify the rebuild figure rather than assessed value, understand your additional living expenses terms, and video the contents of each room into cloud storage. Detached garages, woodsheds and barns are commonly under-scheduled — check the limits on outbuildings."
+      },
+      {
+        "heading": "Smoke exposure",
+        "body": "New Brunswick's air quality has been affected more by Quebec and Nova Scotia fires than by its own. A modest indoor air setup — a HEPA purifier for the bedroom and a MERV-13 furnace filter run continuously during smoke events — covers the realistic exposure. It is a cheap insurance policy for a household with children or anyone with a respiratory condition."
+      },
+      {
+        "heading": "A realistic first season in New Brunswick",
+        "body": "April: check NB Fire Watch before any burning, obtain permits properly, and clear last year's dead grass and leaf litter from around the structure. May: gutters cleaned, metal guards fitted, vents replaced or screened, under-deck meshed, firewood and propane relocated. June: limb softwood to 2 m within 10 m and thin what is crowding the house. August: watch the fire weather index and keep the go-bags accessible."
+      },
+      {
+        "heading": "Where to get local help",
+        "body": "The Department of Natural Resources is the provincial contact; municipalities and rural service districts handle local emergency notification. For woodlot thinning, local forestry contractors are readily available and competent — direct them by distance from the structure. Wildfire-specific installers are not established in the province; national equipment suppliers ship here, and our installer directory lists them."
+      }
+    ]
+  },
+  {
+    "slug": "nova-scotia",
+    "code": "NS",
+    "name": "Nova Scotia",
+    "short": "Nova Scotia",
+    "risk": "High",
+    "riskNote": "2023 Barrington Lake was the largest fire in provincial history",
+    "season": "March 15 to October 15 (legislated burn restrictions), peaking May and August",
+    "fuel": "Acadian forest: black spruce, balsam fir and jack pine barrens, with heavy dead fuel loading after hurricanes",
+    "burned2025": "8,646 ha",
+    "burned2023": "~24,000 ha",
+    "agency": {
+      "name": "Nova Scotia Alerts",
+      "url": "https://novascotia.ca/alerts/"
+    },
+    "program": {
+      "name": "NS Dept. Natural Resources & Renewables — FireSmart",
+      "url": "https://novascotia.ca/natural-resources/"
+    },
+    "assessment": {
+      "name": "NSDNRR — FireSmart programming",
+      "url": "https://novascotia.ca/natural-resources/"
+    },
+    "priorities": [
+      "ember-resistant-vents",
+      "gutter-and-roof",
+      "go-bags-and-evacuation",
+      "smoke-and-air-quality"
+    ],
+    "lede": "Nova Scotia is the province most likely to be underestimated by its own residents. In 2023 fire destroyed roughly 151 houses in suburban Halifax and burned the largest area in provincial history in Shelburne County.",
+    "sections": [
+      {
+        "heading": "What the risk actually looks like here",
+        "body": "May and June 2023 rewrote the province's assumptions. The Tantallon fire, in Halifax's western suburbs, destroyed approximately 151 houses and burned around 950 hectares — a suburban interface fire in a place nobody had planned for one. More than 16,000 people were evacuated from the Halifax region. Simultaneously the Barrington Lake fire in Shelburne County burned 23,015 hectares, destroyed 60 residences and 150 structures and forced out about 5,000 people; it remains the largest recorded fire in Nova Scotia's history. In 2025 the Long Lake fire burned 7,780 hectares and destroyed 20 residences, and the province set a record with 26 consecutive days of air quality warnings."
+      },
+      {
+        "heading": "Fire season and what drives it",
+        "body": "Nova Scotia's burn restriction period runs 15 March to 15 October. The province has two dangerous windows: spring, before green-up, when cured grass and last year's litter are exposed; and late summer, when the Acadian forest dries through. Two structural factors make Nova Scotia worse than its reputation. First, post-hurricane blowdown — Dorian and Fiona left enormous quantities of dead, down fuel across the province. Second, the spruce and fir barrens of the South Shore carry fire with an intensity that surprises people who think of Atlantic Canada as damp."
+      },
+      {
+        "heading": "The provincial programs worth using",
+        "body": "FireSmart in Nova Scotia runs through the Department of Natural Resources and Renewables. Following 2023 the province substantially increased its public prevention effort, and municipal engagement — particularly in HRM and along the South Shore — has grown. Homeowner rebates are not established here; assume self-funding. Provincial burn restrictions are published daily during the season and are legally enforceable, which matters because a meaningful share of Nova Scotia ignitions are escaped debris burns."
+      },
+      {
+        "heading": "What to buy first in Nova Scotia",
+        "body": "The Tantallon loss pattern was ember-driven ignition of suburban houses — which puts vents, gutters and Zone 0 at the top, exactly as in the Interior of BC. Ember-resistant vents or 1/8 in stainless mesh over existing vents, metal gutter guards, gutters cleared of spruce and fir needles, and nothing combustible in the first metre and a half. Screen under decks. After that, a gutter sprinkler kit is worthwhile — Nova Scotia municipal water pressure is generally more reliable than the BC Interior's, which makes a hose-fed kit more dependable here than it is out west."
+      },
+      {
+        "heading": "The blowdown problem",
+        "body": "If your property carries hurricane blowdown from Fiona or Dorian, that is your single biggest fuel issue and it deserves attention before you buy anything. Dead, down spruce and fir dries to a fraction of live-fuel moisture and burns hot. Clearing it within the first 30 metres of the structure is heavy work and often worth hiring out, but it changes your risk profile more than any product will. A pole saw and a chipper rental over a couple of weekends handles a small lot."
+      },
+      {
+        "heading": "Smoke and the 2025 record",
+        "body": "The Long Lake fire produced 26 consecutive days of air quality warnings — a provincial record and a reminder that in Nova Scotia the smoke can be local rather than imported. HEPA filtration in the bedroom, MERV-13 in the furnace, and a PM2.5 monitor. Halifax residents in particular should not assume that being in the city means being clear of it; Bayers Lake burned within the municipality in 2025."
+      },
+      {
+        "heading": "Insurance notes",
+        "body": "Insured losses from 2023 were significant enough that Nova Scotia carriers have begun paying closer attention to interface exposure, though coverage remains broadly available. Check the rebuild figure, check what additional living expenses covers and for how long, and video your contents into cloud storage. If you have cleared blowdown or done FireSmart work, mention it at renewal."
+      },
+      {
+        "heading": "A realistic first season in Nova Scotia",
+        "body": "March: sign up for Nova Scotia Alerts and your municipality's notifications; check the burn restriction status before any yard burning, every time. April: clear Zone 0, clean gutters and roof valleys of needles, move firewood and propane away from the structure. May: fit metal gutter guards, replace or screen vents, mesh under the deck — done before the spring danger window closes. Summer: work on blowdown removal within 30 m, and keep the indoor air kit ready for August."
+      },
+      {
+        "heading": "Where to get local help",
+        "body": "Start with the Department of Natural Resources and Renewables and with your municipality; HRM and several South Shore municipalities have active FireSmart programming post-2023. For blowdown clearing, ordinary tree and land-clearing contractors are competent at the work — you simply need to direct them by zone rather than by aesthetics. Wildfire-specific installers are scarce in Atlantic Canada; national suppliers ship here, and our installer directory lists them."
+      }
+    ]
+  },
+  {
+    "slug": "prince-edward-island",
+    "code": "PE",
+    "name": "Prince Edward Island",
+    "short": "PEI",
+    "risk": "Low",
+    "riskNote": "Minimal forest fire history, but not zero risk",
+    "season": "April to October, with restrictions during dry spells",
+    "fuel": "Mixed Acadian woodlot and softwood plantation; extensive agricultural land",
+    "burned2025": "0 ha",
+    "burned2023": "—",
+    "agency": {
+      "name": "PEI Wildfire Information",
+      "url": "https://www.princeedwardisland.ca/en/topic/wildfire"
+    },
+    "program": {
+      "name": "PEI Forests, Fish and Wildlife",
+      "url": "https://www.princeedwardisland.ca/en/topic/wildfire"
+    },
+    "assessment": {
+      "name": "PEI Forests, Fish and Wildlife — FireSmart contact",
+      "url": "https://www.princeedwardisland.ca/en/topic/wildfire"
+    },
+    "priorities": [
+      "gutter-and-roof",
+      "ember-resistant-vents",
+      "smoke-and-air-quality",
+      "fire-extinguishers"
+    ],
+    "lede": "PEI recorded no wildfire area burned in 2025 and has the lowest wildfire risk in Canada. It still imposed a fire ban in August, and post-Fiona blowdown has changed the fuel picture.",
+    "sections": [
+      {
+        "heading": "What the risk actually looks like here",
+        "body": "Prince Edward Island has the least wildfire exposure of any Canadian province: no recorded area burned in 2025, and no significant structural wildfire loss in modern memory. The Island's landscape is predominantly agricultural, its woodlots are small and fragmented, and its climate is maritime. That said, the province instituted a fire ban on 11 August 2025 due to extreme risk, which tells you the conditions can arrive. This page exists for completeness and for the specific Island issues that do apply."
+      },
+      {
+        "heading": "Fire season and what drives it",
+        "body": "Such fire risk as exists runs April through October and concentrates in two situations: spring grass fires in cured agricultural land before green-up, and late-summer dry spells when small woodlots and softwood plantations dry out. Human ignition is essentially the only cause — escaped debris burns, agricultural burning and equipment sparks. Fires are small, quickly reached and quickly controlled. The realistic Island scenario is a structure fire that spreads to vegetation rather than the reverse."
+      },
+      {
+        "heading": "The post-Fiona fuel change",
+        "body": "Hurricane Fiona in 2022 caused extensive blowdown across PEI woodlots, and a great deal of that dead, down material is still on the ground. Dead spruce and fir dries to very low fuel moisture and burns hot. If you have a woodlot with Fiona blowdown near buildings, clearing it within 30 metres of structures is the one genuinely worthwhile wildfire measure on the Island, and it is worth doing for property-value and access reasons regardless."
+      },
+      {
+        "heading": "What to buy first in PEI",
+        "body": "Honestly, very little wildfire-specific equipment is warranted here, and we would rather say so than sell you a sprinkler kit you will never use. Clean gutters of needle and leaf litter, keep the first metre and a half around the house clear of firewood and dry vegetation, and put a 10 lb ABC extinguisher in the garage and by the barbecue. If you have a woodlot with blowdown, deal with that. That is a proportionate response to PEI's actual risk."
+      },
+      {
+        "heading": "Smoke is the real Island exposure",
+        "body": "PEI's meaningful wildfire impact in recent years has been imported smoke from Quebec, Nova Scotia and the boreal west. That is worth preparing for even though local fire risk is negligible: a HEPA purifier for the bedroom, a MERV-13 furnace filter run continuously during smoke events, and a PM2.5 monitor if you have anyone in the household with a respiratory condition. This is inexpensive and it is the part of wildfire preparedness Islanders will actually use."
+      },
+      {
+        "heading": "Agricultural and outbuilding notes",
+        "body": "For farms, the relevant risks are equipment fires in dry fields at harvest, and barn or outbuilding fires spreading to adjacent vegetation. Keep combines and balers clear of chaff build-up, carry an extinguisher and a water supply on equipment during harvest, and maintain clearance around fuel storage. These are ordinary farm safety practices rather than wildfire measures, and they cover the Island's realistic scenario better than anything on our gear list."
+      },
+      {
+        "heading": "Insurance notes",
+        "body": "Wildfire coverage on PEI is routine and inexpensive, and there is no indication of that changing. The general diligence applies: confirm your rebuild figure reflects current construction costs, check that outbuildings and barns are scheduled at adequate limits, and keep a video inventory of contents in cloud storage. For farms, confirm that equipment and stored crop are covered against fire at realistic values."
+      },
+      {
+        "heading": "A realistic approach on PEI",
+        "body": "Check the provincial fire ban status before any burning — this is the single most important thing an Islander can do, because escaped debris burns are the province's characteristic ignition. Clean your gutters each spring. Keep the first metre and a half around the house clear. Deal with Fiona blowdown near buildings when you get to it. Buy the indoor air kit, because you will use it. Then stop, because the risk does not justify more."
+      },
+      {
+        "heading": "Where to get local help",
+        "body": "Forests, Fish and Wildlife within the provincial government is the contact for forestry and fire matters, and PEI does maintain a FireSmart liaison. For blowdown clearing, local woodlot and tree services handle it routinely. There is no commercial wildfire installation sector on the Island and there is no reason there would be."
+      }
+    ]
+  },
+  {
+    "slug": "newfoundland-and-labrador",
+    "code": "NL",
+    "name": "Newfoundland and Labrador",
+    "short": "Nfld & Labrador",
+    "risk": "High",
+    "riskNote": "2025 Kingston fire destroyed 203 structures",
+    "season": "May to September, peaking July and August",
+    "fuel": "Black spruce and balsam fir; extensive lichen barrens on the Avalon that cure to tinder in dry spells",
+    "burned2025": "18,469 ha",
+    "burned2023": "—",
+    "agency": {
+      "name": "NL Forestry, Agriculture and Lands",
+      "url": "https://www.gov.nl.ca/fal/"
+    },
+    "program": {
+      "name": "NL Forestry — wildfire prevention",
+      "url": "https://www.gov.nl.ca/fal/"
+    },
+    "assessment": {
+      "name": "NL Forestry — FireSmart resources",
+      "url": "https://www.gov.nl.ca/fal/"
+    },
+    "priorities": [
+      "ember-resistant-vents",
+      "gutter-and-roof",
+      "go-bags-and-evacuation",
+      "exterior-sprinklers"
+    ],
+    "lede": "The 2025 Kingston fire destroyed 203 structures on the Avalon — the worst structural wildfire loss in the province's modern history, in communities that had never planned for one.",
+    "sections": [
+      {
+        "heading": "What the risk actually looks like here",
+        "body": "2025 was Newfoundland's wake-up. The Kingston fire burned 10,708 hectares and destroyed 203 structures across Small Point–Adam's Cove–Blackhead–Broad Cove and neighbouring communities on the Avalon's north shore. The Martin Lake fire reached 2,160 hectares, the Badger area fire 1,119, and the Paddy's Pond fire burned 306 hectares uncomfortably close to St. John's. Around 3,000 residents were displaced at peak, and a province-wide fire ban was imposed on 5 August. Total provincial area burned was 18,469 hectares — small by prairie standards, devastating in a province where communities sit tight against the barrens."
+      },
+      {
+        "heading": "Fire season and what drives it",
+        "body": "The Newfoundland season runs May to September with the dangerous window in July and August, when a run of dry, warm days cures the lichen and low shrub of the barrens. That fuel type is the provincial specific: caribou lichen and low ericaceous shrub dry within days, carry fire fast at ground level and throw embers efficiently. Combined with the province's characteristic wind, a barrens fire moves quicker than most residents expect. Labrador's boreal risk is more conventional and more remote."
+      },
+      {
+        "heading": "The provincial programs worth using",
+        "body": "Wildfire prevention runs through the Department of Fisheries, Forestry and Agriculture. Provincial fire bans and forest fire status are published during the season and are the primary public tool. Following 2025 there is considerably more municipal interest in FireSmart programming than there was, but homeowner rebates do not exist and delivery is early-stage. Practically, this is a province where you should assume you are doing the work and funding it yourself."
+      },
+      {
+        "heading": "What to buy first in Newfoundland",
+        "body": "The Kingston loss pattern — ember ignition running through communities of closely spaced wooden houses — points at the same short list: ember-resistant vents or 1/8 in stainless mesh, metal gutter guards, gutters cleared, and rigorous Zone 0 clearing. In Newfoundland that last one has a local twist: the firewood pile, the stacked lobster pots, the fish store and the wooden stage are all combustible things that traditionally sit close to the house. Moving what you can and screening under what you cannot is the highest-value work available."
+      },
+      {
+        "heading": "Community density is the specific risk",
+        "body": "Newfoundland outport communities are tightly built — houses close together, wooden, often with shared fence lines and outbuildings. Once one structure ignites, the fire spreads house to house independently of the wildfire that started it. That means your neighbour's Zone 0 is part of your risk, and it makes community-level FireSmart organising more valuable here than almost anywhere. If you can get four or five neighbours to clear at once, you have done something no individual measure achieves."
+      },
+      {
+        "heading": "Water and sprinklers",
+        "body": "Municipal water on the Avalon is generally reliable, which makes a gutter-mounted sprinkler kit a more dependable proposition here than in western Canada. For properties on wells or in smaller communities, a pump drawing from a pond is straightforward — Newfoundland is not short of water within hose reach. Set it up and test it in June rather than discovering the fittings do not match in August."
+      },
+      {
+        "heading": "Insurance notes",
+        "body": "The Kingston fire produced a significant insured loss in an area where wildfire was not a modelled concern, and coverage terms in exposed Avalon communities may tighten. Confirm your rebuild figure — construction costs in rural Newfoundland have risen sharply — and understand your additional living expenses coverage. Video the contents of every room and put it in cloud storage. Outbuildings, sheds and stages are frequently under-scheduled on policies; check whether yours are covered and at what limit."
+      },
+      {
+        "heading": "A realistic first season in Newfoundland",
+        "body": "May: register for municipal alerts, check the provincial fire status habitually, and pack go-bags. June: clear Zone 0 — firewood, gear, dry grass and shrub away from the walls; clean gutters and roof valleys; screen under decks, stages and sheds with 1/8 in metal mesh. Early July: vents replaced or screened, metal gutter guards fitted, sprinkler kit installed and tested. Then maintain through the August danger window and talk to your neighbours about doing the same."
+      },
+      {
+        "heading": "Where to get local help",
+        "body": "Start with the provincial forestry department and your municipality or local service district. Following 2025 several Avalon communities have begun FireSmart organising, and joining or starting that effort is more useful than any individual purchase. Wildfire-specific contractors are essentially absent in the province; national equipment suppliers ship here, and our installer directory lists them."
+      }
+    ]
+  },
+  {
+    "slug": "yukon",
+    "code": "YT",
+    "name": "Yukon",
+    "short": "Yukon",
+    "risk": "High",
+    "riskNote": "Large remote burns; small, dispersed communities",
+    "season": "May to August, peaking June and July",
+    "fuel": "Boreal white and black spruce; extensive dry lodgepole pine through the southern Yukon",
+    "burned2025": "169,217 ha",
+    "burned2023": "—",
+    "agency": {
+      "name": "Yukon Wildfire",
+      "url": "https://wildfires.service.yukon.ca/"
+    },
+    "program": {
+      "name": "Yukon Wildland Fire Management — FireSmart",
+      "url": "https://wildfires.service.yukon.ca/"
+    },
+    "assessment": {
+      "name": "Yukon Wildland Fire Management — FireSmart assessments",
+      "url": "https://wildfires.service.yukon.ca/"
+    },
+    "priorities": [
+      "go-bags-and-evacuation",
+      "ember-resistant-vents",
+      "detection-and-alerts",
+      "defensible-space-tools"
+    ],
+    "lede": "Yukon's fires are large and mostly remote, but the territory's communities are small, dispersed and connected by single highways — which turns a distant fire into an access problem quickly.",
+    "sections": [
+      {
+        "heading": "What the risk actually looks like here",
+        "body": "Yukon burned 169,217 hectares in 2025. The territory's fire record is dominated by large, remote burns rather than structural losses, but evacuation alerts reached the Dawson City area, Ethel Lake on 24 June and the Mayo area on 4 July. The pattern that matters is access: when fire crosses the North Klondike or the Campbell Highway, communities are cut off long before they are threatened directly. Yukon also sits at the leading edge of the warming trend, with fire seasons lengthening measurably over the past three decades."
+      },
+      {
+        "heading": "Fire season and what drives it",
+        "body": "The season runs May through August with the peak in June and July, driven by lightning in a landscape where long daylight and low humidity dry fuels rapidly. Southern Yukon's lodgepole pine stands are dense and carry crown fire well. The territory's low population density means detection and initial attack take longer than in the south, and fires routinely reach substantial size before anyone needs to respond to them — which is fine until wind puts one on a road or a community."
+      },
+      {
+        "heading": "The territorial programs worth using",
+        "body": "Yukon Wildland Fire Management coordinates FireSmart across the territory and offers property assessments — genuinely useful and worth booking. The Yukon Wildfire site carries fire locations, danger ratings and evacuation alerts. First Nations governments and municipalities handle local notification. Community FireSmart work, including fuel breaks around Whitehorse and several smaller communities, has expanded and is the most consequential mitigation happening in the territory."
+      },
+      {
+        "heading": "What to buy first in Yukon",
+        "body": "Access risk argues for evacuation readiness first: go-bags, a full fuel tank through the season, a portable power station and a weather radio, because cell coverage outside the Alaska Highway corridor is thin to nonexistent. On the structure, ember-resistant vents and metal gutter guards, then Zone 0 cleared of firewood, fuel and dry vegetation. On treed lots, thinning and limbing spruce and pine within the first 30 metres does more than any product — Yukon properties frequently have mature spruce right against the building."
+      },
+      {
+        "heading": "Off-grid and remote properties",
+        "body": "A significant share of Yukon housing is off-grid or semi-remote, which changes things. You may have no municipal water, so a pump drawing from a creek, lake or cistern is not an upgrade but the baseline. Solar and battery systems, propane tanks and fuel drums are all high-value, highly combustible assets that need clearance and covers. And you may be your own first responder for a considerable period, which makes a backpack pump sprayer and a 10 lb ABC extinguisher genuinely useful rather than theoretical."
+      },
+      {
+        "heading": "Communication planning",
+        "body": "Yukon's cell coverage gaps are the operational problem. A weather radio with SAME alerting works where phones do not. Satellite messengers are common and sensible for anyone spending time outside the corridor. Agree an out-of-territory contact and a check-in schedule with family. If you live outside Whitehorse, make sure your First Nation or municipal office holds current contact details for you."
+      },
+      {
+        "heading": "Insurance notes",
+        "body": "Rebuild costs in Yukon substantially exceed southern figures, and remote or off-grid properties can be difficult to insure at all. Review the rebuild number rather than any market figure, and confirm whether outbuildings, workshops and solar installations are scheduled. Video contents into cloud storage. If your property is only accessible seasonally, read the vacancy provisions carefully."
+      },
+      {
+        "heading": "A realistic first season in Yukon",
+        "body": "May: book a FireSmart property assessment, pack go-bags, buy the weather radio, keep the tank full. June: Zone 0 cleared — firewood, drums, equipment and dry brush away from the walls; gutters and roof cleared; vents screened. Late June: thin and limb spruce and pine within 30 m of structures, which is the biggest single improvement most Yukon properties can make. July: sprinkler and pump set up if you have a water source, and the air-quality kit ready."
+      },
+      {
+        "heading": "Where to get local help",
+        "body": "Yukon Wildland Fire Management is the starting point and offers assessments directly. Local First Nations governments and municipalities coordinate community FireSmart activity. Commercial installers do not serve Yukon homeowners; equipment comes from national suppliers, and shipping north takes time — order in spring. Our installer directory lists suppliers that ship territory-wide."
+      }
+    ]
+  },
+  {
+    "slug": "northwest-territories",
+    "code": "NT",
+    "name": "Northwest Territories",
+    "short": "NWT",
+    "risk": "Extreme",
+    "riskNote": "68% of the territory's population evacuated in 2023",
+    "season": "May to September, peaking July and August",
+    "fuel": "Boreal black spruce over deep organic soils; peat that burns underground and overwinters",
+    "burned2025": "1,385,271 ha",
+    "burned2023": "4,000,000+ ha",
+    "agency": {
+      "name": "NWT Fire",
+      "url": "https://www.enr.gov.nt.ca/en/services/wildfire-update"
+    },
+    "program": {
+      "name": "GNWT Environment and Climate Change — FireSmart",
+      "url": "https://www.enr.gov.nt.ca/en/services/wildfire-update"
+    },
+    "assessment": {
+      "name": "GNWT — FireSmart community programming",
+      "url": "https://www.enr.gov.nt.ca/en/services/wildfire-update"
+    },
+    "priorities": [
+      "go-bags-and-evacuation",
+      "detection-and-alerts",
+      "ember-resistant-vents",
+      "smoke-and-air-quality"
+    ],
+    "lede": "In August 2023, 68 percent of the Northwest Territories' population was under evacuation order, including all of Yellowknife. Enterprise was 85 to 90 percent destroyed. Nowhere in Canada has a higher per-capita wildfire exposure.",
+    "sections": [
+      {
+        "heading": "What the risk actually looks like here",
+        "body": "The 2023 season is without parallel in Canadian civil-protection history. More than 230 wildfires were burning by mid-August. Yellowknife's 21,720 residents were ordered out on 16 August and did not return until 6 September. By 21 August roughly 68 percent of the territory's entire population was displaced. The hamlet of Enterprise was 85 to 90 percent destroyed. Telecommunications went down across the South Slave, and hospital services were reduced. Territorial fires released about 97 megatonnes of carbon by late August — roughly a quarter of Canada's national total that year. In 2025 the territory burned another 1.39 million hectares, with evacuations at Jean Marie River, Whatì and Fort Providence."
+      },
+      {
+        "heading": "Fire season and what drives it",
+        "body": "The NWT season runs May to September and peaks hard in July and August. Two features make it distinctive. First, the fuel: black spruce over deep peat, which burns downward into the organic soil and can smoulder through winter under snow, re-emerging in spring as an overwintering or 'zombie' fire. Second, geography: single-highway access to most communities. When Highway 3 is threatened, Yellowknife's evacuation route is a queue rather than a choice, which is why NWT evacuation orders come earlier and are taken more seriously than elsewhere."
+      },
+      {
+        "heading": "The territorial programs worth using",
+        "body": "GNWT's Department of Environment and Climate Change coordinates FireSmart for the territory and has expanded community-level work substantially since 2023, including fuel breaks around several communities. NWT Fire publishes fire locations, danger ratings and evacuation information. Community governments and band offices are the operational channel for orders. Homeowner rebates do not exist; the territorial contribution is community-scale fuel management, which is genuinely more consequential here than individual home hardening."
+      },
+      {
+        "heading": "What to buy first in the NWT",
+        "body": "Here, more than anywhere else in Canada, weight your spending toward evacuation rather than defence. You will very likely be ordered out, possibly for weeks, and the road out may be single and slow. Go-bags per person with medications, documents and a week's worth of essentials; a portable power station; N95 respirators for driving through smoke; a fire-rated document pouch; and a full fuel tank from June onward. After that, ember-resistant vents and metal gutter guards on the structure, and Zone 0 cleared of everything that burns."
+      },
+      {
+        "heading": "The single-road problem",
+        "body": "Plan your evacuation as a logistics exercise, not a scramble. Know which highway you would use and what the alternative is if it closes — for many communities there isn't one, which makes leaving early rather than late the only reliable strategy. Keep the vehicle above half a tank through the season. Have a plan for pets, and a plan for anyone in the household who cannot travel easily. Agree a rendezvous and an out-of-territory contact with family, because cell and internet went down across the South Slave in 2023 and people could not find each other."
+      },
+      {
+        "heading": "Smoke is severe and prolonged",
+        "body": "NWT communities experience some of the worst sustained smoke exposure in the country, often for weeks. A HEPA purifier sized for the bedroom and a MERV-13 furnace filter run continuously are worth having permanently installed, not bought in an emergency. Keep spare filters ordered well ahead — supply chains into the territory are long and they empty fast during a smoke event. A PM2.5 monitor tells you what is actually happening indoors."
+      },
+      {
+        "heading": "Insurance and rebuild reality",
+        "body": "Construction costs in the NWT are far above southern Canada, and rebuild figures written years ago are often badly out of date. Review the rebuild number specifically. Understand your additional living expenses coverage in detail — 2023 displaced people for three weeks or more, and some for far longer. Video contents into cloud storage. If you are in a smaller community, check whether your policy contemplates the cost and delay of materials arriving by winter road or barge."
+      },
+      {
+        "heading": "A realistic first season in the NWT",
+        "body": "May: go-bags packed and in the vehicle, documents scanned to cloud, notifications registered with the community government, fuel tank kept above half. June: Zone 0 cleared — firewood, fuel drums, ATVs and dry vegetation away from the walls; gutters and roof cleared; vents screened with 1/8 in metal mesh. July: limb spruce well back from structures, and confirm your evacuation route and rendezvous with the household. Keep the air-quality kit running from July onward."
+      },
+      {
+        "heading": "Where to get local help",
+        "body": "Start with your community government or band office and with GNWT Environment and Climate Change. Community-scale fuel break work is the highest-leverage activity in the territory and it happens collectively rather than individually. Commercial wildfire installers do not operate in the NWT for homeowners; national suppliers ship north, though lead times are long — order in spring, not in August. Our installer directory lists the suppliers that ship territory-wide."
+      }
+    ]
+  },
+  {
+    "slug": "nunavut",
+    "code": "NU",
+    "name": "Nunavut",
+    "short": "Nunavut",
+    "risk": "Very low",
+    "riskNote": "Above the treeline; tundra fire only, no FireSmart program",
+    "season": "June to August, where any risk exists at all",
+    "fuel": "Tundra: lichen, moss and low shrub. No forest.",
+    "burned2025": "—",
+    "burned2023": "—",
+    "agency": {
+      "name": "GN Environment and Wildlife",
+      "url": "https://www.gov.nu.ca/en/environment-and-wildlife"
+    },
+    "program": {
+      "name": "No active FireSmart program in Nunavut",
+      "url": "https://firesmartcanada.ca/"
+    },
+    "assessment": {
+      "name": "None — contact your hamlet office",
+      "url": "https://www.gov.nu.ca/en/environment-and-wildlife"
+    },
+    "priorities": [
+      "smoke-and-air-quality",
+      "fire-extinguishers",
+      "detection-and-alerts",
+      "go-bags-and-evacuation"
+    ],
+    "lede": "Nunavut sits almost entirely above the treeline and has no wildfire program, because it has essentially no wildfire. The territory's fire risk is structural, and its wildfire exposure is imported smoke.",
+    "sections": [
+      {
+        "heading": "Why this page is short",
+        "body": "We include Nunavut for completeness, and we are not going to invent a risk profile it does not have. The territory lies almost entirely north of the treeline. There is no boreal forest to burn, no wildland-urban interface in the sense the rest of this site uses, and FireSmart Canada confirms there is no active FireSmart Neighbourhood Recognition Program in the territory. Buying an exterior sprinkler kit for a house in Iqaluit would be a waste of money and we will not pretend otherwise."
+      },
+      {
+        "heading": "What does burn here",
+        "body": "Tundra fires do occur — lichen, moss and low shrub can carry fire in a hot, dry, windy summer, particularly in the southern mainland areas near the treeline. These events are rare, generally remote from communities and small by southern standards. Climate warming is extending shrub cover northward, and researchers expect tundra fire frequency to increase over coming decades, so this may not remain a non-issue permanently. It is a non-issue now."
+      },
+      {
+        "heading": "The real fire risk in Nunavut is structural",
+        "body": "Nunavut has among the highest per-capita rates of residential structure fire in Canada, driven by overcrowded housing, aging building stock, heating systems under extreme load, and fire response capacity that is limited in smaller hamlets. This is a serious and well-documented problem, and it is a different problem from wildfire. Working smoke alarms on every level, a 10 lb ABC extinguisher in the kitchen and by the furnace, a practised escape plan and clear exits are the measures that save lives in Nunavut. That is what we would spend on."
+      },
+      {
+        "heading": "Smoke does reach Nunavut",
+        "body": "Smoke from boreal fires in the NWT, northern Saskatchewan and Manitoba reaches Nunavut communities during severe seasons, sometimes degrading air quality for days. Given housing density and the difficulty of sealing older buildings, a HEPA purifier in the sleeping area is worthwhile for households with children, elders or anyone with a respiratory condition. Order filters well ahead — resupply into Nunavut is by sealift or air, and nothing arrives quickly."
+      },
+      {
+        "heading": "If you are travelling on the land",
+        "body": "For hunters and travellers on the land in the southern mainland during a hot dry summer, ordinary fire discipline applies: fully extinguish camp fires, be careful with fuel and equipment, and report smoke to the hamlet office or GN Environment. Tundra fire is rare but it moves in wind and there is no suppression capacity to speak of outside communities."
+      },
+      {
+        "heading": "Where to get help",
+        "body": "Your hamlet office and the Government of Nunavut's Department of Environment are the relevant contacts. For structural fire safety, which is the actual priority here, your local fire department and the Office of the Fire Marshal are the right places to start. There is no FireSmart programming to enrol in, and we would rather tell you that plainly than send you looking for something that does not exist."
+      }
+    ]
+  }
+]

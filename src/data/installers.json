@@ -1,0 +1,224 @@
+{
+  "companies": [
+    {
+      "slug": "western-wildfire",
+      "name": "Western Wildfire",
+      "url": "https://westernwildfire.ca/",
+      "provinces": [
+        "BC",
+        "AB"
+      ],
+      "services": [
+        "install",
+        "assessment"
+      ],
+      "type": "Installer",
+      "summary": "Certified design, installation and testing of Ember Armor exterior sprinkler kits, including custom water-source solutions, fire hose and copper line runs, and remote activation. Quotes are turned around within a day from property photos.",
+      "priceNote": "Base home installation from $699.99 CAD; sized to budget",
+      "contact": "604-341-5202 · westernwildfirerentals@gmail.com",
+      "verified": "Verified from the company's own site, September 2026"
+    },
+    {
+      "slug": "prodigy-wildfire",
+      "name": "Prodigy Wildfire Solutions",
+      "url": "https://prodigywildfire.com/canada",
+      "provinces": [
+        "BC",
+        "AB",
+        "ON"
+      ],
+      "services": [
+        "install"
+      ],
+      "type": "Installer",
+      "summary": "Permanent exterior wildfire sprinkler systems using roof-mounted nozzles to build a humidity barrier around the structure. Systems are installed in a single day and the BC offering is described as FireSmart-compliant.",
+      "priceNote": "Residential systems from about US$15,000",
+      "contact": "Via website",
+      "verified": "Verified from the company's own site, September 2026"
+    },
+    {
+      "slug": "spiedr",
+      "name": "SPIEDR",
+      "url": "https://www.spiedr.com/",
+      "provinces": [
+        "BC",
+        "AB"
+      ],
+      "services": [
+        "consulting",
+        "equipment"
+      ],
+      "type": "Consulting & equipment",
+      "summary": "Manufacturer of structure protection units and sprinkler trailers — by their own account 98% of those bought in Canada — plus WATERAX-powered pumps, wildfire consulting, rentals and certified training. Their market is municipalities, resorts, wineries and industry rather than individual homes.",
+      "priceNote": "Quote-based",
+      "contact": "Via website · Knutsford, BC",
+      "verified": "Verified from the company's own site, September 2026. Note: not a homeowner installer — listed for acreage, strata and community-scale projects."
+    },
+    {
+      "slug": "flash-wildfire-services",
+      "name": "Flash Wildfire Services",
+      "url": "https://www.flashwildfireservices.ca/",
+      "provinces": [
+        "BC",
+        "AB",
+        "SK",
+        "MB",
+        "ON",
+        "QC",
+        "NB",
+        "NS",
+        "PE",
+        "NL",
+        "YT",
+        "NT",
+        "NU"
+      ],
+      "services": [
+        "equipment"
+      ],
+      "type": "Equipment supplier",
+      "summary": "Canadian supplier of wildfire defence equipment: WATERAX portable pumps, sprinkler kits, fire hose, nozzles, hand tools and protective gear, plus custom-built trailers and skid units. Ships nationally.",
+      "priceNote": "Retail; kit pricing varies",
+      "contact": "Via website",
+      "verified": "Verified from the company's own site, September 2026. Supply rather than installation."
+    },
+    {
+      "slug": "wasp-wildfire",
+      "name": "WASP Wildfire Protection Products",
+      "url": "https://shop.waspwildfire.ca/",
+      "provinces": [
+        "BC",
+        "AB",
+        "SK",
+        "MB",
+        "ON",
+        "QC",
+        "NB",
+        "NS",
+        "PE",
+        "NL",
+        "YT",
+        "NT",
+        "NU"
+      ],
+      "services": [
+        "equipment"
+      ],
+      "type": "Equipment supplier",
+      "summary": "Canadian-made gutter-clip sprinkler heads and complete wildfire protection kits that install without tools and run from a garden hose. Widely stocked by Canadian retailers.",
+      "priceNote": "Kits vary by number of heads",
+      "contact": "Via website",
+      "verified": "Verified from the company's own site, September 2026. Supply rather than installation."
+    }
+  ],
+  "programs": [
+    {
+      "province": "BC",
+      "name": "Wildfire Mitigation Program — free certified home assessment",
+      "url": "https://firesmartbc.ca/wmp",
+      "note": "A certified professional assesses your property and gives wildfire-protection recommendations at no cost. Book through the interactive map."
+    },
+    {
+      "province": "BC",
+      "name": "FireSmart BC Coordinators",
+      "url": "https://firesmartbc.ca/firesmart-coordinators/",
+      "note": "Local coordinators run neighbourhood assessments and community FireSmart activity in most regional districts."
+    },
+    {
+      "province": "BC",
+      "name": "TNRD FireSmart Homeowner Rebate",
+      "url": "https://www.tnrd.ca/services/firesmart/",
+      "note": "Thompson-Nicola Regional District reimburses homeowners for qualifying wildfire-resistant upgrades. Check your own regional district too — several run comparable programs."
+    },
+    {
+      "province": "BC",
+      "name": "City of Kamloops FireSmart assessments and rebates",
+      "url": "https://www.kamloops.ca/public-safety/emergency-management/wildfire-interface-fires/firesmart/assessment-rebate-programs",
+      "note": "Free home assessments plus rebates for qualifying work."
+    },
+    {
+      "province": "AB",
+      "name": "FireSmart Alberta",
+      "url": "https://www.alberta.ca/firesmart",
+      "note": "Provincial coordination of community assessments, the Neighbourhood Recognition Program and local vegetation-management support."
+    },
+    {
+      "province": "AB",
+      "name": "RMWB FireSmart Rebate Program",
+      "url": "https://www.rmwb.ca/",
+      "note": "The Regional Municipality of Wood Buffalo reimburses residents for wildfire-resistant home upgrades."
+    },
+    {
+      "province": "SK",
+      "name": "FireSmart Saskatchewan (SPSA)",
+      "url": "https://www.saskpublicsafety.ca/public-resources/firesmart",
+      "note": "The Saskatchewan Public Safety Agency coordinates FireSmart assessments and planning with northern municipalities."
+    },
+    {
+      "province": "SK",
+      "name": "Saskatchewan First Nations Emergency Management — FireSmart",
+      "url": "https://www.sfnem.ca/firesmart",
+      "note": "FireSmart programming delivered specifically for First Nations communities in Saskatchewan."
+    },
+    {
+      "province": "MB",
+      "name": "Manitoba Wildfire Service — FireSmart resources",
+      "url": "https://www.gov.mb.ca/wildfire/resources.html",
+      "note": "Provincial homeowner resources and FireSmart guidance. Local organising in cottage country runs through municipalities and cottage associations."
+    },
+    {
+      "province": "ON",
+      "name": "Ontario Forest Fires (MNR)",
+      "url": "https://www.ontario.ca/page/forest-fires",
+      "note": "Fire status, restricted fire zones and community FireSmart programming, concentrated in the northwest."
+    },
+    {
+      "province": "QC",
+      "name": "SOPFEU",
+      "url": "https://sopfeu.qc.ca/en/",
+      "note": "Quebec's forest fire protection agency handles both suppression and prevention, and is the province's FireSmart liaison."
+    },
+    {
+      "province": "NB",
+      "name": "NB Fire Watch — Wildfire Management",
+      "url": "https://www.gnb.ca/en/emergency/fire-watch.html",
+      "note": "Daily fire weather index, burn restrictions and permit information. Permits are required through much of the season."
+    },
+    {
+      "province": "NS",
+      "name": "NS Natural Resources and Renewables — FireSmart",
+      "url": "https://novascotia.ca/natural-resources/",
+      "note": "Provincial FireSmart programming, substantially expanded since the 2023 Tantallon and Barrington Lake fires."
+    },
+    {
+      "province": "PE",
+      "name": "PEI Forests, Fish and Wildlife",
+      "url": "https://www.princeedwardisland.ca/en/topic/wildfire",
+      "note": "Provincial fire ban status and forestry contact. PEI maintains a FireSmart liaison."
+    },
+    {
+      "province": "NL",
+      "name": "NL Fisheries, Forestry and Agriculture",
+      "url": "https://www.gov.nl.ca/fal/",
+      "note": "Provincial fire status, bans and prevention guidance. Municipal FireSmart organising has grown since the 2025 Kingston fire."
+    },
+    {
+      "province": "YT",
+      "name": "Yukon Wildland Fire Management — FireSmart",
+      "url": "https://wildfires.service.yukon.ca/",
+      "note": "Offers FireSmart property assessments across the territory, plus fire locations and evacuation alerts."
+    },
+    {
+      "province": "NT",
+      "name": "GNWT Environment and Climate Change — FireSmart",
+      "url": "https://www.enr.gov.nt.ca/en/services/wildfire-update",
+      "note": "Territorial FireSmart coordination and community fuel break work, substantially expanded since 2023."
+    },
+    {
+      "province": "NU",
+      "name": "No FireSmart program in Nunavut",
+      "url": "https://www.gov.nu.ca/en/environment-and-wildlife",
+      "note": "FireSmart Canada confirms there is no active Neighbourhood Recognition Program in the territory. For structural fire safety, contact your hamlet office and the Office of the Fire Marshal."
+    }
+  ]
+}

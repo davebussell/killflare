@@ -3,8 +3,10 @@ import Logo from './Logo.astro';
 const path = Astro.url.pathname;
 const nav = [
   { href: '/categories/', label: 'Gear' },
+  { href: '/regions/', label: 'Regions' },
+  { href: '/install/', label: 'Install' },
   { href: '/guides/', label: 'Guides' },
-  { href: '/start-here/', label: 'Start Here' },
+  { href: '/start-here/', label: 'Start' },
   { href: '/about/', label: 'About' },
 ];
 ---
@@ -26,7 +28,7 @@ const nav = [
   .hdr { background: var(--char); color: var(--char-ink); }
   .hdr__in { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 0.9rem; }
   .hdr__brand { display: block; color: inherit; text-decoration: none; }
-  .hdr__nav { display: flex; gap: clamp(0.75rem, 2.5vw, 1.75rem); }
+  .hdr__nav { display: flex; flex-wrap: wrap; gap: 0.35rem clamp(0.7rem, 2.2vw, 1.5rem); justify-content: flex-end; }
   .hdr__nav a {
     font-family: var(--display); font-weight: 600; font-size: 1.15rem; text-transform: uppercase; letter-spacing: 0.05em;
     text-decoration: none; color: var(--char-ink-2); padding-block: 0.25rem; border-bottom: 2px solid transparent;
@@ -35,9 +37,9 @@ const nav = [
   .hdr__strip { background: var(--ember); color: #fff; font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.03em; padding-block: 0.4rem; }
   .hdr__strip a { color: inherit; }
   @media (max-width: 560px) { .hdr__nav a { font-size: 1rem; } }
-  @media (max-width: 430px) {
-    .hdr__in { flex-wrap: wrap; gap: 0.5rem 1rem; }
-    .hdr__nav { gap: 0.85rem; }
-    .hdr__nav a { font-size: 0.95rem; letter-spacing: 0.03em; }
+  @media (max-width: 620px) {
+    .hdr__in { flex-wrap: wrap; gap: 0.4rem 1rem; }
+    .hdr__nav { width: 100%; justify-content: flex-start; gap: 0.3rem 1rem; }
+    .hdr__nav a { font-size: 0.95rem; letter-spacing: 0.03em; padding-block: 0.15rem; }
   }
 </style>

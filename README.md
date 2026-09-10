@@ -50,6 +50,29 @@ To switch a product to a real image, fill its `image` and `asin` fields in `prod
 `m.media-amazon.com` and `images-na.ssl-images-amazon.com` are already allowlisted in
 `astro.config.mjs`. No component changes needed — `ProductImage` swaps automatically.
 
+## Regions
+
+`src/data/regions.json` — one entry per province and territory (13), each with fire season,
+fuel type, area burned for recent seasons, provincial agency and program links, a `priorities`
+array of category slugs, and 6–9 authored sections. Rendered by `/regions/` and
+`/regions/[slug]`. Figures were checked September 2026 and should be refreshed each spring.
+
+## Installers
+
+`src/data/installers.json` holds two arrays:
+
+- `companies` — only businesses verified against their own website. Each carries a `verified`
+  string saying when and what was checked, plus `services` (`install` / `equipment` /
+  `consulting` / `assessment`) which drives which section it appears in.
+- `programs` — official provincial and municipal FireSmart assessment and rebate programs,
+  keyed by province code.
+
+Do not add a company without checking its site and recording it in `verified`. Fabricated or
+stale listings are the fastest way to lose a directory's credibility.
+
+The "get listed" form uses Netlify Forms (`data-netlify="true"`). Submissions appear under
+Forms in the Netlify dashboard for the killflare project. No backend needed.
+
 ## Affiliate tags
 
 Search-and-replace before launch:
