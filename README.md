@@ -73,6 +73,28 @@ stale listings are the fastest way to lose a directory's credibility.
 The "get listed" form uses Netlify Forms (`data-netlify="true"`). Submissions appear under
 Forms in the Netlify dashboard for the killflare project. No backend needed.
 
+## Priority Alerts ($1/month)
+
+`/alerts/` is the paid supplementary alert offer, $1/month via PayPal Subscriptions.
+
+The flow is three pages:
+
+1. `/alerts/` — the offer. Renders the PayPal Smart Button from the JS SDK against plan
+   `P-5RF71429A82783118NKRSRVQ`. The `client-id` in the SDK URL is a publishable browser key,
+   not a secret, so it is fine in the repo.
+2. `/alerts/welcome/` — where PayPal sends the subscriber after approval, with the
+   subscription id on the query string as `?sub=`. PayPal hands over name and email but NOT
+   phone or postal code, and the service cannot function without those, so this page collects
+   them via a Netlify form (`alert-details`) with the subscription id in a hidden field.
+3. `/alerts/thanks/` — confirmation.
+
+To change the plan or account, edit `PAYPAL_PLAN_ID` / `PAYPAL_CLIENT_ID` at the top of
+`src/pages/alerts/index.astro`. Submissions land under Forms in the Netlify dashboard.
+
+The safety disclaimer near the top is not decorative. This service could be relied on during an
+emergency, so the page states plainly that it supplements official alerts, never replaces them,
+and that delivery can fail. Do not soften that copy.
+
 ## Affiliate tags
 
 Search-and-replace before launch:

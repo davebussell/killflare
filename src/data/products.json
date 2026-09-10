@@ -40,7 +40,92 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "Plastic sprinkler heads clip over the lip of your eavestrough and throw a low arc of water back across the roof deck and down the wall. The point is not to soak the shingles — it is to keep the roof, the fascia and the first metre of wall wet enough that an arriving ember goes out instead of taking hold, and to raise humidity in the air immediately around the house. You run it for the hours either side of a fire front passing, then shut it off.",
+      "market": "Gutter-mount ember-defense kits are a small market with maybe a dozen serious players, most of them Canadian and most founded after the 2016 Fort McMurray fire. They cluster into three tiers. At the bottom, generic tripod and impact sprinklers repurposed from irrigation — cheap, no roof coverage. In the middle, clip-on kits like WASP, Platypus and Flash: purpose-built heads, garden-hose fed, $600–$2,500 depending on head count. At the top, permanently plumbed systems like Frontline with dedicated pumps, tanks and remote activation, at $15,000–$40,000 installed. WASP sits squarely in the middle tier and competes mostly on being tool-free and Canadian-stocked rather than on throw distance or build quality, where Platypus arguably edges it.",
+      "features": [
+        {
+          "label": "Gutter-clip mounting",
+          "detail": "Heads hook over a standard 5 in K-style eavestrough. No drilling, no roof penetration, no ladder work beyond reaching the gutter line."
+        },
+        {
+          "label": "Garden-hose supply",
+          "detail": "Standard 3/4 in GHT fittings. Kit includes splitters and hose so the whole roofline runs off one or two outdoor taps."
+        },
+        {
+          "label": "Modular head count",
+          "detail": "Kits are sold by head count — typically 4, 6, 8 or 12 — so you scale to roofline length rather than buying a fixed package."
+        },
+        {
+          "label": "Low-pressure operation",
+          "detail": "Designed to give useful coverage at 30–40 psi, which is what a residential tap actually delivers with several heads open."
+        },
+        {
+          "label": "Dry storage",
+          "detail": "Heads come off in seconds and live in a bin the rest of the year, so nothing sits on the house degrading in UV."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $700–$2,400 / USD $550–$1,900 depending on head count and hose length",
+        "consumables": "None. Water is the only running cost — roughly 1,200–2,500 L per hour for a full roofline, which matters if you are on a well or a cistern.",
+        "ancillary": "Budget CAD $150–$400 for extra hose and a Y-splitter or two if your taps are badly placed. If you want it to work when the hydrants drop, add a pump and tank — that is CAD $2,000–$8,000 and is the real cost of this category.",
+        "fiveYear": "Effectively the purchase price. Heads are plastic and replaceable individually at CAD $60–$120 each."
+      },
+      "differentiators": [
+        {
+          "label": "Versus Platypus",
+          "detail": "WASP installs faster and is stocked more widely in Canada. Platypus throws further per head and is better on steep or complex rooflines, and costs a little more."
+        },
+        {
+          "label": "Versus a tripod sprinkler",
+          "detail": "A $60 tripod wets the yard and a bit of wall. It does not put water on the roof deck, which is where embers land. Different job, tenth the price."
+        },
+        {
+          "label": "Versus Frontline",
+          "detail": "Frontline is permanent, pump-fed and can be triggered from your phone from 400 km away. WASP requires you to be home with time to spare. That is the whole difference, and it is a big one."
+        },
+        {
+          "label": "What it is not",
+          "detail": "This is not a fire-suppression system and no insurer will discount your premium for it. It is ember mitigation."
+        }
+      ],
+      "buying": {
+        "effort": 2,
+        "lead": "In stock most of the year; expect 2–6 week backorders from June through August",
+        "where": "Direct from WASP's Canadian store, through Flash Wildfire Services, and via a handful of rural hardware co-ops in BC and Alberta. US buyers generally order direct and pay cross-border shipping.",
+        "note": "Buy in the winter. Every Canadian supplier in this category sells out the week a major fire makes national news, and the backorder queue does not care that you are the one under the smoke column."
+      },
+      "install": {
+        "effort": 1,
+        "time": "45–90 minutes for a typical bungalow, first time",
+        "tools": [
+          "Ladder",
+          "Garden hose",
+          "Optional: hose clamps for tidy routing"
+        ],
+        "note": "The install itself is genuinely easy. The part people underestimate is the dry run: you need to actually turn it on once, walk the perimeter, and find the two corners the spray does not reach. Do that in April, not in August."
+      },
+      "ongoing": {
+        "effort": 2,
+        "note": "Test it every spring and re-run the coverage walk. Heads go back in the bin after fire season. If you leave them clipped on year-round, expect UV embrittlement in 3–5 years."
+      },
+      "alternatives": [
+        {
+          "name": "Platypus Roof Sprinkler",
+          "note": "Better throw, better on steep roofs, slightly fiddlier to mount."
+        },
+        {
+          "name": "Tripod impact sprinklers",
+          "note": "A tenth the cost, a fraction of the protection. Worth owning as a supplement for the yard and fence line regardless."
+        },
+        {
+          "name": "Frontline or a local installer's permanent system",
+          "note": "Ten to twenty times the price, and the only option if you may not be home when it matters."
+        }
+      ],
+      "verdict": "The default first sprinkler purchase for a Canadian homeowner who will be on site. Its real weakness is not the product, it is the water supply behind it — which is why we keep telling people to buy the pump before they buy the fancier heads."
+    }
   },
   {
     "slug": "frontline-wildfire-defense-system",
@@ -73,7 +158,86 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A permanently installed system: sprinkler heads mounted to the roof, ridge or eaves and plumbed with rigid pipe, fed by a dedicated pump drawing from a tank, pool or well, with a controller that you trigger from a phone app. You are buying the ability to turn the house on from wherever the evacuation order caught you.",
+      "market": "Permanent residential wildfire sprinkler systems are a genuine industry now, roughly $15,000–$40,000 installed, with Frontline the best-known North American brand and a growing set of regional installers building equivalent systems from off-the-shelf components. The market splits between brand-name packaged systems (Frontline, a few US competitors) and custom builds by local fire-protection contractors, who are often 20–30% cheaper for equivalent hardware but vary enormously in design competence. There is no certification standard for residential wildfire sprinkler design, which means the installer's judgment is the product you are actually buying.",
+      "features": [
+        {
+          "label": "Remote activation",
+          "detail": "Cellular or satellite controller lets you start the system from anywhere. This is the entire reason the category exists."
+        },
+        {
+          "label": "Dedicated water source",
+          "detail": "Sized to run 2–6 hours unassisted from a tank, cistern, pool or well — independent of municipal pressure, which is the thing that fails during a major fire."
+        },
+        {
+          "label": "Permanent plumbing",
+          "detail": "No setup time, no ladder, nothing to forget. Freeze protection via drain-down or heat trace, depending on your climate."
+        },
+        {
+          "label": "Full-perimeter design",
+          "detail": "A site survey drives head placement across roof, deck, outbuildings and the vulnerable wall sections — not just the front elevation."
+        },
+        {
+          "label": "Monitoring",
+          "detail": "Most packages report pump status, tank level and pressure so you know it actually ran, rather than hoping."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $20,000–$55,000 / USD $15,000–$40,000 installed for a typical single-family home. Larger or multi-building properties run well past that.",
+        "consumables": "Pump fuel or power. A propane or diesel pump burns CAD $30–$80 per run.",
+        "ancillary": "If you do not already have a tank or a pool, the water storage is often 25–40% of the total. Some sites also need electrical work for the controller and pump.",
+        "fiveYear": "Budget CAD $500–$1,200 a year for annual commissioning, pump service and winterisation. Systems that are not serviced do not start."
+      },
+      "differentiators": [
+        {
+          "label": "Versus every clip-on kit",
+          "detail": "The clip-on kits require a person, a ladder and an hour. This requires a phone. If you travel, work away, or have any realistic chance of being ordered out before you can get home, that is the whole argument."
+        },
+        {
+          "label": "Versus a custom local build",
+          "detail": "Frontline gives you a known design, a warranty and a support line. A good local fire-protection contractor gives you the same hardware for less and knows your water table. A bad one gives you an expensive lawn sprinkler on the roof."
+        },
+        {
+          "label": "Insurance",
+          "detail": "A small but growing number of Canadian insurers will discuss terms on a professionally installed and documented system in a high-risk postal code. Ask before you buy, get it in writing, and do not assume."
+        },
+        {
+          "label": "Resale",
+          "detail": "In BC and Alberta interface communities this is starting to appear in listings as a feature. In most markets it is not yet a recoverable investment."
+        }
+      ],
+      "buying": {
+        "effort": 4,
+        "lead": "6–16 weeks from first call to commissioning, longer if the water source needs work",
+        "where": "Frontline direct or through their authorised installer network; regional wildfire-protection contractors for custom builds.",
+        "note": "Get three quotes and make each one show you head placement on a site plan and the calculated run time from your actual water source. If a quote does not contain a run-time number, it is not an engineered system, it is a price."
+      },
+      "install": {
+        "effort": 5,
+        "time": "2–5 days on site, plus permitting and water-source work",
+        "tools": [
+          "Nothing — this is a contractor install"
+        ],
+        "note": "Homeowner installation is not realistic and would void the warranty. Expect roof penetrations, a pump pad, electrical and possibly a plumbing permit."
+      },
+      "ongoing": {
+        "effort": 3,
+        "note": "Annual service before fire season, winterisation after. Test-fire it yourself in the spring — do not take the app's word for it. This is the category where 'installed and forgotten' fails most often."
+      },
+      "alternatives": [
+        {
+          "name": "Clip-on kit plus a portable pump and tank",
+          "note": "Roughly a fifth of the cost, most of the wetting, none of the remote activation. The right answer for most people."
+        },
+        {
+          "name": "A local fire-protection contractor's custom system",
+          "note": "Often 20–30% less for the same hardware. Quality of design varies wildly — vet hard."
+        }
+      ],
+      "verdict": "Worth it if you are absent-risk: a second property, a job that takes you away in August, or a road out that closes early. If you will reliably be home with two hours' warning, the money is better spent on vents, a pump and Zone 0."
+    }
   },
   {
     "slug": "platypus-wildfire-sprinkler",
@@ -111,7 +275,85 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A single high-throw sprinkler head, usually ridge- or gutter-mounted, that puts a wide wetted circle over the roof from fewer positions than a clip-kit needs. You buy heads individually and place them to cover the roof with overlap, then feed them from a garden hose or a pump.",
+      "market": "Single-head roof sprinklers are the value tier of purpose-built wildfire wetting — the space between a $60 lawn tripod and a $1,500 multi-head kit. Buyers here are people who want real roof coverage but are willing to do the geometry themselves. Competition is mostly Canadian and mostly small: Platypus, several Alberta-built equivalents, and a long tail of no-name imports that look similar and throw half as far. The specification that separates them is wetted diameter at 40 psi, which the serious brands publish and the imports do not.",
+      "features": [
+        {
+          "label": "High throw per head",
+          "detail": "A well-placed head covers 12–18 m diameter at residential pressure, so two or three can cover a small roof."
+        },
+        {
+          "label": "Buy individually",
+          "detail": "No kit markup. Scale one head at a time as budget allows."
+        },
+        {
+          "label": "Ridge or gutter mount",
+          "detail": "More placement freedom than a gutter-only clip, which matters on hipped and multi-level roofs."
+        },
+        {
+          "label": "Low-pressure design",
+          "detail": "Rated to give useful coverage from a standard tap, and to work properly when you upgrade to a pump."
+        },
+        {
+          "label": "Metal internals on the better models",
+          "detail": "Worth paying for. Plastic bearings in an impact head are the first thing to fail after two seasons of hard water."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $120–$350 per head. A typical bungalow needs 2–4; a two-storey with a complex roof, 4–6.",
+        "consumables": "None beyond water — roughly 400–900 L/hour per head.",
+        "ancillary": "Hose and splitters, CAD $100–$300. Mounting brackets if you ridge-mount rather than clip.",
+        "fiveYear": "Purchase price plus the occasional replacement head. Cheaper over five years than most kits."
+      },
+      "differentiators": [
+        {
+          "label": "Versus WASP",
+          "detail": "Better throw, better on steep and irregular roofs, cheaper per unit of coverage. Costs you the design work — you have to figure out placement yourself instead of following a kit diagram."
+        },
+        {
+          "label": "Versus a hardware-store impact sprinkler",
+          "detail": "Same operating principle, roughly triple the throw at low pressure and built to survive being run wide open for six hours. The cheap one will stall at 30 psi with three heads open."
+        },
+        {
+          "label": "The pressure trap",
+          "detail": "Two heads on one tap is fine. Five is not — pressure divides and every head throws short. This is the single most common mistake in this category, and it is why the pump matters more than the head."
+        }
+      ],
+      "buying": {
+        "effort": 2,
+        "lead": "Usually in stock; summer shortages are common",
+        "where": "Direct from the manufacturer, Canadian wildfire equipment suppliers such as Flash Wildfire Services, and some rural farm-supply stores.",
+        "note": "Ask for the wetted-diameter figure at 40 psi before you buy. If nobody will give you one, buy something else."
+      },
+      "install": {
+        "effort": 2,
+        "time": "15–30 minutes per head once you have decided placement",
+        "tools": [
+          "Ladder",
+          "Adjustable wrench",
+          "Teflon tape",
+          "Garden hose"
+        ],
+        "note": "Decide placement with the sprinkler running, on a calm day in spring, and mark the spots. Chalk the dry patches on the roof and move a head until they close up."
+      },
+      "ongoing": {
+        "effort": 2,
+        "note": "Flush after each season — mineral scale is what kills impact heads. Store dry. Retest each spring."
+      },
+      "alternatives": [
+        {
+          "name": "WASP full kit",
+          "note": "Faster to install, easier to get right, more money."
+        },
+        {
+          "name": "Tripod impact sprinklers",
+          "note": "For the yard, fence line and outbuildings. Not for the roof."
+        }
+      ],
+      "verdict": "The best value per litre on the roof, if you are willing to spend an afternoon in the spring working out where the heads go. Pair with a pump before you buy a fourth head."
+    }
   },
   {
     "slug": "tripod-impact-sprinkler-kit",
@@ -149,7 +391,78 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A brass impact sprinkler on an adjustable tripod — the same thing farms have used for eighty years. You place it upwind of what you want wet: the fence line, the deck, the woodpile, the outbuilding, the last few metres of yard. It will also put water on a low single-storey roof if you get the height and angle right.",
+      "market": "This is a commodity. Brass impact heads and tripods are made by dozens of manufacturers and sold through every hardware and farm-supply chain in North America, at CAD $40–$140. The only meaningful split is brass versus plastic internals: brass heads cost twice as much and last roughly ten times as long under continuous use. Nothing in this category is designed for wildfire specifically, and no vendor should be charging you a wildfire premium for one.",
+      "features": [
+        {
+          "label": "Adjustable arc and radius",
+          "detail": "Set full circle or a part-arc so you are not wasting pressure watering the road."
+        },
+        {
+          "label": "Tripod height",
+          "detail": "Most extend to 1.2–1.8 m, which is enough to clear a fence and reach a low roof edge."
+        },
+        {
+          "label": "Brass internals",
+          "detail": "The whole quality question. Brass survives being run wide open for hours; plastic bearings do not."
+        },
+        {
+          "label": "Standard hose thread",
+          "detail": "Works with everything you already own, and chains in series if pressure allows."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $40–$140 each. Two or three is a sensible number.",
+        "consumables": "None. About 500–1,000 L/hour each.",
+        "ancillary": "Hose, splitters and quick-connects: CAD $60–$200.",
+        "fiveYear": "A brass unit run a few hours a year will outlive the fence it is protecting."
+      },
+      "differentiators": [
+        {
+          "label": "Versus roof sprinklers",
+          "detail": "Completely different job. This wets ground fuel, fences and structures at ground level. It does not reliably wet a roof deck, which is where the ember problem lives. Own both; do not substitute."
+        },
+        {
+          "label": "Brass versus plastic",
+          "detail": "Pay the extra CAD $50. A plastic head that seizes in hour three of the only day it mattered was not a saving."
+        },
+        {
+          "label": "The honest caveat",
+          "detail": "Wetting the yard has real but modest value — it slows surface spread and buys minutes. It will not stop a crown fire and it will not save a house with open vents."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Same day, almost anywhere",
+        "where": "Any hardware store, farm supply, irrigation supplier or Amazon.",
+        "note": "The easiest purchase on this entire site. Buy it this weekend and stop thinking about it."
+      },
+      "install": {
+        "effort": 1,
+        "time": "5 minutes",
+        "tools": [
+          "Garden hose"
+        ],
+        "note": "None required. Set it up, spread the legs, connect, done."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Drain and store indoors over winter. Occasional nozzle clean if you are on well water."
+      },
+      "alternatives": [
+        {
+          "name": "Platypus or WASP roof sprinklers",
+          "note": "For the roof. This is not a substitute."
+        },
+        {
+          "name": "Soaker hose along a fence line",
+          "note": "Cheaper still, far less water thrown, useful for a specific hot spot."
+        }
+      ],
+      "verdict": "Cheap, useful, and not to be confused with roof protection. Buy two, use them on the fence line, the woodpile and the shed, and spend your real money higher up the priority list."
+    }
   },
   {
     "slug": "phos-chek-home-defense",
@@ -187,7 +500,86 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A long-term retardant concentrate you mix with water and spray on fences, decks, mulch beds, sheds and the wooden things around the house. Unlike gel, it does not depend on staying wet: the salts stay on the surface after the water evaporates and chemically interfere with combustion for weeks or months, until heavy rain washes them off. You apply it early in the season, not at the last minute.",
+      "market": "Consumer long-term retardant is a young category dominated by one name — Phos-Chek, the same Perimeter Solutions chemistry dropped from air tankers, repackaged for homeowners. Competitors are mostly regional resellers of similar ammonium-phosphate formulations, plus a fringe of unregistered products that are essentially fertiliser with dye. The meaningful buying signal is regulatory: in the US, look for a product on the USDA Forest Service qualified products list; in Canada, check the PMRA registration or the manufacturer's Canadian SDS. Anything sold as 'fire retardant' with no registration number is a bottle of salt water.",
+      "features": [
+        {
+          "label": "Long-term protection",
+          "detail": "Stays effective after drying — typically until roughly 25–50 mm of cumulative rain has fallen. One spring application often covers most of a dry season."
+        },
+        {
+          "label": "Concentrate",
+          "detail": "Sold as powder or liquid concentrate, mixed at the labelled ratio in a pump sprayer or hose-end applicator."
+        },
+        {
+          "label": "Coloured or uncoloured",
+          "detail": "The uncoloured version is far more sensible on a house. The coloured version exists so aerial crews can see coverage, and it will stain."
+        },
+        {
+          "label": "Broad substrate compatibility",
+          "detail": "Wood, mulch, vegetation, fencing. Not for glass, vehicles or anything you want to keep clean."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $120–$350 / USD $90–$280 for a homeowner kit covering roughly 200–500 m² of surface, depending on absorbency.",
+        "consumables": "The retardant itself is the consumable. Budget one full application per season, twice if you get a wet June.",
+        "ancillary": "A 15–20 L backpack or wheeled pump sprayer, CAD $80–$250, if you do not already own one. Gloves and eye protection.",
+        "fiveYear": "CAD $600–$1,800 for a house that reapplies annually. This is a subscription, not a purchase — plan for it."
+      },
+      "differentiators": [
+        {
+          "label": "Versus gel",
+          "detail": "The fundamental split in this category. Retardant is applied weeks ahead and keeps working dry. Gel is applied in the last hour and only works while it is wet. They are complementary, not competing — retardant on the fence in May, gel on the wall in August."
+        },
+        {
+          "label": "Versus doing nothing to the fence",
+          "detail": "A wooden fence that runs up to the house is one of the most reliable ways to deliver fire to a wall. Treating it is high-value. Replacing the last 2 m with metal is better and permanent."
+        },
+        {
+          "label": "The staining question",
+          "detail": "Even uncoloured product can leave a faint residue on cedar and light stone. Test a patch. Assume you will be pressure-washing something afterwards."
+        },
+        {
+          "label": "Environmental note",
+          "detail": "Ammonium-phosphate retardants are hard on fish. Do not spray near a creek, pond or storm drain, and keep it out of the ditch."
+        }
+      ],
+      "buying": {
+        "effort": 2,
+        "lead": "Usually in stock spring and early summer; sells out during active fire seasons",
+        "where": "Direct from Perimeter Solutions' consumer channel, Amazon in both countries, and Canadian wildfire equipment suppliers. Some rural fire departments run bulk-buy programs — worth a phone call.",
+        "note": "Check the label for a registration number before you pay. This category attracts imitators."
+      },
+      "install": {
+        "effort": 2,
+        "time": "2–4 hours for a typical property, plus mixing",
+        "tools": [
+          "Backpack or wheeled pump sprayer",
+          "Gloves",
+          "Eye protection",
+          "Measuring jug",
+          "Tarp for masking"
+        ],
+        "note": "Do it on a calm, dry day with 24 hours of no rain forecast. Mask anything you care about — windows, siding, vehicles, the neighbour's car. Work top-down and do not skimp on the fence sections nearest the house, which are the ones that matter."
+      },
+      "ongoing": {
+        "effort": 3,
+        "note": "Reapply after heavy rain and at least once a year. Diarise it for the first dry week of spring. Store the concentrate dry and above freezing."
+      },
+      "alternatives": [
+        {
+          "name": "Barricade or Thermo-Gel",
+          "note": "Different job — last-hour wet protection, not season-long dry protection."
+        },
+        {
+          "name": "Replacing the last 2 m of wooden fence with steel",
+          "note": "CAD $200–$600 and permanent. Do this as well, and it removes the reason to spray that section at all."
+        }
+      ],
+      "verdict": "The highest-value chemical purchase for most properties, because it treats the fences, decks and mulch that actually carry fire to the wall. Just understand you are signing up for an annual chore, not buying a thing once."
+    }
   },
   {
     "slug": "barricade-fire-gel",
@@ -221,7 +613,85 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A superabsorbent polymer concentrate that mixes with water into a thick gel and is sprayed onto walls, windows, decks and eaves. The gel is roughly 99% water held in a matrix that resists running off and evaporating. It buys the surface it covers a window of protection — typically a few hours in serious heat — and stops working the moment it dries out. It is the last thing you do before you leave.",
+      "market": "Fire-blocking gel is a small, technically genuine category with three or four credible manufacturers — Barricade, Thermo-Gel, and a couple of firefighting-supply brands — plus a great deal of marketing noise. All the real products are variations on the same polymer chemistry, tested to broadly similar standards, and used by professional structure-protection crews. Consumer pricing is CAD $150–$600 for enough concentrate to treat one house once. The differentiators between brands are dwell time in heat, ease of mixing, and whether you can apply it with a garden hose eductor or need a dedicated pump.",
+      "features": [
+        {
+          "label": "Hose-end application",
+          "detail": "Barricade's consumer kit uses an eductor that meters concentrate into a garden hose stream — no separate mixing tank, no pump required."
+        },
+        {
+          "label": "Cling on vertical surfaces",
+          "detail": "The whole point. It stays on a wall or a window where water would run off in seconds."
+        },
+        {
+          "label": "Rewettable",
+          "detail": "If it starts to dry and you still have water and time, you can wet it again rather than reapplying concentrate."
+        },
+        {
+          "label": "Non-toxic, water-soluble",
+          "detail": "Rinses off with a pressure washer afterwards. Safe on painted siding, though it will need cleaning up."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $250–$700 / USD $200–$550 for a homeowner kit — concentrate plus eductor — covering roughly one full application on an average house.",
+        "consumables": "The concentrate. One serious application empties a homeowner kit. Assume you buy a replacement after every use.",
+        "ancillary": "Adequate water pressure and volume. If your tap cannot sustain flow, add a pump. A second person makes the application twice as fast, which matters when you have an hour.",
+        "fiveYear": "CAD $250–$700 for the kit plus a replacement after any use. Shelf life is typically 3–5 years — check the date and replace expired stock."
+      },
+      "differentiators": [
+        {
+          "label": "Versus Phos-Chek retardant",
+          "detail": "Gel works wet and is applied at the last minute; retardant works dry and is applied in spring. You want both, for different surfaces at different times."
+        },
+        {
+          "label": "Versus Thermo-Gel",
+          "detail": "Broadly equivalent chemistry. Barricade's consumer packaging and hose eductor are easier for a homeowner; Thermo-Gel's larger formats are cheaper per litre and aimed at people with a pump."
+        },
+        {
+          "label": "The timing trap",
+          "detail": "Gel applied too early has dried out and is doing nothing by the time the front arrives. Gel applied too late means you were still on a ladder when you should have been driving. This product demands that you have a plan and a trigger point written down."
+        },
+        {
+          "label": "What it cannot do",
+          "detail": "It protects the surfaces you covered. It does nothing for an open vent, a gutter full of needles, or a woodpile against the wall."
+        }
+      ],
+      "buying": {
+        "effort": 2,
+        "lead": "In stock most of the year, scarce during active fire seasons",
+        "where": "Barricade direct, Amazon in both countries, Canadian wildfire equipment suppliers, and firefighting supply houses.",
+        "note": "Buy the concentrate and the eductor together. Check the expiry date on arrival — this category moves slowly through retail and old stock is common."
+      },
+      "install": {
+        "effort": 3,
+        "time": "45–90 minutes to apply to a full house under pressure, if you have practised",
+        "tools": [
+          "Garden hose with good flow",
+          "The kit's eductor",
+          "Ladder",
+          "Eye protection"
+        ],
+        "note": "Practise once with plain water so you know the reach, the sequence and how long it actually takes. Applying gel for the first time on the day of an evacuation order is how people get caught out. Prioritise: windows and glazed doors first, then walls facing the fuel, then the deck."
+      },
+      "ongoing": {
+        "effort": 2,
+        "note": "Check the expiry date each spring. Rinse thoroughly after any application. Replace the kit after use — do not assume half a jug is a second defence."
+      },
+      "alternatives": [
+        {
+          "name": "Thermo-Gel 200L",
+          "note": "Cheaper per litre in bulk, better if you have a pump and a large property."
+        },
+        {
+          "name": "Exterior sprinklers",
+          "note": "Run unattended for hours rather than needing a person with a wand. Different failure mode — they need water pressure to keep flowing."
+        }
+      ],
+      "verdict": "A real product that does a real thing, and one that punishes poor planning more than anything else on this site. Only buy it if you will also write down the trigger point at which you start spraying — and the later trigger point at which you stop and drive."
+    }
   },
   {
     "slug": "thermo-gel-200l",
@@ -252,7 +722,81 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "The same superabsorbent-polymer principle as Barricade, sold in the volume a structure-protection crew or a large rural property actually uses. You draw concentrate through an eductor or inject it into a pump discharge, and coat structures with gel that holds water against heat for hours.",
+      "market": "This is the professional end of the gel market, where the buyer is a rural fire department, a contractor doing structure protection, or a homeowner with several buildings and a pump. Per-litre cost drops sharply above about 20 L, and 200 L drums are the standard format. Thermo-Gel and Barricade both compete here alongside firefighting distributors' house brands. Performance differences between credible brands are smaller than the differences in how well the operator applies the product.",
+      "features": [
+        {
+          "label": "Bulk economics",
+          "detail": "Per-litre cost is typically a third to a half of consumer kit pricing."
+        },
+        {
+          "label": "Pump-fed application",
+          "detail": "Designed to be injected into a pump discharge or drawn by a proportioner, which is how you cover multiple buildings in the time available."
+        },
+        {
+          "label": "Long dwell in heat",
+          "detail": "Formulated to hold water under radiant load rather than flash off, which is the specification that matters and the one worth asking about."
+        },
+        {
+          "label": "Multi-structure coverage",
+          "detail": "A drum treats a house, barn, shop and a pump house, with margin."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $2,500–$6,000 / USD $2,000–$4,500 for a 200 L drum, varying widely by distributor and season.",
+        "consumables": "The drum is the consumable. Shelf life is typically 3–5 years unopened, less once broached.",
+        "ancillary": "A pump and proportioner or eductor, CAD $1,500–$6,000, and hose. Without those this is a drum of expensive syrup.",
+        "fiveYear": "Assume a drum replacement per five-year cycle even if unused, plus pump service."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a consumer gel kit",
+          "detail": "Far cheaper per litre and the only sensible option above about three structures. Requires equipment and a person who has trained with it."
+        },
+        {
+          "label": "Versus retardant",
+          "detail": "Same wet-versus-dry distinction as always. Bulk gel does not remove the case for treating fences in spring."
+        },
+        {
+          "label": "Who this is actually for",
+          "detail": "Ranches, acreages with outbuildings, remote lodges, and neighbourhood co-operatives who buy one drum and one pump between six houses. If you have one house on a suburban lot, buy the consumer kit."
+        }
+      ],
+      "buying": {
+        "effort": 3,
+        "lead": "1–6 weeks; dangerous-goods shipping applies and drums are not couriered casually",
+        "where": "Firefighting supply distributors, wildfire equipment specialists, and direct from the manufacturer for volume orders.",
+        "note": "Ask about freight before you commit — drum shipping to a rural address can add CAD $300–$800. A shared purchase with neighbours is the standard way people afford this."
+      },
+      "install": {
+        "effort": 4,
+        "time": "Application of a full property: 2–4 hours with a trained operator",
+        "tools": [
+          "Fire pump",
+          "Eductor or proportioner",
+          "1.5 in hose and nozzle",
+          "PPE"
+        ],
+        "note": "This is equipment, not a product you unbox. Budget a training day with whoever sold it to you, and run a water-only drill annually. The failure mode here is a drum nobody knows how to deploy."
+      },
+      "ongoing": {
+        "effort": 3,
+        "note": "Annual drill, pump service, drum date check. Store above freezing and out of sunlight."
+      },
+      "alternatives": [
+        {
+          "name": "Barricade consumer kit",
+          "note": "The right size for a single house. Ten times simpler."
+        },
+        {
+          "name": "Hiring a structure-protection contractor on standby",
+          "note": "Some BC and Alberta operators sell pre-season agreements. Worth pricing against buying the drum yourself."
+        }
+      ],
+      "verdict": "Correct for acreages, ranches and neighbourhood co-ops — wrong for a single suburban house, where the consumer kit does the same job without demanding you become a pump operator."
+    }
   },
   {
     "slug": "vulcan-vents",
@@ -285,7 +829,91 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A replacement vent that looks like a normal soffit, gable or foundation vent until it gets hot. Inside is an intumescent material that expands when exposed to fire or high heat and plugs the opening completely, sealing the attic or crawlspace against embers and flame. The rest of the year it ventilates normally, which is the whole trick — you cannot simply block a vent, because the building needs the airflow.",
+      "market": "Ember-resistant vents are a small but maturing market driven almost entirely by California building code. Chapter 7A of the California Building Code and the associated WUI listings created the demand, and the credible manufacturers — Vulcan, Brandguard, and a handful of others — all build to that standard. Prices run CAD $60–$220 per vent. Outside California there is no code requirement anywhere in North America yet, which means the market is entirely voluntary and most homeowners have never heard of the product. That is unfortunate, because attic vents are the single most common route by which embers get inside a house.",
+      "features": [
+        {
+          "label": "Intumescent closure",
+          "detail": "Expands and seals under heat. Passive, no power, no maintenance, nothing to activate."
+        },
+        {
+          "label": "Normal ventilation when cold",
+          "detail": "Net free area comparable to the vent it replaces, so you do not create a moisture problem in the attic."
+        },
+        {
+          "label": "WUI listing",
+          "detail": "Tested to California's Chapter 7A ember-intrusion and flame-impingement protocols. This is the only meaningful third-party validation in the category — ask for the listing number."
+        },
+        {
+          "label": "Standard sizes",
+          "detail": "Made in common North American vent dimensions so most swaps are drop-in."
+        },
+        {
+          "label": "Multiple types",
+          "detail": "Soffit, gable, dormer, foundation and roof vents — you generally need a mix."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $70–$220 per vent. A typical bungalow has 8–20 vents; a two-storey with a complex roof, 20–40.",
+        "consumables": "None. Passive device, no service parts.",
+        "ancillary": "Cross-border shipping if buying US product into Canada, plus duty. Paint if you want them to match.",
+        "fiveYear": "Nil. This is genuinely buy-once."
+      },
+      "differentiators": [
+        {
+          "label": "Versus 1/8 in ember mesh",
+          "detail": "Mesh is a tenth the price and stops the majority of embers. It does not stop flame impingement and it does not seal. If budget is tight, mesh everything first — then upgrade the two or three vents most exposed to the fuel."
+        },
+        {
+          "label": "Versus Brandguard",
+          "detail": "Broadly equivalent performance and price. Brandguard uses a baffle-and-mesh geometry, Vulcan an intumescent plug. Vulcan tends to be easier to source in Canada; availability should probably decide it for you."
+        },
+        {
+          "label": "Versus blocking vents with plywood on the day",
+          "detail": "People plan this and then are not home, or are home and forget the crawlspace. A passive device does not depend on you."
+        },
+        {
+          "label": "The under-appreciated point",
+          "detail": "Vents are where houses actually get lost. Post-fire investigations keep finding intact exteriors with burned-out attics. This is not a glamorous purchase and it may be the highest-leverage one on the site."
+        }
+      ],
+      "buying": {
+        "effort": 3,
+        "lead": "2–6 weeks typical; longer for non-standard sizes",
+        "where": "Vulcan direct, WUI-focused building suppliers, and a growing number of Canadian building-supply dealers. Many are ordered rather than stocked.",
+        "note": "Count and measure every vent on the house before you call — soffit, gable, roof, foundation, dryer and crawlspace. People routinely order for the ones they can see and discover four more later."
+      },
+      "install": {
+        "effort": 3,
+        "time": "15–40 minutes per vent; a full house is a weekend or a day for a contractor",
+        "tools": [
+          "Ladder",
+          "Drill/driver",
+          "Pry bar",
+          "Utility knife",
+          "Caulk gun",
+          "Tin snips for oversize openings"
+        ],
+        "note": "Soffit vents are straightforward if you are comfortable on a ladder. Gable and roof vents are less so. Most homeowners do the soffits themselves and hire out the roof. Budget CAD $600–$2,000 for a contractor to do a whole house."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Inspect annually for paint over-spray blocking the vent and for wasp nests. Otherwise nothing."
+      },
+      "alternatives": [
+        {
+          "name": "Brandguard Ember & Flame Vents",
+          "note": "Equivalent alternative; buy whichever you can actually get."
+        },
+        {
+          "name": "1/8 in stainless ember mesh",
+          "note": "A tenth the cost, most of the benefit for embers, none of it for flame. A legitimate stepping stone."
+        }
+      ],
+      "verdict": "The best money on this site per dollar of risk removed, and the one nobody buys because it is invisible. If you do one structural upgrade, do the vents."
+    }
   },
   {
     "slug": "brandguard-vents",
@@ -317,7 +945,86 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A vent built as a labyrinth: incoming air has to turn through a baffled path lined with fine mesh before it reaches the attic. Embers, which travel in a straight line and burn out quickly, cannot make the turns. Flame is stopped by the mesh and the geometry. There is no expanding material and no activation — the shape of the thing is the mechanism.",
+      "market": "Brandguard is one of the two names that come up whenever ember-resistant vents are discussed, alongside Vulcan, and both were built for California's Chapter 7A market. Pricing sits in the same CAD $80–$250 per vent band. The category as a whole is under-bought outside California and dramatically under-marketed — there is no advertising budget behind attic vents, which is why most homeowners in high-risk Canadian postal codes have never encountered the concept.",
+      "features": [
+        {
+          "label": "Baffled labyrinth path",
+          "detail": "Passive geometry — nothing to expand, degrade or expire."
+        },
+        {
+          "label": "Integral fine mesh",
+          "detail": "Corrosion-resistant mesh inside the baffle path, protected from physical damage by the housing."
+        },
+        {
+          "label": "WUI listed",
+          "detail": "Tested to California Chapter 7A protocols. Ask for the listing number; it is the category's only real third-party check."
+        },
+        {
+          "label": "Full product range",
+          "detail": "Soffit, eave, gable, foundation, dormer and roof configurations in common sizes."
+        },
+        {
+          "label": "Paintable",
+          "detail": "Finished to accept paint so it disappears into the soffit line."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $80–$250 per vent. Budget by count: 8–20 vents on a bungalow, 20–40 on a larger two-storey.",
+        "consumables": "None.",
+        "ancillary": "Freight and duty on US-sourced product. Paint.",
+        "fiveYear": "Nil beyond an annual look."
+      },
+      "differentiators": [
+        {
+          "label": "Versus Vulcan",
+          "detail": "Different mechanism, similar tested outcome, similar price. The baffle design has no material that could theoretically age out; the intumescent design gives a positive seal rather than a filtered path. Neither difference is large enough to override availability and lead time in your area."
+        },
+        {
+          "label": "Versus mesh alone",
+          "detail": "Mesh retrofits are cheap and worthwhile. A listed vent also handles direct flame impingement, which mesh over a plain vent does not."
+        },
+        {
+          "label": "Net free area",
+          "detail": "Any restrictive vent reduces airflow. Check that your replacement's net free area meets your attic's ventilation requirement, or you are trading a fire problem for a moisture and ice-dam problem."
+        }
+      ],
+      "buying": {
+        "effort": 3,
+        "lead": "2–8 weeks; often a special order in Canada",
+        "where": "Brandguard direct, WUI building suppliers, specialist distributors. Some Canadian FireSmart-affiliated contractors will source them as part of a package.",
+        "note": "Get a full vent schedule — type, size and count — before ordering. Mixed sizes are normal and a second freight charge for four missed vents is annoying."
+      },
+      "install": {
+        "effort": 3,
+        "time": "15–40 minutes per vent",
+        "tools": [
+          "Ladder",
+          "Drill/driver",
+          "Pry bar",
+          "Utility knife",
+          "Caulk gun"
+        ],
+        "note": "Same as any vent swap: remove the old, check the rough opening, fit, seal the perimeter. Roof-mounted units are a roofer's job unless you are genuinely comfortable up there."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Annual visual check for blockage, paint over-spray and nests."
+      },
+      "alternatives": [
+        {
+          "name": "Vulcan Vents",
+          "note": "The direct equivalent. Choose on lead time."
+        },
+        {
+          "name": "Stainless ember mesh over existing vents",
+          "note": "The budget path, and a reasonable one."
+        }
+      ],
+      "verdict": "Interchangeable with Vulcan for practical purposes. Order whichever one you can get in the size mix your house actually needs, and do not let a preference between two good products become a reason to do nothing for another season."
+    }
   },
   {
     "slug": "stainless-ember-mesh",
@@ -355,7 +1062,86 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "1/8 inch (3 mm) stainless steel woven mesh, cut and fastened over the inside or outside of existing vents, under-deck openings, crawlspace access and any other gap an ember could enter. The aperture is the entire specification: 3 mm is small enough to stop the vast majority of wind-carried embers and large enough not to choke ventilation or clog with dust.",
+      "market": "A commodity material sold by screen suppliers, hardware chains, industrial mesh distributors and Amazon, at CAD $40–$150 per roll. The only questions are aperture and alloy. Aluminium mesh is cheaper and melts. Fibreglass insect screen is useless — it burns. 1/4 inch hardware cloth passes embers. Get 1/8 inch stainless, usually type 304 or 316, and ignore everything else on the shelf.",
+      "features": [
+        {
+          "label": "1/8 in aperture",
+          "detail": "The figure recommended by FireSmart Canada, NFPA and California Chapter 7A. Not 1/4 in, which passes embers, and not window screen, which clogs."
+        },
+        {
+          "label": "Stainless steel",
+          "detail": "Will not melt under flame contact and will not corrode out in five years the way galvanised does in coastal or road-salt conditions."
+        },
+        {
+          "label": "Cuts with snips",
+          "detail": "No special tooling. Fastens with staples, screws and washers, or a wooden batten."
+        },
+        {
+          "label": "Universal application",
+          "detail": "Vents, under-deck skirting, crawlspace openings, the gap under a shed, the space behind lattice."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $40–$150 per roll. One or two rolls covers a typical house.",
+        "consumables": "None.",
+        "ancillary": "Stainless staples or screws and fender washers, CAD $20–$40. Use stainless fasteners — galvanised staples into stainless mesh corrode fast.",
+        "fiveYear": "Nil."
+      },
+      "differentiators": [
+        {
+          "label": "Versus listed ember-resistant vents",
+          "detail": "A tenth the price and it addresses the dominant threat, which is wind-blown embers. It does not address direct flame impingement on the vent, and it does not seal. The sensible sequence for a tight budget is: mesh everything now, upgrade the most exposed vents to listed units later."
+        },
+        {
+          "label": "Versus aluminium or fibreglass screen",
+          "detail": "Aluminium melts around 660 °C, which a burning vent easily exceeds. Fibreglass insect screen burns. Neither is a fire product regardless of what the packaging implies."
+        },
+        {
+          "label": "The clogging myth",
+          "detail": "1/8 in stainless does not meaningfully restrict attic ventilation on a normal house. It will collect lint at a dryer vent, so check that one annually."
+        },
+        {
+          "label": "Do not forget",
+          "detail": "The openings people miss: under the deck, behind lattice skirting, the crawlspace hatch, the gap where the gas line enters, and the roof-to-wall junction on a split-level."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Same day to a week",
+        "where": "Hardware stores, industrial screen and mesh suppliers, Amazon in both countries, farm supply.",
+        "note": "Confirm the aperture in the listing, not the marketing name. 'Fine mesh' means nothing; 1/8 in or 3 mm means something."
+      },
+      "install": {
+        "effort": 2,
+        "time": "A full afternoon to do a whole house properly",
+        "tools": [
+          "Tin snips",
+          "Gloves — cut mesh edges are vicious",
+          "Staple gun with stainless staples or drill and screws",
+          "Tape measure",
+          "Ladder"
+        ],
+        "note": "Fasten it on the inside of the vent where you can, so the exterior look is unchanged and the mesh is protected. Overlap generously and fasten every 100–150 mm — an edge that lifts is a hole. Wear gloves; this material draws blood."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Annual walk-around looking for lifted edges, corrosion at fasteners and lint at the dryer vent."
+      },
+      "alternatives": [
+        {
+          "name": "Vulcan or Brandguard vents",
+          "note": "The proper upgrade when budget allows. Do the mesh anyway on everything that is not a vent."
+        },
+        {
+          "name": "Nothing",
+          "note": "The most common choice and the reason attics burn."
+        }
+      ],
+      "verdict": "The cheapest genuinely effective thing you can buy for a house. If you read one product page on this site and act on it, make it this one — CAD $60 and an afternoon closes the openings that lose houses."
+    }
   },
   {
     "slug": "steel-micro-mesh-gutter-guard",
@@ -393,7 +1179,85 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A stainless micro-mesh panel that clips or screws over the eavestrough so water gets in and needles, leaves and embers do not. The fire logic is simple: a gutter full of dry conifer litter sitting against the fascia is a ready-made ember trap at the exact point where roof meets wall. Keep the trough empty and you remove one of the most reliable ignition points on a house.",
+      "market": "Gutter protection is a large, noisy consumer market where most of the money is in installed systems sold door-to-door at CAD $2,500–$8,000 a house, with aggressive marketing and long warranties. Underneath that, the same stainless micro-mesh panels sell as DIY product for CAD $4–$12 per linear foot. The fire-relevant distinction is not brand, it is material and aperture: stainless micro-mesh over an aluminium frame is the only construction that both excludes conifer needles and cannot melt. Plastic and foam inserts are common, cheap, and actively bad here — foam holds debris and burns, and plastic deforms.",
+      "features": [
+        {
+          "label": "Stainless micro-mesh",
+          "detail": "Fine enough to exclude pine and fir needles, which defeat every coarser design."
+        },
+        {
+          "label": "Non-combustible construction",
+          "detail": "Stainless mesh on aluminium or steel frame. Nothing in the assembly burns or melts."
+        },
+        {
+          "label": "Clip or screw fixing",
+          "detail": "Most DIY panels either snap under the first shingle course or screw to the front lip. Under-shingle fitting can affect a roof warranty — check."
+        },
+        {
+          "label": "Sold by the foot",
+          "detail": "Measure your gutter run and buy that length. No package pricing games."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $6–$16 per linear foot DIY. A typical bungalow has 120–200 ft of gutter, so CAD $800–$3,000.",
+        "consumables": "None.",
+        "ancillary": "Stainless screws. A ladder stabiliser if you do not have one, CAD $60–$120.",
+        "fiveYear": "Nil in materials. It saves you two gutter cleans a year, which is CAD $200–$500 annually if you were paying someone."
+      },
+      "differentiators": [
+        {
+          "label": "Versus foam or brush inserts",
+          "detail": "Cheaper and worse. Foam holds needles and organic debris in the trough and is itself combustible. Brush inserts collect litter in the bristles. Both make the fire problem slightly worse while looking like a solution."
+        },
+        {
+          "label": "Versus an installed premium system",
+          "detail": "Same functional material at a quarter to a third of the price. You are paying the difference for warranty, labour and not being on a ladder."
+        },
+        {
+          "label": "Versus just cleaning the gutters twice a year",
+          "detail": "Free and equally effective — if you actually do it, every year, including the back of the house and the second storey. Most people do not. Guards are a hedge against your own future laziness, which is a legitimate thing to buy."
+        },
+        {
+          "label": "Fire-season caveat",
+          "detail": "Guards keep the trough clear but debris still accumulates on top of them, on the roof and in valleys. They are not a reason to stop looking at your roof."
+        }
+      ],
+      "buying": {
+        "effort": 2,
+        "lead": "In stock; DIY panels ship in days",
+        "where": "Building-supply chains, roofing suppliers, Amazon, and gutter specialists. Installed systems via the usual home-improvement contractors.",
+        "note": "Ignore anything sold as a 'fire-rated gutter guard' at a premium — there is no such rating. What you want is stainless micro-mesh, which is a specification you can verify."
+      },
+      "install": {
+        "effort": 3,
+        "time": "A full weekend for a typical house, DIY",
+        "tools": [
+          "Ladder and stabiliser",
+          "Tin snips",
+          "Drill/driver with stainless screws",
+          "Gloves"
+        ],
+        "note": "The hard part is not the product, it is the hours on a ladder and the corners and downpipe transitions. If your house is two storeys or the roof pitch is steep, hire it out — falls are the actual risk in this project."
+      },
+      "ongoing": {
+        "effort": 2,
+        "note": "Blow or brush debris off the top of the guards each autumn and again before fire season. Check the roof valleys at the same time, which is where the litter that matters usually sits."
+      },
+      "alternatives": [
+        {
+          "name": "Twice-yearly gutter cleaning",
+          "note": "Free, equally effective, requires discipline you may not have."
+        },
+        {
+          "name": "Metal gutter with no guard, cleaned before fire season",
+          "note": "Perfectly acceptable if the trees near the house are deciduous rather than conifer."
+        }
+      ],
+      "verdict": "Worth doing, mainly because it removes a maintenance task you were probably going to skip. Do not overpay for a branded installed system when the material that matters costs a third as much."
+    }
   },
   {
     "slug": "firezat-structure-wrap",
@@ -426,7 +1290,89 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A reflective aluminium-faced fabric that you fasten over the exterior of a structure before a fire front arrives. It reflects radiant heat and blocks direct ember contact with the wall and roof surfaces underneath. It is the same principle firefighters use when they wrap historic cabins and lookouts ahead of a burn — which is exactly where the technique comes from.",
+      "market": "Structure wrap is a genuinely proven technique with a very small consumer market. Firezat is the best-known homeowner-facing brand; the rest of the category is professional wrap sold to agencies for fire-line use. Consumer kits run CAD $3,500–$12,000 for a house. The problem is not efficacy — agencies use it because it works — it is deployment: wrapping a house is a multi-person job that takes hours, needs practice, and has to happen before the front arrives but after you would rather have left.",
+      "features": [
+        {
+          "label": "Reflective aluminium face",
+          "detail": "Rejects the radiant heat that ignites siding, trim and window frames without any flame contact."
+        },
+        {
+          "label": "Fibreglass-reinforced substrate",
+          "detail": "Strong enough to survive the wind and handling that wrapping a house involves."
+        },
+        {
+          "label": "Custom-cut kits",
+          "detail": "Sold cut to your building's dimensions with a fastening scheme, rather than as a roll you improvise from."
+        },
+        {
+          "label": "Reusable",
+          "detail": "If it is not damaged, it comes off and goes back in the crate for next time."
+        },
+        {
+          "label": "Covers what nothing else can",
+          "detail": "Windows, eaves, decks and log walls all at once — surfaces that sprinklers and gel each only partly address."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $4,000–$14,000 / USD $3,000–$11,000 for a house kit, depending on size and complexity.",
+        "consumables": "Fasteners and tape per deployment, CAD $100–$300. Damaged panels after a real deployment.",
+        "ancillary": "Storage space. A crate of wrap is bulky and must stay dry.",
+        "fiveYear": "Purchase price plus replacement of damaged sections. Realistically, most kits are deployed zero or one times in five years."
+      },
+      "differentiators": [
+        {
+          "label": "Versus gel",
+          "detail": "Wrap does not need water and does not dry out, so it holds indefinitely once up. It takes far longer to deploy and costs several times as much."
+        },
+        {
+          "label": "Versus sprinklers",
+          "detail": "Sprinklers run unattended for hours but need water and pressure. Wrap needs neither but needs people and time. Neither substitutes for the other."
+        },
+        {
+          "label": "The deployment problem",
+          "detail": "This is the honest issue with the category. Wrapping a two-storey house is a 4–8 hour job for two or three people with ladders, in smoke, under an evacuation order. If you have not rehearsed it, you will not complete it."
+        },
+        {
+          "label": "Where it genuinely wins",
+          "detail": "Log homes, heritage cabins, remote structures with no water supply, and outbuildings you plan to wrap early and leave. Also the only good answer for a structure you can prepare days ahead and then walk away from."
+        }
+      ],
+      "buying": {
+        "effort": 3,
+        "lead": "3–10 weeks — kits are made to your building's measurements",
+        "where": "Firezat direct and a small number of wildfire equipment specialists.",
+        "note": "You will need accurate elevation dimensions before ordering. Take photos of every face of the building and get the supplier to check your take-off."
+      },
+      "install": {
+        "effort": 5,
+        "time": "4–8 hours for a house with two to three people, if rehearsed. Longer the first time — much longer.",
+        "tools": [
+          "Ladders — several",
+          "Staple gun or cap nailer",
+          "Foil tape",
+          "A second and ideally third person"
+        ],
+        "note": "Rehearse it. Once, fully, on a calm spring day, with a stopwatch. If the rehearsal takes eleven hours you have learned something vital while it was still safe to learn it. Wrap the roof and the upwind elevation first if you run short of time."
+      },
+      "ongoing": {
+        "effort": 2,
+        "note": "Keep it dry, keep the take-off diagram with the crate, and re-rehearse whenever the household changes — a two-person job becomes impossible when one person moves out."
+      },
+      "alternatives": [
+        {
+          "name": "Barricade gel plus sprinklers",
+          "note": "Faster to deploy, needs water, comparable or better for a conventional house with a decent supply."
+        },
+        {
+          "name": "Wrapping only the outbuilding or the exposed elevation",
+          "note": "A much smaller kit, a realistic deployment time, and most of the value if one face carries the risk."
+        }
+      ],
+      "verdict": "The technique works — agencies would not use it otherwise. Whether it works for you comes down to one question: can you and the people who will actually be present put it up in the time you will actually have? Answer that with a rehearsal, not with optimism."
+    }
   },
   {
     "slug": "propane-tank-fire-cover",
@@ -458,7 +1404,82 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A fire-resistant fabric cover, usually silicone- or aluminium-faced fibreglass, thrown over a propane tank or cylinder to shield it from radiant heat and ember contact. It buys the tank time before the pressure relief valve starts venting, and it keeps burning debris off the valve assembly and regulator.",
+      "market": "A small niche with a handful of manufacturers, mostly the same firms making welding blankets and industrial heat shields, plus a few wildfire-specific brands. Prices run CAD $80–$400 depending on tank size and material. Quality varies more than the price suggests: the fire-relevant spec is the fabric's continuous temperature rating and whether it is genuinely rated for radiant heat shielding or is a repurposed welding blanket sold at a wildfire markup.",
+      "features": [
+        {
+          "label": "Radiant heat shielding",
+          "detail": "Reflective or high-emissivity face that keeps the tank body cooler for longer under radiant load."
+        },
+        {
+          "label": "Sized to common tanks",
+          "detail": "20 lb and 40 lb cylinders, 100 lb cylinders, and 250–500 gal horizontal tanks each need a different cover."
+        },
+        {
+          "label": "Vent-clear design",
+          "detail": "The good ones leave the pressure relief valve unobstructed. A cover that blocks the PRV is worse than no cover."
+        },
+        {
+          "label": "Tie-down system",
+          "detail": "Straps or grommets so it does not blow off in the wind that comes with a fire front."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $80–$400 depending on tank size.",
+        "consumables": "None.",
+        "ancillary": "Nothing.",
+        "fiveYear": "Nil if stored properly; UV degrades outdoor-stored fabric, so keep it indoors between seasons unless it is rated for permanent exposure."
+      },
+      "differentiators": [
+        {
+          "label": "Versus clearing 3 m around the tank",
+          "detail": "Clearing is free, more effective and required by most propane codes anyway. Do it first. The cover is a supplement to a cleared tank, not a substitute for clearing."
+        },
+        {
+          "label": "Versus wetting the tank",
+          "detail": "Water cooling is what fire crews actually do and it works better — but it requires someone present with a hose. The cover works when nobody is home."
+        },
+        {
+          "label": "The safety caveat that matters",
+          "detail": "Never fit anything that obstructs the pressure relief valve. A tank that cannot vent is a far worse problem than a tank that gets hot. If the cover's instructions are vague about the PRV, do not buy it."
+        },
+        {
+          "label": "Check with your supplier",
+          "detail": "Some propane suppliers have views about aftermarket covers on leased tanks. A two-minute phone call avoids a dispute."
+        }
+      ],
+      "buying": {
+        "effort": 2,
+        "lead": "Days to two weeks",
+        "where": "Wildfire equipment suppliers, welding and industrial safety distributors, Amazon.",
+        "note": "Measure the tank first — diameter and length for horizontals, height for cylinders. Ask for the fabric's temperature rating in writing."
+      },
+      "install": {
+        "effort": 1,
+        "time": "10 minutes",
+        "tools": [
+          "Nothing"
+        ],
+        "note": "Fit it, check the PRV is clear, secure the straps. Do it at the start of fire season and leave it if the fabric is UV-rated; otherwise fit it when risk rises."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Inspect for UV damage and abrasion annually. Confirm the PRV is still unobstructed after any windstorm."
+      },
+      "alternatives": [
+        {
+          "name": "A properly cleared 3 m radius around the tank",
+          "note": "Free, code-required, more effective. Non-negotiable regardless of whether you buy a cover."
+        },
+        {
+          "name": "Relocating the tank away from the structure and the fuel",
+          "note": "The permanent fix, and worth pricing with your supplier if the tank sits in a bad spot."
+        }
+      ],
+      "verdict": "Cheap and sensible, but strictly a supplement. If the ground around your tank is not already cleared to bare mineral soil or gravel for 3 m, spend the Saturday before you spend the money."
+    }
   },
   {
     "slug": "portable-gas-fire-pump",
@@ -496,7 +1517,89 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A petrol engine driving a centrifugal pump that draws water from a tank, pond, pool, creek or cistern and pushes it out at 1.5 inch fire-hose pressure. It is the component that makes every other water-based defence keep working after municipal pressure drops — which it reliably does during a major fire, when the whole neighbourhood is drawing at once and hydrants are being pumped by crews.",
+      "market": "Portable fire pumps split into three tiers. Agricultural and utility transfer pumps at CAD $400–$1,200 move volume at low pressure — fine for filling a tank, inadequate for sprinklers on a roof. Genuine light portable fire pumps — the Wick, Mark-3 and Honda-powered equivalents used by forestry crews — run CAD $2,500–$8,000 and deliver the pressure that actually pushes water uphill through hose to a roofline. Between them sit a growing number of CAD $1,000–$2,500 units marketed at homeowners, of variable honesty about their pressure curves. The specification that matters is not horsepower, it is the pump curve: pressure delivered at your required flow, at your elevation.",
+      "features": [
+        {
+          "label": "Pressure at flow",
+          "detail": "The only number that matters. You want a curve, not a headline psi. Sprinklers on a two-storey roof need roughly 50–80 psi at the head after friction and elevation losses."
+        },
+        {
+          "label": "1.5 in fire-hose fittings",
+          "detail": "NPSH or NH threads, so it connects to real fire hose rather than garden hose. Adapters exist but every fitting costs you pressure."
+        },
+        {
+          "label": "Self-priming or foot-valve draft",
+          "detail": "Determines how quickly you can start drawing from a static source and how much fuss the lift is."
+        },
+        {
+          "label": "Four-stroke engine",
+          "detail": "Easier fuel, better starting after storage, and no mixing errors under stress. Two-strokes are lighter, which forestry crews care about and you do not."
+        },
+        {
+          "label": "Electric start on some models",
+          "detail": "Worth having if anyone in the household will struggle with a pull cord."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $1,200–$8,000 / USD $900–$6,000. The honest homeowner band for something that will actually run roof sprinklers is CAD $2,500–$5,000.",
+        "consumables": "Fuel — CAD $20–$60 per hour of running for larger units. Oil, spark plug, impeller wear rings over time.",
+        "ancillary": "This is where budgets break. Hose and nozzle: CAD $500–$1,500. Suction hose and strainer: CAD $200–$500. Water source — a tank is CAD $2,000–$8,000. Fuel storage cans. A pump with nothing to draw from is furniture.",
+        "fiveYear": "CAD $400–$1,200 in service, fuel stabiliser and the annual test-run fuel. Budget a carburettor clean at least once."
+      },
+      "differentiators": [
+        {
+          "label": "Versus relying on the municipal tap",
+          "detail": "The whole argument. In a significant interface fire, system pressure drops, sometimes to nothing, exactly when your sprinklers need it. A pump and a tank is the difference between a defence that runs and a defence that stops."
+        },
+        {
+          "label": "Versus a transfer pump from the farm store",
+          "detail": "A CAD $600 transfer pump moves a lot of water at low pressure. It will fill a tank and it will not push water to a roofline through 30 m of hose. Check the curve, not the price."
+        },
+        {
+          "label": "Versus a permanently installed system's pump",
+          "detail": "A portable can be moved, lent to a neighbour and taken to a second property. A fixed pump starts from your phone. Choose on whether you will be present."
+        },
+        {
+          "label": "The neighbourhood angle",
+          "detail": "One good pump and 200 m of hose shared between four households is a common and sensible arrangement in rural BC and Alberta. It also means someone has to own the maintenance."
+        }
+      ],
+      "buying": {
+        "effort": 3,
+        "lead": "2–8 weeks for serious units; longer in summer",
+        "where": "Forestry and firefighting equipment distributors, wildfire equipment specialists such as Flash Wildfire Services, and some rural equipment dealers. Not, generally, a big-box store.",
+        "note": "Take your numbers to the supplier: hose length, elevation from water source to highest sprinkler, number of heads and their flow rating. A dealer who cannot turn that into a pump recommendation with a curve is selling you a box."
+      },
+      "install": {
+        "effort": 3,
+        "time": "Setup 20–40 minutes; siting and plumbing a permanent draft point, a day",
+        "tools": [
+          "Pipe wrench",
+          "Suction hose and strainer",
+          "Fuel cans",
+          "A level pad or platform"
+        ],
+        "note": "Decide the pump's home now: a level, non-combustible pad near the water source, out of the weather, with the suction line short and the lift under about 5 m. A pump with a long, high suction lift will not prime when you need it and you will not have time to work out why."
+      },
+      "ongoing": {
+        "effort": 4,
+        "note": "This is the highest-maintenance item on the site and the one most likely to fail from neglect. Run it monthly through fire season and at least quarterly otherwise. Use fuel stabiliser or drain the carburettor. Service annually. A pump that has sat untouched for eighteen months will not start on the day."
+      },
+      "alternatives": [
+        {
+          "name": "A permanently installed pump as part of a Frontline-type system",
+          "note": "Starts remotely, costs far more, is somebody else's maintenance responsibility if you buy a service plan."
+        },
+        {
+          "name": "A shared neighbourhood pump",
+          "note": "A quarter the cost each. Requires an agreement about storage, maintenance and who gets it first."
+        }
+      ],
+      "verdict": "If you are only going to spend serious money once in the water category, spend it here rather than on better sprinkler heads. And then accept that you have bought an engine, with everything that implies — the pump that fails is almost always the pump nobody started for a year."
+    }
   },
   {
     "slug": "fire-hose-and-nozzle-kit",
@@ -528,7 +1631,87 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "Real 1.5 inch fire hose and a fog nozzle — the same equipment a wildland crew carries — connected to a pump. Fire hose is not big garden hose: it is designed to carry high pressure with low friction loss, which is what lets you move usable water 30–60 m to a roofline instead of losing all your pressure in the line.",
+      "market": "Hose is sold by forestry and firefighting supply distributors in standard 50 or 100 ft lengths, at CAD $150–$500 per length depending on construction. The market splits between single-jacket forestry hose — light, cheap, adequate for structure protection — and double-jacket municipal hose, heavier, tougher and roughly double the price. Nozzles range from a CAD $80 basic fog nozzle to CAD $600 for a professional adjustable-gallonage unit. For homeowner structure protection, single-jacket 1.5 in hose and a mid-range fog nozzle is the honest answer.",
+      "features": [
+        {
+          "label": "1.5 in diameter",
+          "detail": "The standard for structure protection. 1 in forestry hose is lighter but chokes the flow a serious pump can deliver."
+        },
+        {
+          "label": "Low friction loss",
+          "detail": "The reason it is not garden hose. Fire hose delivers usable pressure at the far end of a long lay; garden hose does not."
+        },
+        {
+          "label": "Fog nozzle",
+          "detail": "Adjustable from straight stream for reach to wide fog for heat protection and self-shielding. The fog pattern is a genuine safety feature, not a convenience."
+        },
+        {
+          "label": "Standard threads",
+          "detail": "NPSH or NH — match your pump and match your neighbours if you may ever share. Mismatched threads are the classic day-of failure."
+        },
+        {
+          "label": "Storage",
+          "detail": "Sold rolled or in a hose pack. It needs to be dried after use or it mildews."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $600–$2,000 for a practical kit — two to four 50 ft lengths, a nozzle, a gated wye and adapters.",
+        "consumables": "None, but gaskets perish and should be replaced every few years.",
+        "ancillary": "A pump. Without one this is decorative.",
+        "fiveYear": "CAD $100–$300 in gaskets and the odd replacement length. Well-stored hose lasts decades."
+      },
+      "differentiators": [
+        {
+          "label": "Versus garden hose",
+          "detail": "At 30 m and 40 psi, garden hose has given up most of its pressure to friction. Fire hose has not. If you have gone to the expense of a pump, hooking it to garden hose throws away most of what you paid for."
+        },
+        {
+          "label": "Single versus double jacket",
+          "detail": "Single is lighter, cheaper and easier for one person to move. Double survives being dragged over gravel and hot ground. For homeowner use, single-jacket is the sensible default."
+        },
+        {
+          "label": "Thread compatibility",
+          "detail": "Check what your local fire department uses. If a crew arrives and can couple to your hose, that is worth something. If nobody's threads match, you have four separate private systems on one road."
+        },
+        {
+          "label": "The physical reality",
+          "detail": "Charged 1.5 in hose is heavy and it kicks. One person can manage it; it is not effortless. Practise with water before you need to."
+        }
+      ],
+      "buying": {
+        "effort": 3,
+        "lead": "2–6 weeks from distributors",
+        "where": "Forestry and firefighting supply houses, wildfire equipment specialists. Occasionally good used hose from fire department surplus — pressure-test it before trusting it.",
+        "note": "Buy the adapters at the same time as the hose. The most common story in this category is a complete kit that will not connect to the tap, the pump or the neighbour's line."
+      },
+      "install": {
+        "effort": 2,
+        "time": "Setup 10–20 minutes for a typical lay",
+        "tools": [
+          "Spanner wrenches for the couplings",
+          "A hose roller or just patience"
+        ],
+        "note": "Lay it out once, in the spring, along the route you would actually use. Note where it snags, where it crosses a driveway, and whether the length reaches the far corner. Store it where you can get it in the dark."
+      },
+      "ongoing": {
+        "effort": 2,
+        "note": "Dry thoroughly after every use — wet hose rolled up mildews and rots. Check gaskets annually. Reroll differently each year so it does not take a permanent set."
+      },
+      "alternatives": [
+        {
+          "name": "Heavy-duty garden hose and a firefighting-style nozzle",
+          "note": "A fraction of the cost, a fraction of the reach and pressure. Reasonable for a small lot with municipal pressure; wrong behind a real pump."
+        },
+        {
+          "name": "Fixed sprinklers instead of a hose line",
+          "note": "Runs unattended. A hose needs a person, but goes exactly where the problem is."
+        }
+      ],
+      "verdict": "Buy it as part of the pump decision, never separately, and buy the adapters in the same order. The most expensive mistake here is a good pump joined to the house by garden hose."
+    }
   },
   {
     "slug": "poly-water-storage-tank",
@@ -560,7 +1743,92 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A large polyethylene tank that holds the water your pump draws from. It is the least interesting item on this site and frequently the one that decides whether anything else works, because a sprinkler system with no independent supply stops the moment municipal pressure drops — which is precisely when you need it.",
+      "market": "Poly tanks are a commodity agricultural product sold in every rural region of North America, typically CAD $1.20–$3.00 per gallon of capacity for tanks between 1,000 and 5,000 gallons. Vertical tanks are cheapest per litre; low-profile and underground tanks cost more and are less obtrusive. The fire-specific considerations are few but real: UV-stabilised resin, a fitting arrangement that lets a pump draw properly, and siting that keeps the tank itself out of the fire. Nothing about this market is wildfire-branded and you should not pay a premium for anything that is.",
+      "features": [
+        {
+          "label": "Capacity",
+          "detail": "Size it from run time, not from what fits. A full roofline of sprinklers uses roughly 1,200–2,500 L per hour — so two hours of protection is 2,500–5,000 L, and that is a modest goal."
+        },
+        {
+          "label": "UV-stabilised resin",
+          "detail": "Non-negotiable for an outdoor tank. Non-stabilised poly chalks and cracks in a few seasons."
+        },
+        {
+          "label": "Bottom draw fitting",
+          "detail": "A 2 in bulkhead fitting near the base so the pump can draw the whole volume rather than the top half."
+        },
+        {
+          "label": "Fill options",
+          "detail": "Roof catchment, a well, a municipal fill, or a water-hauler visit. Most people use more than one."
+        },
+        {
+          "label": "Freeze management",
+          "detail": "In most of Canada the tank drains for winter or is buried below frost. This is a design decision, not an afterthought."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $1,500–$6,000 / USD $1,200–$4,500 for 1,000–2,500 gallons, before site work.",
+        "consumables": "Water. Refilling a 2,500 gal tank from a hauler is CAD $150–$400 depending on distance.",
+        "ancillary": "The base is the hidden cost — a compacted gravel or concrete pad, CAD $500–$3,000. Plumbing, fittings and a fill line, CAD $300–$1,000. Delivery of a large tank to a rural address, CAD $200–$800.",
+        "fiveYear": "Minimal. Occasional fitting replacement and refills. A well-sited poly tank lasts 15–25 years."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a swimming pool",
+          "detail": "If you have a pool you already have 30,000–80,000 L and you need a pump and a strainer, not a tank. Pools are the most under-used wildfire water source in North America."
+        },
+        {
+          "label": "Versus a pond or creek",
+          "detail": "Free and effectively unlimited, if you have one and it does not run dry in August. Needs a foot valve and a drafting setup, and needs the lift to be under about 5 m."
+        },
+        {
+          "label": "Versus a cistern or buried tank",
+          "detail": "Buried tanks solve freezing and appearance and cost roughly double, plus excavation. Worth pricing if the tank would otherwise sit in the front yard."
+        },
+        {
+          "label": "Siting",
+          "detail": "Put it uphill of the pump if you possibly can — a flooded suction beats a lift every time. Keep it clear of the fuel, and remember a poly tank is itself combustible when empty."
+        }
+      ],
+      "buying": {
+        "effort": 3,
+        "lead": "1–6 weeks; large tanks are often a special order and freight is the constraint",
+        "where": "Farm and ranch supply, water-systems dealers, plastics distributors. Genuinely a rural commodity.",
+        "note": "Work out your required run time first and buy the capacity that gives you. Buying a tank because it was the one in the yard is how people end up with forty minutes of protection."
+      },
+      "install": {
+        "effort": 4,
+        "time": "A day for the pad, half a day to set and plumb the tank",
+        "tools": [
+          "Excavation or a compacted gravel pad",
+          "Plumbing tools and fittings",
+          "Help — large tanks are unwieldy even empty"
+        ],
+        "note": "The pad is the job. A 2,500 gal tank weighs about 9,500 kg full, so the base has to be level, compacted and full-footprint. A tank on an uneven base will crack at the seam within a couple of years."
+      },
+      "ongoing": {
+        "effort": 2,
+        "note": "Keep it full through fire season — a tank at a third is a third of a defence. Drain or protect against freezing. Check fittings for weeps annually and clear debris from the fill screen."
+      },
+      "alternatives": [
+        {
+          "name": "A swimming pool plus a strainer and foot valve",
+          "note": "Vastly more water for a few hundred dollars, if you already have the pool."
+        },
+        {
+          "name": "A pond, creek or dugout with a drafting setup",
+          "note": "Free where available. Verify it still has water in a dry August, not in May."
+        },
+        {
+          "name": "Multiple IBC totes",
+          "note": "CAD $150–$400 each for 1,000 L. Cheap, ugly, and a legitimate way to build storage incrementally."
+        }
+      ],
+      "verdict": "The least glamorous purchase here and, with the pump, the one that determines whether the rest of your water defence actually runs. Size it from run time and site it uphill of the pump."
+    }
   },
   {
     "slug": "battery-pole-saw",
@@ -597,7 +1865,89 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A small chainsaw bar on the end of a 2–4 m pole, battery-powered, used from the ground to limb conifers up to about 2 m and to take out branches overhanging the roof. The fire job it does is breaking the ladder fuel — the continuous line of branches that lets a ground fire climb into the crowns and then into your roofline.",
+      "market": "Battery pole saws are now a mature consumer category with three tiers. Entry-level 20 V units at CAD $150–$300 handle branches up to about 100 mm and run 20–30 minutes. Mid-range 40–60 V platform tools at CAD $300–$650 are the sweet spot for a homeowner clearing an acre. Professional 80 V and petrol units at CAD $700–$1,500 are for people doing this for days at a time. The single most important buying factor is not the saw — it is whether it shares a battery platform with tools you already own, because batteries are most of the cost.",
+      "features": [
+        {
+          "label": "Reach",
+          "detail": "Fixed or telescoping, typically 2.4–4 m of total reach with your arms. More reach means more weight at the end of a lever, which is what tires you."
+        },
+        {
+          "label": "Bar length",
+          "detail": "200–250 mm is standard and is enough for FireSmart limbing. Longer bars are heavier and rarely needed overhead."
+        },
+        {
+          "label": "Battery platform",
+          "detail": "Buy into a platform you already have or intend to build on. A second battery roughly doubles your working session and costs CAD $100–$250."
+        },
+        {
+          "label": "Auto-oiling",
+          "detail": "Worth having. Manual oiling on a pole saw is forgotten, and a dry chain wrecks the bar."
+        },
+        {
+          "label": "Weight and balance",
+          "detail": "The specification nobody checks and everybody feels after twenty minutes. Under 5 kg extended is the difference between finishing the job and finishing half of it."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $200–$650 for a capable homeowner unit with one battery.",
+        "consumables": "Bar oil, CAD $15–$25 a year. Chains, CAD $20–$40 each — expect one or two a season if you hit dirt.",
+        "ancillary": "A second battery, CAD $100–$250. Helmet with face shield, CAD $60–$120 — not optional overhead. Chaps if you also own a ground chainsaw.",
+        "fiveYear": "CAD $150–$400 in chains, oil and eventually a battery, which lose capacity after 3–5 years."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a petrol pole saw",
+          "detail": "Battery wins for homeowner use: no mixing, no starting drama after eight months in the shed, quieter, lighter. Petrol wins only if you are cutting all day."
+        },
+        {
+          "label": "Versus hiring an arborist",
+          "detail": "A day of professional limbing and thinning is CAD $600–$2,000 and gets far more done, safely, with the debris hauled away. If you have more than about twenty trees, hiring is often the better value — and it is definitively better for anything requiring a ladder or a climb."
+        },
+        {
+          "label": "Versus a hand pruning saw on a pole",
+          "detail": "CAD $50, no batteries, entirely adequate for branches under 50 mm, and considerably safer overhead. Genuinely worth owning alongside."
+        },
+        {
+          "label": "What limbing actually achieves",
+          "detail": "Removing branches to 2 m breaks the path from ground fire to crown. It is one of the highest-value tasks in FireSmart's Zone 1 guidance and it costs only your Saturday."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Same day",
+        "where": "Any hardware or big-box store, outdoor power equipment dealers, Amazon.",
+        "note": "Pick the platform first, the saw second. If you already own 40 V batteries, buy the bare tool and save CAD $150."
+      },
+      "install": {
+        "effort": 2,
+        "time": "Assembly 15 minutes; the actual work is 1–3 days spread over a spring",
+        "tools": [
+          "Helmet with face shield",
+          "Eye protection",
+          "Gloves",
+          "Rake and tarp for debris"
+        ],
+        "note": "Working overhead with a saw is the most dangerous thing on this entire site. Never cut above shoulder height on a ladder, never cut what you cannot step back from, and stop when you are tired — which will be sooner than you expect. Anything near a power line is a utility's job, not yours."
+      },
+      "ongoing": {
+        "effort": 3,
+        "note": "Limbing is not a one-time task — conifers regrow and new ladder fuel appears every few years. Plan a spring walk-around annually and a real session every two to three years. Chain sharpening or replacement as you go."
+      },
+      "alternatives": [
+        {
+          "name": "A manual pole pruning saw",
+          "note": "CAD $40–$90, safer, slower, fine for smaller branches. Buy one regardless."
+        },
+        {
+          "name": "An arborist for a day",
+          "note": "CAD $600–$2,000, far more progress, debris removed, no ladder risk to you."
+        }
+      ],
+      "verdict": "A good buy if you have trees and a Saturday habit. If you have a lot of trees, or any of the work needs a ladder, the money is better spent on a professional day than a better saw."
+    }
   },
   {
     "slug": "mcleod-fire-rake",
@@ -629,7 +1979,83 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A wildland hand tool: a heavy rake head with coarse tines on one side and a flat hoe blade on the other, on a long handle. You pull litter and duff away with the tines and scrape down to mineral soil with the blade. It is the tool for building the bare-ground breaks in Zone 0 and for clearing needle litter from under decks, along fences and around outbuildings.",
+      "market": "A century-old US Forest Service pattern, now made by a dozen manufacturers from CAD $60 imports to CAD $200 forged professional heads. The difference is real: a stamped-steel head on a cheap handle will bend on the first serious root, while a forged head on hickory will outlive you. Council Tool and a handful of similar makers own the quality end. There is no wildfire-branded premium version worth buying — this is a fire-service commodity and should be priced like one.",
+      "features": [
+        {
+          "label": "Dual head",
+          "detail": "Tines for raking litter, flat blade for scraping to mineral soil and for cutting light roots. Two tools in one is the point."
+        },
+        {
+          "label": "Forged versus stamped head",
+          "detail": "The quality question. Forged survives leverage against roots and rock; stamped bends."
+        },
+        {
+          "label": "Hickory or fibreglass handle",
+          "detail": "Both fine. Hickory is repairable and traditional; fibreglass survives being left in the rain."
+        },
+        {
+          "label": "Length",
+          "detail": "Standard handles are around 1.2–1.5 m, which gives the leverage the work needs."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $70–$200.",
+        "consumables": "None. A file for the blade edge, CAD $15.",
+        "ancillary": "Gloves. A tarp for hauling duff.",
+        "fiveYear": "Nil. A forged McLeod is a lifetime tool."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a leaf rake and a garden hoe",
+          "detail": "You probably own both, and together they do most of this. The McLeod is faster, tougher and does not break on a root — but if the choice is between buying one and doing the work with what is in the shed, do the work."
+        },
+        {
+          "label": "Versus a leaf blower",
+          "detail": "A blower moves loose needles off a driveway and out of gutters far faster. It does not scrape duff to mineral soil, which is the part that matters in Zone 0. Own both."
+        },
+        {
+          "label": "What it is for",
+          "detail": "The specific FireSmart task: getting the first 1.5 m around the house down to gravel, pavers or bare mineral soil, with no bark mulch, no needle litter and nothing that carries flame to the wall."
+        },
+        {
+          "label": "The honest framing",
+          "detail": "This is the cheapest item in a category where the real cost is your labour. The tool is a rounding error; the eight hours of raking is the purchase."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Days to two weeks",
+        "where": "Forestry supply houses, farm and ranch supply, Amazon, and some hardware stores in fire-prone regions.",
+        "note": "Buy forged if you have rocky or rooty ground. Buy anything if you do not — it is a rake."
+      },
+      "install": {
+        "effort": 1,
+        "time": "None. It is a hand tool.",
+        "tools": [
+          "Gloves",
+          "Sturdy boots"
+        ],
+        "note": "Nothing to assemble beyond fitting the head on some models."
+      },
+      "ongoing": {
+        "effort": 3,
+        "note": "The tool needs nothing. The work is annual: needle litter and duff rebuild every season, and Zone 0 has to be re-cleared each spring. Put it in the calendar."
+      },
+      "alternatives": [
+        {
+          "name": "A stiff leaf rake plus a garden hoe",
+          "note": "Already in your shed. Slower, breaks sooner, does the job."
+        },
+        {
+          "name": "A leaf blower",
+          "note": "Much faster for loose litter on hard surfaces, useless for duff."
+        }
+      ],
+      "verdict": "Buy it if you like good tools; skip it without guilt if you own a rake and a hoe. Either way the clearing is what protects the house, and no tool does that part for you."
+    }
   },
   {
     "slug": "72-hour-emergency-kit",
@@ -666,7 +2092,90 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A pre-assembled bag holding water, food, light, first aid, a radio, and basic sanitation for two to four people for three days — the standard planning horizon Public Safety Canada and FEMA both use, because that is roughly how long it takes for organised assistance to reach a displaced population. In a wildfire evacuation the realistic use is different from an earthquake: you are more likely to be in a hotel or a reception centre than in a field, so the kit's real job is that you left with something rather than nothing.",
+      "market": "Pre-built emergency kits are a crowded consumer market with wide quality variance and consistent overpricing. Cheap kits at CAD $60–$120 contain a lot of items of no value — tiny torches, a whistle, twelve adhesive bandages — chosen because they raise the item count on the box. Serious kits at CAD $200–$500 have real water, real food with a real shelf life, and a first aid kit somebody thought about. Above that you are usually buying a nicer bag. Building your own from good components costs roughly the same as a mid-range kit and is meaningfully better, at the price of a Saturday.",
+      "features": [
+        {
+          "label": "Water and purification",
+          "detail": "The heaviest and most important element. 4 L per person per day is the standard, which is heavy — most kits compromise with pouches plus a filter or tablets."
+        },
+        {
+          "label": "Food with real shelf life",
+          "detail": "Look for 5-year-rated ration bars or freeze-dried meals with dates on them, not granola bars that expire in eight months."
+        },
+        {
+          "label": "Light and power",
+          "detail": "A hand-crank or battery lantern plus headlamps. Headlamps beat torches because they leave your hands free."
+        },
+        {
+          "label": "First aid",
+          "detail": "The component most often padded out. Check for trauma dressings and a tourniquet rather than a hundred small bandages."
+        },
+        {
+          "label": "Radio",
+          "detail": "Crank or battery, ideally with the weather band. Overlaps with a dedicated weather radio, and the dedicated one is better."
+        },
+        {
+          "label": "Sanitation and warmth",
+          "detail": "Emergency blankets, wipes, bags. Unglamorous, disproportionately valuable."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $150–$500 for a credible 2–4 person kit.",
+        "consumables": "Water, food and batteries rotate on a 3–5 year cycle. Budget CAD $60–$150 per refresh.",
+        "ancillary": "The wildfire-specific additions almost no kit includes: N95 or P100 respirators for everyone, copies of documents, prescription medication, pet food and a carrier, phone chargers and a battery bank, cash in small bills.",
+        "fiveYear": "CAD $250–$700 including one full consumables refresh."
+      },
+      "differentiators": [
+        {
+          "label": "Versus building your own",
+          "detail": "Building your own is better and costs about the same. The pre-built kit's advantage is that it exists — the DIY kit that is still a list on your phone protects nobody. Buy the kit, then upgrade the weak components."
+        },
+        {
+          "label": "What wildfire kits specifically need",
+          "detail": "Respirators, because smoke lasts weeks after the fire. Document copies. Medication. Pet supplies. Chargers. Most generic kits contain none of these and it is the gap that matters."
+        },
+        {
+          "label": "The car versus house question",
+          "detail": "In a wildfire the kit's value is in the vehicle. A perfect kit in a basement you did not have time to re-enter is worth nothing. Keep it by the door you leave from, or in the car through fire season."
+        },
+        {
+          "label": "Price sanity",
+          "detail": "Above about CAD $500 you are buying luggage. Spend the difference on a second set of respirators and a battery bank."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Days",
+        "where": "Canadian Red Cross and provincial emergency-preparedness shops, outdoor retailers, Amazon, Costco seasonally.",
+        "note": "Read the actual contents list, not the item count. Check the food and water expiry dates before you accept the delivery."
+      },
+      "install": {
+        "effort": 1,
+        "time": "An hour to unpack, check and personalise",
+        "tools": [
+          "Nothing"
+        ],
+        "note": "Open it when it arrives. Add the personal items — medication, documents, respirators, chargers, pet supplies — and make sure everyone in the house knows where it lives and can carry it."
+      },
+      "ongoing": {
+        "effort": 2,
+        "note": "Diarise a spring check every year: expiry dates, battery corrosion, medication rotation, and whether the clothing still fits the children. This is the item most likely to be technically present and functionally useless."
+      },
+      "alternatives": [
+        {
+          "name": "Building your own from a checklist",
+          "note": "Better contents, same money, needs a Saturday you have to actually spend."
+        },
+        {
+          "name": "A grab-list on the fridge plus your existing camping gear",
+          "note": "Free, works if you are organised, fails under stress. A list is not a bag."
+        }
+      ],
+      "verdict": "Buy one, then fix it — add respirators, documents, medication and chargers, and keep it by the door. The most common failure in this category is not a bad kit, it is a good kit in the wrong room."
+    }
   },
   {
     "slug": "fireproof-document-bag",
@@ -697,7 +2206,86 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A silicone-coated fibreglass pouch that resists flame and radiant heat for a stated period, usually with a water-resistant closure. It protects passports, deeds, insurance policies, birth certificates and a backup drive either in a safe at home or as a grab item. Understand what it is: heat and flame resistance for a limited time, not a safe.",
+      "market": "A crowded, low-cost Amazon category full of near-identical products with impressive-sounding temperature claims and very little third-party verification. Prices run CAD $25–$90. Almost every listing claims something like '2000 °F for 30 minutes', typically from an in-house test at whatever conditions favoured the number. Above this tier sit genuinely rated fire safes, which are UL-classified, cost CAD $200–$900 and weigh 25–90 kg. There is very little in between, and the gap is where most buyers' expectations sit.",
+      "features": [
+        {
+          "label": "Silicone-coated fibreglass",
+          "detail": "The standard construction. Effectively all credible bags use it; the differences are layer count and stitching."
+        },
+        {
+          "label": "Closure type",
+          "detail": "Velcro plus a zip is better than either alone. The closure is usually the weak point in any real fire exposure."
+        },
+        {
+          "label": "Size",
+          "detail": "Get one that fits legal-size documents flat. Folding a deed into a small pouch is how people end up not using it."
+        },
+        {
+          "label": "Water resistance",
+          "detail": "Matters more than people expect — anything that survives a fire in a house has usually also been hosed."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $25–$90.",
+        "consumables": "None.",
+        "ancillary": "A USB drive or two for scanned copies, CAD $15–$40.",
+        "fiveYear": "Nil."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a rated fire safe",
+          "detail": "A UL-classified safe is verified, heavy and stays put. A bag is unverified, light, and leaves with you — which for wildfire is arguably the more useful property, since evacuation is the likely scenario."
+        },
+        {
+          "label": "Versus cloud backup",
+          "detail": "Scanning everything to encrypted cloud storage costs nothing, survives total loss of the building, and is what actually protects you. The bag protects originals; the scan protects the information. Do the scan first — it is free and takes an evening."
+        },
+        {
+          "label": "The claims problem",
+          "detail": "Treat the temperature and duration figures as marketing unless there is a named test standard behind them. Very few in this category have one."
+        },
+        {
+          "label": "Where you put it",
+          "detail": "A grab bag by the door is more useful than a bag in a basement safe. The wildfire failure mode is not that the bag failed, it is that nobody picked it up."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Days",
+        "where": "Amazon in both countries, office supply, hardware stores.",
+        "note": "Buy the size up. Nearly everyone regrets the small one."
+      },
+      "install": {
+        "effort": 1,
+        "time": "An evening, mostly scanning",
+        "tools": [
+          "A phone scanner app or a flatbed scanner"
+        ],
+        "note": "Scan everything to encrypted cloud storage first, then put the originals in the bag, then put the bag where you will actually grab it. The scanning is the real work and the real protection."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Review contents annually — passports expire, insurance policies change, and the list of what matters shifts. Update the scans at the same time."
+      },
+      "alternatives": [
+        {
+          "name": "Encrypted cloud backup of scanned documents",
+          "note": "Free, better, survives total loss. Do this whether or not you buy the bag."
+        },
+        {
+          "name": "A UL-classified fire safe",
+          "note": "CAD $200–$900, actually verified, stays in the house. Good for what you cannot replace and will not carry."
+        },
+        {
+          "name": "A safe deposit box",
+          "note": "The old answer. Still a good one for originals you rarely need."
+        }
+      ],
+      "verdict": "Cheap, mildly useful, and no substitute for scanning everything to the cloud tonight. Buy it if you want the originals to travel with you; do the scan regardless."
+    }
   },
   {
     "slug": "n95-p100-respirators",
@@ -734,7 +2322,86 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A certified particulate respirator filters the fine particulate — PM2.5 — that makes up most of the health burden of wildfire smoke. N95 filters at least 95% of airborne particles; P100 filters at least 99.97% and is oil-resistant. Both work only if the seal against your face is good, which is why fit matters more than filter rating and why beards defeat them entirely.",
+      "market": "Post-2020, respirators are a large, well-supplied and unfortunately heavily counterfeited market. The split that matters: disposable N95 filtering facepieces at CAD $2–$6 each, and reusable half-face elastomeric respirators with P100 cartridges at CAD $40–$120 plus CAD $20–$50 per cartridge pair. For a household facing weeks of smoke every summer, elastomerics are cheaper over three years and seal better. Certification is the buying signal: NIOSH approval in the US, and in Canada look for NIOSH or the CSA Z94.4-compliant equivalents. A 'KN95' from an unverifiable seller is a gamble.",
+      "features": [
+        {
+          "label": "NIOSH certification",
+          "detail": "The approval number should be printed on the mask itself. Check it against the NIOSH certified equipment list — it takes two minutes and rules out most counterfeits."
+        },
+        {
+          "label": "N95 versus P100",
+          "detail": "For smoke, N95 is adequate. P100 filters more and, in an elastomeric, seals better and lasts far longer."
+        },
+        {
+          "label": "Fit and sizing",
+          "detail": "The whole ballgame. A poorly sealed P100 protects less than a well-fitted N95. Buy sizes for the actual faces in your house, including children's — most adult masks do not seal on a child."
+        },
+        {
+          "label": "Exhalation valve",
+          "detail": "More comfortable for long wear. Fine for smoke; irrelevant to anything else you might have been told."
+        },
+        {
+          "label": "Not for gases",
+          "detail": "Particulate filters do nothing for carbon monoxide or VOCs. Nothing in this category makes a smoke-filled structure safe to be in."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $30–$80 for a family pack of disposables; CAD $60–$150 per person for an elastomeric with cartridges.",
+        "consumables": "Disposables last roughly a day of heavy smoke exposure each. P100 cartridges last weeks to months of intermittent use.",
+        "ancillary": "Nothing.",
+        "fiveYear": "CAD $150–$500 for a household that has several smoke weeks a year. Elastomerics come out well ahead over that period."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a surgical or cloth mask",
+          "detail": "Neither seals and neither filters PM2.5 meaningfully. They are not smoke protection and it is worth being blunt about that, because a great many people spent 2023 wearing one outdoors believing otherwise."
+        },
+        {
+          "label": "Versus staying indoors with a purifier",
+          "detail": "Clean indoor air is the primary strategy and the better one. Respirators are for the times you have to be outside — moving the car, checking the property, walking the dog."
+        },
+        {
+          "label": "The beard problem",
+          "detail": "Facial hair at the seal line defeats a respirator completely. This is not a soft recommendation. If you will not shave, a powered air-purifying respirator with a hood is the only real option and it is CAD $500 and up."
+        },
+        {
+          "label": "Children",
+          "detail": "There is no NIOSH-certified respirator for small children. Smaller adult sizes fit some older children. For young children, indoor air quality is the only real control."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Same day to a week",
+        "where": "Industrial safety suppliers — the best source by a distance — hardware stores, pharmacies, Amazon.",
+        "note": "Buy from a safety distributor rather than a marketplace if you can. Counterfeits are common on marketplaces and impossible to spot from a photograph. Verify the NIOSH number on arrival."
+      },
+      "install": {
+        "effort": 1,
+        "time": "10 minutes to fit-check each person",
+        "tools": [
+          "Nothing"
+        ],
+        "note": "Do a user seal check on every person: cover the filter, inhale, and feel the mask pull in with no leak at the edges. If it leaks at the nose bridge or cheeks, the size is wrong. Doing this once in the spring means nobody is learning it at midnight in an orange sky."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Replace disposables when they get hard to breathe through, damp or soiled. Store elastomerics in a sealed bag — cartridges absorb from the air even unused. Check the household stock every spring."
+      },
+      "alternatives": [
+        {
+          "name": "Elastomeric half-face respirator with P100 cartridges",
+          "note": "Better seal, better economics over a few seasons, less comfortable in heat."
+        },
+        {
+          "name": "Staying indoors with filtered air",
+          "note": "The primary strategy. Respirators supplement it."
+        }
+      ],
+      "verdict": "The cheapest health protection on this site and the one most people already own the wrong version of. Buy certified, check the seal on each person in the spring, and understand that clean indoor air — not the mask — is the main defence."
+    }
   },
   {
     "slug": "hepa-air-purifier-large-room",
@@ -771,7 +2438,90 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A fan pulls room air through a true HEPA filter, which captures at least 99.97% of 0.3 µm particles — comfortably including wildfire smoke PM2.5. Run continuously in a closed room, it drives indoor particulate well below outdoor levels. The relevant metric is CADR, the clean-air delivery rate, which combined with room size tells you how many air changes per hour you actually get.",
+      "market": "A large, mature and confusing consumer market. The useful structure: budget units at CAD $150–$300 with real HEPA and modest CADR; mid-range at CAD $300–$700 covering a genuine bedroom or living room; premium at CAD $700–$1,500 mostly buying quieter operation, app control and design. The distortions to watch are subscription filter models, which can double lifetime cost, and units sold on room-size claims that assume one air change an hour — nowhere near enough for smoke. AHAM Verifide CADR ratings are the one independent number in the category and are worth insisting on.",
+      "features": [
+        {
+          "label": "True HEPA filter",
+          "detail": "Not 'HEPA-type', 'HEPA-like' or '99% at 2 microns'. True HEPA is a defined standard; the alternatives are marketing."
+        },
+        {
+          "label": "CADR, verified",
+          "detail": "The number to compare. For smoke, aim for 4–5 air changes per hour: CADR in cfm should be roughly your room's floor area in sq ft times ceiling height, divided by about 12."
+        },
+        {
+          "label": "Activated carbon stage",
+          "detail": "Handles some of the smell and VOCs in smoke that HEPA does not touch. Thin carbon-dusted pre-filters do very little — look for actual carbon weight."
+        },
+        {
+          "label": "Noise at working speed",
+          "detail": "The specification that decides whether it runs all night. A unit quiet on low and useless on low is a common trap — check dB at the speed you would actually need."
+        },
+        {
+          "label": "Filter cost and availability",
+          "detail": "Check the replacement filter price and whether it is proprietary before you buy the machine."
+        },
+        {
+          "label": "No ozone",
+          "detail": "Avoid ionisers, plasma and UV add-ons. Some generate ozone, which is a respiratory irritant. A fan and a filter is the whole technology you need."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $250–$700 for a unit that genuinely covers a bedroom or living room during smoke.",
+        "consumables": "Filters, CAD $60–$180 each, every 6–12 months — and much faster in a heavy smoke season. Budget two sets in a bad year.",
+        "ancillary": "One unit per bedroom is the realistic target, so multiply. A MERV-13 furnace filter for the whole house, CAD $30–$70.",
+        "fiveYear": "CAD $600–$1,600 per unit including filters. Filters are most of the lifetime cost, which is why the subscription models deserve scrutiny."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a Corsi-Rosenthal box",
+          "detail": "A CR box costs a quarter as much and often delivers more CADR, because it is a big fan and a lot of filter area. It is louder, larger and looks like what it is — a box fan taped to furnace filters. For a bedroom during a smoke week, it is objectively good value."
+        },
+        {
+          "label": "Versus a MERV-13 furnace filter",
+          "detail": "The furnace filter treats the whole house whenever the fan runs and costs CAD $40. Do that first. Then add purifiers in bedrooms, which is where the hours are."
+        },
+        {
+          "label": "The sizing mistake",
+          "detail": "Manufacturer room-size claims usually assume a single air change per hour. For smoke you want four or five. In practice: buy for a room roughly a quarter of the size on the box."
+        },
+        {
+          "label": "Where to put it",
+          "detail": "Bedrooms, doors closed, running continuously through the smoke event. Eight hours of clean air while asleep beats a purifier in an open-plan living room nobody sits in."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Same day, except during a major smoke event when the entire country buys them at once",
+        "where": "Big-box, Costco, Amazon, appliance retailers.",
+        "note": "Buy in winter. In August 2023 purifiers were sold out across western Canada within days, and the ones still available were the ones nobody wanted."
+      },
+      "install": {
+        "effort": 1,
+        "time": "5 minutes",
+        "tools": [
+          "Nothing"
+        ],
+        "note": "Unpack, remove the plastic wrap from the filter — a genuinely common oversight — place it away from walls and curtains, and run it."
+      },
+      "ongoing": {
+        "effort": 2,
+        "note": "Filter changes are the commitment. In a heavy smoke season a filter can be exhausted in weeks, not months. Keep a spare, and check the pre-filter monthly — vacuuming it doubles the main filter's life."
+      },
+      "alternatives": [
+        {
+          "name": "Corsi-Rosenthal box",
+          "note": "A quarter the price, more airflow, much louder. Genuinely competitive on performance."
+        },
+        {
+          "name": "MERV-13 furnace filter with the fan on continuous",
+          "note": "CAD $40, treats the whole house, should be your first move."
+        }
+      ],
+      "verdict": "Buy one per bedroom, size by CADR rather than the claim on the box, and buy them in February. Do the MERV-13 furnace filter first — it is a tenth the price and covers the whole house."
+    }
   },
   {
     "slug": "corsi-rosenthal-box-kit",
@@ -803,7 +2553,88 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A 20 inch box fan taped to a cube of four MERV-13 furnace filters, blowing outward. The large filter area means low resistance, so a cheap fan moves a great deal of air through a great deal of media. It was designed in 2020 by Richard Corsi and Jim Rosenthal as an open, unpatented answer to expensive purifiers, and independent testing has repeatedly found it competitive with commercial units several times its price.",
+      "market": "There is no market, which is the point — it is a public-domain design assembled from commodity parts. What exists commercially is kits at CAD $80–$180 that bundle the filters and a shroud, and a few boutique versions in tidy cases at CAD $250–$400. Buying the parts separately is cheapest: a box fan is CAD $35–$70 and MERV-13 filters are CAD $15–$30 each. Filter quality is the only real variable; buy from a known furnace-filter brand rather than the cheapest listing.",
+      "features": [
+        {
+          "label": "Very high CADR for the money",
+          "detail": "Typically 600–900 cfm, which exceeds most CAD $500 consumer purifiers. Four filters' worth of surface area is why."
+        },
+        {
+          "label": "MERV-13 media",
+          "detail": "Captures PM2.5 effectively. Not HEPA-grade per pass, but it processes so much more air per hour that total particle removal is comparable or better."
+        },
+        {
+          "label": "Cardboard shroud",
+          "detail": "A simple cardboard ring around the fan outlet improves airflow measurably — by roughly 20–50% in published testing. Do not skip it."
+        },
+        {
+          "label": "Cheap consumables",
+          "detail": "Replacement filters are ordinary furnace filters at CAD $15–$30, available everywhere, with no proprietary lock-in."
+        },
+        {
+          "label": "Repairable and scalable",
+          "detail": "Build a second one for another bedroom in twenty minutes."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $100–$180 for fan, four filters and tape. A pre-packaged kit runs CAD $120–$200.",
+        "consumables": "Four filters per change, CAD $60–$120. Change every 6–12 months, or every few weeks in dense smoke.",
+        "ancillary": "Duct tape or foil tape, and a piece of cardboard.",
+        "fiveYear": "CAD $400–$700 including filter changes — well under half the cost of a comparable commercial purifier."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a commercial HEPA purifier",
+          "detail": "More airflow per dollar and much cheaper filters. Louder, physically large, and it looks like a taped box fan in your bedroom. That aesthetic objection is the honest reason most people buy the commercial unit instead, and it is a legitimate reason."
+        },
+        {
+          "label": "Noise",
+          "detail": "A box fan on high is 55–65 dB. Many people cannot sleep next to it. Running on medium sacrifices some CADR and is usually the practical compromise."
+        },
+        {
+          "label": "Safety",
+          "detail": "Use a fan with a fused plug and a thermal cut-out — fans made after roughly 2012 generally have both. Do not leave any box fan running unattended for days in a room with children, and do not obstruct the intake."
+        },
+        {
+          "label": "The community angle",
+          "detail": "Schools, community centres and band offices across BC and Alberta have built these by the dozen during smoke seasons. If you want to help a neighbourhood breathe, this is the cheapest way to do it at scale."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Same day — fans sell out in heat waves, filters rarely do",
+        "where": "Hardware and big-box stores for both components. Kits from a few online sellers.",
+        "note": "Buy the fan in spring. Box fans vanish from shelves in the first heat wave, which is usually the same week the smoke arrives."
+      },
+      "install": {
+        "effort": 2,
+        "time": "20–30 minutes to build",
+        "tools": [
+          "Duct or foil tape",
+          "Scissors or a utility knife",
+          "Cardboard for the shroud"
+        ],
+        "note": "Filters go with the airflow arrows pointing in toward the fan. Fan blows outward, out the top. Tape the seams properly — leaks bypass the filters entirely. Add the cardboard shroud; it is free performance."
+      },
+      "ongoing": {
+        "effort": 2,
+        "note": "Filters darken visibly, which is a useful indicator no commercial unit gives you. Change all four when they are grey. In a heavy season that may be twice."
+      },
+      "alternatives": [
+        {
+          "name": "A commercial HEPA purifier",
+          "note": "Quieter, tidier, more expensive to buy and to feed."
+        },
+        {
+          "name": "A single filter taped to a fan",
+          "note": "Works, but a quarter of the filter area and a much noisier, less effective result. Build the cube."
+        }
+      ],
+      "verdict": "The best performance per dollar in clean air, and the reason to buy a commercial purifier instead is noise and appearance, not effectiveness. Build one for the room where people sleep."
+    }
   },
   {
     "slug": "pm25-air-quality-monitor",
@@ -834,7 +2665,86 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A laser particle counter draws air past a beam and counts the scattering events, converting them to an estimated PM2.5 concentration in µg/m³. It tells you what the air in a specific room actually is, rather than what a regional monitoring station 40 km away reports. That distinction matters, because indoor concentrations during a smoke event can be anywhere from a tenth to well above the outdoor reading depending on your building.",
+      "market": "Consumer air monitors split cleanly. Cheap handheld units at CAD $40–$120 use uncalibrated sensors and drift badly — useful for relative changes, not for absolute numbers. Mid-range fixed monitors at CAD $150–$400 (PurpleAir, AirGradient, Awair and similar) use Plantower or Sensirion sensor modules with reasonable calibration and log data over time. Reference-grade instruments start around CAD $3,000 and are not a consumer product. The mid-range is where the value is, and PurpleAir in particular feeds a public map that has become genuinely useful infrastructure during western North American smoke seasons.",
+      "features": [
+        {
+          "label": "Laser scattering sensor",
+          "detail": "Plantower and Sensirion modules dominate and are decent. The brand on the box often matters less than which module is inside — worth asking."
+        },
+        {
+          "label": "Indoor and outdoor variants",
+          "detail": "An outdoor unit tells you when to close up; an indoor unit tells you whether it worked. If you buy one, buy the indoor one."
+        },
+        {
+          "label": "Data logging and history",
+          "detail": "The real value. A number now is mildly interesting; a graph across a week tells you whether your purifier and your window discipline are working."
+        },
+        {
+          "label": "Public network contribution",
+          "detail": "PurpleAir outdoor units publish to a public map, which improves local awareness in exactly the rural areas government monitors do not cover."
+        },
+        {
+          "label": "Humidity correction",
+          "detail": "Laser sensors over-read in high humidity. The better units and networks apply a correction; the cheap handhelds do not."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $150–$400 for a credible unit.",
+        "consumables": "None, though the sensor module degrades over roughly 3–5 years of continuous use.",
+        "ancillary": "Power and Wi-Fi. Outdoor units need weather-protected mounting.",
+        "fiveYear": "Purchase price plus eventual replacement. Some units allow a CAD $40 sensor module swap, which is worth checking."
+      },
+      "differentiators": [
+        {
+          "label": "Versus government AQHI or AirNow",
+          "detail": "Free, reference-grade, and possibly measuring a valley you do not live in. During smoke events the difference between the station reading and your street can be large. A local monitor resolves that."
+        },
+        {
+          "label": "Versus the PurpleAir public map",
+          "detail": "If a neighbour already runs an outdoor unit, you get their outdoor data free. What you still lack is your indoor number, which is the actionable one."
+        },
+        {
+          "label": "What it changes",
+          "detail": "This is a behaviour device. It tells you when to close windows, when it is safe to open them again, whether the purifier in the bedroom is winning, and whether the filter needs changing. Without it people guess, and they mostly guess wrong in the direction of opening windows too early."
+        },
+        {
+          "label": "Accuracy expectations",
+          "detail": "Expect ±10–20% against reference in the ranges that matter. That is plenty for deciding whether to open a window and not enough for any clinical purpose."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Days to a few weeks; PurpleAir units have historically backordered during major smoke events",
+        "where": "Direct from the manufacturers, Amazon, some electronics retailers.",
+        "note": "Decide indoor or outdoor before you buy — they are different products and the indoor one is the more useful single purchase."
+      },
+      "install": {
+        "effort": 1,
+        "time": "15 minutes including Wi-Fi setup",
+        "tools": [
+          "Nothing"
+        ],
+        "note": "Put it at breathing height, away from the kitchen, the fireplace and any purifier's outlet — all three will give you nonsense readings. Cooking will spike it; that is the sensor working, not a fault."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Keep the intake dust-free. Note that readings drift upward over years as the sensor ages; a wildly high baseline on a clear day means it is time for a new module."
+      },
+      "alternatives": [
+        {
+          "name": "The free AQHI or AirNow apps",
+          "note": "Free, well-calibrated, potentially measuring somewhere else. Use them as well."
+        },
+        {
+          "name": "A neighbour's PurpleAir on the public map",
+          "note": "Free outdoor data. Does not tell you about your own indoor air."
+        }
+      ],
+      "verdict": "The cheapest way to find out whether everything else you bought for smoke is actually working. Buy the indoor one first."
+    }
   },
   {
     "slug": "noaa-weather-radio",
@@ -870,7 +2780,98 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A dedicated receiver tuned to the seven VHF weather-band frequencies used by NOAA Weather Radio in the US and Weatheradio Canada north of the border. Both networks broadcast continuously from a national transmitter grid and carry emergency alerts, including evacuation orders relayed through the national alerting systems. A SAME-equipped radio sits silent until an alert coded for your specific county or forecast region is transmitted, then sounds an alarm loud enough to wake a household. It runs entirely on broadcast RF: no internet, no cell tower, no app, no subscription.",
+      "market": "This is a small, stable and largely commoditised category dominated in North America by Midland, with Sangean, Eton and Kaito making up most of the rest. Prices run CAD $35–$150. The market divides into three real tiers rather than the many the packaging implies. Bottom tier, CAD $25–$50: crank or battery radios with a weather band but no SAME alerting — they receive the broadcast if you turn them on, which is not the same as being warned. Middle tier, CAD $50–$110: desktop SAME alert radios with AC power, battery backup and county programming. This is the tier that does the job. Top tier, CAD $110–$200: adds better antennas, external alert outputs for accessibility devices, and rugged or marine builds. Nothing above the middle tier meaningfully improves the chance you are woken up, and the price differences within the middle tier are mostly about display and ergonomics rather than radio performance.",
+      "features": [
+        {
+          "label": "SAME alerting",
+          "detail": "Specific Area Message Encoding. You program the code for your county or forecast region and the radio ignores everything else. Without it you either listen to a live broadcast permanently or you rely on a general alert tone for a region far larger than yours — which people mute after the third false relevance."
+        },
+        {
+          "label": "Battery backup",
+          "detail": "The radio must survive a power cut, because power goes down in the same events that generate the alerts. Look for AC power with AA or a sealed backup, not battery-only."
+        },
+        {
+          "label": "Alert volume and tone",
+          "detail": "The functional specification is whether it wakes you through a closed bedroom door. Desktop units are considerably louder than handhelds."
+        },
+        {
+          "label": "External antenna jack",
+          "detail": "The difference between reception and no reception in a valley. If you are rural, insist on it — a CAD $25 external wire antenna can turn an unusable signal into a solid one."
+        },
+        {
+          "label": "Alert-type filtering",
+          "detail": "Better units let you select which event codes trigger the alarm, so you are not woken for a marine advisory. Useful, but do not filter so aggressively that you miss something."
+        },
+        {
+          "label": "Accessibility outputs",
+          "detail": "Some models drive bed-shakers and strobes. Relevant, and the reason the top tier exists."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $45–$110 / USD $35–$85 for a SAME desktop unit — the tier worth buying.",
+        "consumables": "Backup batteries. Three AA every 12–18 months, roughly CAD $10 a year. Alkaline leakage is the main way these radios die, so check them annually.",
+        "ancillary": "An external antenna, CAD $20–$60, if you are in a valley or a basement. Nothing else — there is no subscription, no account and no app.",
+        "fiveYear": "Roughly CAD $100 all in, including the radio. It is the cheapest warning system available to a household by a wide margin."
+      },
+      "differentiators": [
+        {
+          "label": "Versus phone alerts",
+          "detail": "Alert Ready in Canada and WEA in the US push emergency alerts to phones and they work well. They also depend on a cell network that congests badly during major incidents, on a phone that is charged, and on a phone that is not on silent in another room. The radio's entire value is that it fails differently. Own both."
+        },
+        {
+          "label": "Versus a wildfire app",
+          "detail": "Apps give richer information: perimeters, wind, evacuation-zone maps. They need data connectivity to give it. The radio gives you one thing, loudly, with no network."
+        },
+        {
+          "label": "SAME versus no SAME",
+          "detail": "The single differentiator in this category. A CAD $35 crank radio without SAME is a radio you would have to already be listening to. Do not buy that one for this purpose."
+        },
+        {
+          "label": "Canadian coverage caveat",
+          "detail": "Weatheradio Canada's transmitter network is dense in populated corridors and thin in parts of the North and interior. Check the Environment and Climate Change Canada transmitter map for your postal code before you buy. If there is no transmitter within range, this product will not work for you, and no amount of antenna solves it."
+        },
+        {
+          "label": "What it will not do",
+          "detail": "It relays official alerts. It does not detect fire, it does not know where the fire is, and it will not tell you anything your provincial agency has not broadcast. It is a doorbell, not an oracle."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Same day to a week",
+        "where": "Canadian Tire, Home Hardware and most Canadian big-box retailers; Walmart, Home Depot, Lowe's and electronics retailers in the US; Amazon in both countries; and marine and outdoor suppliers, which often carry better-built models than the general retailers.",
+        "note": "The easiest purchase on this site — but check the transmitter map first, because in a handful of Canadian regions the honest answer is that reception is not there. Verify the model says SAME on the box, not merely 'weather alert'."
+      },
+      "install": {
+        "effort": 2,
+        "time": "20–40 minutes, nearly all of it programming",
+        "tools": [
+          "Nothing — a pen to write down your SAME code"
+        ],
+        "note": "The install is trivial; the programming is where people give up. Look up your SAME code on the NOAA or ECCC site before you start — it is a six-digit number for your county or forecast region, and if you live near a boundary you should program the neighbouring one as well. Then run the radio's self-test, and put it in the bedroom, not the basement. A correctly programmed radio in the wrong room has failed."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Press the test button monthly — most units also receive a weekly test broadcast, so you will know within days if reception has been lost. Replace backup batteries annually and check for leakage. Re-check your SAME code if you move."
+      },
+      "alternatives": [
+        {
+          "name": "Alert Ready / WEA phone alerts",
+          "note": "Free, already on your phone, network-dependent. Use them as well, not instead."
+        },
+        {
+          "name": "A provincial wildfire app plus a smart speaker routine",
+          "note": "Richer information, entirely internet-dependent."
+        },
+        {
+          "name": "A neighbourhood phone tree",
+          "note": "Unfashionable, and in rural communities with poor coverage it is still the thing that actually works."
+        }
+      ],
+      "verdict": "Under CAD $100 for a warning system that does not care whether the cell network is up. Check your transmitter coverage first, buy a SAME model, spend the twenty minutes programming it, and put it in the bedroom. It is the first thing we would buy and the one most people skip."
+    }
   },
   {
     "slug": "outdoor-security-camera",
@@ -901,7 +2902,88 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A battery or solar-powered Wi-Fi camera pointed at the approach to your property, giving you a live view from wherever you are. In a wildfire context it does one specific thing well: it lets you see smoke, ember fall or fire behaviour at your house after you have evacuated, which is the difference between knowing and refreshing a news site for three days.",
+      "market": "An enormous, fast-moving consumer market — Ring, Reolink, Arlo, Eufy, Wyze and dozens more — at CAD $80–$400 per camera. The fire-relevant considerations are unusual and narrow the field sharply: it has to run without mains power, it has to reach the internet without your house Wi-Fi if the power goes, and it has to survive heat and smoke. Most of the market fails at least two of those. The ones that pass are solar-powered LTE cameras, which are a small and more expensive subset at CAD $300–$600 plus a data plan.",
+      "features": [
+        {
+          "label": "Solar or long battery life",
+          "detail": "Mains power fails early in these events. A solar panel and a decent battery keeps the camera up when the house does not."
+        },
+        {
+          "label": "LTE option",
+          "detail": "The critical one, and the one most buyers miss. A Wi-Fi camera dies with your router. An LTE camera keeps reporting as long as the cell tower stands."
+        },
+        {
+          "label": "Local plus cloud recording",
+          "detail": "Cloud footage survives the building. Local-only storage burns with the camera."
+        },
+        {
+          "label": "Weather and temperature rating",
+          "detail": "Check the operating range. Many consumer cameras top out around 45–50 °C, which a wall in radiant heat will exceed long before flames arrive."
+        },
+        {
+          "label": "Subscription terms",
+          "detail": "Many brands paywall cloud storage and even basic notifications. Read what you are committing to before the hardware discount tempts you."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $150–$600 per camera; the solar LTE units that actually suit this use are at the top of that.",
+        "consumables": "None.",
+        "ancillary": "LTE data plan, CAD $10–$30 a month. Cloud storage subscription, CAD $5–$20 a month. These recur and are most of the five-year cost.",
+        "fiveYear": "CAD $900–$2,500 per camera once subscriptions are counted. Price the plan, not the camera."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a neighbour with a phone",
+          "detail": "Cheaper, more reliable and more informative, if you have one who stays. Most people do not, which is why the camera exists."
+        },
+        {
+          "label": "Versus provincial fire perimeter maps",
+          "detail": "Free and authoritative at the landscape scale. They will not tell you whether your shed is standing. Different questions."
+        },
+        {
+          "label": "The honest limitation",
+          "detail": "This is an information product, not a protection product. It changes nothing about whether the house survives. What it changes is your ability to make decisions — whether to send someone back, what to tell your insurer, and whether to stop refreshing a map at 3 a.m."
+        },
+        {
+          "label": "Wi-Fi dependence is the usual failure",
+          "detail": "A camera on house Wi-Fi and house power goes dark in the first hour of a major event, exactly when it becomes useful. If you buy one for this reason, buy the LTE version or accept that it is a general-purpose security camera."
+        }
+      ],
+      "buying": {
+        "effort": 2,
+        "lead": "Days",
+        "where": "Big-box electronics, Amazon, security specialists for the LTE models.",
+        "note": "Check LTE coverage at the property before committing to a cellular model, and check the subscription price over three years, not the sticker."
+      },
+      "install": {
+        "effort": 2,
+        "time": "30–60 minutes per camera",
+        "tools": [
+          "Drill",
+          "Ladder",
+          "Phone for setup"
+        ],
+        "note": "Mount high, angle to cover the approach and the most exposed elevation, and point the solar panel south. Test the view remotely on cell data with your home Wi-Fi turned off — that is the scenario it is for."
+      },
+      "ongoing": {
+        "effort": 2,
+        "note": "Clean the lens and solar panel each spring, verify remote access before fire season, and re-check that the subscription is still active. A lapsed plan is a dead camera you think is alive."
+      },
+      "alternatives": [
+        {
+          "name": "A neighbour who stays and a phone",
+          "note": "Free and better, when available."
+        },
+        {
+          "name": "Provincial wildfire perimeter maps and satellite hotspot feeds",
+          "note": "Free, authoritative, landscape scale."
+        }
+      ],
+      "verdict": "Buy it for peace of mind after you leave, not for protection — and only in the solar LTE configuration, because the ordinary Wi-Fi version goes dark exactly when you would want it."
+    }
   },
   {
     "slug": "portable-power-station",
@@ -937,7 +3019,90 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A lithium battery, an inverter and a set of outlets in a case. It runs the things that matter when the grid drops: the Wi-Fi router, phone charging, a CPAP machine, a HEPA purifier, some lights and a laptop. It does not run your house, and understanding that boundary is most of buying one well.",
+      "market": "A crowded and rapidly maturing market — EcoFlow, Jackery, Bluetti, Anker and many others — where capacity per dollar has improved sharply. The useful tiers: 300–600 Wh at CAD $350–$700 for phones, lights and a router; 1,000–2,000 Wh at CAD $900–$2,200, which will also run a purifier, a CPAP for several nights or a fridge intermittently; and 2,000 Wh and up at CAD $2,000–$5,000, approaching generator territory. The chemistry split matters: LiFePO4 cells cost more and last 3,000–6,000 cycles, while older NMC packs last 500–800. For a device you cycle rarely and want to still work in ten years, LiFePO4 is the right answer.",
+      "features": [
+        {
+          "label": "Capacity in watt-hours",
+          "detail": "The honest number. Divide by the wattage of what you want to run for a rough runtime: a 50 W purifier on a 1,000 Wh station is about 18 hours after losses."
+        },
+        {
+          "label": "Continuous output wattage",
+          "detail": "Separate from capacity and just as important. A 1,000 Wh station with a 600 W inverter will not start a fridge compressor regardless of how full it is."
+        },
+        {
+          "label": "LiFePO4 chemistry",
+          "detail": "Longer life, better heat tolerance, less degradation from sitting at full charge. Worth the premium for an emergency device."
+        },
+        {
+          "label": "Solar input",
+          "detail": "Turns it from a battery into a supply. A 200 W panel recharges a 1,000 Wh unit in roughly a clear day — much less in heavy smoke, which is worth knowing before you rely on it."
+        },
+        {
+          "label": "Pass-through charging",
+          "detail": "Lets it work as a UPS for the router, which is the single most useful everyday function."
+        },
+        {
+          "label": "Pure sine wave output",
+          "detail": "Required for medical devices such as CPAP. Check explicitly."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $900–$2,200 for the 1,000–2,000 Wh band most households want.",
+        "consumables": "None. The battery itself degrades — LiFePO4 to roughly 80% capacity after several thousand cycles, which for emergency use is effectively never.",
+        "ancillary": "Solar panels, CAD $300–$900 for a useful 200–400 W. A car charging cable.",
+        "fiveYear": "Purchase price. Expect to replace the unit at 8–12 years, not 5."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a petrol generator",
+          "detail": "A CAD $900 generator produces far more power for far less money and refuels in a minute. It is also loud, cannot run indoors, needs stored fuel, needs starting, and is a fire risk in its own right during a fire event. The power station is silent, indoor-safe and starts by pressing a button. For running a router and a purifier, the station wins; for running a well pump or a whole fridge for a week, the generator does."
+        },
+        {
+          "label": "Versus a fire pump's needs",
+          "detail": "It will not run a fire pump. Petrol pumps are petrol for a reason. Do not conflate the two purchases."
+        },
+        {
+          "label": "The realistic wildfire use",
+          "detail": "Communications and clean air. Router, phones, a purifier in one bedroom, lights, and any medical device. That is a genuinely valuable list and it fits comfortably in 1,000–2,000 Wh."
+        },
+        {
+          "label": "Solar in smoke",
+          "detail": "Dense smoke can cut solar output by half or more. Plan your recharge assumptions accordingly — this is the detail that catches people out in exactly the scenario they bought it for."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Days; frequently discounted, so waiting for a sale is rational",
+        "where": "Amazon, Costco, big-box, direct from manufacturers.",
+        "note": "Buy on watt-hours and continuous watts, and insist on LiFePO4. Ignore the marketing capacity names, which are not standardised."
+      },
+      "install": {
+        "effort": 1,
+        "time": "Minutes",
+        "tools": [
+          "Nothing"
+        ],
+        "note": "Charge it fully on arrival. Work out now which outlet the router is on, and label the cable — in a power cut at night people plug in the wrong things."
+      },
+      "ongoing": {
+        "effort": 2,
+        "note": "Recharge every 3–6 months even unused; a battery left flat for a year may not recover. Store between 20–80% charge if the manufacturer supports it, in a cool place. Test the whole setup annually."
+      },
+      "alternatives": [
+        {
+          "name": "A petrol generator",
+          "note": "More power, less money, more noise, outdoors only, needs fuel stored on a property you are trying to keep from burning."
+        },
+        {
+          "name": "A large USB power bank",
+          "note": "CAD $60–$150. Runs phones for days. Does not run a purifier or a CPAP, and for many people phones is the whole requirement."
+        }
+      ],
+      "verdict": "Sized right — 1,000–2,000 Wh, LiFePO4 — it covers communications, clean air and medical devices through a multi-day outage. It is not a generator substitute and it will not run anything to do with water."
+    }
   },
   {
     "slug": "backpack-pump-sprayer",
@@ -969,7 +3134,90 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A 5 gallon (about 19 L) water tank worn on the back, with a hand-operated trombone pump that throws a stream 8–12 m or a fine spray for wetting down. It is the wildland crew's tool for mopping up spot fires and knocking down small ignitions, and it is genuinely the right tool for the specific homeowner job of chasing embers that have landed in the yard, on the deck or in the gutter.",
+      "market": "A small, stable market of essentially two designs: the traditional galvanised or stainless Indian-pattern tank at CAD $180–$400, and lighter poly-bag versions at CAD $120–$250. Smith, Indian and a handful of forestry suppliers dominate. Build quality tracks price honestly here, and stainless units last decades. There is little to confuse you — the main decision is metal versus poly, which is a weight-versus-durability trade.",
+      "features": [
+        {
+          "label": "19 L capacity",
+          "detail": "Roughly 19 kg on your back when full. That is the real constraint — it is a substantial load and it dictates how far from the tap you can usefully work."
+        },
+        {
+          "label": "Trombone pump",
+          "detail": "Two-handed, continuous, no priming and nothing to fail. Adjustable from a straight stream for reach to a fog for cooling."
+        },
+        {
+          "label": "Metal versus poly tank",
+          "detail": "Stainless lasts a lifetime and takes rough handling; poly is 2–3 kg lighter and cheaper. Galvanised sits in between and eventually rusts."
+        },
+        {
+          "label": "Refill opening",
+          "detail": "A wide mouth matters more than it sounds — you will refill from a bucket, a tank or a creek, not a tidy tap."
+        },
+        {
+          "label": "Straps and frame",
+          "detail": "The difference between usable and miserable. Padded shoulder straps and a waist belt on anything you might carry for an hour."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $150–$400.",
+        "consumables": "Pump seals every few years, CAD $20–$40 for a kit.",
+        "ancillary": "Nothing required. A wetting agent or Class A foam concentrate, CAD $40–$120, roughly triples effectiveness on duff and is worth having.",
+        "fiveYear": "Under CAD $100 in seals. A stainless unit is a lifetime purchase."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a garden hose",
+          "detail": "The hose has unlimited water and a fixed radius. The backpack goes anywhere — the far fence, the back of the shed, the neighbour's roof edge — and keeps working when the tap has no pressure. Both, not either."
+        },
+        {
+          "label": "Versus a fire extinguisher",
+          "detail": "An extinguisher gives you 10–20 seconds of discharge for a fire that is already established. A backpack pump gives you fifteen minutes of water for embers and spot fires. Different problems, and the pump matches the wildfire problem better."
+        },
+        {
+          "label": "The physical reality",
+          "detail": "19 kg on your back, in heat and smoke, pumping with both hands. This is real work and it is worth being honest about who in the household can actually do it."
+        },
+        {
+          "label": "The right job for it",
+          "detail": "Post-frontal patrol. Once the main front has passed, embers keep landing and small ignitions keep starting for hours. That is when houses that survived the front are still lost, and that is exactly what this tool is for."
+        }
+      ],
+      "buying": {
+        "effort": 2,
+        "lead": "1–4 weeks from forestry suppliers",
+        "where": "Forestry and firefighting supply houses, farm and ranch supply, wildfire equipment specialists, Amazon.",
+        "note": "Buy stainless if you can stretch to it. Check the strap arrangement — the cheap ones are punishing after ten minutes."
+      },
+      "install": {
+        "effort": 1,
+        "time": "Minutes",
+        "tools": [
+          "Nothing"
+        ],
+        "note": "Fill it and carry it around the property once, so you know what 19 kg feels like and where you would refill. Practise the pump action — it is not obvious the first time."
+      },
+      "ongoing": {
+        "effort": 2,
+        "note": "Empty and dry after use — water left in a galvanised tank rusts it out. Store dry, keep it full and accessible through fire season if you can lift it that way, and replace pump seals when the stroke goes soft."
+      },
+      "alternatives": [
+        {
+          "name": "A garden hose with a good nozzle",
+          "note": "Unlimited water, limited reach, dies with the pressure."
+        },
+        {
+          "name": "A wheeled 100 L tank sprayer",
+          "note": "More water, no back strain, useless on rough ground or stairs."
+        },
+        {
+          "name": "Buckets",
+          "note": "Not a joke. Slower, free, and how a great many houses have been saved."
+        }
+      ],
+      "verdict": "The right tool for the hours after the front passes, which is when a lot of surviving houses are lost. Buy stainless, and be honest with yourself about who can carry 19 kg."
+    }
   },
   {
     "slug": "10lb-abc-extinguisher",
@@ -1005,6 +3253,85 @@
       }
     ],
     "image": null,
-    "asin": null
+    "asin": null,
+    "guide": {
+      "howItWorks": "A pressurised cylinder of monoammonium phosphate dry chemical rated for Class A (ordinary combustibles), B (flammable liquids) and C (energised electrical). It gives you roughly 20–25 seconds of discharge at 6–8 m. In a wildfire context it is not for fighting fire — it is for the small ignition on the deck, in the garage or in the vehicle that becomes a house fire if nobody catches it in the first minute.",
+      "market": "A commodity market with real certification behind it, which is unusual and welcome. Amerex, Kidde, First Alert and Buckeye cover most of the retail supply at CAD $50–$150 for a 10 lb ABC unit. The meaningful distinctions are the UL rating stamped on the label, whether the valve is metal or plastic, and whether the unit is rechargeable. Rechargeable metal-valve extinguishers cost roughly double and can be serviced for decades; disposable plastic-valve units are thrown away after any use or after roughly twelve years. For a house, buy rechargeable.",
+      "features": [
+        {
+          "label": "UL rating",
+          "detail": "Look for something like 4-A:60-B:C on the label. The numbers are tested performance, not marketing. A 10 lb unit typically rates 4-A:60-B:C; a 5 lb, about 3-A:40-B:C."
+        },
+        {
+          "label": "10 lb size",
+          "detail": "The right size for a garage or a deck. The common 2.5 lb kitchen unit gives about 9 seconds of discharge, which is not much when you are nervous."
+        },
+        {
+          "label": "Metal valve and rechargeable",
+          "detail": "Serviceable, refillable, lasts decades. Plastic-valve disposables are landfill after one squeeze."
+        },
+        {
+          "label": "Pressure gauge",
+          "detail": "Check it monthly. Dry chemical can settle and units lose pressure slowly; the gauge is the only warning you get."
+        },
+        {
+          "label": "Mounting bracket",
+          "detail": "Included on most. Use it — an extinguisher on the floor behind boxes is not an extinguisher."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $60–$150 each for a rechargeable 10 lb ABC. Two or three around a property is sensible.",
+        "consumables": "None until used.",
+        "ancillary": "Mounting brackets if not supplied. A second and third unit — garage, deck, vehicle.",
+        "fiveYear": "CAD $30–$60 per unit for a recharge or a professional inspection if you use one or your insurer wants documentation. Otherwise nil."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a backpack pump",
+          "detail": "The extinguisher is 20 seconds and instant; the pump is fifteen minutes and needs carrying. For a flaring barbecue or a smouldering deck board, the extinguisher. For patrolling a yard after ember fall, the pump."
+        },
+        {
+          "label": "Versus a garden hose",
+          "detail": "The hose is better for almost every Class A wildfire-adjacent situation — it does not run out in 20 seconds. The extinguisher's advantage is that it handles fuel and electrical fires the hose makes worse, and it is instantly to hand."
+        },
+        {
+          "label": "Where they should be",
+          "detail": "Garage, kitchen, deck or barbecue area, and each vehicle. The garage matters most — it is where fuel, batteries, solvents and a woodpile usually share a room."
+        },
+        {
+          "label": "The realistic limit",
+          "detail": "A 10 lb extinguisher addresses a fire the size of a wastebasket or a small deck ignition. Against anything larger it does nothing except delay your departure. If it does not go out in the first ten seconds, leave."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Same day",
+        "where": "Hardware stores, big-box, Costco, fire-protection suppliers, Amazon.",
+        "note": "Check the UL rating on the label and buy rechargeable with a metal valve. The CAD $30 saving on a disposable is not a saving."
+      },
+      "install": {
+        "effort": 1,
+        "time": "10 minutes",
+        "tools": [
+          "Drill for the bracket"
+        ],
+        "note": "Mount it at the exit side of the room, so you are never reaching past a fire to get it. Show everyone in the household where it is and run through PASS — pull, aim at the base, squeeze, sweep — out loud once. That five-minute conversation is most of the value."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Check the gauge monthly. Invert and shake annually to loosen settled powder. Service or replace at the manufacturer's stated interval — typically 6 years for a service, 12 for hydrostatic testing or replacement."
+      },
+      "alternatives": [
+        {
+          "name": "A fire blanket for the kitchen",
+          "note": "CAD $25, better for a pan fire, no mess, no substitute for an ABC unit elsewhere."
+        },
+        {
+          "name": "A garden hose on a reel by the deck",
+          "note": "More water, better for Class A, wrong for fuel and electrical."
+        }
+      ],
+      "verdict": "Cheap, certified and genuinely useful for the small ignition that would otherwise become the house fire. Buy rechargeable 10 lb units, mount them by the exits, and be clear with yourself that ten seconds of no progress means you leave."
+    }
   }
 ]

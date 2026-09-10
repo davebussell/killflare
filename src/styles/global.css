@@ -17,8 +17,8 @@
   --char-ink: #edefec;
   --char-ink-2: #a9b0ab;
 
-  --display: 'Barlow Condensed', 'Arial Narrow', Impact, sans-serif;
-  --body: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --display: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   --mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
 
   --measure: 66ch;
@@ -85,15 +85,15 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--amber); outline
 h1, h2, h3, h4 {
   font-family: var(--display);
   font-weight: 700;
-  line-height: 1;
-  letter-spacing: -0.005em;
+  line-height: 1.1;
+  letter-spacing: -0.021em;
   margin: 0;
   text-wrap: balance;
 }
-h1 { font-size: clamp(2.75rem, 7vw, 5.25rem); text-transform: uppercase; }
-h2 { font-size: clamp(2rem, 4.5vw, 3rem); text-transform: uppercase; }
-h3 { font-size: clamp(1.5rem, 2.6vw, 1.9rem); }
-h4 { font-size: 1.25rem; font-weight: 600; }
+h1 { font-size: clamp(2.15rem, 4.6vw, 3.5rem); letter-spacing: -0.028em; }
+h2 { font-size: clamp(1.55rem, 3vw, 2.25rem); letter-spacing: -0.024em; }
+h3 { font-size: clamp(1.2rem, 2vw, 1.45rem); letter-spacing: -0.018em; }
+h4 { font-size: 1.1rem; font-weight: 600; letter-spacing: -0.012em; }
 p { margin: 0; max-width: var(--measure); }
 p + p { margin-top: 1em; }
 
@@ -119,8 +119,8 @@ p + p { margin-top: 1em; }
 
 .btn {
   display: inline-flex; align-items: center; gap: 0.5rem;
-  font-family: var(--display); font-weight: 600; font-size: 1.125rem; text-transform: uppercase; letter-spacing: 0.04em;
-  padding: 0.7rem 1.2rem; text-decoration: none; border: 2px solid var(--ink); color: var(--ink);
+  font-family: var(--display); font-weight: 600; font-size: 0.97rem; letter-spacing: -0.008em;
+  padding: 0.65rem 1.15rem; text-decoration: none; border: 2px solid var(--ink); color: var(--ink);
   transition: background 0.15s, color 0.15s;
 }
 .btn:hover { background: var(--ink); color: var(--bg); }
@@ -146,7 +146,7 @@ p + p { margin-top: 1em; }
 .notice p { max-width: none; }
 
 .prose { max-width: var(--measure); }
-.prose h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); text-transform: none; margin: 2.25rem 0 0.75rem; }
+.prose h2 { font-size: clamp(1.35rem, 2.4vw, 1.7rem); margin: 2.25rem 0 0.7rem; }
 .prose h3 { margin: 1.75rem 0 0.5rem; }
 .prose ul { padding-left: 1.2rem; margin: 0.75rem 0; }
 .prose li + li { margin-top: 0.45rem; }

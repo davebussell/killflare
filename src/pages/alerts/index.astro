@@ -1,0 +1,145 @@
+---
+import Base from '../../layouts/Base.astro';
+import regions from '../../data/regions.json';
+
+// PayPal subscription plan. The client-id is a publishable browser key, not a secret.
+const PAYPAL_PLAN_ID = 'P-5RF71429A82783118NKRSRVQ';
+const PAYPAL_CLIENT_ID = 'BAAroLweb45e2DIkZfHMK_VKiLrusAgBbePiZvfXZdXfK56BPdJNIJmoWSAs1qYjRiOdlAsKD1TQIY31qk';
+const sdkSrc = `https://www.paypal.com/sdk/js?client-id=${PAYPAL_CLIENT_ID}&vault=true&intent=subscription`;
+---
+<Base title="Priority alerts" description="A $1/month supplementary wildfire alert service for Canada and the US — text and email warnings when risk rises in your area, plus seasonal safety reminders. Never a replacement for official emergency alerts.">
+  <section class="section alerts">
+    <div class="wrap">
+      <div class="ahead">
+        <div>
+          <span class="eyebrow eyebrow--ember">Priority alerts · $1/month</span>
+          <h1>A second set of eyes on your area</h1>
+          <p class="alede">Official wildfire alerts are good, and you should be signed up for every one your province offers. But they are built to warn a region, not a household, and plenty of people have found out about a fire from a neighbour rather than from a system. Priority Alerts is a small, cheap second layer: we watch fire activity and danger ratings for the area you give us, and we text and email you when it changes.</p>
+        </div>
+        <aside class="abuy" id="subscribe">
+          <span class="abuy__price"><em>$1</em> / month</span>
+          <p class="abuy__note">Cancel any time. No contract, no minimum.</p>
+          <div id="paypal-subscribe" class="abuy__paypal"></div>
+          <noscript><p class="abuy__fine">Subscribing needs JavaScript enabled. Email <a href="mailto:hello@killflare.com">hello@killflare.com</a> and we'll set you up by hand.</p></noscript>
+          <p class="abuy__fine">Payment is handled entirely by PayPal. Killflare never sees or stores your card details. After checkout we ask for the postal code you want watched and a mobile number for texts.</p>
+        </aside>
+      </div>
+
+      <div class="notice awarn">
+        <p><strong>This does not replace official emergency alerts, and you must not treat it as though it does.</strong> Provincial and territorial alert systems are the authority, they reach you whether or not you have paid anyone, and their evacuation orders are legally binding. If your province orders you out, you leave — regardless of whether you have heard anything from us. We are a supplement, we can fail, and we will never be the only thing standing between you and a fire.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="section-head"><h2>What you get</h2></div>
+      <div class="grid grid--3">
+        <div class="card afeat">
+          <h3>Text and email alerts</h3>
+          <p>When fire activity or the danger rating rises meaningfully near the postal or ZIP code you give us, you get a text and an email. Short, specific, and with a link to your provincial fire agency so you can see the source for yourself.</p>
+        </div>
+        <div class="card afeat">
+          <h3>Seasonal reminders</h3>
+          <p>A handful of messages a year, timed to your region's fire season rather than a generic calendar. Clean your gutters before the danger window. Apply retardant now. Check the go-bags. The things that only work if they happen early.</p>
+        </div>
+        <div class="card afeat">
+          <h3>Your area, not a province</h3>
+          <p>You tell us the postal code that matters. We are not trying to be a national broadcast — the point is that you hear about the fire near you and not about every fire in the province.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="section-head"><h2>Being straight with you about the limits</h2></div>
+      <div class="prose alimits">
+        <p>We would rather undersell this than have someone rely on it wrongly, so here is the honest version.</p>
+        <p><strong>We are downstream of the same public data you can read yourself.</strong> Fire locations and danger ratings come from provincial agencies. We are not detecting fires; we are watching what the agencies publish and telling you when something near you changes. Everything we send, you could find on your own — the service is that you do not have to remember to look.</p>
+        <p><strong>Delivery can fail.</strong> Cell networks go down in fires. Texts get delayed. Our systems can break. Any of those failures could mean you get nothing from us during exactly the event you were paying for. That is precisely why the paragraph above tells you not to depend on it.</p>
+        <p><strong>Coverage is best in places with good public data.</strong> British Columbia, Alberta, Saskatchewan, Manitoba, Ontario, Quebec and the territories publish detailed, frequently updated fire information. Coverage in the Atlantic provinces is thinner because there is less to work with.</p>
+        <p><strong>It is a dollar.</strong> We are not going to pretend a $1/month service is a professional monitoring contract. If you want genuine monitored protection, that is a different product at a different price, and you should talk to one of the companies in our <a href="/install/">installer directory</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="section-head" id="official"><h2>Set up your official alerts first</h2><p>Free, authoritative, and they reach you whether or not you subscribe to anything.</p></div>
+      <ul class="aofficial">
+        {regions.map((r) => (
+          <li><a href={r.agency.url} rel="noopener" target="_blank"><span class="mono">{r.code}</span> {r.agency.name} ↗</a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="afoot">
+        <div>
+          <h2>Ready when you are</h2>
+          <p>A dollar a month, cancel whenever. And if you never hear from us because nothing happened near you, that was a good year.</p>
+        </div>
+        <a href="#subscribe" class="btn btn--ember">Subscribe — $1/month</a>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline src={sdkSrc}></script>
+  <script is:inline define:vars={{ PAYPAL_PLAN_ID }}>
+    (function () {
+      function render() {
+        if (!window.paypal || !document.getElementById('paypal-subscribe')) return;
+        window.paypal.Buttons({
+          style: { shape: 'rect', color: 'gold', layout: 'vertical', label: 'subscribe' },
+          createSubscription: function (data, actions) {
+            return actions.subscription.create({ plan_id: PAYPAL_PLAN_ID });
+          },
+          onApprove: function (data) {
+            var id = encodeURIComponent(data.subscriptionID || '');
+            window.location.href = '/alerts/welcome/?sub=' + id;
+          },
+          onError: function () {
+            var el = document.getElementById('paypal-subscribe');
+            if (el) el.insertAdjacentHTML('afterend',
+              '<p class="abuy__fine">Something went wrong with PayPal. Email hello@killflare.com and we will sort it out.</p>');
+          }
+        }).render('#paypal-subscribe');
+      }
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', render);
+      else render();
+    })();
+  </script>
+</Base>
+<style>
+  .ahead { display: grid; grid-template-columns: 1.5fr 1fr; gap: clamp(1.5rem, 4vw, 3rem); align-items: start; margin-bottom: 1.5rem; }
+  .ahead h1 { margin-top: 0.5rem; }
+  .alede { font-size: 1.12rem; color: var(--ink-2); margin-top: 1rem; }
+
+  .abuy { background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--hunter); padding: 1.25rem; display: grid; gap: 0.6rem; }
+  .abuy__price { font-family: var(--display); font-weight: 700; font-size: 1.1rem; color: var(--ink-2); letter-spacing: -0.02em; }
+  .abuy__price em { font-style: normal; font-size: 2.4rem; color: var(--hunter); letter-spacing: -0.03em; }
+  .abuy__note { font-size: 0.9rem; color: var(--ink-2); }
+  .abuy__paypal { margin-top: 0.4rem; min-height: 52px; }
+  .abuy__fine { font-size: 0.78rem; color: var(--ink-3); }
+
+  .awarn { border-left-color: var(--ember); background: color-mix(in srgb, var(--ember) 10%, var(--surface)); }
+
+  .afeat { padding: 1.25rem; gap: 0.5rem; border-top: 4px solid var(--water); }
+  .afeat p { font-size: 0.95rem; color: var(--ink-2); }
+
+  .alimits p + p { margin-top: 0.9rem; }
+
+  .aofficial { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.35rem 1.5rem; }
+  .aofficial a { text-decoration: none; font-size: 0.92rem; display: flex; gap: 0.6rem; align-items: baseline; }
+  .aofficial a:hover { color: var(--ember); }
+  .aofficial .mono { font-size: 0.72rem; color: var(--ink-3); min-width: 2rem; }
+
+  .afoot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.25rem 2rem; background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--hunter); padding: clamp(1.25rem, 3vw, 1.75rem); }
+  .afoot h2 { font-size: clamp(1.25rem, 2.4vw, 1.65rem); }
+  .afoot p { color: var(--ink-2); margin-top: 0.4rem; font-size: 0.97rem; }
+
+  @media (max-width: 820px) { .ahead { grid-template-columns: 1fr; } }
+</style>

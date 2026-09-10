@@ -1,0 +1,72 @@
+---
+import Base from '../../../layouts/Base.astro';
+---
+<Base title="You're subscribed" description="Almost there — tell us the area you want watched and where to send alerts.">
+  <section class="section">
+    <div class="wrap">
+      <div class="wgrid">
+        <div>
+          <span class="eyebrow eyebrow--ember">Priority alerts</span>
+          <h1>You're in. One last thing.</h1>
+          <p class="wlede">PayPal has your payment and your email, but it doesn't tell us <em>where</em> you are — and without that we can't watch the right area or text you. Thirty seconds and you're done.</p>
+
+          <div class="notice wwarn">
+            <p><strong>While you're here:</strong> if you haven't already, sign up for your provincial emergency alerts too. They're free, they're the authority, and their evacuation orders are binding. We're the second layer, not the first. <a href="/alerts/#official">Links to every provincial agency</a>.</p>
+          </div>
+        </div>
+
+        <form name="alert-details" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/alerts/thanks/" class="wform">
+          <input type="hidden" name="form-name" value="alert-details" />
+          <input type="hidden" name="subscription-id" id="subscription-id" />
+          <p class="hidden"><label>Leave this empty: <input name="bot-field" /></label></p>
+
+          <label>Name<input type="text" name="name" autocomplete="name" required /></label>
+          <label>Email <span class="wopt">the same one you used with PayPal</span>
+            <input type="email" name="email" autocomplete="email" required /></label>
+          <label>Mobile number <span class="wopt">for texts</span>
+            <input type="tel" name="phone" autocomplete="tel" placeholder="+1 604 555 0123" required /></label>
+          <label>Postal or ZIP code <span class="wopt">the area we watch</span>
+            <input type="text" name="postal" autocomplete="postal-code" placeholder="V1Y 1A1" required /></label>
+          <label>Anything we should know? <span class="wopt">optional</span>
+            <textarea name="notes" rows="2" placeholder="Second property, acreage, someone in the house with a respiratory condition…"></textarea></label>
+
+          <label class="wcheck">
+            <input type="checkbox" name="consent" required />
+            <span>I understand Priority Alerts supplements official emergency alerts and does not replace them, and that delivery can fail. I agree to receive texts and emails from Killflare and can stop any time by replying STOP or emailing hello@killflare.com.</span>
+          </label>
+
+          <button type="submit" class="btn btn--ember">Finish setup</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline>
+    (function () {
+      var p = new URLSearchParams(window.location.search).get('sub');
+      var f = document.getElementById('subscription-id');
+      if (p && f) f.value = p;
+    })();
+  </script>
+</Base>
+<style>
+  .wgrid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+  .wgrid h1 { margin-top: 0.5rem; }
+  .wlede { font-size: 1.1rem; color: var(--ink-2); margin-top: 1rem; }
+  .wlede em { font-style: italic; }
+  .wwarn { margin-top: 1.5rem; }
+
+  .wform { display: grid; gap: 0.75rem; background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--hunter); padding: clamp(1.1rem, 3vw, 1.6rem); }
+  .wform label { display: grid; gap: 0.25rem; font-size: 0.85rem; font-weight: 500; }
+  .wopt { font-weight: 400; color: var(--ink-3); font-size: 0.78rem; }
+  .wform input[type="text"], .wform input[type="email"], .wform input[type="tel"], .wform textarea {
+    font: inherit; font-size: 0.94rem; padding: 0.5rem 0.6rem;
+    border: 1px solid var(--line); background: var(--bg); color: var(--ink); border-radius: 0;
+  }
+  .wform input:focus-visible, .wform textarea:focus-visible { outline: 3px solid var(--amber); outline-offset: 1px; }
+  .wcheck { display: grid; grid-template-columns: auto 1fr; gap: 0.6rem; align-items: start; font-weight: 400; font-size: 0.82rem; color: var(--ink-2); margin-top: 0.3rem; }
+  .wcheck input { margin-top: 0.2rem; }
+  .wform button { justify-self: start; margin-top: 0.4rem; cursor: pointer; }
+  .hidden { display: none; }
+  @media (max-width: 820px) { .wgrid { grid-template-columns: 1fr; } }
+</style>

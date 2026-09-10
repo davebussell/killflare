@@ -1,0 +1,20 @@
+---
+interface Props { level: number; label: string; }
+const { level, label } = Astro.props;
+const words = ['', 'Trivial', 'Easy', 'Moderate', 'Hard', 'Major project'];
+---
+<div class="eff">
+  <span class="eff__lab mono">{label}</span>
+  <span class="eff__bar" role="img" aria-label={`${label}: ${words[level]}, ${level} out of 5`}>
+    {[1, 2, 3, 4, 5].map((i) => <span class={`eff__pip${i <= level ? ' is-on' : ''}`}></span>)}
+  </span>
+  <span class="eff__word">{words[level]}</span>
+</div>
+<style>
+  .eff { display: grid; gap: 0.35rem; }
+  .eff__lab { font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.11em; color: var(--ink-3); }
+  .eff__bar { display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; max-width: 260px; }
+  .eff__pip { height: 7px; background: var(--line); }
+  .eff__pip.is-on { background: var(--zone, var(--ember)); }
+  .eff__word { font-size: 0.9rem; font-weight: 500; }
+</style>
