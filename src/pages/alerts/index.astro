@@ -20,7 +20,7 @@ const sdkSrc = `https://www.paypal.com/sdk/js?client-id=${PAYPAL_CLIENT_ID}&vaul
           <span class="abuy__price"><em>$1</em> / month</span>
           <p class="abuy__note">Cancel any time. No contract, no minimum.</p>
           <div id="paypal-subscribe" class="abuy__paypal"></div>
-          <noscript><p class="abuy__fine">Subscribing needs JavaScript enabled. Email <a href="mailto:hello@killflare.com">hello@killflare.com</a> and we'll set you up by hand.</p></noscript>
+          <noscript><p class="abuy__fine">Subscribing needs JavaScript enabled. Email <a href="mailto:dave@clickshift.ca">dave@clickshift.ca</a> and we'll set you up by hand.</p></noscript>
           <p class="abuy__fine">Payment is handled entirely by PayPal. Killflare never sees or stores your card details. After checkout we ask for the postal code you want watched and a mobile number for texts.</p>
         </aside>
       </div>
@@ -104,7 +104,7 @@ const sdkSrc = `https://www.paypal.com/sdk/js?client-id=${PAYPAL_CLIENT_ID}&vaul
           onError: function () {
             var el = document.getElementById('paypal-subscribe');
             if (el) el.insertAdjacentHTML('afterend',
-              '<p class="abuy__fine">Something went wrong with PayPal. Email hello@killflare.com and we will sort it out.</p>');
+              '<p class="abuy__fine">Something went wrong with PayPal. Email dave@clickshift.ca and we will sort it out.</p>');
           }
         }).render('#paypal-subscribe');
       }

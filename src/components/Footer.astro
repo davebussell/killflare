@@ -1,6 +1,7 @@
 ---
 import Logo from './Logo.astro';
 import categories from '../data/categories.json';
+import { HAS_AFFILIATE_TAGS } from '../config';
 const year = new Date().getFullYear();
 ---
 <footer class="ftr">
@@ -8,7 +9,9 @@ const year = new Date().getFullYear();
     <div class="ftr__brand">
       <Logo size={26} />
       <p>Independent guides to the equipment that keeps a house standing when the forest burns. Written for homeowners in Canada and the United States.</p>
-      <p class="ftr__fine">Killflare is reader-supported. When you buy through links on this site we may earn a commission from Amazon and other retailers, at no extra cost to you. We don't sell products and we don't accept payment for placement.</p>
+      <p class="ftr__fine">{HAS_AFFILIATE_TAGS
+        ? 'Killflare is reader-supported. When you buy through links on this site we may earn a commission from Amazon and other retailers, at no extra cost to you. We don\'t sell products and we don\'t accept payment for placement.'
+        : 'Killflare is reader-supported. We are not currently in any affiliate program, so links on this site earn us nothing. We don\'t sell products and we don\'t accept payment for placement.'}</p>
     </div>
     <div>
       <h4 class="ftr__h">Gear</h4>

@@ -34,13 +34,18 @@
         "kind": "direct"
       },
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=WASP+wildfire+sprinkler+kit&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B088C41YVL?tag=AFFILIATE_TAG",
+        "kind": "affiliate"
+      },
+      {
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B088C41YVL?tag=AFFILIATE_TAG_CA",
         "kind": "affiliate"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B088C41YVL",
     "guide": {
       "howItWorks": "Plastic sprinkler heads clip over the lip of your eavestrough and throw a low arc of water back across the roof deck and down the wall. The point is not to soak the shingles — it is to keep the roof, the fascia and the first metre of wall wet enough that an arriving ember goes out instead of taking hold, and to raise humidity in the air immediately around the house. You run it for the hours either side of a fire front passing, then shut it off.",
       "market": "Gutter-mount ember-defense kits are a small market with maybe a dozen serious players, most of them Canadian and most founded after the 2016 Fort McMurray fire. They cluster into three tiers. At the bottom, generic tripod and impact sprinklers repurposed from irrigation — cheap, no roof coverage. In the middle, clip-on kits like WASP, Platypus and Flash: purpose-built heads, garden-hose fed, $600–$2,500 depending on head count. At the top, permanently plumbed systems like Frontline with dedicated pumps, tanks and remote activation, at $15,000–$40,000 installed. WASP sits squarely in the middle tier and competes mostly on being tool-free and Canadian-stocked rather than on throw distance or build quality, where Platypus arguably edges it.",
@@ -269,13 +274,13 @@
         "kind": "direct"
       },
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=roof+ridge+wildfire+sprinkler+brass&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0GQB34K8X?tag=AFFILIATE_TAG",
         "kind": "affiliate"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B0GQB34K8X",
     "guide": {
       "howItWorks": "A single high-throw sprinkler head, usually ridge- or gutter-mounted, that puts a wide wetted circle over the roof from fewer positions than a clip-kit needs. You buy heads individually and place them to cover the roof with overlap, then feed them from a garden hose or a pump.",
       "market": "Single-head roof sprinklers are the value tier of purpose-built wildfire wetting — the space between a $60 lawn tripod and a $1,500 multi-head kit. Buyers here are people who want real roof coverage but are willing to do the geometry themselves. Competition is mostly Canadian and mostly small: Platypus, several Alberta-built equivalents, and a long tail of no-name imports that look similar and throw half as far. The specification that separates them is wetted diameter at 40 psi, which the serious brands publish and the imports do not.",
@@ -380,18 +385,18 @@
     "bestFor": "Renters and anyone wanting an immediate, low-cost improvement.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=brass+impact+sprinkler+tripod+metal&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0002IQ96Y?tag=AFFILIATE_TAG",
         "kind": "affiliate"
       },
       {
-        "label": "Search on Amazon.ca",
-        "url": "https://www.amazon.ca/s?k=brass+impact+sprinkler+tripod+metal&tag=AFFILIATE_TAG_CA",
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B0002IQ96Y?tag=AFFILIATE_TAG_CA",
         "kind": "affiliate"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B0002IQ96Y",
     "guide": {
       "howItWorks": "A brass impact sprinkler on an adjustable tripod — the same thing farms have used for eighty years. You place it upwind of what you want wet: the fence line, the deck, the woodpile, the outbuilding, the last few metres of yard. It will also put water on a low single-storey roof if you get the height and angle right.",
       "market": "This is a commodity. Brass impact heads and tripods are made by dozens of manufacturers and sold through every hardware and farm-supply chain in North America, at CAD $40–$140. The only meaningful split is brass versus plastic internals: brass heads cost twice as much and last roughly ten times as long under continuous use. Nothing in this category is designed for wildfire specifically, and no vendor should be charging you a wildfire premium for one.",
@@ -489,18 +494,18 @@
     "bestFor": "Seasonal treatment of fences, wood decks and mulch beds.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=Phos-Chek+Wildfire+Home+Defense&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0C26SPXVF?tag=AFFILIATE_TAG",
         "kind": "affiliate"
       },
       {
-        "label": "Search on Amazon.ca",
-        "url": "https://www.amazon.ca/s?k=Phos-Chek+Wildfire+Home+Defense&tag=AFFILIATE_TAG_CA",
-        "kind": "affiliate"
+        "label": "Perimeter Solutions (maker)",
+        "url": "https://www.perimeter-solutions.com/",
+        "kind": "direct"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B0C26SPXVF",
     "guide": {
       "howItWorks": "A long-term retardant concentrate you mix with water and spray on fences, decks, mulch beds, sheds and the wooden things around the house. Unlike gel, it does not depend on staying wet: the salts stay on the surface after the water evaporates and chemically interfere with combustion for weeks or months, until heavy rain washes them off. You apply it early in the season, not at the last minute.",
       "market": "Consumer long-term retardant is a young category dominated by one name — Phos-Chek, the same Perimeter Solutions chemistry dropped from air tankers, repackaged for homeowners. Competitors are mostly regional resellers of similar ammonium-phosphate formulations, plus a fringe of unregistered products that are essentially fertiliser with dye. The meaningful buying signal is regulatory: in the US, look for a product on the USDA Forest Service qualified products list; in Canada, check the PMRA registration or the manufacturer's Canadian SDS. Anything sold as 'fire retardant' with no registration number is a bottle of salt water.",
@@ -607,13 +612,18 @@
     "bestFor": "Homes in the path of an approaching fire with an hour to spare.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=Barricade+fire+blocking+gel&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B07NS6W6RD?tag=AFFILIATE_TAG",
         "kind": "affiliate"
+      },
+      {
+        "label": "Barricade home kit (direct)",
+        "url": "https://firegel.com/products/",
+        "kind": "direct"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B07NS6W6RD",
     "guide": {
       "howItWorks": "A superabsorbent polymer concentrate that mixes with water into a thick gel and is sprayed onto walls, windows, decks and eaves. The gel is roughly 99% water held in a matrix that resists running off and evaporating. It buys the surface it covers a window of protection — typically a few hours in serious heat — and stops working the moment it dries out. It is the last thing you do before you leave.",
       "market": "Fire-blocking gel is a small, technically genuine category with three or four credible manufacturers — Barricade, Thermo-Gel, and a couple of firefighting-supply brands — plus a great deal of marketing noise. All the real products are variations on the same polymer chemistry, tested to broadly similar standards, and used by professional structure-protection crews. Consumer pricing is CAD $150–$600 for enough concentrate to treat one house once. The differentiators between brands are dwell time in heat, ease of mixing, and whether you can apply it with a garden hose eductor or need a dedicated pump.",
@@ -716,9 +726,19 @@
     "bestFor": "Property owners protecting multiple buildings.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=Thermo-Gel+fire+retardant&tag=AFFILIATE_TAG",
-        "kind": "affiliate"
+        "label": "Thermo-Gel (maker)",
+        "url": "https://www.thermo-gel.com/",
+        "kind": "direct"
+      },
+      {
+        "label": "National Firefighter (US)",
+        "url": "https://www.nationalfirefighter.com/store/p/3435-Thermo-Gel-200L.aspx",
+        "kind": "direct"
+      },
+      {
+        "label": "Fire Etc (Alberta)",
+        "url": "https://fire-etc.com/products/thermo-gel-firefighting-homeowners-kit",
+        "kind": "direct"
       }
     ],
     "image": null,
@@ -823,9 +843,9 @@
     "bestFor": "Whole-house vent replacement.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=Vulcan+ember+resistant+vent&tag=AFFILIATE_TAG",
-        "kind": "affiliate"
+        "label": "Find a Vulcan retailer",
+        "url": "https://vulcanvents.com/retailers/",
+        "kind": "direct"
       }
     ],
     "image": null,
@@ -939,9 +959,14 @@
     "bestFor": "Homes where attic ventilation is already marginal.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=Brandguard+vent&tag=AFFILIATE_TAG",
-        "kind": "affiliate"
+        "label": "Fire Rated Vents (Brandguard store)",
+        "url": "https://www.fireratedvents.com/",
+        "kind": "direct"
+      },
+      {
+        "label": "Brandguard on-site estimate",
+        "url": "https://www.brandguardvents.com/contact-us/",
+        "kind": "direct"
       }
     ],
     "image": null,
@@ -1051,18 +1076,18 @@
     "bestFor": "Renters, older homes, and under-deck screening.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=1%2F8+inch+stainless+steel+mesh+ember+screen&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0FNK6PLRC?tag=AFFILIATE_TAG",
         "kind": "affiliate"
       },
       {
-        "label": "Search on Amazon.ca",
-        "url": "https://www.amazon.ca/s?k=1%2F8+inch+stainless+steel+mesh+screen&tag=AFFILIATE_TAG_CA",
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B0FNK6PLRC?tag=AFFILIATE_TAG_CA",
         "kind": "affiliate"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B0FNK6PLRC",
     "guide": {
       "howItWorks": "1/8 inch (3 mm) stainless steel woven mesh, cut and fastened over the inside or outside of existing vents, under-deck openings, crawlspace access and any other gap an ember could enter. The aperture is the entire specification: 3 mm is small enough to stop the vast majority of wind-carried embers and large enough not to choke ventilation or clog with dust.",
       "market": "A commodity material sold by screen suppliers, hardware chains, industrial mesh distributors and Amazon, at CAD $40–$150 per roll. The only questions are aperture and alloy. Aluminium mesh is cheaper and melts. Fibreglass insect screen is useless — it burns. 1/4 inch hardware cloth passes embers. Get 1/8 inch stainless, usually type 304 or 316, and ignore everything else on the shelf.",
@@ -1168,18 +1193,18 @@
     "bestFor": "Homes under conifers.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=stainless+steel+micro+mesh+gutter+guard&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0F67MJNNH?tag=AFFILIATE_TAG",
         "kind": "affiliate"
       },
       {
-        "label": "Search on Amazon.ca",
-        "url": "https://www.amazon.ca/s?k=stainless+steel+micro+mesh+gutter+guard&tag=AFFILIATE_TAG_CA",
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B0F67MJNNH?tag=AFFILIATE_TAG_CA",
         "kind": "affiliate"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B0F67MJNNH",
     "guide": {
       "howItWorks": "A stainless micro-mesh panel that clips or screws over the eavestrough so water gets in and needles, leaves and embers do not. The fire logic is simple: a gutter full of dry conifer litter sitting against the fascia is a ready-made ember trap at the exact point where roof meets wall. Keep the trough empty and you remove one of the most reliable ignition points on a house.",
       "market": "Gutter protection is a large, noisy consumer market where most of the money is in installed systems sold door-to-door at CAD $2,500–$8,000 a house, with aggressive marketing and long warranties. Underneath that, the same stainless micro-mesh panels sell as DIY product for CAD $4–$12 per linear foot. The fire-relevant distinction is not brand, it is material and aperture: stainless micro-mesh over an aluminium frame is the only construction that both excludes conifer needles and cannot melt. Plastic and foam inserts are common, cheap, and actively bad here — foam holds debris and burns, and plastic deforms.",
@@ -1284,9 +1309,9 @@
     "bestFor": "Cabins, outbuildings and anything you can wrap in an afternoon.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=Firezat+fire+shield+wrap&tag=AFFILIATE_TAG",
-        "kind": "affiliate"
+        "label": "FireFoil (homeowner distributor)",
+        "url": "https://firefoil.com/",
+        "kind": "direct"
       }
     ],
     "image": null,
@@ -1854,18 +1879,18 @@
     "bestFor": "Treed lots in Zone 1 (1.5–10 m).",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=battery+pole+saw&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0197DA9EW?tag=AFFILIATE_TAG",
         "kind": "affiliate"
       },
       {
-        "label": "Search on Amazon.ca",
-        "url": "https://www.amazon.ca/s?k=battery+pole+saw&tag=AFFILIATE_TAG_CA",
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B0197DA9EW?tag=AFFILIATE_TAG_CA",
         "kind": "affiliate"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B0197DA9EW",
     "guide": {
       "howItWorks": "A small chainsaw bar on the end of a 2–4 m pole, battery-powered, used from the ground to limb conifers up to about 2 m and to take out branches overhanging the roof. The fire job it does is breaking the ladder fuel — the continuous line of branches that lets a ground fire climb into the crowns and then into your roofline.",
       "market": "Battery pole saws are now a mature consumer category with three tiers. Entry-level 20 V units at CAD $150–$300 handle branches up to about 100 mm and run 20–30 minutes. Mid-range 40–60 V platform tools at CAD $300–$650 are the sweet spot for a homeowner clearing an acre. Professional 80 V and petrol units at CAD $700–$1,500 are for people doing this for days at a time. The single most important buying factor is not the saw — it is whether it shares a battery platform with tools you already own, because batteries are most of the cost.",
@@ -1973,13 +1998,13 @@
     "bestFor": "Needle-litter cleanup and spot-fire response.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=McLeod+fire+rake+tool&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B00MYATUWI?tag=AFFILIATE_TAG",
         "kind": "affiliate"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B00MYATUWI",
     "guide": {
       "howItWorks": "A wildland hand tool: a heavy rake head with coarse tines on one side and a flat hoe blade on the other, on a long handle. You pull litter and duff away with the tines and scrape down to mineral soil with the blade. It is the tool for building the bare-ground breaks in Zone 0 and for clearing needle litter from under decks, along fences and around outbuildings.",
       "market": "A century-old US Forest Service pattern, now made by a dozen manufacturers from CAD $60 imports to CAD $200 forged professional heads. The difference is real: a stamped-steel head on a cheap handle will bend on the first serious root, while a forged head on hickory will outlive you. Council Tool and a handful of similar makers own the quality end. There is no wildfire-branded premium version worth buying — this is a fire-service commodity and should be priced like one.",
@@ -2081,18 +2106,18 @@
     "bestFor": "Every household in an evacuation-prone area.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=72+hour+emergency+kit+4+person&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B00149VP14?tag=AFFILIATE_TAG",
         "kind": "affiliate"
       },
       {
-        "label": "Search on Amazon.ca",
-        "url": "https://www.amazon.ca/s?k=72+hour+emergency+kit+4+person&tag=AFFILIATE_TAG_CA",
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B073PMXP9M?tag=AFFILIATE_TAG_CA",
         "kind": "affiliate"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B00149VP14",
     "guide": {
       "howItWorks": "A pre-assembled bag holding water, food, light, first aid, a radio, and basic sanitation for two to four people for three days — the standard planning horizon Public Safety Canada and FEMA both use, because that is roughly how long it takes for organised assistance to reach a displaced population. In a wildfire evacuation the realistic use is different from an earthquake: you are more likely to be in a hotel or a reception centre than in a field, so the kit's real job is that you left with something rather than nothing.",
       "market": "Pre-built emergency kits are a crowded consumer market with wide quality variance and consistent overpricing. Cheap kits at CAD $60–$120 contain a lot of items of no value — tiny torches, a whistle, twelve adhesive bandages — chosen because they raise the item count on the box. Serious kits at CAD $200–$500 have real water, real food with a real shelf life, and a first aid kit somebody thought about. Above that you are usually buying a nicer bag. Building your own from good components costs roughly the same as a mid-range kit and is meaningfully better, at the price of a Saturday.",
@@ -2200,13 +2225,13 @@
     "bestFor": "Everyone.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=fireproof+document+bag&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0BZ56V8BH?tag=AFFILIATE_TAG",
         "kind": "affiliate"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B0BZ56V8BH",
     "guide": {
       "howItWorks": "A silicone-coated fibreglass pouch that resists flame and radiant heat for a stated period, usually with a water-resistant closure. It protects passports, deeds, insurance policies, birth certificates and a backup drive either in a safe at home or as a grab item. Understand what it is: heat and flame resistance for a limited time, not a safe.",
       "market": "A crowded, low-cost Amazon category full of near-identical products with impressive-sounding temperature claims and very little third-party verification. Prices run CAD $25–$90. Almost every listing claims something like '2000 °F for 30 minutes', typically from an in-house test at whatever conditions favoured the number. Above this tier sit genuinely rated fire safes, which are UL-classified, cost CAD $200–$900 and weigh 25–90 kg. There is very little in between, and the gap is where most buyers' expectations sit.",
@@ -2311,18 +2336,18 @@
     "bestFor": "Everyone in a smoke-affected region.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=3M+N95+respirator+NIOSH+smoke&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0002YKBV2?tag=AFFILIATE_TAG",
         "kind": "affiliate"
       },
       {
-        "label": "Search on Amazon.ca",
-        "url": "https://www.amazon.ca/s?k=3M+N95+respirator+NIOSH&tag=AFFILIATE_TAG_CA",
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B0002YKBV2?tag=AFFILIATE_TAG_CA",
         "kind": "affiliate"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B0002YKBV2",
     "guide": {
       "howItWorks": "A certified particulate respirator filters the fine particulate — PM2.5 — that makes up most of the health burden of wildfire smoke. N95 filters at least 95% of airborne particles; P100 filters at least 99.97% and is oil-resistant. Both work only if the seal against your face is good, which is why fit matters more than filter rating and why beards defeat them entirely.",
       "market": "Post-2020, respirators are a large, well-supplied and unfortunately heavily counterfeited market. The split that matters: disposable N95 filtering facepieces at CAD $2–$6 each, and reusable half-face elastomeric respirators with P100 cartridges at CAD $40–$120 plus CAD $20–$50 per cartridge pair. For a household facing weeks of smoke every summer, elastomerics are cheaper over three years and seal better. Certification is the buying signal: NIOSH approval in the US, and in Canada look for NIOSH or the CSA Z94.4-compliant equivalents. A 'KN95' from an unverifiable seller is a gamble.",
@@ -2427,18 +2452,18 @@
     "bestFor": "Bedrooms and the room where kids or elders spend the day.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=HEPA+air+purifier+wildfire+smoke+large+room&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0DT4F8T4L?tag=AFFILIATE_TAG",
         "kind": "affiliate"
       },
       {
-        "label": "Search on Amazon.ca",
-        "url": "https://www.amazon.ca/s?k=HEPA+air+purifier+large+room&tag=AFFILIATE_TAG_CA",
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B0DT4F8T4L?tag=AFFILIATE_TAG_CA",
         "kind": "affiliate"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B0DT4F8T4L",
     "guide": {
       "howItWorks": "A fan pulls room air through a true HEPA filter, which captures at least 99.97% of 0.3 µm particles — comfortably including wildfire smoke PM2.5. Run continuously in a closed room, it drives indoor particulate well below outdoor levels. The relevant metric is CADR, the clean-air delivery rate, which combined with room size tells you how many air changes per hour you actually get.",
       "market": "A large, mature and confusing consumer market. The useful structure: budget units at CAD $150–$300 with real HEPA and modest CADR; mid-range at CAD $300–$700 covering a genuine bedroom or living room; premium at CAD $700–$1,500 mostly buying quieter operation, app control and design. The distortions to watch are subscription filter models, which can double lifetime cost, and units sold on room-size claims that assume one air change an hour — nowhere near enough for smoke. AHAM Verifide CADR ratings are the one independent number in the category and are worth insisting on.",
@@ -2547,13 +2572,13 @@
     "bestFor": "Whole-house coverage on a budget.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=20x20+MERV+13+furnace+filter+4+pack&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B09XC3RQ3J?tag=AFFILIATE_TAG",
         "kind": "affiliate"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B09XC3RQ3J",
     "guide": {
       "howItWorks": "A 20 inch box fan taped to a cube of four MERV-13 furnace filters, blowing outward. The large filter area means low resistance, so a cheap fan moves a great deal of air through a great deal of media. It was designed in 2020 by Richard Corsi and Jim Rosenthal as an open, unpatented answer to expensive purifiers, and independent testing has repeatedly found it competitive with commercial units several times its price.",
       "market": "There is no market, which is the point — it is a public-domain design assembled from commodity parts. What exists commercially is kits at CAD $80–$180 that bundle the filters and a shroud, and a few boutique versions in tidy cases at CAD $250–$400. Buying the parts separately is cheapest: a box fan is CAD $35–$70 and MERV-13 filters are CAD $15–$30 each. Filter quality is the only real variable; buy from a known furnace-filter brand rather than the cheapest listing.",
@@ -2659,13 +2684,13 @@
     "bestFor": "Anyone running purifiers seriously.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=PM2.5+air+quality+monitor+indoor&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0CLCL9HH4?tag=AFFILIATE_TAG",
         "kind": "affiliate"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B0CLCL9HH4",
     "guide": {
       "howItWorks": "A laser particle counter draws air past a beam and counts the scattering events, converting them to an estimated PM2.5 concentration in µg/m³. It tells you what the air in a specific room actually is, rather than what a regional monitoring station 40 km away reports. That distinction matters, because indoor concentrations during a smoke event can be anywhere from a tenth to well above the outdoor reading depending on your building.",
       "market": "Consumer air monitors split cleanly. Cheap handheld units at CAD $40–$120 use uncalibrated sensors and drift badly — useful for relative changes, not for absolute numbers. Mid-range fixed monitors at CAD $150–$400 (PurpleAir, AirGradient, Awair and similar) use Plantower or Sensirion sensor modules with reasonable calibration and log data over time. Reference-grade instruments start around CAD $3,000 and are not a consumer product. The mid-range is where the value is, and PurpleAir in particular feeds a public map that has become genuinely useful infrastructure during western North American smoke seasons.",
@@ -2769,18 +2794,18 @@
     "bestFor": "Rural homes and anywhere cell coverage is weak.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=Midland+NOAA+weather+radio+SAME&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B00176T9OY?tag=AFFILIATE_TAG",
         "kind": "affiliate"
       },
       {
-        "label": "Search on Amazon.ca",
-        "url": "https://www.amazon.ca/s?k=Midland+weather+radio+SAME+alert&tag=AFFILIATE_TAG_CA",
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B00176T9OY?tag=AFFILIATE_TAG_CA",
         "kind": "affiliate"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B00176T9OY",
     "guide": {
       "howItWorks": "A dedicated receiver tuned to the seven VHF weather-band frequencies used by NOAA Weather Radio in the US and Weatheradio Canada north of the border. Both networks broadcast continuously from a national transmitter grid and carry emergency alerts, including evacuation orders relayed through the national alerting systems. A SAME-equipped radio sits silent until an alert coded for your specific county or forecast region is transmitted, then sounds an alarm loud enough to wake a household. It runs entirely on broadcast RF: no internet, no cell tower, no app, no subscription.",
       "market": "This is a small, stable and largely commoditised category dominated in North America by Midland, with Sangean, Eton and Kaito making up most of the rest. Prices run CAD $35–$150. The market divides into three real tiers rather than the many the packaging implies. Bottom tier, CAD $25–$50: crank or battery radios with a weather band but no SAME alerting — they receive the broadcast if you turn them on, which is not the same as being warned. Middle tier, CAD $50–$110: desktop SAME alert radios with AC power, battery backup and county programming. This is the tier that does the job. Top tier, CAD $110–$200: adds better antennas, external alert outputs for accessibility devices, and rugged or marine builds. Nothing above the middle tier meaningfully improves the chance you are woken up, and the price differences within the middle tier are mostly about display and ergonomics rather than radio performance.",
@@ -2896,13 +2921,13 @@
     "bestFor": "Anyone who evacuates early (which should be everyone).",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=solar+outdoor+wifi+security+camera&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0H25Y4R2W?tag=AFFILIATE_TAG",
         "kind": "affiliate"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B0H25Y4R2W",
     "guide": {
       "howItWorks": "A battery or solar-powered Wi-Fi camera pointed at the approach to your property, giving you a live view from wherever you are. In a wildfire context it does one specific thing well: it lets you see smoke, ember fall or fire behaviour at your house after you have evacuated, which is the difference between knowing and refreshing a news site for three days.",
       "market": "An enormous, fast-moving consumer market — Ring, Reolink, Arlo, Eufy, Wyze and dozens more — at CAD $80–$400 per camera. The fire-relevant considerations are unusual and narrow the field sharply: it has to run without mains power, it has to reach the internet without your house Wi-Fi if the power goes, and it has to survive heat and smoke. Most of the market fails at least two of those. The ones that pass are solar-powered LTE cameras, which are a small and more expensive subset at CAD $300–$600 plus a data plan.",
@@ -3128,13 +3153,13 @@
     "bestFor": "Spot fires after the front passes.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=backpack+fire+pump+5+gallon+wildland&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B091183JX1?tag=AFFILIATE_TAG",
         "kind": "affiliate"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B091183JX1",
     "guide": {
       "howItWorks": "A 5 gallon (about 19 L) water tank worn on the back, with a hand-operated trombone pump that throws a stream 8–12 m or a fine spray for wetting down. It is the wildland crew's tool for mopping up spot fires and knocking down small ignitions, and it is genuinely the right tool for the specific homeowner job of chasing embers that have landed in the yard, on the deck or in the gutter.",
       "market": "A small, stable market of essentially two designs: the traditional galvanised or stainless Indian-pattern tank at CAD $180–$400, and lighter poly-bag versions at CAD $120–$250. Smith, Indian and a handful of forestry suppliers dominate. Build quality tracks price honestly here, and stainless units last decades. There is little to confuse you — the main decision is metal versus poly, which is a weight-versus-durability trade.",
@@ -3242,18 +3267,18 @@
     "bestFor": "Every garage and deck.",
     "links": [
       {
-        "label": "Search on Amazon",
-        "url": "https://www.amazon.com/s?k=10+lb+ABC+fire+extinguisher+rechargeable&tag=AFFILIATE_TAG",
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0030ZZAR0?tag=AFFILIATE_TAG",
         "kind": "affiliate"
       },
       {
-        "label": "Search on Amazon.ca",
-        "url": "https://www.amazon.ca/s?k=10+lb+ABC+fire+extinguisher&tag=AFFILIATE_TAG_CA",
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B0030ZZAR0?tag=AFFILIATE_TAG_CA",
         "kind": "affiliate"
       }
     ],
     "image": null,
-    "asin": null,
+    "asin": "B0030ZZAR0",
     "guide": {
       "howItWorks": "A pressurised cylinder of monoammonium phosphate dry chemical rated for Class A (ordinary combustibles), B (flammable liquids) and C (energised electrical). It gives you roughly 20–25 seconds of discharge at 6–8 m. In a wildfire context it is not for fighting fire — it is for the small ignition on the deck, in the garage or in the vehicle that becomes a house fire if nobody catches it in the first minute.",
       "market": "A commodity market with real certification behind it, which is unusual and welcome. Amerex, Kidde, First Alert and Buckeye cover most of the retail supply at CAD $50–$150 for a 10 lb ABC unit. The meaningful distinctions are the UL rating stamped on the label, whether the valve is metal or plastic, and whether the unit is rechargeable. Rechargeable metal-valve extinguishers cost roughly double and can be serviced for decades; disposable plastic-valve units are thrown away after any use or after roughly twelve years. For a house, buy rechargeable.",

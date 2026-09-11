@@ -5,6 +5,7 @@ import ProductImage from '../../components/ProductImage.astro';
 import Effort from '../../components/Effort.astro';
 import categories from '../../data/categories.json';
 import products from '../../data/products.json';
+import { resolveLink, HAS_AFFILIATE_TAGS } from '../../config';
 
 export function getStaticPaths() {
   return products.map((p) => ({ params: { slug: p.slug }, props: { p } }));
@@ -66,10 +67,10 @@ const jsonLd = {
           <ProductImage product={p} ratio="4 / 3" size={72} eager={true} />
           <span class="eyebrow">Where to buy</span>
           <div class="buy__links">
-            {affiliate.map((l: any) => <a href={l.url} class="btn btn--ember" rel="sponsored noopener" target="_blank">{l.label}</a>)}
-            {direct.map((l: any) => <a href={l.url} class="btn btn--ghost" rel="noopener" target="_blank">{l.label}</a>)}
+            {affiliate.map((l: any) => <a href={resolveLink(l.url)} class="btn btn--ember" rel="sponsored noopener" target="_blank">{l.label}</a>)}
+            {direct.map((l: any) => <a href={resolveLink(l.url)} class="btn btn--ghost" rel="noopener" target="_blank">{l.label}</a>)}
           </div>
-          <p class="buy__fine">Prices change daily and vary by region, so we show a price band rather than a number. Affiliate links earn us a small commission at no cost to you. <a href="/about/#disclosure">How we make money.</a></p>
+          <p class="buy__fine">Prices change daily and vary by region, so we show a price band rather than a number. {HAS_AFFILIATE_TAGS ? 'Affiliate links earn us a small commission at no cost to you.' : 'We are not yet in any affiliate program, so these links earn us nothing today.'} <a href="/about/#disclosure">How we make money.</a></p>
           <div class="buy__cat">
             <span class="eyebrow">Category</span>
             <a href={`/categories/${cat.slug}/`}>{cat.name} →</a>

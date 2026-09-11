@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import { CONTACT_EMAIL, HAS_AFFILIATE_TAGS } from '../config';
 ---
 <Base title="About" description="Who runs Killflare, how we choose products, and how the site makes money.">
   <section class="section">
@@ -14,14 +15,18 @@ import Base from '../layouts/Base.astro';
         <p>We show price bands ($ to $$$$) rather than prices, because prices change daily, differ between Amazon.ca and Amazon.com, and spike during fire season. Check the retailer for today's number.</p>
 
         <h2 id="disclosure">How we make money</h2>
-        <p>Killflare is reader-supported. Links marked as affiliate links go to Amazon and other retailers; if you buy through them we earn a small commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. Links marked as direct links go straight to the manufacturer and earn us nothing.</p>
+        {HAS_AFFILIATE_TAGS ? (
+          <p>Killflare is reader-supported. Links marked as affiliate links go to Amazon and other retailers; if you buy through them we earn a small commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. Links marked as direct links go straight to the manufacturer and earn us nothing.</p>
+        ) : (
+          <p>Killflare is reader-supported, but not yet earning. We have applied to retailer affiliate programs and are not currently accepted into any, so every link on this site earns us nothing today. When that changes we will say so here, and affiliate links will be labelled as such on the page. Our only current revenue is the <a href="/alerts/">$1/month Priority Alerts</a> subscription.</p>
+        )}
         <p>We don't sell products, hold inventory, or accept payment for placement. No manufacturer sees a page before it's published. If a product stops being a good recommendation, it comes off the site.</p>
 
         <h2 id="safety">A note on safety</h2>
         <p>Nothing on this site is a reason to stay in a home under evacuation order. Every product here is meant to be set up ahead of time and left to work while you leave early. Follow the instructions of your local fire authority over anything you read here.</p>
 
         <h2 id="contact">Contact</h2>
-        <p>Corrections, product suggestions and questions: <a href="mailto:hello@killflare.com">hello@killflare.com</a>.</p>
+        <p>Corrections, product suggestions and questions: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
       </div>
     </div>
   </section>
