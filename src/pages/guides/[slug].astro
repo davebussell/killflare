@@ -34,7 +34,7 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
           {g.sections.map((s, i) => (
             <section id={`s${i}`} class="gsec">
               <h2>{s.heading}</h2>
-              <p>{s.body}</p>
+              {(Array.isArray(s.body) ? s.body : [s.body]).map((para: string) => <p>{para}</p>)}
               {s.products && s.products.length > 0 && (
                 <div class="gsec__products">
                   <span class="eyebrow">Gear for this step</span>
