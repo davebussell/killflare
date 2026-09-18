@@ -160,5 +160,532 @@
       }
     ],
     "photo": "guide-smoke-season-indoor-air"
+  },
+  {
+    "slug": "how-far-should-trees-be-from-your-house",
+    "title": "How Far Should Trees Be From Your House?",
+    "description": "The official setbacks in Canada and the US, what the research actually found, and why 'cut down all your trees' is the wrong answer.",
+    "readTime": "9 min",
+    "photo": "defensible-space-tools",
+    "sections": [
+      {
+        "heading": "The short answer",
+        "body": [
+          "Nothing combustible within 1.5 metres (5 feet) of the wall, and no conifer within 10 metres (33 feet), is the rule most Canadian homeowners should work to. Beyond that, thin rather than clear: FireSmart Canada asks for 3 metres of space between tree crowns out to 30 metres, and for branches pruned 2 metres up from the ground.",
+          "But the more useful answer is that distance is not really the variable. What matters is whether there is a continuous path of fuel from the forest to your wall, and whether anything is touching or overhanging the house. A well-spaced, well-watered deciduous tree 8 metres from the house is a different proposition from a dead spruce the same distance away with its lower branches sweeping the ground and a bed of bark mulch underneath.",
+          "This guide gives the official numbers for both countries, then looks at what the post-fire research found — which is more nuanced, and in places more forgiving, than the guidance implies."
+        ]
+      },
+      {
+        "heading": "What FireSmart Canada actually says",
+        "body": [
+          "FireSmart uses three named zones, not numbers. The Immediate Zone runs from the wall out to 1.5 metres. The Intermediate Zone covers 1.5 to 10 metres. The Extended Zone runs 10 to 30 metres. You will often see them written as 'Zone 1, 2, 3', borrowing CAL FIRE's numbering, but the names above are what FireSmart itself publishes.",
+          "In the Immediate Zone, FireSmart asks for a non-combustible surface — gravel, rock, pavers — extending around the entire house and around any attachment, including decks. Avoid woody shrubs and trees entirely. Even fire-resistant plants should sit no closer than 1.5 metres to a structure.",
+          "For trees specifically: coniferous trees should not be within 10 metres of the home. Prune all branches to 2 metres from the ground, on every tree within 30 metres and, if you can manage it, out to 100 metres. In the Extended Zone, selectively remove evergreens so there is at least 3 metres of horizontal space between crowns or groups of crowns. Firewood moves out to the Extended Zone too.",
+          "One rule that surprises people because it reaches well past the non-combustible strip: no bark or pine-needle mulch within 10 metres of the house. Not 1.5 metres — 10. Bark mulch is one of the most reliable ways to carry a spot fire to a wall, and it is sold at every garden centre in the country.",
+          "FireSmart is also unusually direct about species. Deciduous trees — poplar, birch, aspen — are listed as less flammable and appear under 'trees to plant'. Conifers — spruce, fir, pine, cedar — are listed as highly flammable and appear under 'plants to avoid'. That distinction does not exist in the California guidance."
+        ]
+      },
+      {
+        "heading": "What CAL FIRE requires in the US",
+        "body": [
+          "California uses three numbered zones in feet, and unlike FireSmart's voluntary guidance, the 100-foot requirement is law under Public Resources Code 4291. Zone 0 is 0 to 5 feet. Zone 1 is 5 to 30 feet. Zone 2 is 30 to 100 feet, measured from structures and decks or to the property line, whichever comes first.",
+          "Tree spacing in Zone 2 varies with slope, which is the sensible part of the California approach and something FireSmart does not do. On slopes up to 20% you need 10 feet of horizontal space between canopy edges. From 20 to 40%, 20 feet. Above 40%, 30 feet. Fire moves uphill faster, so steeper ground needs wider gaps.",
+          "Branches get cleared to at least 6 feet from the ground — the Board of Forestry's own guidance says 6 to 15 feet, or the lower third for small trees. And remove every branch within 10 feet of a chimney or stovepipe. FireSmart has no equivalent chimney rule, so if you are in Canada and reading American sources, that 10-foot figure is not something FireSmart asks of you.",
+          "Zone 0 — the ember-resistant first five feet — is the piece everyone is waiting on. The Board of Forestry approved the regulation on 19 August 2026. It is not yet in force: the package is still working through final administrative review with no statewide effective date set. When it does take effect, new construction complies immediately and existing homes get a phased window of three to five years. It bans combustible mulch, firewood, debris and combustible outbuildings in the first five feet, but — contrary to a lot of early reporting — it does not ban all plants there. Maintained grass, low groundcover, herbaceous plants and potted plants in non-combustible containers are permitted, as are existing trees that meet the maintenance rules.",
+          "If you are in California, check the Board of Forestry's defensible space page before acting on any Zone 0 deadline you read elsewhere, including this one. It is the fastest-moving rule in wildfire policy right now."
+        ]
+      },
+      {
+        "heading": "What the research found, which is not quite what the rules say",
+        "body": [
+          "The most important study on this question looked at thousands of homes across Californian fires and asked how far clearance actually needs to extend. The finding: clearance of roughly 5 to 20 metres was the effective range, depending on slope, and distances beyond 30 metres provided no additional protection at all — not even for houses on steep slopes. The steepest gain came from going from almost no clearance to 8 to 15 metres.",
+          "The same work found that at least 60% of the woody vegetation on a property could remain with significant protective benefit intact. Effective clearance covered under 40% of the typical lot. What was strongly significant was vegetation touching or overhanging the structure.",
+          "That is a different message from 'clear everything'. It says: be ruthless close in, thin sensibly in the middle distance, and stop worrying past 30 metres.",
+          "A study of the 2018 Camp Fire complicates it further. Higher canopy cover within 30 to 100 metres did reduce survival — homes built after 1996 survived at 77% where canopy cover was under a third, and at 24% above that. But the authors attributed most of the effect to accumulated leaf and needle litter rather than to the canopy itself burning. And the single strongest predictor in that study was not vegetation at all. It was distance to the nearest destroyed building."
+        ]
+      },
+      {
+        "heading": "Trees are not always the enemy",
+        "body": [
+          "Two pieces of recent work should give pause to anyone about to call an arborist in a panic.",
+          "A USDA Forest Service team looked at around 16,000 buildings across the Ventura and Paradise fires. Dry, water-stressed vegetation near buildings was associated with loss, as you would expect. But in Ventura, buildings near trees that were not water-stressed had a better chance of surviving. The researchers argued for location-specific guidance rather than blanket rules.",
+          "A UCLA team surveying more than 2,000 trees in the Palisades and Altadena burn scars found something more pointed: mature trees frequently carried fire scars on the side facing a destroyed house. The tree caught fire from the building, not the other way round.",
+          "None of this overturns the close-in rules. The Insurance Institute for Business & Home Safety ran seventeen experiments and found that vegetation within five feet of a house significantly increases heat exposure during a fire and can amplify damage even when the plants are well watered — which contradicts the common belief that irrigation makes landscaping safe. Where more than a quarter of the first five feet was covered in fuel, the risk of damage or destruction approached 90%.",
+          "The reconciliation is straightforward once you see it. The first few metres are decisive. The far field is not. Those are two different questions and a lot of advice runs them together."
+        ]
+      },
+      {
+        "heading": "A caution about reading across the border",
+        "body": [
+          "Almost all the research above is Californian — chaparral and mixed conifer, in a Mediterranean climate. FireSmart's 10-metre conifer setback is aimed at boreal spruce and pine, where crown fire behaves differently and moves faster. If you are in northern Alberta or the BC interior, do not let a California study talk you out of the conifer rule.",
+          "The other cross-border traps are the units and the mulch rule. FireSmart bans bark mulch to 10 metres; California's Zone 0 rule bans it to 5 feet. That is a very large difference, and it is the single most likely place for a homeowner reading both countries' guidance to get it wrong. FireSmart prunes to 2 metres, CAL FIRE to 6 feet — close, but not the same number. And FireSmart's outer zone stops at 30 metres where California's goes to 100 feet, which is roughly the same distance by coincidence rather than design."
+        ],
+        "products": [
+          "battery-pole-saw",
+          "mcleod-fire-rake"
+        ]
+      },
+      {
+        "heading": "What to actually do this spring",
+        "body": [
+          "Start at the wall and work outward, because that is the order the payoff comes in. Strip the first 1.5 metres to gravel or bare mineral soil. Pull the bark mulch — all of it, out to 10 metres if you are in Canada. Move the woodpile past 10 metres. Clear the roof and gutters of needle litter, and cut back anything touching or overhanging the house.",
+          "Then prune. Branches to 2 metres up on everything within 30 metres. Take out the conifers inside 10 metres if you can bring yourself to, starting with any that are dead, dying or leaning toward the house. Thin the rest to 3 metres between crowns.",
+          "Then stop. Past 30 metres you are spending weekends for no measurable return, and the evidence says so plainly. If you still have energy, spend it on the house — vents, gutters, the first five feet of deck — rather than on more trees."
+        ],
+        "products": [
+          "stainless-ember-mesh",
+          "steel-micro-mesh-gutter-guard"
+        ]
+      },
+      {
+        "heading": "Sources",
+        "body": [
+          "FireSmart Canada, 'FireSmart Begins at Home' guide and Home Ignition Zone pages. FireSmart BC landscaping best practices. CAL FIRE 'Ready for Wildfire' defensible space pages and Public Resources Code 4291. California Board of Forestry and Fire Protection, defensible space zones and the August 2026 Zone 0 rulemaking.",
+          "Syphard et al., 'The role of defensible space for residential structure protection during wildfires', International Journal of Wildland Fire. Knapp et al., 'Housing arrangement and vegetation factors associated with single-family home survival in the 2018 Camp Fire', Fire Ecology 17:25 (2021). Insurance Institute for Business & Home Safety research on Zone Zero fuel coverage and near-home vegetation. USDA Forest Service and UCLA post-fire tree surveys reported via LAist.",
+          "Figures current as of September 2026. Zone 0's status in California changes frequently — verify before relying on a date."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "why-houses-burn-when-the-forest-doesnt",
+    "title": "Why Houses Burn When the Forest Doesn't",
+    "description": "Post-fire photos keep showing destroyed homes surrounded by green trees. Understanding why is the single most useful thing a homeowner can learn.",
+    "readTime": "7 min",
+    "photo": "hero",
+    "sections": [
+      {
+        "heading": "The photograph that explains everything",
+        "body": [
+          "After almost every major interface fire, the same image circulates: a street of burned-out foundations, and standing around them, trees that are scorched but very much still there. People read it as a curiosity, or as evidence that the fire behaved strangely.",
+          "It is neither. It is the central fact of how houses are lost, and Jack Cohen — the US Forest Service scientist whose research produced the Home Ignition Zone concept — has spent a career pointing at it. If the fire had swept through as a continuous wall of flame, the vegetation would be gone too. It isn't. Which means the houses did not burn because a wildfire rolled over them. They burned one at a time, from embers and from each other.",
+          "Cohen's framing is that community fire disasters are a structure ignition problem, not a wildfire intensity problem. That sounds like a semantic distinction. It is actually the difference between a problem you cannot do anything about and one you can."
+        ]
+      },
+      {
+        "heading": "Embers travel, and they arrive first",
+        "body": [
+          "Embers — firebrands — lift off the fire front and land ahead of it, sometimes kilometres ahead. They arrive in showers, and they do not need to land on something dramatic. They need a gutter with needles in it, a doormat, a bark mulch bed, a gap between deck boards, an open vent.",
+          "You will see it written that embers cause up to 90% of home ignitions. That figure is worth treating carefully: it traces back to an industry press release rather than a formal damage survey, and no rigorous split between embers, radiant heat and direct flame contact has been published. What post-fire investigation does establish firmly is that embers and burning neighbouring structures, rather than an advancing flame front, account for the great majority of losses.",
+          "The practical consequence is that the fire does not have to reach your property for your house to be at risk, and that most of what saves a house is unglamorous. Screened vents. Clean gutters. Nothing combustible against the wall."
+        ],
+        "products": [
+          "stainless-ember-mesh",
+          "steel-micro-mesh-gutter-guard"
+        ]
+      },
+      {
+        "heading": "Then houses set fire to each other",
+        "body": [
+          "This is the part that gets least attention and may matter most.",
+          "A burning house is an enormous source of radiant heat and a factory for new embers. Once one goes up, its neighbours are exposed to something far more intense than the forest ever produced. The Camp Fire study found that the strongest single predictor of whether a house survived was its distance from the nearest destroyed structure. Homes within 18 metres of one survived at 5.8%. Beyond 18 metres, 35.4%.",
+          "IBHS investigators found the same pattern from the other direction: spacing under 10 feet posed significant risk, while separation greater than 50 feet posed little. Their Camp Fire report noted buildings destroyed while the vegetation between them remained — the signature of structure-to-structure spread rather than crown fire.",
+          "For anyone on a standard suburban lot this is uncomfortable, because you cannot move your house and you cannot control your neighbour's. It is also why the IBHS Wildfire Prepared programme added a neighbourhood standard in 2026, and why community-level schemes like Firewise USA and FireSmart's neighbourhood recognition exist. On a tight lot, your risk is substantially your street's risk."
+        ]
+      },
+      {
+        "heading": "The things that connect one fire to the next",
+        "body": [
+          "If structures ignite each other, the question becomes what carries fire across the gap. Research has been unusually specific here.",
+          "Fences. A NIST study ran 187 experiments on wood, vinyl and composite fences with various mulches. Fences burning alone went slowly. Fences with mulch at the base let flame run the full length fast. Back-to-back fences — two panels sharing a property line — produced the most intense fires, engulfing 8-foot panels in under four minutes. Even fences separated by three feet still produced dangerous flames. If you have a wooden fence running up to your wall, you have installed a fuse.",
+          "Decks. IBHS ember testing found that the danger is less the decking material than what falls through it: embers dropping between boards ignite the debris underneath. Counterintuitively, medium winds produced the greatest ember accumulation on deck surfaces, not the strongest ones. Most plastic composites smouldered rather than flamed, and only two of eight products tested sustained flaming at all.",
+          "Mulch. Covered in every guide on this site for the same reason it keeps appearing in the research: it is a continuous, dry, combustible surface that people lay directly against their foundations."
+        ],
+        "products": [
+          "propane-tank-fire-cover",
+          "phos-chek-home-defense"
+        ]
+      },
+      {
+        "heading": "What this means for what you buy",
+        "body": [
+          "If the threat were a wall of flame, the rational purchase would be something heroic — a bigger pump, a thicker wrap. Because the threat is mostly embers and neighbours, the rational purchases are small and boring, and they are cheap.",
+          "One-eighth-inch stainless mesh over every vent. Metal gutter guards, or a diarised gutter clean. Gravel instead of bark in the first few metres. A fence section near the house swapped for steel. Nothing on that list costs more than a few hundred dollars, and collectively it addresses the mechanism that actually destroys houses.",
+          "The expensive items still earn their place — sprinklers and gel buy you a wetted surface during the hours that matter, and a pump keeps them running when municipal pressure drops. But they are a second layer. A house with open vents and a full gutter is not made safe by a sprinkler kit."
+        ],
+        "products": [
+          "wasp-wildfire-protection-full-kit",
+          "portable-gas-fire-pump"
+        ]
+      },
+      {
+        "heading": "The honest limit",
+        "body": [
+          "None of this makes a house safe in the way a fireproof safe is safe. IBHS's investigation of the Palisades and Eaton fires found that homes with four hardening features — Class A roof, non-combustible siding, double-pane windows, enclosed eaves — had a 54% chance of avoiding damage, against 36% for homes where only one measure had been taken.",
+          "Read that number honestly. Doing nearly everything right still left roughly half of those homes damaged in an extreme wind-driven conflagration. Hardening shifts the odds substantially. It does not buy certainty, and anyone selling you certainty is selling something else.",
+          "It also does not change the evacuation calculus. Every product on this site is meant to be set up in advance and left to work while you leave early."
+        ]
+      },
+      {
+        "heading": "Sources",
+        "body": [
+          "Jack Cohen, 'Wildland-Urban Fire — A Different Approach', USDA Forest Service, and subsequent legislative testimony. Knapp et al., Fire Ecology 17:25 (2021), Camp Fire structure survival. IBHS Camp Fire investigation report and IBHS findings on the Palisades and Eaton fires, released December 2025.",
+          "NIST, 'Study Finds Wildfire Hazards in Residential Fences and Mulch Beds', August 2022 (Butler, Johnsson and Maranghides). Quarles and Standohar-Alfano, 'Ignition Potential of Decks Subjected to an Ember Exposure', IBHS. NFPA/IBHS ember communications for the 90% figure, which we have flagged rather than relied on.",
+          "Current as of September 2026."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "is-there-such-a-thing-as-a-fireproof-house",
+    "title": "Is There Such a Thing as a Fireproof House?",
+    "description": "No — and the people who study this for a living are blunt about it. What exists instead is an ignition-resistant house, which is a lower bar and a far more useful one.",
+    "readTime": "8 min",
+    "photo": "fire-blankets-and-wraps",
+    "sections": [
+      {
+        "heading": "The word the researchers refuse to use",
+        "body": [
+          "Jack Cohen, who did the foundational US Forest Service research on how houses ignite, puts it in one line: ignition-resistant structures do not mean a fireproof structure.",
+          "That is not false modesty. Concrete spalls. Steel conducts and deforms. Glass breaks. Given enough time under enough heat, any building fails. The question is never whether a house can withstand unlimited fire; it is whether it can get through the roughly one to two hours when embers are falling and a neighbour may be burning, without anything catching.",
+          "So the industry term is ignition resistant, and the goal is to eliminate the ignition opportunities rather than to armour against flame. That reframe is the whole discipline. It is also why the effective measures are so much smaller and cheaper than people expect."
+        ]
+      },
+      {
+        "heading": "What an ignition-resistant house actually has",
+        "body": [
+          "The Insurance Institute for Business & Home Safety runs the most rigorous voluntary standard in North America, Wildfire Prepared Home. In June 2026 it renamed its two tiers: what was Base is now Essential, and what was Plus is now Enhanced. If you see 'Wildfire Prepared Home Plus' written anywhere, including on this site's older pages, it is the superseded name.",
+          "Essential is the ember package. A Class A roof with no wood shakes. Vents that are either tested to ASTM E2886 or covered in non-combustible mesh of one-eighth inch or finer. Non-combustible gutters, kept clear. The first five feet cleared to bare mineral soil with no combustible fence or stored items. Decks clear of debris, with six inches of clearance at posts. The bottom six inches of wall non-combustible.",
+          "Enhanced adds protection against radiant heat and direct flame, which is where the money is. Enclosed eaves. Covered non-combustible gutters. Multi-pane tempered windows, or 20-minute rated glazing, or glass block. All exterior wall covering non-combustible. A solid non-combustible deck surface with non-combustible railings within five feet. No back-to-back combustible fences between five and thirty feet.",
+          "That is a complete, checkable specification, and it is worth noticing what is not on it: no sprinkler system, no gel, no wrap. Those are useful, and we cover them elsewhere on this site, but they are not what the standard considers a hardened house."
+        ],
+        "products": [
+          "vulcan-vents",
+          "stainless-ember-mesh"
+        ]
+      },
+      {
+        "heading": "Does it work? Yes, partially, and the number is sobering",
+        "body": [
+          "IBHS assessed more than 250 properties in the Palisades and Eaton fires and cross-referenced CAL FIRE records on over 30,000 structures. Homes with four hardening features — Class A roof, non-combustible siding, double-pane windows, enclosed eaves — had a 54% likelihood of avoiding damage. Homes where only one measure had been taken: 36%.",
+          "That is a real and meaningful improvement. It is also, read plainly, a coin flip. In an extreme wind-driven conflagration, doing nearly everything right still left about half of those homes damaged.",
+          "The Camp Fire gives a similar shape from a different angle. Homes built before 1997 survived at 11.5%. Those built between 1997 and 2007, 37%. Those built from 2008, after California's WUI construction standards came in, 44%. Tempting to call that proof that the code works — but the study's authors were careful, and so should we be: the difference between the newest two groups was not statistically significant, and newer homes also sat on different lots with different spacing. The code almost certainly helps. That study cannot prove by how much."
+        ]
+      },
+      {
+        "heading": "The thing hardening cannot fix",
+        "body": [
+          "In that same Camp Fire analysis, the strongest predictor of survival was not the roof or the vents. It was distance from the nearest destroyed building — 5.8% survival within 18 metres, 35.4% beyond it. IBHS found spacing under 10 feet posed significant risk and over 50 feet very little.",
+          "If your house sits 6 metres from your neighbour's, you have a category of exposure that no amount of personal spending resolves, because a burning house next door produces radiant heat far beyond anything the forest generates. The Camp Fire researchers were explicit that defensible space improvements alone proved insufficient against intense radiant heat from nearby burning structures.",
+          "This is the strongest practical argument for the neighbourhood programmes — Firewise USA in the States, FireSmart neighbourhood recognition in Canada, and IBHS's new Wildfire Prepared Neighborhood standard introduced in 2026. On a tight lot, a conversation with the three neighbours nearest you is worth more than another product."
+        ]
+      },
+      {
+        "heading": "Where the myth comes from",
+        "body": [
+          "Two things keep the fireproof idea alive.",
+          "The first is that houses genuinely do survive when everything around them is gone, and the photographs are striking. Cohen has documented survivals in Paradise, in Lytton, and in Fort McMurray. But those houses were not fireproof; they were houses where nothing caught. Usually because the gutters were clean, the vents were screened, the first few feet held nothing that burns, and no neighbouring building was close enough to cook them.",
+          "The second is marketing. 'Fireproof' sells better than 'reduces the probability of ignition'. Be suspicious of any product sold on the first phrase. A fire blanket rated to 1,800°F is a real thing, but that rating describes a short exposure in a controlled test, not a house standing in a firestorm.",
+          "The honest framing is probabilistic and unsatisfying, and it is the one every serious researcher uses: you are shifting odds, not buying immunity."
+        ]
+      },
+      {
+        "heading": "What to do with that",
+        "body": [
+          "Accepting that no house is fireproof changes the shopping list in a specific way. It moves you away from single expensive objects and toward eliminating ignition points, because a system with one hole in it fails at the hole.",
+          "Practically: work through the Wildfire Prepared Home Essential list, which is mostly cheap. Then take the Enhanced items at natural replacement cycles — when the windows are due anyway, when the deck is rotting, when the siding needs redoing. Retrofitting those early is expensive; doing them when you were going to spend the money regardless is close to free.",
+          "And hold on to the part that hardening does not touch. The house is a bet you place in advance and then walk away from. Leave early, follow the order, and let the building take its chances without you in it."
+        ],
+        "products": [
+          "noaa-weather-radio",
+          "72-hour-emergency-kit"
+        ]
+      },
+      {
+        "heading": "Sources",
+        "body": [
+          "Jack Cohen, USDA Forest Service — 'Wildland-Urban Fire: A Different Approach' and Oregon legislative testimony. IBHS Wildfire Prepared Home Technical Standard (December 2025 version, effective 1 June 2026) and the June 2026 announcement renaming the Base and Plus tiers to Essential and Enhanced. IBHS findings on the Palisades and Eaton fires, December 2025.",
+          "Knapp et al., Fire Ecology 17:25 (2021). Current as of September 2026."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "does-home-insurance-cover-wildfire",
+    "title": "Does Home Insurance Cover Wildfire?",
+    "description": "In Canada and the US, yes — fire is a standard peril. The real problems are underinsurance, what counts as an evacuation, and in parts of the US, whether you can get a policy at all.",
+    "readTime": "11 min",
+    "photo": "detection-and-alerts",
+    "sections": [
+      {
+        "heading": "Before anything else",
+        "body": [
+          "We are not insurance brokers or advisers, and nothing here is advice about your policy. Policies differ between insurers, between provinces and states, and between years. What follows is general information, gathered from regulators and industry bodies in September 2026, to help you ask better questions of someone who is licensed to answer them. Read your own policy, and phone your own broker."
+        ]
+      },
+      {
+        "heading": "The basic answer: yes",
+        "body": [
+          "In Canada, the Insurance Bureau of Canada is unambiguous: all standard homeowner and tenant policies cover damage caused by fire. Wildfire is fire. There is no separate wildfire peril to buy, and — a Canadian quirk worth knowing — there is no such thing as an 'act of God' exclusion in any Canadian property policy.",
+          "In the US, the standard HO-3 policy covers fire among its named perils, with open-perils coverage on the dwelling. Wildfire is not separately named because it does not need to be.",
+          "Two Canadian exclusions catch people out and are worth stating plainly: the policy does not insure land, and it is not intended to cover mortgage payments or pay off an outstanding mortgage. If the house is gone and the lot is scorched, the lot is your problem and the mortgage continues.",
+          "One procedural trap in Canada: claims must be reported within two years of becoming aware of the damage."
+        ]
+      },
+      {
+        "heading": "Evacuation costs, and the word that decides them",
+        "body": [
+          "Additional living expenses are triggered two ways. If the home is uninhabitable because of insured damage, ALE covers the increase in your living costs for the reasonable time repairs take. Separately, many Canadian policies cover mass evacuation — but only when a civil authority issues an evacuation order.",
+          "An evacuation alert is not an order. People who leave sensibly and early on an alert routinely discover afterwards that their hotel bills were not covered, and coverage ends when the order is lifted regardless of whether it is safe or practical to return.",
+          "What is covered is the increase in cost — accommodation, meals, essential clothing, toiletries and medication, utilities. Not your normal grocery bill; the difference. IBC says there may be limits on mass evacuation coverage and tells policyholders to check their own policies. We looked for an industry-standard dollar cap or time limit and could not find one, so do not assume a number you read somewhere applies to you.",
+          "Two smaller things most Canadian policies do cover: removal of fire retardant from the exterior of the building, and food spoilage from an accidental power interruption."
+        ]
+      },
+      {
+        "heading": "Smoke without flame",
+        "body": [
+          "Smoke and ash damage to a home that flames never reached is generally covered as physical damage from a covered peril. The disputes are not usually about whether it is covered but about the remedy: whether surfaces can be cleaned or must be replaced, and whether invisible particulates remain after cleaning.",
+          "This has become contentious enough in California that the legislature passed the Smoke Damage Recovery Act, which would set inspection deadlines, remediation standards and prompt-payment timelines, and require ALE to continue until a home is deemed safe. As of the end of August 2026 it had passed both chambers and was awaiting the Governor. Check its current status before relying on it.",
+          "If you are pursuing a smoke claim, the practical advice from United Policyholders is to photograph visible damage, report health effects to a doctor, and consider hiring an independent Certified Industrial Hygienist to test for hidden contamination — typically $2,000 to $4,000, and often the difference between a cleaning settlement and a replacement one."
+        ],
+        "products": [
+          "pm25-air-quality-monitor",
+          "hepa-air-purifier-large-room"
+        ]
+      },
+      {
+        "heading": "The real problem is underinsurance, not denial",
+        "body": [
+          "Outright denial of wildfire claims is far rarer than the internet suggests — most of the 'top ten reasons your claim will be denied' content is written by firms that sue insurers. What the survivor data shows is a quieter failure.",
+          "United Policyholders surveyed households a year after the Los Angeles fires. Sixty-nine per cent were underinsured. Sixty-one per cent said their insurer's replacement cost estimate was inadequate. Sixty-nine per cent faced payment delays. The average shortfall was $247 per square foot — on a 2,000 square foot house, roughly half a million dollars.",
+          "The mechanism is mundane. Your dwelling limit was set by an estimating tool when you bought the policy and has drifted ever since, while construction costs, code upgrade requirements and post-disaster demand surge have all moved. Nobody denied anything. The number was just too small, and you find out at the worst possible moment.",
+          "Also worth checking: in a standard US policy, replacement cost applies to the structure but contents default to actual cash value — depreciated — unless you have bought replacement cost contents coverage. In Canada, guaranteed replacement cost provisions frequently require you to rebuild on the same site, which matters if you decide not to go back."
+        ]
+      },
+      {
+        "heading": "If you are in California: know your statutory rights",
+        "body": [
+          "California has the strongest post-wildfire consumer protections in either country, and most claimants do not know they exist. On a total loss during a declared emergency:",
+          "Contents without an inventory — the insurer must offer no less than 30% of the dwelling limit, up to $250,000, without requiring an itemised list. You can still claim more afterwards. The insurer also cannot force you to use its own inventory form, and must accept a categorical inventory that groups like items rather than listing every shoe.",
+          "Living expenses — on request, an advance of no less than four months of living expenses. ALE runs for a minimum of 24 months from the loss, extendable by up to 12 further months where rebuilding delays are outside your control.",
+          "Time to collect — at least 36 months from the first actual cash value payment to collect full replacement cost, with extensions for good cause.",
+          "Rebuilding elsewhere — code upgrade costs are payable wherever you rebuild, with no land value deduction if you rebuild at a new location, and you may combine dwelling and other-structures limits."
+        ]
+      },
+      {
+        "heading": "Can you still get a policy? Depends where you are",
+        "body": [
+          "This is where the two countries diverge sharply, and where a lot of Canadian anxiety is imported from American headlines that do not apply.",
+          "In California, the availability crisis is real and well documented. The FAIR Plan — the insurer of last resort — held 668,609 policies and $724 billion of exposure as of December 2025, up 146% in policies and 230% in exposure since September 2022. After the January 2025 fires it levied a $1 billion assessment on member insurers, who may recoup half of it from policyholders. Notably, the problem has spread beyond fire country: by early 2026, 28% of FAIR Plan exposure sat in urban, lower-risk areas.",
+          "There are signs of stabilisation. California's Sustainable Insurance Strategy now allows catastrophe modelling in rate-setting and requires insurers to write at least 85% of properties in distressed areas. Six homeowners insurance groups are expanding in California under it, against none the year before. A March 2026 settlement with State Farm extended its moratorium on non-renewals by at least another year.",
+          "Colorado has gone furthest on transparency: from July 2026 insurers using wildfire risk scores must disclose your score, let you appeal it, and tell you annually what mitigation discounts are available. Oregon has real availability problems and no legislative fix — its reform bill died in March 2026. Texas, despite its fires, is not a wildfire availability story; its FAIR Plan is overwhelmingly an urban and coastal mechanism.",
+          "Canada has nothing resembling this. There is no Canadian FAIR Plan for wildfire and we could not document any mass non-renewal event. What is happening is price and appetite: home insurance costs rose 31% nationally between 2021 and 2025 against 15% general inflation, with Alberta up 58% and BC up 68% over five years. In the highest-risk municipalities the moves are dramatic — Kamloops premiums nearly doubled. Executives at TD and Definity have said openly that they are rebalancing away from concentrated catastrophe exposure. That is repricing, not withdrawal, but it is not nothing."
+        ]
+      },
+      {
+        "heading": "Does mitigation actually save you money?",
+        "body": [
+          "Less than you would hope, and this is the most under-reported fact in the whole subject.",
+          "California's Safer from Wildfires regulation, the first in the nation, requires every insurer writing residential property in the state — including the FAIR Plan — to offer mitigation discounts. But it mandates that discounts be offered, not how large they must be. A December 2025 analysis by Resources for the Future found the maximum property-level discount available was $98 a year, rising to $216 when combined with community participation. Roof discounts averaged $31. Firewise USA community discounts, $32 to $46.",
+          "Set that against the retrofit costs — an ember-resistant vent is around $229 installed, a window $755 to $1,200 — and the conclusion is unavoidable: the retrofits cost orders of magnitude more than the insurance savings.",
+          "In Canada the picture is patchier still. There is no national scheme. BCAA offers 15% off for a policy term after a free FireSmart BC home assessment, and Co-operators discounts the wildfire portion of premium for certified clients or those in FireSmart-recognised neighbourhoods. Those are individual insurer arrangements, not an industry standard, and IBC has said it cannot compel members to offer them.",
+          "The IBHS Wildfire Prepared Home designation is recognised by a growing list of insurers — in California, CSAA, Mercury, USAA, Farmers, Homesite and State Farm among them — and is available in fourteen US states. It is not available anywhere in Canada. Its value is shifting from discount toward insurability: in Colorado it now has regulatory teeth through the score-appeal rules.",
+          "So harden your house because it improves the odds your house survives and, increasingly, whether anyone will insure it at all. Do not do it for the discount."
+        ]
+      },
+      {
+        "heading": "A short list of things worth doing before fire season",
+        "body": [
+          "Photograph and video every room, including inside cupboards and drawers, and store it somewhere that is not in the house. This single task is what separates a smooth contents claim from a year of argument.",
+          "Ask your broker what your dwelling limit is based on and when it was last recalculated. Ask specifically whether it accounts for code upgrades and for the cost of building in a post-disaster market.",
+          "Ask whether contents are replacement cost or actual cash value, and what mass evacuation coverage you have and what triggers it.",
+          "Do it now rather than in August. Once a fire is burning nearby, Canadian insurers commonly impose binding embargoes — a freeze on new policies, coverage increases and deductible reductions within a radius of the fire. Existing coverage and automatic renewals continue, but you will not be able to improve your position. This is standard industry practice, though we could not find a regulator publishing the specific radius, so treat the distances quoted by brokers as indicative."
+        ],
+        "products": [
+          "fireproof-document-bag"
+        ]
+      },
+      {
+        "heading": "Sources",
+        "body": [
+          "Insurance Bureau of Canada wildfire season guidance and catastrophe loss releases ($2.4 billion in 2025; $8.5 billion in 2024; just under $1.3 billion for Jasper). Fort McMurray at roughly $3.6 billion at the time, about $4.7 billion in today's dollars. Statistics Canada and Wahi/MyChoice premium analyses. FireSmart BC Wildfire Mitigation Program insurance page.",
+          "Insurance Information Institute on HO-3 coverage. California FAIR Plan figures from its President's January 2026 presentation to the Assembly Insurance Committee. California Department of Insurance on the Sustainable Insurance Strategy, Safer from Wildfires, Bulletin 2025-2 on wildfire consumer protections, and the March 2026 State Farm settlement. Colorado HB25-1182. United Policyholders LA Wildfires Year One Survey, April 2026. Resources for the Future working paper 25-30 on mitigation discounts. IBHS Wildfire Prepared Home programme.",
+          "All figures current as of September 2026 and likely to move. Verify anything you intend to rely on."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "building-a-house-to-survive-wildfire",
+    "title": "How to Build a House That Survives Wildfire",
+    "description": "What the codes require, what the best voluntary standard adds, and what the extra actually costs — which, if you are already building to code, is about two thousand dollars.",
+    "readTime": "10 min",
+    "photo": "gutter-and-roof",
+    "sections": [
+      {
+        "heading": "The number that should start this conversation",
+        "body": [
+          "In October 2025, Headwaters Economics and IBHS priced four versions of the same 1,750 square foot house in Altadena against a $500,000 baseline: built traditionally, built to California's WUI code, built to the IBHS Wildfire Prepared Home standard, and built to the highest tier.",
+          "Building to the highest voluntary standard rather than traditionally cost about $15,000 more — roughly 3% of the cost of the wildfire-critical components, or about $50 a month on a thirty-year mortgage.",
+          "Building to the highest voluntary standard rather than to California's WUI code cost about $2,000 more. Two thousand dollars, for enclosed eaves and dual-pane tempered windows.",
+          "If you are building new in fire country, the marginal cost of doing it properly is close to a rounding error. The expensive path is retrofitting the same features onto a house that was built without them."
+        ]
+      },
+      {
+        "heading": "What California requires — and what it is now called",
+        "body": [
+          "For thirty years the reference point has been 'Chapter 7A' of the California Building Code. As of 1 January 2026 that chapter no longer exists. Its contents were moved into a new standalone code, the California Wildland-Urban Interface Code, Title 24 Part 7, based on the 2024 International WUI Code. Almost every consumer article still says Chapter 7A. Your local building department may too, and several local editions still publish one.",
+          "The substance carried across. In a Fire Hazard Severity Zone, new construction requires: a Class A roof assembly, with valley flashing of at least 26-gauge corrosion-resistant metal over a 36-inch-wide cap sheet; exterior wall materials that are non-combustible, ignition-resistant, heavy timber or log, running from foundation to roofline; two-inch solid blocking at overhangs; ember-resistant vents; multi-pane glazing with at least one tempered pane, or glass block, or a 20-minute fire rating; exterior doors that are non-combustible, ignition-resistant, solid core at least one and three-eighths inches, or 20-minute rated; and decks within ten feet of the structure built of ignition-resistant, heavy timber or fire-retardant-treated wood.",
+          "A 2025 rulemaking extended application to High Fire Hazard Severity Zones in Local Responsibility Areas and refined the accessory-structure provisions based on NIST and IBHS research into fences and outbuildings.",
+          "Section numbers changed with the move. If your drawings cite Chapter 7A sections, they need updating."
+        ]
+      },
+      {
+        "heading": "Vents: the requirement that quietly got much stricter",
+        "body": [
+          "Until 2021, California let you comply on vents with non-combustible one-eighth-inch mesh. It does not any more. Since 1 July 2021, ventilation openings must be covered by vents either approved by the State Fire Marshal or listed to ASTM E2886, and traditional mesh or louvered vents cannot pass that test.",
+          "The standard has three parts and they are demanding: no flaming ignition of the cotton material during the ember intrusion test; no flaming ignition during the integrity portion of the flame intrusion test; and the unexposed side must not exceed 350°C.",
+          "It applies to gable ends, ridge ends, crawl spaces, foundations and all vertical-wall vents. Eave and cornice vents are prohibited on the underside unless they meet the same three criteria.",
+          "To verify a product, check that it appears in CAL FIRE's Building Materials Listing database, that the listing explicitly states it is rated to ASTM E2886, and that it is approved for the orientation you are installing it in — horizontal and vertical listings are not interchangeable.",
+          "Worth noting the standards do not agree with each other here. IBHS's Essential tier still accepts one-eighth-inch non-combustible mesh as an alternative, and FireSmart Canada accepts 3 millimetre screening, which is roughly the same thing. In California, the code wins."
+        ],
+        "products": [
+          "vulcan-vents",
+          "brandguard-vents"
+        ]
+      },
+      {
+        "heading": "Windows, and the best new evidence in the field",
+        "body": [
+          "A 2025 study in Fire Technology tested forty window assemblies of each type under exterior fire exposure, and the result is unusually clear-cut. With plain annealed glass on the back pane, 37 of 40 assemblies failed completely. With a tempered back pane, only 12 of 40 failed. Tempered assemblies withstood roughly double the heat load before complete failure.",
+          "Two details matter for anyone specifying windows. The fire-side pane always fails first, in every configuration — so the protective value sits in the back pane. And the best-performing configuration was plain glass on the fire side with tempered behind it, which performed as well as dual-tempered. That is useful because it is cheaper.",
+          "The study also found something that changes how you think about the risk: heat flux on the back side exceeded the ignition threshold for household materials before the window failed at all. Curtains and furniture can ignite through an intact window. A house does not need a broken window to burn from the inside.",
+          "Frames are a separate failure path that codes address less well. Unreinforced vinyl frames deform under radiant heat and let embers through gaps without any glass breaking. Aluminium cross-piece reinforcement prevents it.",
+          "In the Camp Fire, 63% of damaged homes showed radiant heat damage, primarily to windows and siding. Among structural features analysed across five years of Californian fires, window panes ranked second in explanatory power for whether a home was lost."
+        ]
+      },
+      {
+        "heading": "The roof question, and a statistic that misleads",
+        "body": [
+          "A Class A roof is the baseline in every code and both IBHS tiers, tested to ASTM E108 or UL 790. There are two routes to it. Some coverings are rated stand-alone — flat and barrel clay tiles, fibreglass asphalt composition shingles, metal. Others are rated only by assembly, needing a specific underlayment beneath, which includes fire-retardant-treated wood shakes and some aluminium coverings. A 'Class A metal roof' over the wrong underlayment is not a Class A assembly, and this trips up renovations constantly.",
+          "Roofs fail at their edges and intersections rather than in the field. Valleys, roof-to-wall junctions at dormers, and the gap between covering and sheathing are where embers get in, which is why the code is so specific about flashing.",
+          "Now the statistic that misleads. In an analysis of Californian fires between 2013 and 2018, roof type ranked last among the structural features tested for explanatory power — behind eaves, window panes, vent screens, siding and deck material. Read carelessly, that says roofs do not matter.",
+          "It almost certainly says the opposite. Class A roofs have been mandatory in California since 2008, so by the time of those fires nearly every house had one and there was very little variation left to explain. Roof class is table stakes. The differentiators have moved elsewhere, which is precisely why eaves and windows now top that list."
+        ]
+      },
+      {
+        "heading": "Decks, fences and the things you bolt on afterwards",
+        "body": [
+          "IBHS ember testing on eight decking products found that the material matters less than what happens underneath. Embers fall through the gaps between boards and ignite debris below. Most plastic composites smouldered without flaming; only a medium-density softwood and one polyethylene composite sustained flame.",
+          "Their recommendations are counterintuitive and worth following: joists at 24 inches on centre, wider board gaps rather than narrower — a quarter inch instead of an eighth — so embers fall through rather than lodging, protective coatings on joists, and a non-combustible zone beneath any attached deck.",
+          "On fences, NIST ran 187 experiments and produced the clearest single design rule in wildfire construction: never build back-to-back combustible fences on a property line. Two panels together engulfed 8-foot sections in under four minutes, the most intense fires in the study. Even fences separated by three feet still produced dangerous flames. Mulch at the base of a fence let flame run its full length rapidly.",
+          "If a combustible fence meets your house, replace the last section with steel. It is a few hundred dollars and it breaks the most direct fuel path most suburban properties have."
+        ]
+      },
+      {
+        "heading": "Canada has no equivalent, and that is worth knowing",
+        "body": [
+          "There is no Canadian Chapter 7A. The National Building Code of Canada 2025, published in December 2025, does not list wildland-urban interface construction among its changes — the published summary covers accessibility, radon, climate data, emissions and energy retrofits.",
+          "What Canada has is guidance. The National Research Council published the National Guide for Wildland-Urban Interface Fires in 2021, the first of its kind in the country, covering hazard assessment, vegetation management, construction approaches and community planning. It is advisory, not mandatory.",
+          "Something more code-like is coming. CAN/UL 2530, a Standard for Wildland-Urban Interface Fire Risk Mitigation in the Structure Ignition Zone, is in development as a National Standard of Canada, with scope covering construction guidance and alignment with the National Building Codes. Its publication timeline is not public.",
+          "FireSmart's construction guidance is the practical Canadian reference in the meantime: Class A fire-rated roof assembly — clay or concrete tile, metal, asphalt shingles; stucco, brick, fibre cement or poured concrete siding, with an explicit warning against vinyl, which melts; non-combustible material on all vents, specified as 3 millimetre screening or ASTM-rated vents; non-combustible gutters in galvanised steel, copper or aluminium with a metal drip edge; and non-combustible or fire-rated decking.",
+          "Whether provinces should make any of this mandatory is an active debate in BC and Alberta and has been for several fire seasons. As of now, they have not."
+        ]
+      },
+      {
+        "heading": "If you are rebuilding after a loss",
+        "body": [
+          "Rebuilding is the one moment when all of this is cheap, and it is also the moment when people are least equipped to think about it — exhausted, fighting an insurer, and being pushed to get back in before another winter.",
+          "Two things are worth holding on to. First, the $2,000 figure: if your rebuild is already meeting a WUI code, reaching the highest voluntary standard is a marginal cost, and you will never get this chance again at this price. Second, that code upgrade costs are usually an insured cost — in California explicitly so, and payable regardless of where you rebuild.",
+          "And ask whether to rebuild in the same footprint. The single strongest predictor of survival in the Camp Fire analysis was distance to the nearest structure. If the lot allows any meaningful increase in separation, that is worth more than most of the material upgrades on this page combined."
+        ]
+      },
+      {
+        "heading": "Sources",
+        "body": [
+          "California Building Standards Commission on the relocation of Chapter 7A into the California Wildland-Urban Interface Code, Title 24 Part 7, effective 1 January 2026, and the 2025 intervening-cycle rulemaking. CALBO guidance. CAL FIRE Building Materials Listing and the July 2021 ASTM E2886 vent change.",
+          "Headwaters Economics and IBHS, Altadena new-construction cost study, October 2025; Headwaters Economics California cost study, July 2022. Willi, Gorham and Horn, 'Window Pane Failure During Exterior Fire Exposure', Fire Technology 61(4), 2025. Syphard and Keeley, Fire 2(3):49, 2019. Knapp et al., Fire Ecology 17:25, 2021. Quarles and Standohar-Alfano, IBHS deck ember testing. NIST fence and mulch study, August 2022. UC ANR Fire Network on roofs and windows.",
+          "National Research Council Canada, National Guide for Wildland-Urban Interface Fires (2021) and National Building Code of Canada 2025. Standards Council of Canada notice for CAN/UL 2530. FireSmart Canada construction guidance. Current as of September 2026."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "wildfire-retrofit-priorities-existing-home",
+    "title": "Retrofitting an Existing House: What's Worth It",
+    "description": "Real 2024 costs for every component, the roughly $10,000 bundle that buys the most protection, and an honest admission that nobody has published a proper cost-effectiveness ranking.",
+    "readTime": "9 min",
+    "photo": "ember-resistant-vents",
+    "sections": [
+      {
+        "heading": "Start with the admission",
+        "body": [
+          "There is no published, rigorous ranking of wildfire retrofits by dollars spent per unit of risk reduced. We looked hard for one. IBHS structures its standard in tiers rather than ranking items. Headwaters Economics has costed components thoroughly but does not rank them by effectiveness. The research that comes closest ranks features by how much they explain about whether homes were lost — which is a different question, and using it as a spending guide would be a mistake.",
+          "So anyone presenting you with a confident ordered list of best-value retrofits has made it up. What follows is the best available reasoning from real cost data and real post-fire evidence, presented as reasoning rather than as a ranking."
+        ]
+      },
+      {
+        "heading": "What things actually cost",
+        "body": [
+          "These are 2024 figures from Headwaters Economics, the most detailed public costing available. Treat them as planning bands; they have moved since.",
+          "Vents: ember-resistant foundation vent $229 each, gable end vent $420 each, metal dryer vent with baffle $68. Roofing: Class A asphalt fibreglass with underlayment $6.29 per square foot — about $6,300 on a 1,000 square foot roof — or $18.68 per square foot for standing seam metal. Windows: $755 to $1,200 for a 2-by-3-foot replacement. Doors: exterior pedestrian $1,250 to $1,500, metal-framed sliding around $2,700, a 16-by-7-foot garage door around $4,300.",
+          "Siding in fibre cement: $6.67 per square foot. Enclosing open eaves with soffit: $3.92 to $4.50 per square foot. Metal gutter system with guard: $19 per linear foot. Metal drip edge: $2.93 per linear foot. Metal flashing at deck intersections: $4.14 per linear foot. Decks: $104 per linear foot for a metal grate at the first board, $27 per square foot for a mesh screen enclosure, $11 to $67 per square foot for a fully non-combustible surface.",
+          "Whole-house scenarios run from $2,000 to $23,000 for minimal work, $23,000 to $40,000 for moderate, $40,000 to $60,000 for enhanced, and $60,000 to $100,000 and up for premium."
+        ]
+      },
+      {
+        "heading": "The free tier, which comes first",
+        "body": [
+          "Headwaters is explicit that the first moves cost nothing: removing flammable material from decks, clearing gutters, and clearing vegetation and debris from the roof are critical maintenance tasks with little or no cost.",
+          "Add to that pulling bark mulch away from the foundation, moving the woodpile, clearing under the deck, and taking the doormat and patio cushions inside when a fire is nearby. All free. All addressing the mechanism — ember ignition of fine fuels against the structure — that destroys the most houses.",
+          "It is genuinely worth doing this before spending anything, and not only because it is free. A house with screened vents and a gutter full of pine needles has not been hardened; it has been decorated."
+        ],
+        "products": [
+          "mcleod-fire-rake",
+          "backpack-pump-sprayer"
+        ]
+      },
+      {
+        "heading": "The roughly $10,000 to $15,000 bundle",
+        "body": [
+          "Headwaters identifies a priority bundle in that range, and it is a sensible list: replace vents with ember-resistant units, install metal flashing at deck-to-wall intersections, fit metal gutters with guards and keep them clear, and replace bark mulch with non-combustible gravel.",
+          "What unites those four is that each closes a specific, documented ignition pathway rather than improving general robustness. Vents let embers into the attic and crawlspace. The deck-to-wall junction collects debris where a horizontal surface meets a vertical one. Gutters hold a tray of dry needles at the roof edge. Mulch is a continuous combustible surface against the foundation.",
+          "For most existing houses this is where we would spend first after the free work, and on a typical bungalow you can do the vents and mesh yourself for a few hundred dollars if you are comfortable on a ladder."
+        ],
+        "products": [
+          "stainless-ember-mesh",
+          "vulcan-vents",
+          "steel-micro-mesh-gutter-guard"
+        ]
+      },
+      {
+        "heading": "What the loss data points at",
+        "body": [
+          "Across five years of Californian fires, the structural features that best explained whether homes were lost ranked in this order: eaves, then window panes, then vent screens, then siding, then deck and porch material, then roof type.",
+          "That is explanatory power, not value for money — eaves top the list partly because open eaves were common enough to produce variation. But it is a useful corrective to intuition, because almost nobody thinks about their eaves and almost everybody thinks about their roof.",
+          "Open eaves trap rising hot air and embers against the underside of the roof. Enclosing them with soffit runs $3.92 to $4.50 per square foot, which on a typical house is a few thousand dollars, and it is one of the higher-value envelope upgrades available on an existing building.",
+          "Windows are the other one the evidence keeps pointing at, and the 2025 testing was emphatic: a tempered back pane roughly doubles the heat load a window survives. Full window replacement is expensive, so this is the classic natural-replacement item — when a window is due anyway, specify multi-pane with at least one tempered pane."
+        ]
+      },
+      {
+        "heading": "Time the expensive items to the replacement cycle",
+        "body": [
+          "The difference between a wildfire-resistant new house and a standard one is small. The difference between retrofitting those features and not is large. The way to capture the first number on an existing house is to wait for the moment you were going to spend the money anyway.",
+          "When the roof is due, specify a Class A assembly and check the underlayment. When the siding is due, go fibre cement, and at minimum make the bottom six inches non-combustible. When the deck is rotting, rebuild it with a non-combustible surface and screen underneath. When windows fail, specify tempered.",
+          "Doing those four things on schedule over fifteen years gets you most of the way to the IBHS Enhanced tier at close to no incremental cost. Doing them all next spring costs $40,000 to $60,000.",
+          "The exception is if you are in an area where insurers are actively repricing or withdrawing. In that case the calculus changes, because the retrofit is buying insurability rather than paying for itself in discounts — the discounts, as we cover in the insurance guide, are trivially small."
+        ]
+      },
+      {
+        "heading": "What we would not spend on first",
+        "body": [
+          "Permanently installed sprinkler systems, structure wrap and bulk gel are all real products that work, and they all sit further down the list than their price suggests. They are active measures: they need water, or power, or a person, or all three, and they need you to have time. The hardening items above work whether or not anyone is home and whether or not the hydrants hold pressure.",
+          "That is not an argument against them — a pump and tank is the right purchase for a rural property with real exposure, and we say so elsewhere. It is an argument about order. Spend on the passive items until they are done, then buy the active ones.",
+          "The genuinely bad buy is anything sold as fireproofing a house that leaves the vents open and the gutters full."
+        ],
+        "products": [
+          "portable-gas-fire-pump",
+          "wasp-wildfire-protection-full-kit"
+        ]
+      },
+      {
+        "heading": "Sources",
+        "body": [
+          "Headwaters Economics, 'Retrofitting a Home for Wildfire Resistance: Costs and Considerations', June 2024 — all component costs and the priority bundle. Syphard and Keeley, Fire 2(3):49, 2019, for the ordering of structural features by explanatory power. Willi, Gorham and Horn, Fire Technology 61(4), 2025, on window pane failure. IBHS Wildfire Prepared Home Technical Standard and Suburban Wildfire Adaptation Roadmaps.",
+          "Costs are 2024 US dollars and have not been adjusted. Current as of September 2026."
+        ]
+      }
+    ]
   }
 ]
