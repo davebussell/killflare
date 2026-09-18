@@ -10,11 +10,12 @@ export const CONTACT_EMAIL = 'dave@clickshift.ca';
  * null, Amazon links render clean (no tag parameter) — which is what Amazon
  * requires, and avoids sending traffic with a fake tag on it.
  *
- * When the tags arrive, paste them in. Amazon.ca and Amazon.com are separate
- * programs with separate IDs; a US tag on an amazon.ca link earns nothing.
- * Format is usually something like 'killflare-20' (US) / 'killflare09-20' (CA).
+ * US tag is live (Associates Central, Sep 11 2026). Amazon.ca is a SEPARATE
+ * program needing its own application and its own ID — until AMAZON_TAG_CA is
+ * filled, amazon.ca links render untagged and earn nothing. Never put the US
+ * tag on a .ca link; it earns nothing and misreports.
  */
-export const AMAZON_TAG_US: string | null = null;
+export const AMAZON_TAG_US: string | null = 'killflare-20';
 export const AMAZON_TAG_CA: string | null = null;
 
 /** True once at least one Associates tag is live. */
