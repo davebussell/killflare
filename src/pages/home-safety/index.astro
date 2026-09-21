@@ -1,0 +1,71 @@
+---
+import Base from '../../layouts/Base.astro';
+import CatIcon from '../../components/CatIcon.astro';
+import Photo from '../../components/Photo.astro';
+import categories from '../../data/categories.json';
+import products from '../../data/products.json';
+import guides from '../../data/guides.json';
+
+const cats = categories.filter((c) => c.pillar === 'home');
+const guideSlugs = ['smoke-and-co-alarms-what-the-law-says', 'rural-water-supply-and-dry-hydrants', 'do-you-need-residential-sprinklers'];
+const picks = guideSlugs.map((s) => guides.find((g) => g.slug === s)).filter(Boolean);
+---
+<Base title="Home fire safety" description="Smoke and CO alarms, monitored detection, rural water supply and dry hydrants, residential sprinklers, and the everyday causes of house fires — cooking, heating, electrical.">
+  <section class="section">
+    <div class="wrap">
+      <span class="eyebrow eyebrow--ember">Home fire safety</span>
+      <h1>The rest of the house</h1>
+      <p class="lede">Killflare started with wildfire, and that is still most of what we cover. But most house fires have nothing to do with a forest. They start at the stove, in the heating system, or in the wiring — and the thing that most reliably saves the people inside is a working smoke alarm, not anything expensive.</p>
+      <p class="lede lede--sub">These pages cover detection and monitoring, the water supply question for rural properties, indoor sprinklers, and the everyday causes. Where something overlaps with wildfire we say so; where it does not — indoor sprinklers, for instance, do nothing against embers — we say that too.</p>
+      <div class="grid grid--3 cats">
+        {cats.map((c) => {
+          const n = products.filter((p) => p.category === c.slug).length;
+          return (
+            <a href={`/categories/${c.slug}/`} class={`card cat zone-${c.zone}`}>
+              <Photo name={c.photo} ratio="16 / 8" sizes="(max-width: 700px) 100vw, 30vw" credit={false} className="cat__img" />
+              <div class="cat__icon"><CatIcon name={c.icon} size={28} /></div>
+              <h3>{c.name}</h3>
+              <p>{c.tagline}</p>
+              <span class="cat__n mono">{n} {n === 1 ? 'pick' : 'picks'}</span>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  {picks.length > 0 && (
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="section-head"><h2>Start with these</h2></div>
+        <div class="grid grid--3">
+          {picks.map((g: any) => (
+            <a href={`/guides/${g.slug}/`} class="card gcard"><span class="eyebrow">{g.readTime} read</span><h3>{g.title}</h3><p>{g.description}</p></a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="notice">
+        <p><strong>If you only do one thing.</strong> Check the date on the back of every smoke alarm in the house. Ten years from the date of manufacture, the whole unit gets replaced — not the battery, the alarm. Most homes have at least one that is older than the people living there think.</p>
+      </div>
+    </div>
+  </section>
+</Base>
+<style>
+  .lede { color: var(--ink-2); margin: 0.75rem 0 1rem; font-size: 1.1rem; }
+  .lede--sub { margin-bottom: 2rem; }
+  .cat { padding: 0 0 1.25rem; gap: 0.5rem; border-top: 4px solid var(--zone); }
+  .cat > :global(.cat__img) { margin-bottom: 0.9rem; }
+  .cat > :not(.cat__img) { padding-inline: 1.25rem; }
+  .cat__icon { color: var(--zone); }
+  .cat h3 { text-transform: none; }
+  .cat p { font-size: 0.93rem; color: var(--ink-2); }
+  .cat__n { margin-top: auto; padding-top: 0.5rem; font-size: 0.72rem; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.1em; }
+  .gcard { padding: 1.5rem; gap: 0.6rem; }
+  .gcard h3 { text-transform: none; }
+  .gcard p { color: var(--ink-2); font-size: 0.95rem; }
+</style>

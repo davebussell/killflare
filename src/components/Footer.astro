@@ -14,9 +14,13 @@ const year = new Date().getFullYear();
         : 'Killflare is reader-supported. We are not currently in any affiliate program, so links on this site earn us nothing. We don\'t sell products and we don\'t accept payment for placement.'}</p>
     </div>
     <div>
-      <h4 class="ftr__h">Gear</h4>
+      <h4 class="ftr__h">Wildfire gear</h4>
       <ul class="ftr__list">
-        {categories.map((c) => <li><a href={`/categories/${c.slug}/`}>{c.short}</a></li>)}
+        {categories.filter((c) => c.pillar === 'wildfire').map((c) => <li><a href={`/categories/${c.slug}/`}>{c.short}</a></li>)}
+      </ul>
+      <h4 class="ftr__h">Home fire safety</h4>
+      <ul class="ftr__list">
+        {categories.filter((c) => c.pillar === 'home').map((c) => <li><a href={`/categories/${c.slug}/`}>{c.short}</a></li>)}
       </ul>
     </div>
     <div>

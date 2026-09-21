@@ -14,7 +14,8 @@
       "Coverage is rated in metres/feet of radius per head. Measure your roofline and buy 20% more heads than the math says.",
       "Turn on early — 30 to 60 minutes before the front arrives — and keep an eye on your water budget."
     ],
-    "photo": "exterior-sprinklers"
+    "photo": "exterior-sprinklers",
+    "pillar": "wildfire"
   },
   {
     "slug": "fire-retardant-gel",
@@ -31,7 +32,8 @@
       "Check the applicator: hose-end sprayers need ~40 psi. If your pressure drops in an emergency, a backpack sprayer is more reliable.",
       "Gel is not a substitute for sprinklers — it protects surfaces from radiant heat and embers, but it does not stop a crown fire."
     ],
-    "photo": "fire-retardant-gel"
+    "photo": "fire-retardant-gel",
+    "pillar": "wildfire"
   },
   {
     "slug": "ember-resistant-vents",
@@ -48,7 +50,8 @@
       "Don't forget the dryer vent, the range hood exhaust and any gable-end louvres.",
       "If replacement isn't possible, stainless 1/8 in mesh screening retrofitted over existing vents is the budget alternative."
     ],
-    "photo": "ember-resistant-vents"
+    "photo": "ember-resistant-vents",
+    "pillar": "wildfire"
   },
   {
     "slug": "gutter-and-roof",
@@ -65,7 +68,8 @@
       "Roof sprinklers and gutter guards conflict on some profiles; check compatibility if you're buying both.",
       "Clean gutters at the start of fire season regardless of guards."
     ],
-    "photo": "gutter-and-roof"
+    "photo": "gutter-and-roof",
+    "pillar": "wildfire"
   },
   {
     "slug": "fire-blankets-and-wraps",
@@ -82,7 +86,8 @@
       "Kitchen fire blankets (1 m × 1 m fibreglass) are not wildfire products but should be in every home.",
       "Personal fire shelters (as used by wildland crews) are a last resort and require training — they are not a substitute for evacuating early."
     ],
-    "photo": "fire-blankets-and-wraps"
+    "photo": "fire-blankets-and-wraps",
+    "pillar": "wildfire"
   },
   {
     "slug": "pumps-and-water",
@@ -99,7 +104,8 @@
       "Use 1.5 in fire hose with camlock or NH-threaded fittings — garden hose kinks and melts.",
       "Store the pump, hose and fittings in one pre-connected kit. In an evacuation you will not have time to hunt for adapters."
     ],
-    "photo": "pumps-and-water"
+    "photo": "pumps-and-water",
+    "pillar": "wildfire"
   },
   {
     "slug": "defensible-space-tools",
@@ -116,7 +122,8 @@
       "Buy a steel leaf rake and a McLeod (fire rake) — dry needle accumulation is the fuel you'll be fighting all season.",
       "Non-combustible mulch (crushed rock, pea gravel) is a product too — plan delivery early in the season."
     ],
-    "photo": "defensible-space-tools"
+    "photo": "defensible-space-tools",
+    "pillar": "wildfire"
   },
   {
     "slug": "go-bags-and-evacuation",
@@ -133,7 +140,8 @@
       "Pets need their own kit: carrier, food, leash, vaccination records.",
       "Keep the vehicle fuelled above half a tank throughout fire season, and back it into the driveway."
     ],
-    "photo": "go-bags-and-evacuation"
+    "photo": "go-bags-and-evacuation",
+    "pillar": "wildfire"
   },
   {
     "slug": "smoke-and-air-quality",
@@ -150,7 +158,8 @@
       "A PM2.5 monitor tells you when to open windows again — outdoor AQI maps lag your neighbourhood.",
       "N95 fit matters more than brand. Buy a few sizes/styles and test them."
     ],
-    "photo": "smoke-and-air-quality"
+    "photo": "smoke-and-air-quality",
+    "pillar": "wildfire"
   },
   {
     "slug": "detection-and-alerts",
@@ -167,7 +176,8 @@
       "Free apps (Watch Duty in the US, provincial wildfire apps in Canada) should be on every phone in the house.",
       "A portable power station keeps your router, cameras and phones alive through outages."
     ],
-    "photo": "detection-and-alerts"
+    "photo": "detection-and-alerts",
+    "pillar": "wildfire"
   },
   {
     "slug": "fire-extinguishers",
@@ -184,6 +194,151 @@
       "Fog nozzles (adjustable pattern) on a hose knock down embers far better than a jet.",
       "Never plan to stay and defend in a crown fire. These tools are for spot fires only."
     ],
-    "photo": "fire-extinguishers"
+    "photo": "fire-extinguishers",
+    "pillar": "wildfire"
+  },
+  {
+    "slug": "smoke-and-co-alarms",
+    "name": "Smoke & Carbon Monoxide Alarms",
+    "short": "Smoke & CO alarms",
+    "zone": "people",
+    "icon": "alarm",
+    "pillar": "home",
+    "tagline": "The cheapest thing in your house that has ever saved a life.",
+    "intro": "A working smoke alarm roughly halves the death rate per house fire, and the single most common reason one fails is that somebody took the battery out. That one fact should shape everything you buy here: pick the design that removes the human step. Hardwired and interconnected is best, a sealed ten-year lithium unit is the best retrofit, and a nine-volt you have to remember to change is the worst of the three. Alarms are also the one category with real law attached, and the law differs by province and state.",
+    "photo": "detection-and-alerts",
+    "buyingNotes": [
+      "Replace the whole alarm ten years from its date of manufacture, not just the battery. Check the date printed on the back — most people have at least one unit that is older than they think.",
+      "Carbon monoxide sensors wear out faster than smoke sensors, typically around seven years. That mismatch is the real drawback of a combination unit: its useful life is governed by whichever sensor expires first.",
+      "Ionisation responds faster to flaming fires, photoelectric to smouldering ones. The current advice from USFA is to have both technologies or a dual-sensor alarm, but the better filter now is whether the unit meets the current UL 217 standard, which tests both fire types and cooking nuisance.",
+      "Placement is code, not preference: one on every storey including the basement, one inside each bedroom, and one in the hallway serving them. Keep photoelectric units at least 6 ft from the stove and ionisation units at least 20 ft, or you will be taking the battery out by March.",
+      "Smoke alarms belong on the ceiling; CO alarms are usually wall-mounted and 5 to 15 ft from fuel-burning appliances. A combination unit is a compromise on one of those two placements."
+    ]
+  },
+  {
+    "slug": "home-fire-monitoring",
+    "name": "Monitored Fire & Smoke Detection",
+    "short": "Monitoring",
+    "zone": "people",
+    "icon": "monitor",
+    "pillar": "home",
+    "tagline": "A local siren wakes the house. Nothing about it calls anyone.",
+    "intro": "A standalone smoke alarm makes noise in your hallway. That is its entire external capability. Monitoring adds a path out of the building — to a station that dispatches the fire department whether or not anyone is home to hear it. The argument for it is strongest exactly where it is least glamorous: an empty house, a rental, a second property, a sleeper who cannot self-evacuate. Be aware going in that we could find no study isolating an outcome benefit for residential fire monitoring specifically; the mechanical case is sound, the published evidence is thin, and much of what is written about it is written by people selling it.",
+    "photo": "guide-smoke-season-indoor-air",
+    "buyingNotes": [
+      "Ask whether the station verifies before dispatching. Residential security-panel monitoring commonly calls you first, which is dead time. A code-compliant fire service in Canada under CAN/ULC-S561 must pass the fire signal to the department within 30 seconds without verification.",
+      "Insist on cellular backup. Wi-Fi-only monitoring dies with your router, your power, or the fire itself — which is the moment it was bought for. Several self-monitoring tiers quietly drop cellular entirely.",
+      "Check the contract before the hardware. Canadian monitoring is markedly more expensive and more locked-in than American, with three and five-year terms and early termination fees still common.",
+      "For an insurance discount in Canada the monitoring generally has to be ULC-certified. A cheap non-ULC contract may earn nothing at all, and no insurer we could find publishes an actual discount figure — you have to ask yours.",
+      "Budget for false alarm fees. Many municipalities bill the homeowner for preventable responses, and NIST found that alarms built to the newest standard are still not clearly better at ignoring your cooking."
+    ]
+  },
+  {
+    "slug": "hydrants-and-water-supply",
+    "name": "Dry Hydrants & Rural Water Supply",
+    "short": "Hydrants & water supply",
+    "zone": "structure",
+    "icon": "hydrant",
+    "pillar": "home",
+    "tagline": "If there is no hydrant on your road, the water has to come from somewhere.",
+    "intro": "Past the end of the municipal main, the fire that reaches your house will be fought with whatever water arrives on the truck plus whatever your property can supply. A dry hydrant is the standard answer: a fixed pipe from a pond, stream or buried cistern out to a connection a pumper can draft from at the roadside. It is unglamorous civil engineering, it is usually installed in cooperation with your fire department, and on a rural property it is worth more than almost anything else you could spend the money on — including, in both countries, through the way your area is graded for insurance.",
+    "photo": "pumps-and-water",
+    "buyingNotes": [
+      "Physics sets the limit before budget does. A pumper can lift water about 22 ft in ideal conditions, and NFPA 1142 advises designing for no more than 10 to 12 ft of lift. A source below that threshold is worth far more than a bigger one further down a bank.",
+      "Volume that counts is pumpable volume, not pond volume. The usable depth runs from the lowest foreseeable water level down to the top of the strainer. NRCS wants at least 30,000 gallons pumpable, or 250 gpm sustained for two hours.",
+      "Talk to your fire department before you dig, not after. They have to approve the design, the connection has to match their hard suction thread under NFPA 1963, and they should do the acceptance flow test.",
+      "Access is half the installation. All-weather road, room for a loaded pumper to get in and turn, no more than 20 ft of hard suction to the connection, at least 100 ft from any structure, and reflective signage the crew can find at night.",
+      "In Canada, the bigger insurance lever is usually your department's Superior Tanker Shuttle Service accreditation rather than your own tank — and an accessible dry hydrant on your land is often part of what gets them there."
+    ]
+  },
+  {
+    "slug": "residential-sprinklers",
+    "name": "Residential Fire Sprinklers",
+    "short": "Indoor sprinklers",
+    "zone": "structure",
+    "icon": "ceilingsprinkler",
+    "pillar": "home",
+    "tagline": "For the fire that starts inside. Not for the one outside.",
+    "intro": "An NFPA 13D system is a life-safety device: it is designed around one or two heads running for ten minutes, long enough to get everyone out. The evidence behind it is the strongest in home fire safety — NFPA's analysis of five years of US fire data puts the death rate 89% lower and average property loss 55% lower where sprinklers were present. Two things to be clear about before you read further. Only one head operates in 85% of home fires, so the flooding fear is misplaced. And these have essentially nothing to do with wildfire, which attacks the outside of the house; do not let anyone sell you one as wildfire protection.",
+    "photo": "exterior-sprinklers",
+    "buyingNotes": [
+      "Retrofit costs roughly three to four times new construction for the same house, because it means opening finished ceilings. If you are building or doing a gut renovation, this is the only moment the price is reasonable.",
+      "The single biggest failure mode is not technical. In NFPA's data, 61% of sprinkler failures were systems that had been shut off before the fire. The most important maintenance task is leaving the control valve open.",
+      "A 13D system does not cover your garage, attic or crawlspace — all common fire origins. It is protecting escape routes and living space, not the whole building.",
+      "In a cold climate, ask specifically about freezing. Failures concentrate in attics, crawlspaces and exterior wall runs during power outages, and the dry-pipe alternative brings a compressor and more moving parts to maintain.",
+      "On a well rather than a municipal main, the stored-water tank and pump needed to meet the ten-minute demand can dominate the budget. Price the water supply before you price the pipework."
+    ]
+  },
+  {
+    "slug": "kitchen-fire-safety",
+    "name": "Kitchen Fire Safety",
+    "short": "Kitchen",
+    "zone": "people",
+    "icon": "stove",
+    "pillar": "home",
+    "tagline": "Where most home fires start, and where most people do the wrong thing.",
+    "intro": "Cooking is the leading cause of home fires in both countries, and the most common serious injury comes from moving a burning pan or throwing water into hot oil. Almost everything useful in this category is cheap and low-tech: a lid, a blanket, an extinguisher rated for the right class, and knowing that the correct first move for a pan fire is to smother it and turn off the heat rather than to carry it anywhere.",
+    "photo": "fire-extinguishers",
+    "buyingNotes": [
+      "A fire blanket beats an extinguisher for a pan fire — no mess, no scatter, and nothing that can blast burning oil across the kitchen. Keep one within reach of the stove but not above it.",
+      "Water on burning oil produces a steam explosion that throws flame. This is the single most important thing in this category and it costs nothing to know.",
+      "If you buy an extinguisher for the kitchen, understand the class. Standard ABC dry chemical works but coats everything; a wet chemical unit rated for cooking oils is what commercial kitchens use and is far better suited to a deep fryer.",
+      "Keep the extinguisher by the exit, not next to the stove. You should never have to reach across a fire to get the thing that puts it out.",
+      "A 2.5 lb kitchen extinguisher gives roughly nine seconds of discharge. That is less than it sounds — if it is not out almost immediately, leave."
+    ]
+  },
+  {
+    "slug": "heating-and-chimney",
+    "name": "Heating, Woodstoves & Chimneys",
+    "short": "Heating & chimney",
+    "zone": "structure",
+    "icon": "chimney",
+    "pillar": "home",
+    "tagline": "Creosote, clearances, and the inspection nobody books.",
+    "intro": "Heating equipment is consistently among the leading causes of home fires, and in rural Canada the woodstove is usually the specific thing in question. Almost all of the risk is maintenance and clearance rather than equipment quality: an uninspected flue, a build-up of creosote, combustibles too close to a stove, or ash emptied into a plastic bin on a wooden deck. This is a category where the right purchase is often an appointment rather than a product.",
+    "photo": "gutter-and-roof",
+    "buyingNotes": [
+      "Book an annual inspection and sweep for any solid-fuel appliance. It is the highest-value thing on this page and it is not something you can safely infer from how the fire looks.",
+      "A metal ash can with a tight lid, kept outside and away from the structure, prevents a genuinely common fire. Ash holds live embers for days longer than people expect.",
+      "Clearances to combustibles are set by the appliance listing, not by what looks reasonable. If your stove was installed by a previous owner, have the clearances checked.",
+      "A chimney fire and a house fire are different events with the same ending. If you have had a chimney fire, the flue needs inspecting before the next fire is lit — the liner may be damaged.",
+      "Carbon monoxide belongs in this category as much as fire does. Any fuel-burning appliance means a CO alarm is required in most Canadian jurisdictions, and Ontario extended that to every storey as of January 2026."
+    ]
+  },
+  {
+    "slug": "electrical-fire-safety",
+    "name": "Electrical Fire Safety",
+    "short": "Electrical",
+    "zone": "structure",
+    "icon": "bolt",
+    "pillar": "home",
+    "tagline": "Arc faults, old panels, and the extension cord under the rug.",
+    "intro": "Electrical distribution and lighting equipment causes a large share of home fires and a disproportionate share of the deadly ones, because they start inside walls and in spaces nobody is watching. The products that help are mostly code-driven rather than consumer-driven — arc-fault protection, proper panel work, surge protection — and the useful consumer behaviour is mostly about load, damage and age rather than gadgets.",
+    "photo": "ember-resistant-vents",
+    "buyingNotes": [
+      "Arc-fault circuit interrupters detect the kind of arcing that a standard breaker ignores, and are required for most living-space circuits in new construction in both countries. Retrofitting them into an older panel is a real and worthwhile upgrade.",
+      "Extension cords are temporary by design. Running one under a rug or through a doorway damages the insulation and traps heat, and permanent use of one is a sign you need an outlet, not a longer cord.",
+      "Old and recalled panels are worth identifying. If your house still has a panel type with a known failure history, an electrician's assessment is money well spent.",
+      "Space heaters cause more fires than almost any other appliance, and the rule is the simple one: nothing combustible within a metre, plugged directly into a wall outlet, never into a power bar.",
+      "Lithium battery fires — e-bikes, scooters, tool packs — are a fast-growing category. Charge them away from exits and sleeping areas, and stop using any pack that is swollen, damaged or has been in a crash."
+    ]
+  },
+  {
+    "slug": "escape-and-egress",
+    "name": "Escape Planning & Egress",
+    "short": "Escape & egress",
+    "zone": "people",
+    "icon": "ladder",
+    "pillar": "home",
+    "tagline": "Two ways out of every room, practised once, in the dark.",
+    "intro": "Modern furnishings burn faster than the ones the old escape-time research was based on, which is why the advice has moved from 'get out' to 'get out quickly, and know how before it happens'. The equipment here is minimal — an escape ladder for a second storey, a torch where you can find it — and the thing that matters most is free: a plan everyone in the house has actually walked through, including whoever cannot get themselves out.",
+    "photo": "go-bags-and-evacuation",
+    "buyingNotes": [
+      "Escape ladders are the one real purchase. Buy one per upstairs bedroom, not one for the house, and check it reaches the ground from that window.",
+      "Practise it once with the ladder actually deployed. Almost nobody does, and an unpractised ladder at 2 a.m. in smoke is close to useless.",
+      "Agree a meeting point outside and make it specific — a particular tree or the neighbour's driveway, not 'out front'. The counting happens there, and nobody goes back in.",
+      "Plan for whoever needs help: small children, anyone with mobility limits, and pets. Assign a person, and have a backup for when that person is away.",
+      "Sleep with bedroom doors closed. A closed door meaningfully slows fire and smoke spread, and it is the single most effective free thing in this category."
+    ]
   }
 ]

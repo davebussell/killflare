@@ -5,14 +5,14 @@ import Photo from '../../components/Photo.astro';
 import categories from '../../data/categories.json';
 import products from '../../data/products.json';
 ---
-<Base title="All gear" description="Every category of wildfire home defense equipment we cover — from exterior sprinklers and fire gel to respirators and weather radios.">
+<Base title="Wildfire gear" description="Every category of wildfire home defense equipment we cover — from exterior sprinklers and fire gel to respirators and weather radios.">
   <section class="section">
     <div class="wrap">
-      <span class="eyebrow eyebrow--ember">Gear</span>
-      <h1>All categories</h1>
-      <p class="lede">Grouped by what they protect: the structure, the yard around it, or the people inside.</p>
+      <span class="eyebrow eyebrow--ember">Wildfire gear</span>
+      <h1>Wildfire home defense</h1>
+      <p class="lede">Grouped by what they protect: the structure, the yard around it, or the people inside. For alarms, monitoring, water supply and the everyday causes of house fires, see <a href="/home-safety/">home fire safety</a>.</p>
       <div class="grid grid--3 cats">
-        {categories.map((c) => {
+        {categories.filter((c) => c.pillar === 'wildfire').map((c) => {
           const n = products.filter((p) => p.category === c.slug).length;
           return (
             <a href={`/categories/${c.slug}/`} class={`card cat zone-${c.zone}`}>

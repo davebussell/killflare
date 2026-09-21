@@ -12,6 +12,7 @@ export function getStaticPaths() {
 }
 const { p } = Astro.props;
 const cat = categories.find((c) => c.slug === p.category)!;
+const hub = cat.pillar === 'home' ? { href: '/home-safety/', label: 'Home safety' } : { href: '/categories/', label: 'Wildfire gear' };
 const related = products.filter((x) => x.category === p.category && x.slug !== p.slug).slice(0, 3);
 const regionNames = p.region.map((r: string) => (r === 'CA' ? 'Canada' : 'United States')).join(' & ');
 const g: any = (p as any).guide;
@@ -30,7 +31,7 @@ const jsonLd = {
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <article class={`prod zone-${cat.zone}`}>
     <div class="wrap">
-      <nav class="crumb mono" aria-label="Breadcrumb"><a href="/categories/">Gear</a> / <a href={`/categories/${cat.slug}/`}>{cat.short}</a></nav>
+      <nav class="crumb mono" aria-label="Breadcrumb"><a href={hub.href}>{hub.label}</a> / <a href={`/categories/${cat.slug}/`}>{cat.short}</a></nav>
       <div class="prod__grid">
         <div class="prod__main">
           <span class="prod__pick">{p.pick}</span>

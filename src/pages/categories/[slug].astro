@@ -11,6 +11,7 @@ export function getStaticPaths() {
 }
 const { cat } = Astro.props;
 const picks = products.filter((p) => p.category === cat.slug);
+const hub = cat.pillar === 'home' ? { href: '/home-safety/', label: 'Home safety' } : { href: '/categories/', label: 'Wildfire gear' };
 const zoneLabel = { structure: 'Structure', yard: 'Yard & zones', people: 'People & air' }[cat.zone];
 ---
 <Base title={cat.name} description={`${cat.tagline} Our picks and buying notes for ${cat.name.toLowerCase()}.`}>
@@ -19,7 +20,7 @@ const zoneLabel = { structure: 'Structure', yard: 'Yard & zones', people: 'Peopl
   </div>
   <section class={`section catpage zone-${cat.zone}`}>
     <div class="wrap">
-      <nav class="crumb mono" aria-label="Breadcrumb"><a href="/categories/">Gear</a> / {zoneLabel}</nav>
+      <nav class="crumb mono" aria-label="Breadcrumb"><a href={hub.href}>{hub.label}</a> / {zoneLabel}</nav>
       <div class="cathead">
         <div class="cathead__icon"><CatIcon name={cat.icon} size={44} /></div>
         <div>

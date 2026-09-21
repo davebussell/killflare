@@ -687,5 +687,285 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "smoke-and-co-alarms-what-the-law-says",
+    "title": "Smoke and CO Alarms: What to Buy and What the Law Says",
+    "description": "The evidence on what actually works, and the placement and CO rules for Ontario, BC, Alberta, Quebec and the US — which differ more than you would expect.",
+    "readTime": "10 min",
+    "photo": "detection-and-alerts",
+    "sections": [
+      {
+        "heading": "The number that should decide your purchase",
+        "body": [
+          "In NFPA's analysis of US home fires, smoke alarms operated in 93% of fires when they were hardwired and 79% when they ran on batteries alone. The gap is almost entirely human. Of alarms that failed, 47% had a missing or disconnected battery and 24% a dead one. Power supply failure accounted for 7%.",
+          "So the ranking falls out of the data rather than out of marketing. Hardwired with battery backup and interconnected is best. A sealed ten-year lithium unit is the best retrofit, because it removes the failure mode that causes most failures. A replaceable nine-volt alarm is the worst of the three, and several US states — California, Florida, Maryland, New Jersey and New York among them — have concluded as much and banned the sale of battery-only alarms that are not sealed ten-year units.",
+          "The other number worth carrying around: the death rate is 0.53 per 100 fires with a working alarm and 1.18 without. Roughly half. Nothing else in home fire safety is that cheap for that much."
+        ],
+        "products": [
+          "sealed-10-year-smoke-alarm",
+          "hardwired-interconnected-smoke-alarm"
+        ]
+      },
+      {
+        "heading": "Ionisation, photoelectric, and why the question has moved on",
+        "body": [
+          "The old debate is real but settled and, at this point, slightly beside the point. Ionisation alarms respond faster to fast-flaming fires; photoelectric respond faster to smouldering ones. NIST's full-scale testing found both gave adequate warning in most residential scenarios, while noting that escape times are shorter than they were in the 1970s because modern synthetic furnishings burn faster. USFA's recommendation is to have both technologies in the house, or dual-sensor alarms.",
+          "Two US states go further. Vermont has required photoelectric-only alarms near bedrooms since 2008, and does not permit ionisation-photoelectric combination units in those locations. Massachusetts requires photoelectric within 20 ft of a kitchen or bathroom.",
+          "But the better filter now is the standard. UL 217's 8th edition, effective June 2024, added a smouldering polyurethane test, a flaming polyurethane test, and a cooking nuisance test in which the alarm must not sound while two hamburger patties are broiled 10 ft away. When NIST tested 45 existing models against those criteria, not one met all of them — about three quarters met one or none. That forced a real redesign across the category, and it is a more meaningful purchase filter than sensor type.",
+          "One honest caveat, because it contradicts a lot of marketing: NIST's follow-up work found the new-standard alarms were not clearly better than the old ones at ignoring cooking. The hamburger test is a floor, not a cure."
+        ]
+      },
+      {
+        "heading": "Where they go",
+        "body": [
+          "Placement is code rather than preference, and the model requirements are close enough in both countries to state once: an alarm on every storey including the basement, one inside each bedroom, and one in the hallway between the sleeping area and the rest of that storey.",
+          "Keep them away from the two things that cause nuisance alarms. Not within 3 ft of a bathroom door, because steam sets them off. And away from the stove — the US model code asks for at least 6 ft for photoelectric units and 20 ft for ionisation, or 10 ft if it has a hush button. An alarm that cries wolf every time you sear something is an alarm that ends up in a drawer.",
+          "Smoke alarms belong on the ceiling. CO alarms are generally wall-mounted and 5 to 15 ft from any fuel-burning appliance. Those two ideals do not coincide, which is the genuine drawback of a combination unit that nobody mentions at the till."
+        ],
+        "products": [
+          "combination-smoke-co-alarm"
+        ]
+      },
+      {
+        "heading": "Canada: what your province actually requires",
+        "body": [
+          "Start with a distinction that catches people out. In Canada the Building Code governs new construction and the Fire Code governs existing buildings — and it is the Fire Code that binds you as a current owner or landlord. They are not the same document and they do not always say the same thing.",
+          "The national baseline under NBC 9.10.19.3 is an alarm on every storey including the basement, one in each bedroom, and one between the sleeping area and the rest of the storey, permanently wired with battery backup and interconnected within the dwelling. CO alarms under 9.32.4.2 are required where there is a fuel-burning appliance, inside each bedroom or within 5 m of each bedroom door, and do not need to be hardwired.",
+          "Ontario is the strictest and has just got stricter. The Fire Code requires working smoke alarms on every storey and outside all sleeping areas in every home, owned or rented. As of 1 January 2026 the CO requirement expanded from adjacent-to-sleeping-areas to every storey, including storeys with no bedrooms. Landlord duties are specific — provide and maintain, test annually and on turnover, supply maintenance instructions — and the penalties run to $50,000 for an individual and $100,000 for a corporation.",
+          "British Columbia follows the national structure for smoke alarms but its CO requirement is conditional rather than blanket: it applies where there is a fuel-fired appliance, an attached garage, or a shared wall or floor with a parking garage or a service room containing a fuel-fired appliance. Vancouver goes further than the province and requires CO alarms in all dwelling units, new and existing, hardwired and interconnected.",
+          "Alberta runs the 2023 Alberta Edition of the National Building Code, effective May 2024, with the familiar smoke alarm pattern. Its CO requirement is narrower than Ontario's, centring on rooms with solid-fuel appliances, and a 2023 municipal survey found no Alberta city formally enforcing it — most only recommend compliance. That is a real gap worth knowing about if you are buying in Alberta.",
+          "Quebec is where the most common misconception lives. There is no province-wide requirement to use ten-year lithium alarms — the electrical contractors' association has said so explicitly. What exists is municipal: the Montreal agglomeration by-law and Laval's equivalent require a non-removable ten-year lithium battery alarm in residential buildings built before 1985 that do not have 120 V alarms. That catches a very large number of Quebec homes, but it is a city rule, not a provincial one. Provincially, the RBQ requires alarms meeting CAN/ULC-S531 and replacement ten years from the date of manufacture — immediately if that date is missing or unreadable."
+        ]
+      },
+      {
+        "heading": "The United States",
+        "body": [
+          "The model codes — NFPA 72 and IRC R314 and R315 — put alarms in every bedroom, outside each separate sleeping area, and on every storey including basements and habitable attics. New construction is hardwired with battery backup and interconnected, either by wire or by listed wireless. Where a renovation opens the walls, hardwiring is expected; where it does not, listed wireless-interconnected battery alarms are accepted.",
+          "Beyond that, this is state and often municipal law. California has required since July 2015 that every battery-powered smoke alarm sold in the state have a sealed, non-replaceable ten-year battery, which means replaceable-battery models are simply not on the shelves there. Florida, Maryland, New Jersey and New York have comparable sealed-battery requirements.",
+          "The place most Americans actually meet this law is at sale or transfer of a property, which is when Massachusetts and Vermont in particular require compliance certificates. If you are selling, find out early rather than three days before closing."
+        ]
+      },
+      {
+        "heading": "Interconnection, and an honest word about the evidence",
+        "body": [
+          "Interconnection means any one alarm sounds all of them, so a basement fire wakes someone on the third floor. Both countries require it in new construction, and the mechanical argument is obviously sound.",
+          "What we could not find is a study isolating a survival benefit from interconnection specifically. NIST's work treats alarms as present or absent and does not separate interconnected from standalone. So the honest framing is: required by code, mechanically sensible, and not independently quantified. We would still do it, and we would not quote a number at you.",
+          "One wrinkle for Canadians: Ontario's 2024 Building Code permits wireless interconnection only in houses with secondary suites. For ordinary dwellings the code language still says wired, and other cases are handled by building officials through policy or an alternative-solution submission. If you are planning a wireless retrofit in Ontario, ask your building department before you buy."
+        ]
+      },
+      {
+        "heading": "The ten-year rule, which almost everyone breaks",
+        "body": [
+          "Smoke alarms are replaced ten years from the date of manufacture printed on the back. Not ten years from installation, not when the battery dies, and not when it looks dirty. This applies to hardwired units as much as battery ones.",
+          "CO sensors are shorter-lived — manufacturers commonly rate them at seven years against the smoke alarm's ten. On a combination unit, the shorter life governs, and thinking in ten-year terms means running an expired CO detector for three years without knowing it.",
+          "The single most useful thing you can do after reading this page is to go and look at the back of every alarm in your house. Most homes have at least one that is older than the people living there believe, and a fifteen-year-old alarm is not a slightly worse alarm — it is decoration."
+        ]
+      },
+      {
+        "heading": "Sources",
+        "body": [
+          "NFPA, 'Smoke Alarms in US Home Fires'. NIST Technical Note 1455-1 on home smoke alarm performance, and NIST's 2024 work on new-standard alarms and cooking nuisance. CPSC/NIST contractor report on model performance against UL 217 8th edition. USFA smoke alarm guidance. UL Solutions on UL 217 and on CO alarm codes.",
+          "National Building Code of Canada 9.10.19 and 9.32.4.2. Ontario Fire Code and ontario.ca carbon monoxide guidance; Ontario Association of Fire Chiefs on landlord duties. BC Building Code as cited in municipal installation guides. Alberta 2023 Edition adoption and the City of Saskatoon's provincial CO comparison. RBQ Safety Code building chapter; CMEQ on the lithium battery question; Service de sécurité incendie de Montréal and Ville de Laval by-laws. NFPA 72 / IRC R314-R315; California SB 745.",
+          "Current as of September 2026. Alarm law changes often and varies by municipality — confirm with your local fire department or building department before relying on any of it."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "rural-water-supply-and-dry-hydrants",
+    "title": "Rural Water Supply: Dry Hydrants, Cisterns and What the Fire Department Needs",
+    "description": "Past the end of the water main, the fire at your house is fought with whatever arrives on the truck plus whatever your property can supply. Here's how that actually works.",
+    "readTime": "10 min",
+    "photo": "pumps-and-water",
+    "sections": [
+      {
+        "heading": "The problem, stated plainly",
+        "body": [
+          "A pumper arrives carrying somewhere between 2,000 and 4,000 litres. At a working structure fire that is minutes, not hours. After that, water has to come from somewhere — a shuttle of tankers running to the nearest fill point, or a static source close enough to draft from.",
+          "If you live past the hydrants, that arithmetic is your fire protection, and it is largely fixed before anything happens. A pond with a proper connection and a road a loaded truck can use is worth more on the day than almost anything you could buy and put on the house.",
+          "It is also one of very few things in home fire safety that helps your neighbours as much as you, and one of the few that shows up in how your area is graded for insurance."
+        ]
+      },
+      {
+        "heading": "What a dry hydrant is",
+        "body": [
+          "A pipe. That is genuinely most of it. A strainer sits submerged in a pond, stream or buried cistern; schedule 40 pipe, usually six inch, runs from it below frost depth out to a standpipe at the roadside; the standpipe ends in a fire-thread connection with a cap. There is no water in it at rest — hence dry.",
+          "When a pumper connects and evacuates the air, atmospheric pressure pushes water up the pipe. Nothing moves, nothing is powered, and nothing freezes if it was built right.",
+          "The reason it matters is speed and certainty. A crew that knows there is a tested connection at a known location with a known flow can plan around it. A crew improvising down a muddy bank in the dark cannot."
+        ],
+        "products": [
+          "dry-hydrant-assembly"
+        ]
+      },
+      {
+        "heading": "Physics sets the limits, not budget",
+        "body": [
+          "The binding constraint is lift — the vertical distance from the water surface up to the pump. At sea level the theoretical maximum is about 34 ft; a real fire engine achieves roughly two thirds of that, about 22.5 ft, and you lose about a foot for every 1,000 ft of elevation.",
+          "Design practice is far more conservative. NFPA 1142's annex advises keeping lift as low as possible and not exceeding 10 to 12 ft, and says something worth quoting to anyone who suggests a bigger pipe will fix a bad site: this loss cannot be overcome by enlarging the pipe size.",
+          "The second constraint is submergence. You want at least 2 ft of water above the strainer and 1 ft below it, measured against the 50-year drought level rather than against how the pond looks in June. Less than that and the pump pulls a vortex, entrains air and loses prime.",
+          "The third is volume, and here the trap is the word pumpable. Usable water runs from the lowest foreseeable water level down to the top of the strainer — not to the bottom of the pond. The NRCS threshold for a fire-suppression dry hydrant is 30,000 gallons pumpable, or 250 gpm sustained for two hours. A quarter-acre pond that drops three feet by August may have almost nothing usable in the month the risk is highest."
+        ]
+      },
+      {
+        "heading": "How much water a house actually needs",
+        "body": [
+          "NFPA 1142 gives a calculation: the structure's total cubic volume, multiplied by a construction classification number, divided by an occupancy hazard number. Wood frame construction carries the worst multiplier at 1.5; dwellings sit in the least demanding hazard class at 7.",
+          "For a 2,500 sq ft house with nine-foot ceilings — about 22,500 cubic feet — that comes to roughly 4,800 gallons before adjustments. Multiply by 1.5 if there is another structure over 100 sq ft within 50 ft of it, which on most rural properties there is.",
+          "Authorities having jurisdiction turn this into tables. El Dorado County in California, for instance, runs from 2,500 gallons for a small sprinklered structure to 40,000 gallons for a large unsprinklered one, with tanks required at least 30 ft from any structure. Notice that sprinklers roughly halve the stored water requirement — one of the few places the two systems interact.",
+          "Your fire department will do this calculation for you, and their answer is the one that counts. Ask them before you size anything."
+        ]
+      },
+      {
+        "heading": "Access is half the installation",
+        "body": [
+          "NFPA 1142's access requirements read like common sense until you measure your own driveway. The hydrant has to be sited so a pumper connects with no more than 20 ft of hard suction hose. It has to sit at least 100 ft from any structure. Three feet of clear space around it, nothing parked or stored within 20 ft of the access side, and accessible in all weather.",
+          "Design for a loaded pumper — thirty tons or more — not for a pickup. That means an all-weather surface, adequate width, and somewhere to turn around. On a great many rural properties the road work costs more than the hydrant.",
+          "And it has to be findable at 3 a.m. in smoke. Reflective marking and signage approved by your department, checked annually. One thoughtful note from the NRCS standard: if the source turns out to be marginal, sign it as inadequate. A mismarked source that fails when a crew is depending on it is worse than no source at all."
+        ]
+      },
+      {
+        "heading": "What it does for your insurance",
+        "body": [
+          "This is the part most homeowners do not know, and it is the strongest financial argument in the category.",
+          "In Canada, the Fire Underwriters Survey grades dwellings 1 to 5. Grades 3B and 4 do not require a municipal water system — they require a department with the equipment, training and access to approved alternative water supplies to run a tanker shuttle in accordance with NFPA 1142. FUS treats dry hydrants with suction points as equivalent to standard hydrants, and says properties within 300 metres may qualify for better dwelling grades. Above that sits Superior Tanker Shuttle Service accreditation, which FUS describes as a recognised equivalency to hydrant protection and which brings rates similar to a hydranted community.",
+          "In the US, ISO's Public Protection Classification credits alternative water supplies that can deliver 250 gpm for two hours, year-round, within five minutes of the first apparatus arriving. A creditable suction point is treated like a hydrant: properties within 1,000 ft of one can be graded better than Class 9.",
+          "The important nuance in both countries is that the grading is of the community and the department, not your parcel. So the highest-leverage move for a rural owner is often not a private tank at all — it is helping the local department get accredited, and an accessible dry hydrant on your land is frequently part of what gets them there."
+        ]
+      },
+      {
+        "heading": "What this costs, and who pays",
+        "body": [
+          "Hard current numbers are scarce. The most citable figure is a USDA-NRCS cost scenario putting a straightforward 200 ft, six inch PVC installation at about USD $3,000 — but that is 2014 money and assumes cooperative site conditions. Grant caps give a rough sense of scale: Connecticut reimburses half the cost up to $2,000 for a standard install and $3,000 for a cistern system.",
+          "Realistically: low four figures for a simple pond install where the machinery can get in, considerably more once you add excavation, long pipe runs, or road and turnaround work. We could not verify a current typical installed cost and would not invent one.",
+          "On funding, note a structural point that catches landowners out. In the US, the grant programmes — Virginia's, Connecticut's, and state forestry programmes generally — fund fire departments and municipalities, not private owners. Your role is usually granting access or an easement while the department applies. The exception is NRCS conservation practice cost-sharing, which is the main landowner-facing federal route. We found no Canadian equivalent to those state forestry grants at all; ask your regional district or fire protection district directly."
+        ]
+      },
+      {
+        "heading": "The portable alternative",
+        "body": [
+          "If a fixed installation is out of reach, hard suction hose and a low-level strainer let a pump draft from an accessible source without any civil works. It costs a fraction as much and goes wherever you carry it.",
+          "The trade is that it needs a person on the bank at the time. A dry hydrant works for a crew that arrives when you have already evacuated — which, if you have been reading the rest of this site, is what you should be doing.",
+          "Whatever you buy, the lift rule still applies and the thread still has to match. Ask your department what hard suction and what thread they carry before you order anything, and buy the adapters in the same order as the hose."
+        ],
+        "products": [
+          "hard-suction-hose-and-strainer",
+          "portable-gas-fire-pump"
+        ]
+      },
+      {
+        "heading": "One thing that is not a fire water supply",
+        "body": [
+          "A frost-free yard hydrant is a genuinely useful thing to own and it is not firefighting infrastructure. The numbers are not close. A standard one delivers 5 to 9 gpm, and a commercial unit with a one-inch inlet perhaps 15 to 20.",
+          "For comparison: NFPA 1142 asks a dry hydrant to deliver 1,000 gpm at draft. The ISO threshold for a creditable alternative supply is 250 gpm for two hours. Even a residential sprinkler system's entire design demand is up to about 40 gpm.",
+          "So a yard hydrant is about one to two percent of a creditable fire flow. Use it for what it is good at — filling a backpack pump, wetting a fence line, soaking a spot fire after ember fall, topping up a portable tank — and never mark it in any way that suggests a crew could use it."
+        ],
+        "products": [
+          "frost-free-yard-hydrant",
+          "backpack-pump-sprayer"
+        ]
+      },
+      {
+        "heading": "Sources",
+        "body": [
+          "NFPA 1142, Standard on Water Supplies for Suburban and Rural Firefighting, Chapter 8 and annex. USDA-NRCS Conservation Practice Standard 432 (Dry Hydrant) and its cost scenarios. NWCG firefighter math on drafting guidelines. El Dorado County Standard D-003 and Grayson County, Texas guidance on the NFPA 1142 calculation.",
+          "Fire Underwriters Survey on Dwelling Protection Grade and Superior Tanker Shuttle Service accreditation. Verisk/ISO Mitigation on alternative water supplies. Virginia Department of Forestry and Connecticut DEEP dry hydrant grant programmes. Boshart technical data on yard hydrant flow rates.",
+          "Current as of September 2026. Design requirements are set by your authority having jurisdiction and override anything here."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "do-you-need-residential-sprinklers",
+    "title": "Do You Need Residential Sprinklers?",
+    "description": "The strongest evidence in home fire safety, the objections that don't survive contact with the data, the one that does — and why they do nothing about wildfire.",
+    "readTime": "9 min",
+    "photo": "exterior-sprinklers",
+    "sections": [
+      {
+        "heading": "What the data says",
+        "body": [
+          "NFPA's analysis of five years of US fire incident data gives the headline figures. In home fires where sprinklers were present, the civilian death rate was 89% lower and average property loss 55% lower than in homes with no automatic extinguishing system. Fire was confined to the object or room of origin 96% of the time, against 72% without. Sprinklers operated in 95% of fires large enough to activate them and were effective in 98% of those, so they worked as intended 93% of the time overall.",
+          "The most useful single table combines them with alarms. Deaths per 1,000 reported home structure fires: 13.0 with no alarm and no sprinklers, 8.5 with a battery alarm, 3.8 with hardwired alarms, and 1.0 with hardwired alarms and sprinklers together.",
+          "Read that last line carefully, because it is also an argument about order. Going from nothing to hardwired alarms takes you from 13.0 to 3.8. Adding sprinklers takes you from 3.8 to 1.0. Both are large; only one of them costs a few hundred dollars."
+        ],
+        "products": [
+          "hardwired-interconnected-smoke-alarm"
+        ]
+      },
+      {
+        "heading": "How to read those numbers honestly",
+        "body": [
+          "NFPA flags its own caveats and they matter. These are estimates derived from fire incident reporting and scaled by survey, not a controlled trial. The protection-level table is based on presence, not operation. And sprinklered homes are systematically different from unsprinklered ones — newer, built to later codes, in wealthier areas, often with different lot layouts.",
+          "NFPA also notes a reporting bias: minor fires in homes with monitored detection are more likely to generate a fire department response and therefore more likely to be counted at all.",
+          "So 89% is a strong association rather than a clean causal estimate. We looked for an independent peer-reviewed meta-analysis and could not find one — the evidence base is NFPA's incident data plus advocacy material from both the sprinkler industry and the homebuilder lobby, each of which has spent heavily on this question. That is worth knowing before you accept any number in this debate, including the ones we have just quoted."
+        ]
+      },
+      {
+        "heading": "What NFPA 13D actually is",
+        "body": [
+          "The residential standard is deliberately modest. Its stated purpose is life safety — getting people out — rather than saving the building. It designs for the two most demanding sprinklers running for ten minutes, or seven for a single-storey home under 2,000 sq ft, and it usually runs off the domestic water supply rather than a dedicated fire service.",
+          "That is a very different animal from a commercial NFPA 13 system, which is designed for property protection over a much longer duration with a dedicated supply.",
+          "It also permits omissions that a homeowner should know about. Sprinklers can be left out of garages, attics, crawlspaces, small bathrooms and small closets. Your attached garage — a common fire origin — is generally outside the system."
+        ],
+        "products": [
+          "nfpa-13d-sprinkler-system"
+        ]
+      },
+      {
+        "heading": "The objections that do not survive the data",
+        "body": [
+          "They will all go off at once. No. Each head holds back water with a heat-sensitive element that fails at its own rated temperature, so only the head over the fire opens. In NFPA's home fire data, one head operated in 85% of cases and five or fewer in 99.2%.",
+          "The water damage will be worse than the fire. The honest answer is not a hose-flow comparison but NFPA's loss figure: average property loss was 55% lower where sprinklers were present. That number already nets out whatever water damage the sprinklers caused.",
+          "Burnt toast will set them off. Sprinklers respond to heat, not smoke — a smoke alarm and a sprinkler head are triggered by entirely different things. We could find no authoritative statistic on cooking-steam activation, so we will not give you one, but the mechanism makes it implausible.",
+          "They go off accidentally. The widely quoted odds of one in sixteen million refer specifically to a manufacturing defect, which is not the same as real-world discharge. Actual causes, in NFPA's data, are overheating from a nearby heat source, freezing, mechanical damage, corrosion and vandalism — and the counts circulating online are across all occupancies, dominated by commercial buildings, so do not read them as a residential rate."
+        ]
+      },
+      {
+        "heading": "The objections that do survive",
+        "body": [
+          "Retrofit cost. This is the real one. The canonical new-construction figure is USD $1.61 per sprinklered square foot from a Fire Protection Research Foundation study — though that study is from 2008 and should be treated as a historical anchor. Contractor data in 2026 suggests roughly USD $700 to $1,200 for new construction on a typical house against USD $3,000 to $4,500 for the same house retrofitted. Three to four times, because retrofit means opening finished ceilings and often upsizing the water service.",
+          "Water supply, if you are on a well. On a municipal main the system usually runs off the domestic supply and the cost stays reasonable. On a well, guaranteeing the ten-minute demand may need a stored tank and a pump, and that can dominate the budget. Price the water before you price the pipework.",
+          "Freezing, which is the serious objection in Canada and the northern US. NFPA 13D allows a wet system where the water and ambient temperature stay above freezing and a dry, air-pressurised system where they do not. Failures concentrate in attics, crawlspaces and exterior wall runs, particularly during power outages or a furnace failure. A dry system adds a compressor, air pressure supervision and more to maintain. For a seasonal or vacation property in a cold climate this objection has real teeth.",
+          "And the failure mode that dwarfs all the technical ones: in NFPA's data, 61% of sprinkler failures were systems that had been shut off before the fire. The most important maintenance action anyone takes with a sprinkler system is leaving the control valve open."
+        ]
+      },
+      {
+        "heading": "Where they are required",
+        "body": [
+          "The International Residential Code has required sprinklers in new one- and two-family homes since its 2009 edition, but adoption is where the fight happened and most states adopted the IRC while stripping that requirement out.",
+          "Statewide requirements for new one- and two-family homes exist in California, Maryland and Washington DC. Around 29 states prohibit local mandates outright and roughly 19 allow local adoption — Scottsdale, Arizona has required them since 1986. Pennsylvania actually repealed its mandate in 2011, retroactively, and Minnesota's was overturned in court.",
+          "In Canada there is no national or provincial requirement for single-family houses. The notable exception is municipal: Vancouver has required sprinklers in one- and two-family dwellings since 1990, and a handful of other BC municipalities have followed. We could not find an authoritative national list, so check with your own municipality rather than assuming.",
+          "If you are in a jurisdiction that requires them, the cost question largely answers itself. If you are not, it is a genuine judgement call."
+        ]
+      },
+      {
+        "heading": "They do nothing about wildfire",
+        "body": [
+          "This needs saying plainly because the words overlap and the products do not.",
+          "An NFPA 13D system is an interior life-safety system. Its heads open when the air at the ceiling inside a room gets hot. Wildfire destroys houses from the outside — embers into vents and gutters, radiant heat through windows, a neighbouring structure burning. By the time an interior head opens, the inside of your house is already on fire, which means the exterior defence has already failed.",
+          "The timeline does not work either. Ten minutes of water is meaningless against an ember shower that lasts hours, and in a wildfire the house is usually evacuated and the power — and therefore any well pump — is usually out.",
+          "Exterior wildfire sprinklers are an entirely different product, and even those come heavily qualified: NFPA's own wildfire research notes they can help a home survive but that effectiveness is questionable when a neighbouring home is burning, that they need water for up to eight hours, and that the high winds which drive destructive wildfires disperse the spray. Fire Safe Marin goes further and does not recommend them at all, noting that running exterior sprinklers can reduce water pressure for the whole neighbourhood.",
+          "If a contractor offers you an interior sprinkler system as wildfire protection, that is a reason to find a different contractor."
+        ]
+      },
+      {
+        "heading": "So — do you need them?",
+        "body": [
+          "If you are building or gutting a floor, yes, we would put them in. The evidence is the best in home fire safety, the marginal cost during construction is small, and you will never get this price again.",
+          "If you have an existing finished house and a fixed budget, the order the data suggests is: hardwired interconnected alarms first, because they take you most of the way down the death rate for a fraction of the cost. Then the rest of the basics. Then sprinklers at the next major renovation.",
+          "The case for retrofitting anyway is strongest where someone in the house would struggle to self-evacuate — a person with limited mobility, or an occupant who cannot be relied upon to wake and act on an alarm. That is the scenario 13D was designed around, and it is the one where an alarm alone is not enough.",
+          "Do not expect insurance to pay for it. Discount claims in this category are almost entirely advocacy-sourced, and we could not find a single insurer or regulator publishing a residential sprinkler discount schedule in either country. Ask your own insurer for a specific number before you count on one."
+        ]
+      },
+      {
+        "heading": "Sources",
+        "body": [
+          "NFPA, 'US Experience with Sprinklers', April 2024, covering 2017-2021 incident data — all effectiveness, activation and failure figures. NFPA 13D as described in fire protection industry technical guidance. Fire Protection Research Foundation, Home Fire Sprinkler Cost Assessment (2008) for the per-square-foot figure.",
+          "QRFS analysis of US state adoption and the residential sprinkler mandate conflict; ProPublica's reporting on the homebuilding industry's campaign against mandates; City of Vancouver council records on the 1990 adoption. NFPA wildfire research fact sheet on exterior sprinklers, and Fire Safe Marin on exterior sprinklers and coatings.",
+          "Advocacy sources on both sides — the Home Fire Sprinkler Coalition and the homebuilder associations — have been read but not relied on for numbers. Current as of September 2026."
+        ]
+      }
+    ]
   }
 ]

@@ -3358,5 +3358,1913 @@
       ],
       "verdict": "Cheap, certified and genuinely useful for the small ignition that would otherwise become the house fire. Buy rechargeable 10 lb units, mount them by the exits, and be clear with yourself that ten seconds of no progress means you leave."
     }
+  },
+  {
+    "slug": "hardwired-interconnected-smoke-alarm",
+    "name": "Hardwired Interconnected Smoke Alarm",
+    "brand": "Kidde / First Alert",
+    "category": "smoke-and-co-alarms",
+    "pick": "The one the evidence favours",
+    "priceBand": "$",
+    "priceNote": "Per unit; a whole house is 4-8 of them",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "Mains-powered with battery backup, wired so that any one alarm sets off every alarm in the house. This is what building codes require in new construction in both countries, and the configuration that performs best in real fires.",
+    "pros": [
+      "Operated in 93% of fires in NFPA's data, against 79% for battery-only units",
+      "Any alarm sounds all of them — a basement fire wakes a third-floor sleeper",
+      "Battery backup covers power cuts, which often accompany fires"
+    ],
+    "cons": [
+      "Needs an electrician unless the wiring already exists",
+      "Retrofitting into a finished house is disruptive and usually not worth opening walls for"
+    ],
+    "bestFor": "New construction, gut renovations, and any house that already has alarm wiring in place.",
+    "links": [
+      {
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0DWH5HB78?tag=AFFILIATE_TAG",
+        "kind": "affiliate"
+      },
+      {
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B086S3KPQQ?tag=AFFILIATE_TAG_CA",
+        "kind": "affiliate"
+      }
+    ],
+    "image": null,
+    "asin": "B0DWH5HB78",
+    "guide": {
+      "howItWorks": "A 120 V circuit powers the alarm and keeps a backup battery charged. A third conductor — the interconnect wire — carries a signal between units, so when one detects smoke it triggers every alarm on the loop. Newer systems achieve the same thing over a radio link instead of a wire.",
+      "market": "This is a two-brand market in North America. Kidde and First Alert (BRK) between them hold most of the shelf space, with a long tail of Universal, Ecoey and house brands. Prices run CAD $25 to $70 per unit. The real differentiators are sensor type, whether the unit is combination smoke/CO, and whether interconnection is wired or wireless — not brand. Every unit sold legitimately in Canada or the US is tested to UL 217 or CAN/ULC-S531, so the certification is a floor rather than a selling point.",
+      "features": [
+        {
+          "label": "Interconnect wiring",
+          "detail": "The third wire is the whole point. Codes in both countries require that when more than one alarm is needed, any one sounds all of them within the dwelling."
+        },
+        {
+          "label": "Battery backup",
+          "detail": "Required by code and the reason the hardwired failure rate is low. Power failure accounted for only 7% of alarm failures in NFPA's data."
+        },
+        {
+          "label": "Sensor type",
+          "detail": "Ionisation is faster on flaming fires, photoelectric on smouldering ones. Dual-sensor units exist and are what USFA recommends if you are not mixing types across the house."
+        },
+        {
+          "label": "UL 217 8th edition or later",
+          "detail": "The current standard adds smouldering and flaming polyurethane tests plus a cooking nuisance test. Worth checking, because when NIST tested 45 models against the new criteria, not one met all of them."
+        },
+        {
+          "label": "Wireless interconnect option",
+          "detail": "Listed wireless interconnection is accepted for retrofits in the US and in Ontario for houses with secondary suites. Elsewhere in Canada the code language still says wired — check before relying on it."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $25-$70 per alarm. A typical two-storey house with basement needs five to eight.",
+        "consumables": "Backup batteries every year or two on units that have replaceable ones.",
+        "ancillary": "Electrician time if the wiring is not there — commonly CAD $150-$400 per location, which is what makes retrofit uneconomic.",
+        "fiveYear": "Essentially the purchase price. The whole unit is replaced at ten years from manufacture regardless of condition."
+      },
+      "differentiators": [
+        {
+          "label": "Versus battery-only alarms",
+          "detail": "The gap is real and measurable: 93% operation versus 79%. Almost all of the difference is human — missing or dead batteries accounted for 71% of all alarm failures and 87% of battery-only failures."
+        },
+        {
+          "label": "Versus sealed ten-year units",
+          "detail": "Hardwired wins on reliability and interconnection; sealed units win overwhelmingly on retrofit cost. For an existing finished house, sealed is usually the right answer."
+        },
+        {
+          "label": "The ten-year rule",
+          "detail": "Alarms are replaced ten years from the date of manufacture printed on the back — not from when you installed them, and not when the battery dies. This applies to hardwired units too, and is the most commonly ignored rule in home fire safety."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Same day",
+        "where": "Any hardware or big-box store, electrical wholesalers, Amazon in both countries.",
+        "note": "Buy all the units at once and from the same product line. Cross-brand interconnection is not reliable, and mixing generations within a brand can fail too."
+      },
+      "install": {
+        "effort": 3,
+        "time": "20-40 minutes per location where wiring exists; a day or more for a full retrofit",
+        "tools": [
+          "Screwdriver",
+          "Voltage tester",
+          "Wire connectors",
+          "Drill"
+        ],
+        "note": "If the wiring is there, this is a swap most competent DIYers can do with the breaker off. If it is not, get an electrician — and price sealed battery units first, because they may do the job for a tenth of the cost."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Test monthly with the button. Vacuum the grilles twice a year — dust is the main cause of nuisance alarms. Replace backup batteries annually, and the whole unit at ten years."
+      },
+      "alternatives": [
+        {
+          "name": "Sealed ten-year lithium alarms",
+          "note": "The best retrofit. Removes the dominant failure mode without an electrician."
+        },
+        {
+          "name": "Wireless-interconnected battery alarms",
+          "note": "Interconnection without wiring. Accepted in US retrofits; check your provincial code in Canada."
+        }
+      ],
+      "verdict": "If you are building, renovating, or already have the wiring, this is the configuration with the best evidence behind it. If you are not, do not open walls for it — sealed ten-year units get you most of the benefit for a fraction of the cost and disruption."
+    }
+  },
+  {
+    "slug": "sealed-10-year-smoke-alarm",
+    "name": "10-Year Sealed Battery Smoke Alarm",
+    "brand": "Kidde / First Alert",
+    "category": "smoke-and-co-alarms",
+    "pick": "Best retrofit, by a distance",
+    "priceBand": "$",
+    "priceNote": "No battery to buy for a decade",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "A battery alarm with a lithium cell sealed inside for the unit's full ten-year life. You cannot remove the battery, which is precisely the point: a missing or dead battery is the reason most failed alarms failed.",
+    "pros": [
+      "Removes the single most common cause of alarm failure",
+      "No ladder trips for battery changes, and no 3 a.m. low-battery chirp",
+      "Mandatory for battery alarms sold in several US states, which tells you what regulators concluded"
+    ],
+    "cons": [
+      "Not interconnected unless you buy a wireless-interconnect model",
+      "Whole unit is landfill at ten years, battery included"
+    ],
+    "bestFor": "Any existing house without alarm wiring — which is most of them.",
+    "links": [
+      {
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0FFVHYNL6?tag=AFFILIATE_TAG",
+        "kind": "affiliate"
+      },
+      {
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B0FFVHYNL6?tag=AFFILIATE_TAG_CA",
+        "kind": "affiliate"
+      }
+    ],
+    "image": null,
+    "asin": "B0FFVHYNL6",
+    "guide": {
+      "howItWorks": "Identical detection hardware to any other alarm, with a sealed lithium cell sized to last the ten-year service life of the unit. At end of life it chirps a distinct end-of-life signal and the whole thing is replaced. There is no battery door, so the alarm cannot be silenced by removing the power source — only by the hush button.",
+      "market": "Kidde and First Alert again dominate, with sealed versions of most of their line at CAD $25-$60. Several US states — California, Florida, Maryland, New Jersey and New York among them — now require that battery-only alarms sold there have sealed ten-year batteries, which has pushed the category from premium option to default. In Canada there is no provincial equivalent, but Montreal's agglomeration and Laval require non-removable ten-year lithium batteries in pre-1985 buildings that lack mains-powered alarms, which catches a great many Quebec homes.",
+      "features": [
+        {
+          "label": "Sealed lithium cell",
+          "detail": "Not removable and not replaceable. This is a design constraint doing safety work, not a limitation."
+        },
+        {
+          "label": "End-of-life signal",
+          "detail": "A distinct chirp pattern at ten years telling you to replace the unit, which is far more useful than hoping you remember the install date."
+        },
+        {
+          "label": "Hush button",
+          "detail": "Silences a nuisance alarm temporarily. The existence of a hush button is what makes a sealed battery tolerable next to a kitchen."
+        },
+        {
+          "label": "Optional wireless interconnect",
+          "detail": "Some sealed models link by radio so one alarm sounds them all. Costs more and is worth it in a house where a basement fire would otherwise go unheard upstairs."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $25-$60 per unit; CAD $45-$90 for wireless-interconnect versions.",
+        "consumables": "None. That is the product.",
+        "ancillary": "Nothing.",
+        "fiveYear": "Nil — you are halfway through the unit's life."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a 9 V alarm",
+          "detail": "Same detection, radically better real-world reliability, and no annual chore. Given that 56% of battery-only alarm failures were missing or disconnected batteries, this design change addresses most of the problem."
+        },
+        {
+          "label": "Versus hardwired",
+          "detail": "Less reliable on paper and not interconnected by default, but installable by anyone in ten minutes at no labour cost. For a finished house the practical comparison usually favours sealed."
+        },
+        {
+          "label": "The disposal caveat",
+          "detail": "A sealed unit is thrown away whole, lithium and all. Check whether your municipality takes them at a battery or electronics depot rather than in household waste."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Same day",
+        "where": "Hardware and big-box stores, pharmacies, Amazon in both countries.",
+        "note": "Check the date of manufacture on the back before you buy. Alarms sit in warehouses, and a unit made two years ago has eight years left, not ten."
+      },
+      "install": {
+        "effort": 1,
+        "time": "10 minutes per alarm",
+        "tools": [
+          "Drill",
+          "Screwdriver",
+          "Ladder"
+        ],
+        "note": "Ceiling-mounted, at least 6 ft from a photoelectric unit's nearest cooking appliance and 20 ft for ionisation. Not within 3 ft of a bathroom door. Write the install date on the unit with a marker — the manufacture date is what counts, but the install date tells you how long it has been up there."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Press the test button monthly. Vacuum twice a year. Replace the unit when it signals end of life or at ten years from manufacture, whichever comes first."
+      },
+      "alternatives": [
+        {
+          "name": "Hardwired interconnected alarms",
+          "note": "Better if the wiring exists. Not worth opening walls for."
+        },
+        {
+          "name": "Replaceable-battery alarms",
+          "note": "Cheaper by a few dollars and measurably worse. No longer legal to sell as battery-only units in several US states."
+        }
+      ],
+      "verdict": "For an existing house this is the highest-value fire safety purchase available, and it costs about the same as lunch. Buy one for every storey and every bedroom, check the manufacture date, and put a note in your calendar for nine years from now."
+    }
+  },
+  {
+    "slug": "combination-smoke-co-alarm",
+    "name": "Combination Smoke & Carbon Monoxide Alarm",
+    "brand": "Kidde / First Alert",
+    "category": "smoke-and-co-alarms",
+    "pick": "Two hazards, one mounting point — with a catch",
+    "priceBand": "$",
+    "priceNote": "CO sensor life is the binding constraint",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "One unit detecting both smoke and carbon monoxide. Convenient and code-acceptable in most places, with a genuine drawback that almost nobody is told about: the CO sensor wears out years before the smoke sensor does.",
+    "pros": [
+      "One device, one mounting point, one thing to test",
+      "Required coverage for both hazards where a fuel-burning appliance or attached garage exists",
+      "Often cheaper than buying two separate alarms"
+    ],
+    "cons": [
+      "CO sensors typically last about seven years against the smoke alarm's ten — the shorter life governs",
+      "Ideal mounting height for smoke and for CO are not the same, so one function is compromised"
+    ],
+    "bestFor": "Homes with a fuel-burning appliance, fireplace or attached garage, where CO coverage is required anyway.",
+    "links": [
+      {
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0CY3BZCX9?tag=AFFILIATE_TAG",
+        "kind": "affiliate"
+      },
+      {
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B0CY3BZCX9?tag=AFFILIATE_TAG_CA",
+        "kind": "affiliate"
+      }
+    ],
+    "image": null,
+    "asin": "B0CY3BZCX9",
+    "guide": {
+      "howItWorks": "Two sensors in one housing: a photoelectric or ionisation smoke sensor, and an electrochemical cell that reacts to carbon monoxide. They alarm with different sound patterns — the three-pulse temporal pattern for fire, four pulses for CO — because the correct response differs. Fire means get out. CO means get to fresh air and call for help, and the distinction matters.",
+      "market": "Every major alarm brand sells combination units, CAD $35-$90, in sealed, replaceable-battery and hardwired versions. The standards are UL 217 for the smoke side and UL 2034 in the US, CAN/CSA-6.19 in Canada, for the CO side. The category has grown quickly because Canadian provinces have progressively mandated CO alarms — Ontario expanded its requirement to every storey as of January 2026 — and a combination unit is the path of least resistance to compliance.",
+      "features": [
+        {
+          "label": "Distinct alarm patterns",
+          "detail": "Three pulses for fire, four for CO. Better units announce which hazard in speech, which removes a genuinely dangerous ambiguity at 3 a.m."
+        },
+        {
+          "label": "CO detection thresholds",
+          "detail": "UL 2034 requires an alarm within 60-240 minutes at 70 ppm, 10-50 minutes at 150 ppm, and 4-15 minutes at 400 ppm — and requires the unit not to alarm below 30 ppm. Advocacy groups argue that floor is too high for infants, pregnant people and cardiac patients; low-level monitors exist outside the standard."
+        },
+        {
+          "label": "End-of-life signal",
+          "detail": "More important here than on a smoke-only alarm, because the CO cell expires first and a silently dead CO sensor is invisible."
+        },
+        {
+          "label": "Sealed or replaceable",
+          "detail": "Sealed ten-year combination units exist, but check whether the manufacturer rates the CO function for the full ten years — many do not."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $35-$90 per unit.",
+        "consumables": "Batteries on replaceable models.",
+        "ancillary": "Nothing.",
+        "fiveYear": "You will likely be replacing the unit around year seven rather than year ten, so budget for one full replacement cycle sooner than a smoke-only alarm."
+      },
+      "differentiators": [
+        {
+          "label": "Versus separate alarms",
+          "detail": "Two units let you put the smoke alarm on the ceiling where it belongs and the CO alarm at the height the manufacturer specifies, and let each run its full life. A combination unit trades that for convenience."
+        },
+        {
+          "label": "The placement compromise",
+          "detail": "Smoke alarms work best on the ceiling. CO alarms are commonly specified on a wall, and 5-15 ft from fuel-burning appliances. A combination unit cannot satisfy both ideals at once."
+        },
+        {
+          "label": "The life-mismatch trap",
+          "detail": "Thinking in ten-year smoke alarm terms with a seven-year CO sensor means running an expired CO detector for three years. Go by whichever sensor expires first, and by the unit's own end-of-life signal."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Same day",
+        "where": "Hardware and big-box stores, Amazon in both countries.",
+        "note": "Check the CO sensor's stated life on the box, not just the alarm's. If the packaging does not say, assume seven years."
+      },
+      "install": {
+        "effort": 1,
+        "time": "10-15 minutes",
+        "tools": [
+          "Drill",
+          "Screwdriver",
+          "Ladder"
+        ],
+        "note": "Follow the manufacturer's height instruction rather than habit — it is different from a plain smoke alarm. Keep it 5-15 ft from fuel-burning appliances, and out of the path of steam from bathrooms."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Test monthly. Replace at the CO sensor's rated life, not the smoke alarm's. If your alarm has been in place since before you can remember, it is expired."
+      },
+      "alternatives": [
+        {
+          "name": "Separate smoke and CO alarms",
+          "note": "Correct placement for both, full life from each sensor, one more device to mount."
+        },
+        {
+          "name": "Low-level CO monitor",
+          "note": "Alarms far below the UL 2034 floor. Worth considering where someone in the house is pregnant, elderly or has a heart condition."
+        }
+      ],
+      "verdict": "A sensible default where you need both and want one device — as long as you replace it on the CO sensor's clock. If you have somewhere sensible to put two alarms, two alarms is technically the better installation."
+    }
+  },
+  {
+    "slug": "smart-smoke-co-alarm",
+    "name": "Smart Smoke & CO Alarm",
+    "brand": "First Alert / Various",
+    "category": "home-fire-monitoring",
+    "pick": "Phone alerts when you're not home",
+    "priceBand": "$$",
+    "priceNote": "Several times the price of a standard alarm",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "A mains or battery alarm with Wi-Fi, sending a push notification to your phone as well as sounding locally. It tells you your house is on fire while you are at work, which a standard alarm cannot do.",
+    "pros": [
+      "Alerts you when nobody is home — the gap a local siren cannot fill",
+      "Voice announcements naming the hazard and the location",
+      "Self-test and low-battery reporting in the app rather than by chirp"
+    ],
+    "cons": [
+      "Depends on Wi-Fi and mains power, both of which fail in fires",
+      "Notifying you is not the same as notifying the fire department"
+    ],
+    "bestFor": "Second properties, rentals, and anyone who travels and wants to know rather than find out later.",
+    "links": [
+      {
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0DS2W3794?tag=AFFILIATE_TAG",
+        "kind": "affiliate"
+      },
+      {
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B0DPNL3SDC?tag=AFFILIATE_TAG_CA",
+        "kind": "affiliate"
+      }
+    ],
+    "image": null,
+    "asin": "B0DS2W3794",
+    "guide": {
+      "howItWorks": "Standard detection hardware plus a Wi-Fi radio and a cloud service. When the alarm sounds it also publishes an event, and the app pushes it to your phone. Most models also interconnect with each other so the whole house sounds, and announce in speech which hazard and which room.",
+      "market": "This category went through an upheaval in 2025 when Google discontinued Nest Protect, for a decade the default recommendation, and partnered with First Alert instead. The successor First Alert smart alarm sits around CAD $170 and interconnects with existing Nest Protect units, which is unusually decent behaviour toward stranded customers. Existing Nest Protects continue to receive updates to their expiry. Beyond that the field is thinner than it was, with various smaller brands and a lot of cheap Wi-Fi units of unclear certification. Treat certification as non-negotiable here: this is a life-safety device first and a smart-home gadget second.",
+      "features": [
+        {
+          "label": "Push notification",
+          "detail": "The single reason to buy one. It converts a device that only shouts into the room into one that reaches you anywhere."
+        },
+        {
+          "label": "Voice announcement",
+          "detail": "Says whether it is smoke or CO and which room. Meaningfully better than a pattern of beeps in a panic."
+        },
+        {
+          "label": "App-based self-test",
+          "detail": "Reports its own health and battery state, which removes the reason people stop testing manually."
+        },
+        {
+          "label": "Interconnection",
+          "detail": "Links to other units of the same family so one detection sounds the house. Check compatibility before mixing product lines."
+        },
+        {
+          "label": "What it is not",
+          "detail": "Not monitored. Nobody is watching the app but you, and no fire department is dispatched by a push notification."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $130-$220 per unit — roughly four times a good sealed alarm.",
+        "consumables": "Batteries on battery models.",
+        "ancillary": "A reliable Wi-Fi signal where the alarms are, which in a basement or detached garage is not a given.",
+        "fiveYear": "Purchase price. Replacement at ten years from manufacture applies here too."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a standard alarm",
+          "detail": "Identical protection for anyone inside the house. The entire premium buys you notification when the house is empty."
+        },
+        {
+          "label": "Versus professional monitoring",
+          "detail": "A smart alarm tells you. Monitoring tells the fire department. If the scenario you are buying for is an empty house, ask honestly whether a phone alert while you are four hours away is what you actually wanted."
+        },
+        {
+          "label": "Versus a listener",
+          "detail": "A listener costs a third as much and works with the alarms you already own, at the price of adding a second point of failure."
+        },
+        {
+          "label": "Platform risk is real",
+          "detail": "Nest Protect was the category leader for a decade and was discontinued. Cloud-dependent life-safety devices inherit their vendor's business decisions, which is an argument for keeping at least some conventional alarms in the house."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Days",
+        "where": "Big-box electronics, Amazon, smart-home retailers.",
+        "note": "Confirm UL 217 or CAN/ULC-S531 certification on the specific model. Cheap uncertified Wi-Fi smoke alarms exist and are not life-safety devices."
+      },
+      "install": {
+        "effort": 2,
+        "time": "20-30 minutes per unit including app setup",
+        "tools": [
+          "Drill",
+          "Screwdriver",
+          "Ladder",
+          "Phone"
+        ],
+        "note": "Set them up on a 2.4 GHz network if the unit needs one, and test that the notification actually arrives on every household phone before you consider the job done."
+      },
+      "ongoing": {
+        "effort": 2,
+        "note": "Verify push notifications still work after any router or phone change — this is the part that silently breaks. Keep the app installed and logged in on more than one phone."
+      },
+      "alternatives": [
+        {
+          "name": "Smoke and CO listener",
+          "note": "Much cheaper, uses your existing alarms, and on Amazon Sidewalk it works without your Wi-Fi."
+        },
+        {
+          "name": "Professional monitoring",
+          "note": "The only option that dispatches anyone."
+        },
+        {
+          "name": "A sealed ten-year alarm",
+          "note": "A quarter of the price and identical protection for people who are home."
+        }
+      ],
+      "verdict": "Buy it for the empty-house scenario and nothing else — for anyone actually in the building it is no better than a CAD $35 alarm. And be clear that it notifies you, not the fire department."
+    }
+  },
+  {
+    "slug": "smoke-alarm-listener",
+    "name": "Smoke & CO Alarm Listener",
+    "brand": "Ring",
+    "category": "home-fire-monitoring",
+    "pick": "Cheapest route to phone alerts",
+    "priceBand": "$",
+    "priceNote": "Works with the alarms you already own",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "A small device that sits beside an existing smoke or CO alarm and listens for its alarm pattern, then pushes an alert to your phone. It does not detect anything itself — it hears the alarm you already have.",
+    "pros": [
+      "A fraction of the cost of replacing alarms with smart ones",
+      "Works over Amazon Sidewalk, so it functions without your Wi-Fi or power",
+      "Optional professional monitoring on a subscription"
+    ],
+    "cons": [
+      "Detects nothing itself — it is entirely dependent on the alarm beside it",
+      "Must sit within 6 inches of the alarm, and the alarm must be under ten years old"
+    ],
+    "bestFor": "Getting phone alerts from a houseful of existing alarms without replacing any of them.",
+    "links": [
+      {
+        "label": "Ring (direct)",
+        "url": "https://ring.com/products/smoke-co-listener",
+        "kind": "direct"
+      }
+    ],
+    "image": null,
+    "asin": null,
+    "guide": {
+      "howItWorks": "Since 1996, North American fire alarms have been required to sound a standard three-pulse temporal pattern for fire, and CO alarms use a distinct four-pulse pattern. Those patterns are machine-recognisable, which is what makes a listener possible: a microphone, a pattern matcher and a radio. It hears your alarm, identifies which hazard, and sends the alert.",
+      "market": "A small category with essentially one mainstream product, Ring's Smoke & CO Listener at around CAD $55, plus a handful of similar devices from smaller brands. The concept is sound and the price is compelling against replacing five alarms with smart ones at CAD $170 each. What is missing is independent testing: we found reviews but no controlled study of false-negative or false-positive rates, which for a life-safety accessory is a real gap.",
+      "features": [
+        {
+          "label": "Pattern recognition",
+          "detail": "Distinguishes the fire pattern from the CO pattern and tells you which, because the correct response differs."
+        },
+        {
+          "label": "Works without Wi-Fi",
+          "detail": "Amazon Sidewalk gives it a low-bandwidth path out of the house independent of your router — a genuine resilience advantage over Wi-Fi-only smart alarms."
+        },
+        {
+          "label": "Optional professional monitoring",
+          "detail": "Adding a subscription turns it from a notification device into a monitored one, which is the cheapest route to dispatch we found."
+        },
+        {
+          "label": "Placement constraint",
+          "detail": "Within 6 inches of the alarm. This is a hard requirement and easy to violate the next time someone paints a ceiling."
+        },
+        {
+          "label": "Age constraint",
+          "detail": "The manufacturer requires the existing alarm be ten years old or less — which is the rule you should be following anyway."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $50-$70 per listener, one per alarm you want covered.",
+        "consumables": "Batteries per the model.",
+        "ancillary": "Optional monitoring subscription.",
+        "fiveYear": "Purchase price plus any subscription."
+      },
+      "differentiators": [
+        {
+          "label": "Versus replacing alarms with smart ones",
+          "detail": "Roughly a third of the cost, and you keep working alarms rather than binning them. The trade is an extra component in the chain."
+        },
+        {
+          "label": "The derivative-device problem",
+          "detail": "A listener adds a second point of failure on top of the alarm: microphone, placement, battery, radio link. If the parent alarm fails, the listener reports nothing, because there is nothing to hear."
+        },
+        {
+          "label": "The honest gap",
+          "detail": "We could not find independent reliability testing of listeners. The mechanism is sound and the standardised alarm patterns make it tractable, but nobody has published false-negative rates. Treat it as a useful supplement rather than as protection you would bet the house on."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Days",
+        "where": "Amazon, Ring direct, big-box electronics.",
+        "note": "Check it is supported in your country and at your address — professional monitoring is unavailable at commercially-zoned addresses."
+      },
+      "install": {
+        "effort": 1,
+        "time": "15 minutes including app setup",
+        "tools": [
+          "Phone",
+          "Ladder"
+        ],
+        "note": "Mount within 6 inches of the alarm and then actually test it: press the alarm's test button and confirm the notification arrives. Do that again after any painting, alarm replacement or router change."
+      },
+      "ongoing": {
+        "effort": 2,
+        "note": "Retest the full chain a couple of times a year, and re-check the 6-inch placement after any ceiling work. Remember the listener's clock is tied to the alarm's: when the alarm hits ten years, replace it or the listener has nothing valid to listen to."
+      },
+      "alternatives": [
+        {
+          "name": "Smart smoke and CO alarms",
+          "note": "Fewer failure points, three times the price, and you replace working alarms."
+        },
+        {
+          "name": "Professional monitoring",
+          "note": "The only option that dispatches the fire department without you."
+        }
+      ],
+      "verdict": "The best value in this category if you already have decent alarms — but understand you are buying a microphone with a radio, not a detector. Test the whole chain when you install it, and again whenever anything in the house changes."
+    }
+  },
+  {
+    "slug": "dry-hydrant-assembly",
+    "name": "Dry Hydrant Assembly (6 in)",
+    "brand": "Various / custom fabrication",
+    "category": "hydrants-and-water-supply",
+    "pick": "The rural water supply answer",
+    "priceBand": "$$",
+    "priceNote": "Materials; excavation and road work extra",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "A fixed pipe from a pond, stream or buried cistern to a roadside connection a fire engine can draft from. No water sits in it — the pump pulls a vacuum and atmospheric pressure pushes the water up.",
+    "pros": [
+      "Turns a pond you already own into a usable fire supply",
+      "Can improve how your whole area is graded for insurance",
+      "No moving parts and no power required"
+    ],
+    "cons": [
+      "Physics caps it: lift much over 12 ft and the design stops working",
+      "Needs fire department approval, permits, and machinery to install"
+    ],
+    "bestFor": "Rural properties with a pond, creek or cistern and no hydrant on the road.",
+    "links": [
+      {
+        "label": "NRCS Conservation Practice Standard 432",
+        "url": "https://www.nrcs.usda.gov/sites/default/files/2022-09/Dry_Hydrant_432_NHCP_CPS_2021.pdf",
+        "kind": "direct"
+      },
+      {
+        "label": "Fire Underwriters Survey — tanker shuttle accreditation",
+        "url": "https://fireunderwriters.ca/grading/superior-tanker-shuttle-service.html",
+        "kind": "direct"
+      }
+    ],
+    "image": null,
+    "asin": null,
+    "guide": {
+      "howItWorks": "A strainer sits submerged in the water source. Schedule 40 pipe — typically 6 inch — runs from it, underground and below frost, to a standpipe at the roadside fitted with a fire-thread connection and a cap. When a pumper connects and evacuates the air, atmospheric pressure drives water up the pipe. There is nothing to fail because there is nothing that moves.",
+      "market": "This is not a retail product. It is a small civil works project, usually fabricated from standard PVC and fittings by an excavation contractor working to a design the fire department and sometimes a conservation district have approved. There are specialist suppliers of strainers, adapters and pre-made heads, but the assembly is site-specific. The useful cost reference point is a USDA-NRCS scenario from 2014 putting a 200 ft, 6 inch PVC install at about USD $3,000 all in — old money, cooperative conditions, and no road work.",
+      "features": [
+        {
+          "label": "Lift, not diameter, is the constraint",
+          "detail": "A pumper achieves roughly 22 ft of lift at best. NFPA 1142 advises designing for no more than 10 to 12 ft, and notes plainly that this loss cannot be overcome by enlarging the pipe."
+        },
+        {
+          "label": "6 inch pipe, minimum bends",
+          "detail": "NFPA 1142 requires a design flow of 1,000 gpm at draft. Six inch is the practical standard out to about 100 ft of run; longer runs need 8 inch. Every 90-degree elbow costs you flow — use 45s where you can."
+        },
+        {
+          "label": "Strainer sizing",
+          "detail": "Open area at least four times the pipe's cross-section, holes no larger than 3/8 inch, corrosion-resistant throughout."
+        },
+        {
+          "label": "Submergence",
+          "detail": "At least 2 ft of water above the strainer and 1 ft below it, measured against the 50-year drought level — not against how the pond looks in May."
+        },
+        {
+          "label": "Fire thread connection",
+          "detail": "Must match the responding department's hard suction and conform to NFPA 1963. Ask them what they carry before anything is ordered."
+        }
+      ],
+      "costs": {
+        "upfront": "Materials and a simple install run low four figures; realistic project costs climb quickly with excavation, long pipe runs, road widening or a turnaround.",
+        "consumables": "None.",
+        "ancillary": "All-weather access road and a place for a loaded pumper to turn. This is frequently the largest line in the budget and the one people forget.",
+        "fiveYear": "Inspection and annual flow testing. The assembly itself should outlast you."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a water tank for a pump",
+          "detail": "A tank serves your own sprinklers; a dry hydrant serves the fire department's pumper, at far higher flow. If you have a pond, the hydrant is usually the better value. Ideally you have both."
+        },
+        {
+          "label": "Versus doing nothing",
+          "detail": "In Canada, Fire Underwriters Survey treats dry hydrants with suction points as equivalent to standard hydrants for grading, and properties within 300 m may qualify for better dwelling grades. In the US, ISO can credit a suction point delivering 250 gpm for two hours, and properties within 1,000 ft can be graded better than Class 9."
+        },
+        {
+          "label": "The volume test",
+          "detail": "Pumpable volume is not pond volume. It runs from the lowest foreseeable water level to the top of the strainer. NRCS wants 30,000 gallons pumpable or 250 gpm for two hours. A quarter-acre pond that drops three feet in August may have almost nothing usable in the month you need it."
+        },
+        {
+          "label": "It is a community asset",
+          "detail": "Its biggest effect on your premium may come through getting your department accredited for tanker shuttle service, which benefits every house on the road, not only yours."
+        }
+      ],
+      "buying": {
+        "effort": 4,
+        "lead": "Weeks to a season, driven by permits and contractor availability",
+        "where": "Your fire department first, then an excavation contractor. In the US, NRCS and state forestry programmes may cost-share; note most grant programmes fund departments rather than landowners, with you granting access.",
+        "note": "Start with the fire chief, not a supplier. They approve the design, they specify the thread, and they will do the acceptance test. We found no Canadian equivalent to the US state-forestry grant programmes — ask your regional district."
+      },
+      "install": {
+        "effort": 5,
+        "time": "Days on site, longer with access work",
+        "tools": [
+          "Excavator",
+          "Pipe-laying equipment",
+          "Not a homeowner job"
+        ],
+        "note": "Permits before construction, potentially from several agencies. Set the intake at least 2 ft below the lowest water level and 2 ft below frost depth, whichever is deeper. Mound soil or use a foam collar on the riser where the high-water line reaches frost depth."
+      },
+      "ongoing": {
+        "effort": 3,
+        "note": "NFPA 1142 asks for quarterly inspection and an annual flow test with a pump. Backflush before testing, keep 3 ft clear around the hydrant, keep vegetation down, and keep reflective signage legible. If the source turns out to be marginal, sign it as inadequate — a mismarked source is worse than an unmarked one."
+      },
+      "alternatives": [
+        {
+          "name": "Buried cistern with a suction connection",
+          "note": "Where there is no pond. Same connection, a known and constant volume, higher cost."
+        },
+        {
+          "name": "Getting your fire department accredited",
+          "note": "Superior Tanker Shuttle Service accreditation in Canada can move premiums for a whole community. Often the highest-leverage thing a rural owner can push for."
+        }
+      ],
+      "verdict": "On a rural property with water on it, this is probably the single highest-value fire spend available — and one of very few that helps your neighbours too. Start the conversation with your fire chief; the design constraints are theirs, not a catalogue's."
+    }
+  },
+  {
+    "slug": "hard-suction-hose-and-strainer",
+    "name": "Hard Suction Hose & Low-Level Strainer",
+    "brand": "Various",
+    "category": "hydrants-and-water-supply",
+    "pick": "For drafting without a fixed hydrant",
+    "priceBand": "$$",
+    "priceNote": "Per 10 ft section plus strainer",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "Rigid, non-collapsing hose that lets a pump draw from an open water source, with a strainer that keeps debris out and prevents the vortex that loses your prime. The portable alternative to a fixed dry hydrant.",
+    "pros": [
+      "Works at any accessible water source — no civil works",
+      "Low-level strainers can draft from shallow water a fixed intake could not reach",
+      "Far cheaper than an installed hydrant"
+    ],
+    "cons": [
+      "Someone has to be there to deploy it, and it is heavy",
+      "Bank access and lift still govern whether it works at all"
+    ],
+    "bestFor": "Properties with a seasonal or awkward water source, and anyone running their own fire pump.",
+    "links": [
+      {
+        "label": "Search on Amazon",
+        "url": "https://www.amazon.com/s?k=hard+suction+hose+fire+pump+strainer&tag=AFFILIATE_TAG",
+        "kind": "affiliate"
+      }
+    ],
+    "image": null,
+    "asin": null,
+    "guide": {
+      "howItWorks": "Ordinary fire hose collapses under vacuum, so drafting needs rigid hose with an internal helix. The strainer on the end keeps debris out of the pump and, in a low-level design, lets you draw from only a few inches of water without pulling air. Pulling air is the whole failure mode: lose prime and the pump stops moving water until you re-prime.",
+      "market": "Sold by forestry and firefighting supply distributors in 10 ft sections, typically CAD $200-$600 per section depending on diameter and construction, with strainers from CAD $80 for a simple barrel type to CAD $400 for a low-level or floating design. Diameter is dictated by your pump's intake. A genuine performance note worth knowing: going from 4 inch to 6 inch suction can improve pump capacity by 20-25%, which is a larger gain than most equipment upgrades at the same money.",
+      "features": [
+        {
+          "label": "Non-collapsing construction",
+          "detail": "The defining feature. Garden hose or standard fire hose will flatten under vacuum and move nothing."
+        },
+        {
+          "label": "Low-level or floating strainer",
+          "detail": "Lets you draft from shallow or silty sources. A barrel strainer resting on the bottom of a pond will pull mud; a floating one will not."
+        },
+        {
+          "label": "Thread compatibility",
+          "detail": "Must match your pump's intake, and ideally your fire department's, under NFPA 1963. Mismatched threads are the classic day-of failure and no adapter is ever where you left it."
+        },
+        {
+          "label": "Section length",
+          "detail": "Standard 10 ft sections. Total run matters because every foot adds friction and every joint is a potential air leak."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $300-$900 for a practical setup — one or two sections plus a strainer.",
+        "consumables": "Gaskets, which perish and are the usual cause of a lost prime.",
+        "ancillary": "A pump. Without one this is inert.",
+        "fiveYear": "Gaskets and the occasional fitting. Well-stored suction hose lasts decades."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a fixed dry hydrant",
+          "detail": "A tenth of the cost and infinitely more flexible, but it requires a person on the bank at the time. A dry hydrant works for a crew that arrives when you are already gone."
+        },
+        {
+          "label": "Versus a tank",
+          "detail": "Unlimited supply against a known finite one, at the cost of needing an accessible source with enough depth. Most rural properties want both paths."
+        },
+        {
+          "label": "The lift rule applies equally",
+          "detail": "Portable or fixed, the pump still cannot lift water more than about 22 ft in ideal conditions, and considerably less in practice at altitude. Measure the vertical drop from your pump position to the water before you buy anything."
+        }
+      ],
+      "buying": {
+        "effort": 3,
+        "lead": "2-6 weeks from distributors",
+        "where": "Forestry and firefighting supply houses, wildfire equipment specialists, some marine suppliers.",
+        "note": "Match the diameter to your pump's intake first and everything else second. Buy the gaskets and any adapters in the same order."
+      },
+      "install": {
+        "effort": 2,
+        "time": "10-20 minutes to deploy once you have practised",
+        "tools": [
+          "Spanner wrenches",
+          "Rope for the strainer",
+          "Gloves"
+        ],
+        "note": "Practise on a calm day. Find out then whether your chosen bank is actually workable, whether the strainer sits deep enough, and how far the hose really reaches. Tie the strainer off so it cannot settle into the silt."
+      },
+      "ongoing": {
+        "effort": 2,
+        "note": "Dry it thoroughly and store it straight and out of sunlight. Check gaskets annually. A stored-wet section develops leaks at exactly the joints you will not test again until you need it."
+      },
+      "alternatives": [
+        {
+          "name": "A fixed dry hydrant",
+          "note": "No deployment, works without you, far more expensive and needs approval."
+        },
+        {
+          "name": "A poly tank with a flooded suction",
+          "note": "Removes the lift problem entirely by putting the water above the pump."
+        }
+      ],
+      "verdict": "The right complement to a portable fire pump, and the cheapest way to make a pond useful. Check your vertical lift before you buy, and buy the suction diameter your pump actually wants."
+    }
+  },
+  {
+    "slug": "frost-free-yard-hydrant",
+    "name": "Frost-Free Yard Hydrant",
+    "brand": "Merrill / Woodford / Various",
+    "category": "hydrants-and-water-supply",
+    "pick": "Useful — but not a fire hydrant",
+    "priceBand": "$",
+    "priceNote": "Bury depth drives the price",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "A standpipe with its valve below the frost line that drains after each use, giving year-round outdoor water well away from the house. Genuinely handy. Not, despite the name, firefighting infrastructure.",
+    "pros": [
+      "Water at the far end of the property in January",
+      "No hose to drag from the house to wet down a spot fire or fill a backpack pump",
+      "Cheap and long-lived"
+    ],
+    "cons": [
+      "Flow is 5-20 gpm — one to two percent of a creditable fire flow",
+      "Can create a backflow risk on a potable well system if installed wrongly"
+    ],
+    "bestFor": "Rural and acreage properties wanting outdoor water year-round, for chores and for small ember work.",
+    "links": [
+      {
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0FY3PHM1K?tag=AFFILIATE_TAG",
+        "kind": "affiliate"
+      },
+      {
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B0FY3PHM1K?tag=AFFILIATE_TAG_CA",
+        "kind": "affiliate"
+      }
+    ],
+    "image": null,
+    "asin": "B0FY3PHM1K",
+    "guide": {
+      "howItWorks": "The valve sits at the bottom of a buried standpipe, below frost depth. Lifting the handle opens it there; closing it also opens a small weep hole that drains the standpipe back into the ground, so there is no water left above frost to freeze. That drain is also the source of the one real safety issue — see below.",
+      "market": "A stable agricultural commodity from Merrill, Woodford, Simmons and others, CAD $120-$400 depending on bury depth. Bury depths are sold from about 1 ft to over 10 ft; the correct one is set by your local frost line and local code, not by preference. Nothing in this market is wildfire-specific and nobody should be charging you a wildfire premium for one.",
+      "features": [
+        {
+          "label": "Bury depth",
+          "detail": "The specification that matters. The valve must sit below the deepest frost penetration for your area and must drain below it too. Get this wrong and the hydrant freezes and splits."
+        },
+        {
+          "label": "Inlet size",
+          "detail": "A standard 3/4 inch inlet gives roughly 5-9 gpm at typical pressure. A 1 inch commercial unit gets you 15-20. Neither is a fire flow."
+        },
+        {
+          "label": "Garden hose thread",
+          "detail": "It is a hose bib on a pole, not a fire connection. No fire department will couple to it."
+        },
+        {
+          "label": "Repairable head",
+          "detail": "Better units let you service the plunger and seals from the top without excavating. Worth paying for, because that is the part that eventually fails."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $120-$400 for the hydrant.",
+        "consumables": "None; a seal kit every several years.",
+        "ancillary": "Trenching and pipe from the supply, which usually exceeds the hydrant's own cost.",
+        "fiveYear": "Minimal. These last decades if the depth is right."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a dry hydrant",
+          "detail": "Not comparable, and it matters that people understand why. A dry hydrant is designed for 1,000 gpm at draft; the ISO threshold for a creditable alternative water supply is 250 gpm for two hours; a residential sprinkler system's entire demand is up to about 40 gpm. A yard hydrant delivers 5 to 20. It will not earn insurance credit and should never be signed in any way that suggests it might."
+        },
+        {
+          "label": "What it is genuinely good for",
+          "detail": "Filling a backpack pump, wetting a fence line or woodpile, soaking a spot fire after ember fall, topping up a portable tank, and every ordinary outdoor water job at a distance from the house. That is a real list."
+        },
+        {
+          "label": "The backflow risk",
+          "detail": "A hydrant that drains into the ground creates a potential cross-connection into a potable well system. Check your local plumbing code and use the specified backflow protection — this is the detail most DIY installs miss."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Days",
+        "where": "Farm and ranch supply, plumbing wholesalers, hardware stores, Amazon.",
+        "note": "Confirm your local frost depth and buy the bury depth that beats it. Buying short is the single most common mistake and the one that cannot be fixed without digging it up."
+      },
+      "install": {
+        "effort": 3,
+        "time": "A day including trenching",
+        "tools": [
+          "Trencher or excavator",
+          "Pipe and fittings",
+          "Gravel for the drain bed"
+        ],
+        "note": "Set the drain outlet in a bed of gravel so it can actually drain, and confirm backflow protection on a potable system. Anything less than a proper gravel bed means it holds water and freezes anyway."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Exercise it a few times a year so the valve does not seize. If it starts weeping at the head or fails to drain, service the plunger before winter rather than after."
+      },
+      "alternatives": [
+        {
+          "name": "A dry hydrant",
+          "note": "The actual firefighting answer, two orders of magnitude more flow."
+        },
+        {
+          "name": "A buried line to a frost-protected hose bib",
+          "note": "Cheaper if you only need water at one fixed point near a building."
+        }
+      ],
+      "verdict": "Buy one because outdoor water in February is genuinely useful, and because filling a backpack pump 80 metres from the house beats dragging hose. Do not buy one believing it is fire protection — the numbers are not close."
+    }
+  },
+  {
+    "slug": "nfpa-13d-sprinkler-system",
+    "name": "Residential Sprinkler System (NFPA 13D)",
+    "brand": "Installed system",
+    "category": "residential-sprinklers",
+    "pick": "The strongest evidence in home fire safety",
+    "priceBand": "$$$",
+    "priceNote": "Cheap in new build, expensive as a retrofit",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "An interior sprinkler system designed to the residential standard: one or two heads running for ten minutes, enough to hold a fire while everyone gets out. It is a life-safety system, not a property-protection one, and it does nothing about wildfire.",
+    "pros": [
+      "NFPA data puts the home fire death rate 89% lower and average property loss 55% lower where sprinklers were present",
+      "Only one head operated in 85% of home fires — the flooding fear is misplaced",
+      "Cheap to install during construction"
+    ],
+    "cons": [
+      "Retrofit costs three to four times new construction",
+      "Does not cover garages, attics or crawlspaces — all common fire origins"
+    ],
+    "bestFor": "New builds and gut renovations, especially where someone in the house would struggle to self-evacuate.",
+    "links": [
+      {
+        "label": "NFPA — US Experience with Sprinklers (report)",
+        "url": "https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/us-experience-with-sprinklers",
+        "kind": "direct"
+      }
+    ],
+    "image": null,
+    "asin": null,
+    "guide": {
+      "howItWorks": "Heads are plumbed through the living space, usually off the domestic water supply. Each head holds back water with a heat-sensitive element — a glass bulb or solder link — that fails at its rated temperature. Only the head over the fire opens. NFPA 13D sizes the system for the two most demanding heads running for ten minutes, on the reasoning that the job is to buy escape time, not to save the building.",
+      "market": "This is an installed system from a licensed sprinkler contractor, not a product. The canonical cost figure comes from a Fire Protection Research Foundation study at USD $1.61 per sprinklered square foot across ten North American communities — but that study is from 2008 and should be treated as a historical anchor rather than a quote. Contractor-marketplace data in 2026 suggests roughly USD $700-$1,200 for new construction on a typical house against USD $3,000-$4,500 for the same house as a retrofit. We could find no Canadian cost study; do not convert the American number and present it as Canadian.",
+      "features": [
+        {
+          "label": "Individual head activation",
+          "detail": "Each head responds to heat at its own location. The idea that they all discharge together is simply false — one operated in 85% of home fires, five or fewer in 99.2%."
+        },
+        {
+          "label": "Ten-minute design duration",
+          "detail": "Seven minutes is permitted for a single-storey home under 2,000 sq ft. This is a life-safety window, not a fire-suppression campaign."
+        },
+        {
+          "label": "Domestic supply",
+          "detail": "Usually plumbed off the house supply, which is what keeps costs down — and what makes a well-served property much more expensive, because a tank and pump may be needed to guarantee the flow."
+        },
+        {
+          "label": "Concealed heads",
+          "detail": "Flat covers that drop away with heat. The usual answer to the aesthetic objection, at a modest premium."
+        },
+        {
+          "label": "What is not covered",
+          "detail": "13D permits omission in garages, attics, crawlspaces, small bathrooms and small closets. A reader should know their attached garage is outside the system."
+        }
+      ],
+      "costs": {
+        "upfront": "New construction roughly USD $1-$2 per sq ft on historical figures; retrofit three to four times that. Get local quotes — the range in the underlying study was $0.38 to $3.66.",
+        "consumables": "None.",
+        "ancillary": "On a well, the stored-water tank and pump to meet the ten-minute demand can dominate the budget. Some water utilities also charge for an upsized service, meter or backflow preventer.",
+        "fiveYear": "Annual maintenance commonly quoted at USD $150-$400."
+      },
+      "differentiators": [
+        {
+          "label": "Versus smoke alarms alone",
+          "detail": "They are complements, and the combination is where the numbers get striking. Death rate per 1,000 home fires: 13.0 with no alarm and no sprinklers, 3.8 with hardwired alarms alone, 1.0 with hardwired alarms and sprinklers together."
+        },
+        {
+          "label": "Versus the water damage objection",
+          "detail": "The honest answer is not a flow comparison but NFPA's loss figure: average property loss per home fire was 55% lower where sprinklers were present, which already nets out sprinkler water damage."
+        },
+        {
+          "label": "Versus wildfire protection",
+          "detail": "Unrelated. Wildfire attacks the exterior — roof, vents, deck, siding. An interior head only opens once the inside is already burning, and ten minutes of water is meaningless on a wildfire timeline with the house evacuated and the power out. Anyone selling you 13D as wildfire protection is misleading you."
+        },
+        {
+          "label": "The evidence caveat",
+          "detail": "NFPA's figures come from fire-incident reporting, not a controlled trial, and sprinklered homes are newer and differently built than unsprinklered ones. Treat 89% as a strong association rather than a clean causal estimate. We found no independent peer-reviewed meta-analysis, and both the sprinkler industry and the homebuilder lobby fund advocacy on this question."
+        }
+      ],
+      "buying": {
+        "effort": 4,
+        "lead": "Design and permitting add weeks; schedule around framing on a new build",
+        "where": "Licensed residential sprinkler contractors. In Canada, required in new houses in Vancouver since 1990 and in a handful of other BC municipalities; in the US, statewide for new one- and two-family homes in California, Maryland and Washington DC, while 29 states prohibit local mandates.",
+        "note": "Get quotes that state the water supply assumption explicitly. On a well, the tank and pump are the budget, not the pipework."
+      },
+      "install": {
+        "effort": 5,
+        "time": "Days during construction; considerably longer as a retrofit",
+        "tools": [
+          "Contractor install"
+        ],
+        "note": "Retrofit means opening finished ceilings and often upsizing the water service, which is where the three-to-four-times multiplier comes from. If you are gutting a floor anyway, that is the moment."
+      },
+      "ongoing": {
+        "effort": 2,
+        "note": "The most important maintenance action is leaving the control valve open. In NFPA's data, 61% of sprinkler failures were systems that had been shut off before the fire. In a cold climate, ask specifically about freeze protection — failures concentrate in attics and exterior wall runs during power outages."
+      },
+      "alternatives": [
+        {
+          "name": "Hardwired interconnected smoke alarms",
+          "note": "A fraction of the cost and the single biggest survival gain available. Do this first regardless."
+        },
+        {
+          "name": "Doing it at the next gut renovation",
+          "note": "The honest answer for most existing houses. Retrofit pricing rarely justifies itself on its own."
+        }
+      ],
+      "verdict": "If you are building, put them in — the evidence is the best in home fire safety and the incremental cost during construction is small. If you are not building, fit good alarms and wait for the renovation. And do not confuse this with anything that helps in a wildfire."
+    }
+  },
+  {
+    "slug": "kitchen-fire-blanket",
+    "name": "Kitchen Fire Blanket",
+    "brand": "Various",
+    "category": "kitchen-fire-safety",
+    "pick": "The right tool for a pan fire",
+    "priceBand": "$",
+    "priceNote": "Buy two: kitchen and workshop",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "A fibreglass or silica blanket that smothers a fire by cutting off oxygen. For a pan of burning oil it is better than any extinguisher: no scatter, no chemical residue, and nothing that can blast flaming oil across the room.",
+    "pros": [
+      "Smothers rather than blasts — no risk of spreading burning oil",
+      "No cleanup, no residue on food surfaces",
+      "Anyone can use one correctly without training"
+    ],
+    "cons": [
+      "Only works on small, contained fires you can cover completely",
+      "Single use, and easy to deploy badly if you have never handled one"
+    ],
+    "bestFor": "Every kitchen, and any workshop where solvents or a small bench fire are plausible.",
+    "links": [
+      {
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0FT2LHW15?tag=AFFILIATE_TAG",
+        "kind": "affiliate"
+      },
+      {
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B08WJ4P25L?tag=AFFILIATE_TAG_CA",
+        "kind": "affiliate"
+      }
+    ],
+    "image": null,
+    "asin": "B0FT2LHW15",
+    "guide": {
+      "howItWorks": "Fire needs oxygen. Laying a non-combustible blanket over a burning pan removes it, and the fire goes out in seconds. The blanket also holds the heat in, so you leave it in place and turn the burner off — lifting it early lets air back in and hot oil can reignite.",
+      "market": "A crowded, cheap category dominated by near-identical silicone-coated fibreglass blankets at CAD $20-$45, typically 1 m square in a pull-tab pouch. Marketing leans hard on temperature claims — 1,000°F, 1,800°F — which describe short laboratory exposures rather than anything you can verify. There is no consumer certification mark that reliably separates good from bad in this category, so buy on size, pouch design and a brand that publishes a material spec.",
+      "features": [
+        {
+          "label": "Size",
+          "detail": "Must fully cover the pan with margin, and let you keep your hands behind the leading edge. One metre square is the sensible minimum; small 40 cm blankets are too small to use safely on anything but a tiny pan."
+        },
+        {
+          "label": "Pull-tab pouch",
+          "detail": "You will be reaching for it in a hurry. A pouch that deploys with one downward pull beats one you have to unfold."
+        },
+        {
+          "label": "Material",
+          "detail": "Woven fibreglass, usually silicone-coated. Silica blankets tolerate more heat and cost more. Avoid anything that does not state its material."
+        },
+        {
+          "label": "Single use",
+          "detail": "Treat it as expended after any real fire, even if it looks intact."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $20-$45 each.",
+        "consumables": "The blanket itself after any use.",
+        "ancillary": "Nothing.",
+        "fiveYear": "Nil unless used. Check the pouch occasionally — they can stiffen with grease and age in a kitchen."
+      },
+      "differentiators": [
+        {
+          "label": "Versus an extinguisher on a pan fire",
+          "detail": "The blanket wins clearly. A dry chemical extinguisher's discharge can blow burning oil out of the pan, and it coats the entire kitchen in powder. Reserve the extinguisher for fires the blanket cannot cover."
+        },
+        {
+          "label": "Versus water",
+          "detail": "Water on burning oil causes a steam explosion that throws flame across the room. This is the single most important thing in the kitchen category and it costs nothing to know."
+        },
+        {
+          "label": "Versus a pan lid",
+          "detail": "A lid is free and works on the same principle. If the lid is to hand, use it — slide it on from the side, do not drop it. The blanket exists for when the lid is not to hand or the fire is not in a pan."
+        },
+        {
+          "label": "Where it is not enough",
+          "detail": "A fire that has left the pan and reached cabinets or a range hood is beyond a blanket. That is when you leave and call the fire department."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Same day",
+        "where": "Hardware, kitchen and big-box stores, Amazon in both countries.",
+        "note": "Buy a 1 m square or larger. The small ones are cheap for a reason."
+      },
+      "install": {
+        "effort": 1,
+        "time": "Two minutes",
+        "tools": [
+          "A screw or hook"
+        ],
+        "note": "Mount it on a wall within reach of the stove but never above it — you must not have to reach across a fire. Show everyone who cooks where it is and how the pull tabs work."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Check annually that the pouch is not grease-sealed shut and that the tabs still hang free. Replace after any use."
+      },
+      "alternatives": [
+        {
+          "name": "A well-fitting pan lid",
+          "note": "Free, always there, works on the same principle."
+        },
+        {
+          "name": "Wet chemical extinguisher",
+          "note": "The right answer for a deep fryer or a larger cooking-oil fire."
+        }
+      ],
+      "verdict": "Cheap, genuinely the correct tool for the most common kitchen fire, and usable by someone who has never been trained. Buy a big one, hang it beside the door rather than over the hob, and never put water on burning oil."
+    }
+  },
+  {
+    "slug": "wet-chemical-kitchen-extinguisher",
+    "name": "Wet Chemical Extinguisher (Class K / F)",
+    "brand": "Amerex / Buckeye",
+    "category": "kitchen-fire-safety",
+    "pick": "What commercial kitchens use",
+    "priceBand": "$$",
+    "priceNote": "Dearer than ABC, and correct for oil",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "A extinguisher charged with a potassium-salt solution that reacts with burning cooking oil to form a soapy crust, cooling it and sealing the surface. It is the class of extinguisher rated for deep fryers, and it does not scatter the fire the way dry chemical can.",
+    "pros": [
+      "Rated specifically for cooking oils and fats, which ABC powder is not",
+      "Fine mist rather than a blast — far less likely to spread burning oil",
+      "No powder over every surface in the kitchen"
+    ],
+    "cons": [
+      "Two to three times the cost of an ABC unit",
+      "Not a general-purpose extinguisher — you still want ABC elsewhere in the house"
+    ],
+    "bestFor": "Homes with a deep fryer, a wok setup, or anyone who cooks with large volumes of oil.",
+    "links": [
+      {
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0G4M937GT?tag=AFFILIATE_TAG",
+        "kind": "affiliate"
+      }
+    ],
+    "image": null,
+    "asin": "B0G4M937GT",
+    "guide": {
+      "howItWorks": "Burning cooking oil sits well above its own auto-ignition temperature, which is why it relights the moment you take the flame away. Wet chemical agent is discharged as a fine mist that saponifies the surface of the oil — literally turning the top layer to soap — forming a blanket that seals vapour in and cools the fat below its ignition point. Dry chemical knocks the flame down but does not reliably stop the relight.",
+      "market": "A small market dominated by the commercial fire protection brands — Amerex, Buckeye, Ansul — because the demand comes from restaurants. Consumer availability is patchier than ABC and prices run CAD $150-$400 for a 2.5 gallon unit, with smaller 1.5 to 2 litre units aimed at homes appearing around CAD $90-$180. Classification differs by country: Class K in North America, Class F in Europe and the UK, same chemistry.",
+      "features": [
+        {
+          "label": "Class K rating",
+          "detail": "The specification that matters. An extinguisher without a K rating is not rated for cooking oil however good it is at other fires."
+        },
+        {
+          "label": "Fine mist discharge",
+          "detail": "Low-velocity application is deliberate. It is what stops the agent driving burning oil out of the container."
+        },
+        {
+          "label": "Wand applicator",
+          "detail": "Most units use a wand rather than a horn, for precise low-velocity application at the oil surface."
+        },
+        {
+          "label": "Rechargeable",
+          "detail": "These are serviceable units in the commercial mould, which is part of why they cost more."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $90-$400 depending on size.",
+        "consumables": "None until used.",
+        "ancillary": "A mounting bracket.",
+        "fiveYear": "Recharge after any use; professional inspection if your insurer asks for documentation."
+      },
+      "differentiators": [
+        {
+          "label": "Versus ABC dry chemical",
+          "detail": "ABC works on a small pan fire but is the wrong tool for volume oil: the discharge velocity can spread it and the relight risk remains. It also coats the entire kitchen in powder that gets into everything."
+        },
+        {
+          "label": "Versus a fire blanket",
+          "detail": "For a single pan, the blanket is simpler, cheaper and cleaner. The wet chemical unit earns its place with a deep fryer or a larger volume of oil the blanket cannot cover."
+        },
+        {
+          "label": "Honest scope",
+          "detail": "This is a specialist purchase. If you do not deep fry, a fire blanket plus a 10 lb ABC extinguisher by the exit covers the realistic domestic cases perfectly well."
+        }
+      ],
+      "buying": {
+        "effort": 2,
+        "lead": "Days to two weeks",
+        "where": "Fire protection suppliers, restaurant supply, Amazon.",
+        "note": "Check the label says Class K (or F). Some units marketed for kitchens are ordinary ABC in a smaller bottle."
+      },
+      "install": {
+        "effort": 1,
+        "time": "10 minutes",
+        "tools": [
+          "Drill for the bracket"
+        ],
+        "note": "Mount on the exit side of the kitchen. Read the instructions once now — wet chemical is applied differently from dry chemical, starting at the far edge of the oil surface and sweeping toward you rather than blasting at the base of the flame."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Check the gauge monthly. Service at the manufacturer's interval. Replace or recharge after any discharge."
+      },
+      "alternatives": [
+        {
+          "name": "Fire blanket",
+          "note": "Cheaper, simpler and the right answer for an ordinary pan fire."
+        },
+        {
+          "name": "10 lb ABC extinguisher",
+          "note": "The general-purpose unit every house should have anyway, by the exit."
+        }
+      ],
+      "verdict": "Buy it if you deep fry. If you do not, a blanket and an ABC unit are the honest answer, and this is money better spent on alarms."
+    }
+  },
+  {
+    "slug": "stovetop-fire-suppressor",
+    "name": "Automatic Stovetop Fire Suppressor",
+    "brand": "StoveTop FireStop / Various",
+    "category": "kitchen-fire-safety",
+    "pick": "Works when nobody is standing there",
+    "priceBand": "$",
+    "priceNote": "Sold in pairs; has an expiry date",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "A canister mounted under the range hood above each burner. Flame reaching it burns a fuse and it discharges dry powder straight down onto the fire. No electricity, no person required.",
+    "pros": [
+      "Works in an unattended kitchen, which is where cooking fires get serious",
+      "Entirely passive — nothing to activate, nothing to power",
+      "Cheap for what it does"
+    ],
+    "cons": [
+      "Makes a powder mess across the kitchen when it fires",
+      "Has a service life of a few years and is easy to forget about"
+    ],
+    "bestFor": "Rental units, student housing, older relatives' kitchens, and anyone who has ever walked away from a pan.",
+    "links": [
+      {
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0H2G3RBG4?tag=AFFILIATE_TAG",
+        "kind": "affiliate"
+      }
+    ],
+    "image": null,
+    "asin": "B0H2G3RBG4",
+    "guide": {
+      "howItWorks": "The canister is magnetically mounted to the underside of the range hood or microwave, directly over a burner. Flame from a fire below reaches a fuse on the base, which ignites and ruptures the canister, dropping sodium bicarbonate powder onto the burner. It is the simplest possible automatic suppression: no sensor, no power, no logic.",
+      "market": "A niche with one long-established name — StoveTop FireStop — plus a few similar products, typically CAD $60-$110 for a pair. They appear widely in institutional settings: student residences, subsidised housing, and seniors' apartments, which is a reasonable signal about where the risk actually is. Mounting height is specified precisely and the products are not interchangeable between hood types, so read the fitment before buying.",
+      "features": [
+        {
+          "label": "Passive activation",
+          "detail": "No batteries, no wiring, nothing to test electronically. The failure modes are wrong placement and expiry, not electronics."
+        },
+        {
+          "label": "Mounting height",
+          "detail": "Specified by the manufacturer, usually a narrow band above the burner. Too high and flame will not reach the fuse; too low and it interferes with cooking."
+        },
+        {
+          "label": "Hood-type fitment",
+          "detail": "Different versions for range hoods, microwaves and open ceilings. Check yours before ordering."
+        },
+        {
+          "label": "Expiry date",
+          "detail": "Typically five to six years. This is the specification people ignore, and an expired canister is decoration."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $60-$110 per pair.",
+        "consumables": "Replacement at the expiry date, and after any discharge.",
+        "ancillary": "Nothing.",
+        "fiveYear": "One full replacement cycle, so roughly the purchase price again."
+      },
+      "differentiators": [
+        {
+          "label": "Versus an extinguisher or blanket",
+          "detail": "Both require a person. The whole argument for this product is the unattended pan — the cooking fire that starts because someone left the kitchen, which is the most common way cooking fires become serious."
+        },
+        {
+          "label": "Versus a residential sprinkler",
+          "detail": "Far cheaper and specific to the stove, but it only covers the burners it is mounted over. A 13D system covers the living space and has vastly better evidence behind it."
+        },
+        {
+          "label": "The mess",
+          "detail": "Discharge puts bicarbonate powder over the stove and surrounding surfaces. That is a good trade against a kitchen fire and a bad surprise if you were not expecting it."
+        },
+        {
+          "label": "Evidence caveat",
+          "detail": "We could not find independent published testing of consumer stovetop suppressors. The mechanism is simple and the institutional adoption is meaningful, but treat vendor performance claims as claims."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Days",
+        "where": "Amazon, safety suppliers, some hardware stores.",
+        "note": "Match the version to your hood type and check the expiry date on arrival — these sit in warehouses."
+      },
+      "install": {
+        "effort": 1,
+        "time": "10 minutes",
+        "tools": [
+          "Nothing — usually magnetic"
+        ],
+        "note": "Mount at the specified height over each burner you want covered. Write the expiry date somewhere you will see it, because the canister itself is above your eye line and you will never look at it again."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Nothing to test. Replace at the expiry date. Put it in the calendar now, because nobody has ever remembered this unprompted."
+      },
+      "alternatives": [
+        {
+          "name": "Fire blanket",
+          "note": "Cheaper and better when you are standing there. Useless when you are not."
+        },
+        {
+          "name": "Not leaving the kitchen",
+          "note": "Free and the actual fix. This product exists because people do."
+        }
+      ],
+      "verdict": "An unusually sensible cheap purchase for a kitchen that gets left unattended — especially someone else's, in a rental or a relative's flat. Diarise the expiry the day you fit it."
+    }
+  },
+  {
+    "slug": "metal-ash-can",
+    "name": "Metal Ash Can with Sealing Lid",
+    "brand": "Various",
+    "category": "heating-and-chimney",
+    "pick": "Prevents a genuinely common fire",
+    "priceBand": "$",
+    "priceNote": "Galvanised steel, tight lid, no plastic",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "A galvanised steel pail with a close-fitting lid for wood and pellet ash. Ash holds live embers for far longer than people expect, and emptying it into a plastic bin or a cardboard box is a recurring cause of house fires.",
+    "pros": [
+      "Addresses a specific, well-documented and entirely avoidable fire cause",
+      "Costs less than a takeaway meal",
+      "Nothing to maintain or expire"
+    ],
+    "cons": [
+      "Only works if you actually use it and site it away from the building",
+      "Metal gets hot — it needs a non-combustible surface under it"
+    ],
+    "bestFor": "Every house with a woodstove, pellet stove or fireplace.",
+    "links": [
+      {
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0D3XFMVVN?tag=AFFILIATE_TAG",
+        "kind": "affiliate"
+      },
+      {
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B0D3XFMVVN?tag=AFFILIATE_TAG_CA",
+        "kind": "affiliate"
+      }
+    ],
+    "image": null,
+    "asin": "B0D3XFMVVN",
+    "guide": {
+      "howItWorks": "There is no mechanism to speak of, which is the point. A sealed metal container starves any remaining embers of oxygen and contains them if they stay alive. Embers in wood ash can remain hot enough to start a fire for several days, insulated by the ash around them, long after the ash feels cool at the surface.",
+      "market": "A hardware commodity at CAD $30-$90. The only meaningful variables are material, lid fit and whether the base is raised. Galvanised steel is standard; a few galvanised-with-double-bottom designs exist and are worth the small premium. Avoid anything with plastic components, including plastic handles and feet, and avoid the decorative fireside buckets that have no lid at all.",
+      "features": [
+        {
+          "label": "Tight-fitting metal lid",
+          "detail": "The lid is the product. A can without a proper lid is just a bucket and does not starve the embers."
+        },
+        {
+          "label": "Galvanised steel construction",
+          "detail": "No plastic anywhere on the container, including handles and feet."
+        },
+        {
+          "label": "Raised or double base",
+          "detail": "Keeps the hot bottom off whatever it is standing on. Worth having if it will ever sit on a deck or in a garage."
+        },
+        {
+          "label": "Capacity",
+          "detail": "Five gallons or so suits most domestic stoves. Bigger means heavier to carry full and hot."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $30-$90.",
+        "consumables": "None.",
+        "ancillary": "A non-combustible spot outdoors to keep it — gravel, concrete or bare ground.",
+        "fiveYear": "Nil. It is a metal bucket."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a plastic bin or paper bag",
+          "detail": "This is the whole reason the product exists, and it appears in fire investigation reports with depressing regularity. A plastic bin on a wooden deck with warm ash in it is a fire waiting for a breeze."
+        },
+        {
+          "label": "Versus waiting for the ash to cool",
+          "detail": "Ash insulates. Surface temperature tells you nothing about what is a few centimetres down, and embers survive far longer than intuition suggests. Use the can regardless of how cool it feels."
+        },
+        {
+          "label": "Where you put it matters more than what you buy",
+          "detail": "A sealed metal can against a wooden wall or on a deck is still a heat source in contact with fuel. Outside, on non-combustible ground, well clear of the structure, lid on."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Same day",
+        "where": "Hardware stores, stove shops, farm supply, Amazon.",
+        "note": "Check the lid actually seats properly before you leave the shop. Some cheap ones do not."
+      },
+      "install": {
+        "effort": 1,
+        "time": "None",
+        "tools": [
+          "Nothing"
+        ],
+        "note": "Decide where it lives before the first use, and make that a spot on gravel or concrete, away from the house, the deck, the woodpile and the fence."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Empty it only when the contents are genuinely cold, which in practice means days rather than hours. Ash goes on the garden or in the bin once cold, never into a compost heap while warm."
+      },
+      "alternatives": [
+        {
+          "name": "A steel drum with a lid",
+          "note": "Free if you have one, and functionally the same thing."
+        },
+        {
+          "name": "Nothing",
+          "note": "The common choice and a recurring cause of avoidable house fires."
+        }
+      ],
+      "verdict": "One of the cheapest risk removals in this whole site. If you burn wood and do not own one, this is a thirty-dollar problem you can close this weekend."
+    }
+  },
+  {
+    "slug": "chimney-brush-kit",
+    "name": "Chimney Brush & Rod Kit",
+    "brand": "Various",
+    "category": "heating-and-chimney",
+    "pick": "For between professional sweeps",
+    "priceBand": "$",
+    "priceNote": "Match the brush to your flue size and liner",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "A wire or poly brush on screw-together fibreglass rods for sweeping your own flue. Useful for keeping creosote down between professional visits — not a substitute for the annual inspection, which is looking for things a brush cannot tell you.",
+    "pros": [
+      "Lets you sweep more often than you would pay someone to",
+      "Cheap, and pays for itself in a season or two of heavy burning",
+      "Poly brushes are safe on stainless liners where wire is not"
+    ],
+    "cons": [
+      "Sweeping is not inspecting — a brush will not find a cracked liner or a bad clearance",
+      "Working at height or from the firebox is messy and awkward"
+    ],
+    "bestFor": "Regular wood burners who want to sweep mid-season between annual professional inspections.",
+    "links": [
+      {
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0778XH959?tag=AFFILIATE_TAG",
+        "kind": "affiliate"
+      },
+      {
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B0778XH959?tag=AFFILIATE_TAG_CA",
+        "kind": "affiliate"
+      }
+    ],
+    "image": null,
+    "asin": "B0778XH959",
+    "guide": {
+      "howItWorks": "Creosote is condensed, unburned wood gas that plates onto the flue wall. In its light stage it brushes off as flaky soot; left to build and reheat it becomes a hard glaze that a brush will not touch. Sweeping removes the first kind, which is why frequency matters more than force — a flue swept often never reaches the stage where brushing stops working.",
+      "market": "A commodity of brushes and rods from CAD $40-$140 for a kit. The two real decisions are brush diameter, which must match your flue, and bristle material. Steel bristles are correct for masonry flues and clay liners; poly bristles are what you use in a stainless steel liner, where steel will scour the liner. Rod sets come in fibreglass or polypropylene — fibreglass is stiffer and easier to push round a slight offset.",
+      "features": [
+        {
+          "label": "Brush diameter and shape",
+          "detail": "Must match the flue. Round for round liners, square or rectangular for masonry flues of that section. An undersized brush does very little."
+        },
+        {
+          "label": "Bristle material",
+          "detail": "Poly for stainless liners, steel for masonry and clay. Using steel in a stainless liner damages it."
+        },
+        {
+          "label": "Rod material and couplings",
+          "detail": "Fibreglass rods with locking couplings. Rods that unscrew themselves in the flue are the classic frustration — and a lost brush up a chimney is a professional's problem to retrieve."
+        },
+        {
+          "label": "Top-down or bottom-up",
+          "detail": "Bottom-up from the firebox avoids roof work entirely and is what most homeowners should do, with a sheet and a vacuum."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $40-$140.",
+        "consumables": "Brushes wear; one lasts several seasons of domestic use.",
+        "ancillary": "Dust sheets, a shop vacuum with a fine filter, a respirator. Soot is not something to breathe.",
+        "fiveYear": "A replacement brush, perhaps."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a professional sweep",
+          "detail": "Not a substitute, and this is the important point. A sweep inspects: liner condition, clearances, the cap, the state of the appliance and whether there has been a chimney fire. A brush cleans. Book the inspection annually and use the brush in between."
+        },
+        {
+          "label": "Versus creosote-removing logs",
+          "detail": "These claim to convert glazed creosote to a brushable form. Evidence for them is thin and they are not a cleaning method — at best a supplement between sweeps, at worst a reason someone skipped the sweep."
+        },
+        {
+          "label": "What sweeping cannot fix",
+          "detail": "Glazed, tarry creosote needs mechanical or chemical treatment by a professional. If your brush comes back barely marked but the flue looks shiny and black, stop and call someone."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Days",
+        "where": "Stove shops, hardware stores, Amazon.",
+        "note": "Measure your flue before ordering, and know whether you have a stainless liner. Buying the wrong bristle material is the common mistake and it damages the liner."
+      },
+      "install": {
+        "effort": 2,
+        "time": "An hour per sweep once you have done it once",
+        "tools": [
+          "Brush and rods",
+          "Dust sheets",
+          "Shop vacuum",
+          "Respirator and eye protection"
+        ],
+        "note": "Seal the firebox opening as well as you can before you start, or you will be cleaning soot out of the room for a week. Work bottom-up unless you are genuinely comfortable on the roof."
+      },
+      "ongoing": {
+        "effort": 3,
+        "note": "Sweep as often as your burning warrants — monthly in heavy use is not excessive with softwood or unseasoned wood. Book the professional inspection annually regardless, and immediately after any chimney fire."
+      },
+      "alternatives": [
+        {
+          "name": "A professional sweep and inspection",
+          "note": "The thing you should be booking annually either way."
+        },
+        {
+          "name": "Burning properly seasoned hardwood",
+          "note": "Free, and the actual fix. Wet wood is what makes creosote."
+        }
+      ],
+      "verdict": "Worth owning if you burn regularly, on the clear understanding that it cleans but does not inspect. The annual professional visit is the non-negotiable part; the brush is what keeps the flue tidy in between."
+    }
+  },
+  {
+    "slug": "afci-breaker",
+    "name": "Arc-Fault Circuit Interrupter (AFCI) Breaker",
+    "brand": "Square D / Siemens / Eaton",
+    "category": "electrical-fire-safety",
+    "pick": "Catches what a normal breaker ignores",
+    "priceBand": "$$",
+    "priceNote": "Per circuit; must match your panel",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "A breaker that detects the electrical signature of arcing — a damaged cord, a loose terminal, a nail through a cable — and trips before it starts a fire. A standard breaker sees an arcing fault as normal current and does nothing.",
+    "pros": [
+      "Addresses a fire cause that conventional overcurrent protection cannot see",
+      "Required for most living-space circuits in new construction in both countries",
+      "A real upgrade for an older house with original wiring"
+    ],
+    "cons": [
+      "Must match your panel brand and model — they are not interchangeable",
+      "Nuisance tripping happens, usually revealing a real wiring fault but sometimes just annoying"
+    ],
+    "bestFor": "Older houses with original wiring, and anyone doing panel work who can add them while the cover is off.",
+    "links": [
+      {
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B0013NPWGU?tag=AFFILIATE_TAG",
+        "kind": "affiliate"
+      },
+      {
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B0013NPWGU?tag=AFFILIATE_TAG_CA",
+        "kind": "affiliate"
+      }
+    ],
+    "image": null,
+    "asin": "B0013NPWGU",
+    "guide": {
+      "howItWorks": "An arcing fault is an intermittent, high-frequency discharge across a gap — the kind produced by a cracked cord, a screw terminal that has worked loose, or insulation damaged by a staple. It can generate substantial heat without ever drawing enough current to trip a conventional breaker. An AFCI watches the waveform for the signature of arcing and trips on the pattern rather than the magnitude.",
+      "market": "Three brands dominate residential panels in North America — Square D, Siemens and Eaton — and breakers are specific to the panel they go into. Prices run CAD $50-$120 per breaker against CAD $10-$20 for a plain one, which is the honest reason older houses do not have them. Combination AFCI/GFCI devices exist and are increasingly the default in new construction. There is also an AFCI receptacle option for circuits where changing the breaker is impractical.",
+      "features": [
+        {
+          "label": "Combination-type detection",
+          "detail": "Detects both series arcing (a break in a conductor) and parallel arcing (between conductors). Combination type is the current standard and what codes require."
+        },
+        {
+          "label": "Panel compatibility",
+          "detail": "Not interchangeable between manufacturers, and sometimes not between panel generations within one manufacturer. Identify your panel precisely before buying."
+        },
+        {
+          "label": "Dual-function AFCI/GFCI",
+          "detail": "One device covering arc faults and ground faults. Usually the sensible choice where both are required."
+        },
+        {
+          "label": "Diagnostic trip indication",
+          "detail": "Better breakers signal why they tripped — arc fault, ground fault or overload — which turns a mystery into a starting point."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $50-$120 per breaker.",
+        "consumables": "None.",
+        "ancillary": "Electrician time, typically the larger cost on a retrofit. Doing several at once is far cheaper per circuit than one at a time.",
+        "fiveYear": "Nil."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a standard breaker",
+          "detail": "A standard breaker protects the wire from overload and short circuit. It is blind to a glowing loose connection drawing ordinary current. Those are different problems and only one of them is covered without an AFCI."
+        },
+        {
+          "label": "Versus a GFCI",
+          "detail": "Different job entirely. GFCI protects people from shock by detecting current leaking to ground; AFCI protects the building from fire by detecting arcing. Many locations now need both."
+        },
+        {
+          "label": "The nuisance tripping question",
+          "detail": "AFCIs do trip on things a plain breaker ignores, and early generations had a poor reputation. Modern combination types are considerably better, and a repeated trip is more often a genuine fault — a damaged cord, a failing appliance, a loose backstab connection — than a false alarm. Investigate rather than replacing it with a plain breaker."
+        },
+        {
+          "label": "If your panel is obsolete",
+          "detail": "Some older panel types have known failure histories and no compatible AFCI. In that case the right purchase is a panel replacement assessment, not a breaker."
+        }
+      ],
+      "buying": {
+        "effort": 2,
+        "lead": "Days; specific models can be backordered",
+        "where": "Electrical wholesalers, big-box stores, Amazon.",
+        "note": "Photograph the inside of your panel label and take it to the counter. Buying the wrong breaker for a panel is the standard mistake here."
+      },
+      "install": {
+        "effort": 4,
+        "time": "15-30 minutes per circuit for an electrician",
+        "tools": [
+          "This is panel work"
+        ],
+        "note": "Work inside a panel involves live busbars even with the main off in many designs. Unless you are qualified, this is an electrician's job — and it is the sort of thing worth bundling with any other electrical work you have planned."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Press the test button on each breaker annually, which most people never do. If one starts tripping, treat it as information about a fault rather than as a faulty breaker."
+      },
+      "alternatives": [
+        {
+          "name": "AFCI receptacles",
+          "note": "Protects the circuit downstream of the outlet. Useful where the panel cannot take a breaker."
+        },
+        {
+          "name": "An electrical inspection",
+          "note": "If the house is old and has never been assessed, the inspection should come before the shopping."
+        }
+      ],
+      "verdict": "A genuine fire-prevention upgrade rather than a gadget, and the best moment to buy is while an electrician already has the panel open for something else. If your panel is one of the known-problem types, spend the money on that assessment first."
+    }
+  },
+  {
+    "slug": "lithium-battery-charging-bag",
+    "name": "Lithium Battery Charging Bag",
+    "brand": "Various",
+    "category": "electrical-fire-safety",
+    "pick": "For e-bike and tool batteries",
+    "priceBand": "$",
+    "priceNote": "Sized by battery; not a containment vessel",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "A fire-resistant pouch to charge or store lithium packs in. It will not stop a serious thermal runaway, but it contains sparks and small flare-ups and buys time — which, for a charging battery left unattended, is the thing you want.",
+    "pros": [
+      "Cheap mitigation for a fast-growing fire cause",
+      "Contains the small events, which are the common ones",
+      "Useful for storage as well as charging"
+    ],
+    "cons": [
+      "Will not contain a full thermal runaway in a large e-bike pack",
+      "Can give false confidence — placement still matters more than the bag"
+    ],
+    "bestFor": "Households charging e-bike, scooter, drone or power-tool batteries indoors.",
+    "links": [
+      {
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B09Q6FPGZ5?tag=AFFILIATE_TAG",
+        "kind": "affiliate"
+      },
+      {
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B09Q6FPGZ5?tag=AFFILIATE_TAG_CA",
+        "kind": "affiliate"
+      }
+    ],
+    "image": null,
+    "asin": "B09Q6FPGZ5",
+    "guide": {
+      "howItWorks": "A lithium cell in thermal runaway generates its own oxygen and heat and cannot be smothered in the way an ordinary fire can. A charging bag is fibreglass or silica-lined and is designed to contain the sparks, ejected material and flame of a small event, and to slow a larger one. It is mitigation, not containment.",
+      "market": "A cheap and almost entirely uncertified category, CAD $15-$60, originally made for radio-control hobby packs and now sold for e-bikes and tools. Products vary enormously in size, closure design and material weight, and marketing temperature claims are unverifiable. There is no consumer standard here that separates the good from the bad, which is worth saying plainly: buy on construction and size rather than on claims.",
+      "features": [
+        {
+          "label": "Size for the pack",
+          "detail": "A bag that barely closes around an e-bike battery is doing very little. It needs room, and the closure needs to actually seal."
+        },
+        {
+          "label": "Double-layer construction",
+          "detail": "Fibreglass or silica outer with a heat-resistant inner. Thin single-layer pouches are for tiny hobby cells."
+        },
+        {
+          "label": "Vent design",
+          "detail": "Better bags vent gas in a controlled way rather than inflating and bursting. A sealed bag with nowhere for gas to go is its own problem."
+        },
+        {
+          "label": "Closure",
+          "detail": "Velcro and a fold-over flap is common. Zips fail in heat. Whatever it uses, it should close fully with the pack inside."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $15-$60.",
+        "consumables": "None.",
+        "ancillary": "Nothing.",
+        "fiveYear": "Replace if the lining degrades or after any event."
+      },
+      "differentiators": [
+        {
+          "label": "Versus charging on a non-combustible surface",
+          "detail": "Honestly, placement does more than the bag. Charging on concrete or tile, away from exits and sleeping areas and away from anything that burns, addresses more of the risk than any pouch."
+        },
+        {
+          "label": "Versus a metal box",
+          "detail": "A steel ammunition box or similar contains more and costs about the same, but needs venting — a sealed steel box pressurises. Neither is a certified solution."
+        },
+        {
+          "label": "The honest limit",
+          "detail": "A large e-bike pack in full runaway produces far more energy than a fabric pouch is designed for. Treat the bag as improving a bad situation, not as making unattended overnight charging in a hallway acceptable."
+        },
+        {
+          "label": "The behaviour that matters more",
+          "detail": "Use the manufacturer's charger, stop using any pack that is swollen, damaged or has been in a crash, do not charge to full for long-term storage, and never charge across an exit route. None of that costs anything."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Days",
+        "where": "Amazon, hobby shops, cycling retailers.",
+        "note": "Measure your battery. Most disappointment in this category is buying a bag sized for a drone pack to hold an e-bike battery."
+      },
+      "install": {
+        "effort": 1,
+        "time": "None",
+        "tools": [
+          "Nothing"
+        ],
+        "note": "Set up a charging spot: non-combustible surface, away from the door you would leave by, away from bedrooms, with a smoke alarm within earshot."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Inspect the lining occasionally. Replace after any event, however minor it looked."
+      },
+      "alternatives": [
+        {
+          "name": "Charging outdoors or in a detached garage",
+          "note": "The best answer where practical, and free."
+        },
+        {
+          "name": "A vented steel container",
+          "note": "Contains more. Must be vented, and is not certified either."
+        }
+      ],
+      "verdict": "Cheap and worth having, as long as you treat it as a supplement to charging in a sensible place rather than a licence to charge anywhere. The placement rules do most of the work."
+    }
+  },
+  {
+    "slug": "fire-escape-ladder",
+    "name": "Portable Fire Escape Ladder",
+    "brand": "Kidde / First Alert / Various",
+    "category": "escape-and-egress",
+    "pick": "One per upstairs bedroom",
+    "priceBand": "$",
+    "priceNote": "Sized by storey height, not by house",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "A chain or steel-rung ladder that hooks over a window sill and unrolls to the ground. The second way out of an upstairs bedroom when the first way out is full of smoke.",
+    "pros": [
+      "The only practical second exit from an upper-storey bedroom",
+      "Cheap, compact, stores under a bed",
+      "Deploys in seconds once someone has done it before"
+    ],
+    "cons": [
+      "Genuinely difficult for small children, older adults and anyone with limited mobility",
+      "Almost nobody practises, and an unpractised ladder in the dark is close to useless"
+    ],
+    "bestFor": "Every bedroom above ground level.",
+    "links": [
+      {
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com/dp/B07B923D27?tag=AFFILIATE_TAG",
+        "kind": "affiliate"
+      },
+      {
+        "label": "Buy on Amazon.ca",
+        "url": "https://www.amazon.ca/dp/B07B923D27?tag=AFFILIATE_TAG_CA",
+        "kind": "affiliate"
+      }
+    ],
+    "image": null,
+    "asin": "B07B923D27",
+    "guide": {
+      "howItWorks": "A hook assembly sits over the window sill and the ladder rolls down the outside wall. Standoffs hold the rungs away from the siding so there is room for feet and hands. Everything depends on the hook matching your sill and the ladder reaching the ground.",
+      "market": "A small commodity market — Kidde, First Alert and a long tail of imports — at CAD $45-$140 depending on length. Two, three and four-storey lengths are sold; the numbers refer to how far the ladder reaches, not how many people can use it. Permanent mounted versions in a wall box cost more and deploy faster, and are worth considering for a bedroom used by someone who would struggle with the roll-out type.",
+      "features": [
+        {
+          "label": "Length",
+          "detail": "Must reach the ground from that specific window. Measure; do not assume a 'two-storey' ladder suits your two-storey house, because storey heights vary."
+        },
+        {
+          "label": "Hook fitment",
+          "detail": "Hooks are designed for a range of sill depths and types. Casement, awning and some vinyl-framed windows can be awkward. Check before buying."
+        },
+        {
+          "label": "Standoffs",
+          "detail": "Hold the rungs off the wall so hands and feet fit. Ladders without them are considerably harder to climb, especially in socks at night."
+        },
+        {
+          "label": "Weight rating",
+          "detail": "Stated per ladder and usually assumes one person at a time. That matters if an adult needs to carry a child."
+        },
+        {
+          "label": "Single use or reusable",
+          "detail": "Cheaper models are rated single use. A reusable model is what you want if you intend to practise, and you should intend to practise."
+        }
+      ],
+      "costs": {
+        "upfront": "CAD $45-$140 per ladder, one per upstairs bedroom.",
+        "consumables": "None.",
+        "ancillary": "Nothing.",
+        "fiveYear": "Nil, unless you buy a single-use model and practise with it."
+      },
+      "differentiators": [
+        {
+          "label": "Versus a permanently mounted escape ladder",
+          "detail": "A wall-box unit deploys faster and needs less strength, at two to three times the cost. Reasonable for a room used by a child or an older adult."
+        },
+        {
+          "label": "Versus planning to use the stairs",
+          "detail": "The stairs are the first route and usually the right one. The ladder exists for the case where the stairwell is the fire, which is exactly the case that kills people."
+        },
+        {
+          "label": "The practice problem",
+          "detail": "This is where the category fails. Almost nobody deploys the ladder until the night they need it, and finding out then that the hooks do not fit your sill, or that it stops a metre short, is the worst possible time. Buy a reusable model and use it once in daylight."
+        },
+        {
+          "label": "Who cannot use one",
+          "detail": "Be honest about this when planning. Small children, anyone frail and anyone with mobility or balance limits may not be able to use a chain ladder at all. That changes the plan — it may mean a ground-floor bedroom rather than a ladder."
+        }
+      ],
+      "buying": {
+        "effort": 1,
+        "lead": "Days",
+        "where": "Hardware and big-box stores, Amazon in both countries.",
+        "note": "Measure sill-to-ground for each window, and check the hook suits your window type. Buy one per bedroom, not one for the house — you cannot pass it between rooms in a fire."
+      },
+      "install": {
+        "effort": 1,
+        "time": "Minutes to store; 20 minutes to practise once",
+        "tools": [
+          "Nothing"
+        ],
+        "note": "Store it in the room it serves, where the person sleeping there can reach it without standing on anything. Then deploy it once, in daylight, with an adult on the ground, and find out what you did not know."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Check annually that it is still in the room it belongs to and that nothing has been stacked in front of the window. Re-brief anyone new to the house."
+      },
+      "alternatives": [
+        {
+          "name": "A permanently mounted escape ladder",
+          "note": "Faster and easier, more expensive, worth it for a vulnerable occupant."
+        },
+        {
+          "name": "A ground-floor bedroom",
+          "note": "The right answer for someone who genuinely cannot use a ladder."
+        }
+      ],
+      "verdict": "Buy one for each bedroom above ground level, buy a reusable model, and deploy it once on a Saturday. The purchase is easy; the practice is the part that makes it worth anything."
+    }
   }
 ]
