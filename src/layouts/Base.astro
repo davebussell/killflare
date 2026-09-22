@@ -11,6 +11,30 @@ interface Props {
 const { title, description, ogType = 'website' } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const fullTitle = title === 'Killflare' ? 'Killflare — Wildfire Home Defense Supplies, Reviewed' : `${title} · Killflare`;
+
+// Sitewide identity. Page-level Article/Product/Place schemas stay where they
+// are and reference this Organization by @id.
+const siteLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': new URL('/#organization', Astro.site).href,
+      name: 'Killflare',
+      url: new URL('/', Astro.site).href,
+      logo: new URL('/og-default.png', Astro.site).href,
+      description: 'Wildfire home defense supplies, reviewed — ember-resistant gear, defensible space tools and alerts.',
+    },
+    {
+      '@type': 'WebSite',
+      '@id': new URL('/#website', Astro.site).href,
+      name: 'Killflare',
+      url: new URL('/', Astro.site).href,
+      inLanguage: 'en',
+      publisher: { '@id': new URL('/#organization', Astro.site).href },
+    },
+  ],
+};
 ---
 <!doctype html>
 <html lang="en">
@@ -33,6 +57,7 @@ const fullTitle = title === 'Killflare' ? 'Killflare — Wildfire Home Defense S
     <meta name="theme-color" content="#d8460d" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <script type="application/ld+json" set:html={JSON.stringify(siteLd)} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400&family=IBM+Plex+Mono:wght@400;500&display=swap" />
