@@ -1,8 +1,11 @@
-name: Deploy to GitHub Pages
+name: Refresh live fire map
 
 on:
-  push:
-    branches: [main]
+  schedule:
+    # Every 30 minutes. CWFIS and FIRMS both update on their own slower
+    # cadence (satellite overpasses, roughly every 1-3h), so this is a
+    # ceiling, not a promise of 30-minute-fresh data.
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 permissions:

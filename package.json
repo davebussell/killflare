@@ -5,12 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "node scripts/fetch-fires.mjs",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "fetch:fires": "node scripts/fetch-fires.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
-    "astro": "^5.0.0"
+    "astro": "^5.0.0",
+    "maplibre-gl": "^6.11.2"
   },
   "devDependencies": {
     "playwright": "^1.63.0",

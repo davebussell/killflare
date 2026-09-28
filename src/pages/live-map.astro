@@ -1,0 +1,152 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base
+  title="Live fire map"
+  description="Near-real-time wildfire hotspot map for Canada and the US, built from CWFIS satellite detections and NASA FIRMS — refreshed automatically throughout the day."
+>
+  <section class="section section--tight">
+    <div class="wrap">
+      <span class="eyebrow eyebrow--ember">Live</span>
+      <h1>Active fire map</h1>
+      <p class="lede">
+        Satellite-detected fire hotspots across Canada and the US, refreshed automatically. This is raw detection
+        data, not an official warning — for evacuation orders and confirmed incidents, use your provincial/state
+        alert system or <a href="https://inciweb.wildfire.gov/" rel="noopener" target="_blank">InciWeb</a> (US) /
+        <a href="https://cwfis.cfs.nrcan.gc.ca/interactive-map" rel="noopener" target="_blank">the CWFIS interactive map</a> (Canada).
+      </p>
+
+      <div id="fire-map" class="fire-map" role="application" aria-label="Map of active fire hotspots">
+        <p class="fire-map__loading mono">Loading map…</p>
+      </div>
+
+      <div class="fire-map__meta mono" id="fire-map-meta">
+        <span id="fire-map-meta-text">Loading refresh time…</span>
+      </div>
+
+      <div class="notice">
+        <p><strong>How to read this:</strong> each dot is a satellite thermal detection (VIIRS/MODIS), not a fire perimeter or a confirmed structure fire — a single wildfire usually shows as a cluster of dots, and small or well-established fires can be missed between satellite passes. Dot color reflects fire radiative power (FRP), a rough proxy for intensity, where available.</p>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .lede { color: var(--ink-2); margin: 0.75rem 0 1.75rem; font-size: 1.1rem; max-width: var(--measure); }
+  .fire-map {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    max-height: 720px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .fire-map :global(.maplibregl-canvas-container) { border-radius: 4px; }
+  .fire-map__loading {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    color: var(--ink-3); font-size: 0.85rem; letter-spacing: 0.03em; margin: 0;
+  }
+  .fire-map__meta { margin-top: 0.6rem; font-size: 0.75rem; color: var(--ink-3); }
+  .fire-map__warn { color: var(--amber); }
+  .fire-popup { font-family: var(--body); font-size: 0.85rem; line-height: 1.4; }
+  .fire-popup dt { font-weight: 600; color: var(--ink-3); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 0.35rem; }
+  .fire-popup dt:first-child { margin-top: 0; }
+  .fire-popup dd { margin: 0; }
+</style>
+
+<script>
+  import { Map as MapLibreMap, NavigationControl, Popup } from 'maplibre-gl';
+  import 'maplibre-gl/dist/maplibre-gl.css';
+
+  async function initMap() {
+    const container = document.getElementById('fire-map');
+    if (!container) return;
+
+    // OpenFreeMap: free, no API key, no usage limits (https://openfreemap.org).
+    const map = new MapLibreMap({
+      container,
+      style: 'https://tiles.openfreemap.org/styles/liberty',
+      center: [-105, 45],
+      zoom: 2.6,
+      attributionControl: true,
+    });
+    map.addControl(new NavigationControl({ showCompass: false }), 'top-right');
+
+    fetch('/live/meta.json', { cache: 'no-store' })
+      .then((r) => r.json())
+      .then((meta) => {
+        const el = document.getElementById('fire-map-meta-text');
+        if (!el) return;
+        if (!meta?.generatedAt) {
+          el.textContent = 'Data has not been fetched yet — it refreshes on the next scheduled build.';
+          return;
+        }
+        const when = new Date(meta.generatedAt).toUTCString();
+        let text = `Data last refreshed ${when} · ${meta.counts?.total ?? 0} detections (${meta.counts?.canada ?? 0} CA / ${meta.counts?.us ?? 0} US)`;
+        if (!meta.firmsKeyPresent) text += ' · US detections are off until a FIRMS key is configured';
+        el.textContent = text;
+      })
+      .catch(() => {
+        const el = document.getElementById('fire-map-meta-text');
+        if (el) el.textContent = 'Could not load refresh status.';
+      });
+
+    map.on('load', async () => {
+      const loading = container.querySelector('.fire-map__loading');
+      try {
+        const res = await fetch('/live/fires.geojson', { cache: 'no-store' });
+        const data = await res.json();
+
+        map.addSource('fires', { type: 'geojson', data });
+
+        map.addLayer({
+          id: 'fires-points',
+          type: 'circle',
+          source: 'fires',
+          paint: {
+            'circle-radius': ['interpolate', ['linear'], ['zoom'], 2, 2, 8, 7],
+            'circle-color': [
+              'interpolate', ['linear'], ['coalesce', ['get', 'frp'], 5],
+              0, '#e8a21a',
+              20, '#d8460d',
+              80, '#8a1a06',
+            ],
+            'circle-stroke-width': 1,
+            'circle-stroke-color': '#ffffff',
+            'circle-opacity': 0.85,
+          },
+        });
+
+        map.on('click', 'fires-points', (e) => {
+          const f = e.features && e.features[0];
+          if (!f) return;
+          const p = f.properties as Record<string, unknown>;
+          const rows: [string, unknown][] = [
+            ['Source', p.source === 'cwfis' ? 'CWFIS (Canada)' : 'NASA FIRMS (US)'],
+            ['Sensor', p.sensor],
+            ['Detected', [p.acq_date, p.acq_time].filter(Boolean).join(' ')],
+            ['FRP', p.frp],
+            ['Confidence', p.confidence],
+          ].filter(([, v]) => v !== undefined && v !== null && v !== '');
+          const html = `<dl class="fire-popup">${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>`;
+          new Popup({ closeButton: true }).setLngLat(e.lngLat).setHTML(html).addTo(map);
+        });
+        map.on('mouseenter', 'fires-points', () => { map.getCanvas().style.cursor = 'pointer'; });
+        map.on('mouseleave', 'fires-points', () => { map.getCanvas().style.cursor = ''; });
+
+        if (!data.features?.length) {
+          const meta = document.getElementById('fire-map-meta');
+          if (meta) meta.insertAdjacentHTML('beforeend', ' <span>· No active detections in the latest snapshot.</span>');
+        }
+      } catch (err) {
+        console.error('Failed to load fire data', err);
+      } finally {
+        loading?.remove();
+      }
+    });
+  }
+
+  initMap();
+</script>
