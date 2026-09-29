@@ -20,7 +20,7 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const OUT_DIR = path.join(__dirname, '..', 'public', 'live');
+const OUT_DIR = process.env.LIVE_OUT_DIR || path.join(__dirname, '..', 'public', 'live');
 const OUT_FILE = path.join(OUT_DIR, 'fires.geojson');
 const META_FILE = path.join(OUT_DIR, 'meta.json');
 

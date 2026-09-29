@@ -2,8 +2,12 @@
 import CatIcon from './CatIcon.astro';
 import categories from '../data/categories.json';
 
-interface Props { product: any; ratio?: string; size?: number; eager?: boolean }
-const { product: p, ratio = '4 / 3', size = 56, eager = false } = Astro.props;
+interface Props { product: any; ratio?: string; size?: number; eager?: boolean; amazon?: boolean }
+// `amazon`: allow the official Amazon image (Creators API) to replace the plate
+// in the browser. Only used where the image can itself link to Amazon (product
+// pages) — Amazon's terms require catalog images to link back to Amazon, which
+// the product cards can't do because the whole card already links in-site.
+const { product: p, ratio = '4 / 3', size = 56, eager = false, amazon = false } = Astro.props;
 const cat = categories.find((c) => c.slug === p.category)!;
 const img = p.image;
 ---
@@ -20,13 +24,47 @@ const img = p.image;
     {img.credit && <span class="pimg__credit mono">{img.credit}</span>}
   </div>
 ) : (
-  <div class="pimg pimg--plate" style={`--ratio:${ratio}`} aria-hidden="true">
+  <div class="pimg pimg--plate" style={`--ratio:${ratio}`} aria-hidden="true" data-asin={amazon && p.asin ? p.asin : undefined} data-name={p.name}>
     <span class="pimg__icon"><CatIcon name={cat.icon} size={size} /></span>
     <span class="pimg__band mono">{p.priceBand}</span>
     <span class="pimg__rule"></span>
   </div>
 )}
+<script>
+  // Swaps the placeholder plate for the official Amazon image when the
+  // live-data branch has one for this ASIN. See scripts/fetch-amazon-images.mjs.
+  const plates = document.querySelectorAll<HTMLElement>('.pimg--plate[data-asin]');
+  if (plates.length) {
+    fetch('https://raw.githubusercontent.com/davebussell/killflare/live-data/amazon-images.json', { cache: 'no-store' })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data) => {
+        const items = data?.items || {};
+        plates.forEach((el) => {
+          const hit = items[el.dataset.asin || ''];
+          if (!hit?.src) return;
+          const a = document.createElement('a');
+          a.href = hit.url;
+          a.rel = 'sponsored noopener';
+          a.target = '_blank';
+          a.className = 'pimg__amz';
+          const img = document.createElement('img');
+          img.src = hit.src;
+          img.alt = `${el.dataset.name} product photo`;
+          img.decoding = 'async';
+          if (hit.width) img.width = hit.width;
+          if (hit.height) img.height = hit.height;
+          a.append(img);
+          el.replaceChildren(a);
+          el.classList.remove('pimg--plate');
+          el.removeAttribute('aria-hidden');
+        });
+      })
+      .catch(() => {});
+  }
+</script>
 <style>
+  .pimg :global(.pimg__amz) { display: block; width: 100%; height: 100%; background: #fff; }
+  .pimg :global(.pimg__amz img) { width: 100%; height: 100%; object-fit: contain; display: block; padding: 0.75rem; box-sizing: border-box; }
   .pimg { position: relative; aspect-ratio: var(--ratio); overflow: hidden; background: var(--bg-2); }
   .pimg img { width: 100%; height: 100%; object-fit: contain; object-position: center; display: block; background: #fff; }
   .pimg__credit {

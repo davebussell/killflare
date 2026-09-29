@@ -1,0 +1,55 @@
+name: Refresh live data
+
+# Publishes the live fire snapshot (every 30 min) and the Amazon product image
+# map to the `live-data` branch. The site reads both in the browser from
+#   https://raw.githubusercontent.com/davebussell/killflare/live-data/<file>
+# so fresh data never needs a Netlify rebuild (each production deploy costs
+# Netlify credits; 48 a day would blow through the free plan).
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-data
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch fire detections
+        run: node scripts/fetch-fires.mjs
+        env:
+          LIVE_OUT_DIR: ${{ runner.temp }}/live
+          FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
+
+      - name: Fetch Amazon product images
+        run: node scripts/fetch-amazon-images.mjs
+        env:
+          LIVE_OUT_DIR: ${{ runner.temp }}/live
+          AMAZON_CREATORS_CREDENTIAL_ID: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_ID }}
+          AMAZON_CREATORS_CREDENTIAL_SECRET: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_SECRET }}
+          AMAZON_CREATORS_CREDENTIAL_VERSION: ${{ vars.AMAZON_CREATORS_CREDENTIAL_VERSION || '2.1' }}
+
+      - name: Publish to live-data branch
+        run: |
+          cd "${{ runner.temp }}/live"
+          git init -q -b live-data
+          git config user.name "killflare-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Live data $(date -u +%Y-%m-%dT%H:%MZ)"
+          # Single-commit orphan branch, force-pushed each run: no history bloat.
+          git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" live-data

@@ -65,7 +65,7 @@ const jsonLd = {
         </div>
 
         <aside class="prod__buy">
-          <ProductImage product={p} ratio="4 / 3" size={72} eager={true} />
+          <ProductImage product={p} ratio="4 / 3" size={72} eager={true} amazon={true} />
           <span class="eyebrow">Where to buy</span>
           <div class="buy__links">
             {affiliate.map((l: any) => <a href={resolveLink(l.url)} class="btn btn--ember" rel="sponsored noopener" target="_blank">{l.label}</a>)}

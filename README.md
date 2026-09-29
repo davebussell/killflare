@@ -95,40 +95,43 @@ The safety disclaimer near the top is not decorative. This service could be reli
 emergency, so the page states plainly that it supplements official alerts, never replaces them,
 and that delivery can fail. Do not soften that copy.
 
-## Live fire map
+## Live data (fire map + Amazon images)
 
-`/live-map/` shows near-real-time wildfire hotspots on a MapLibre map (free OpenFreeMap
-basemap tiles, no key needed for the map itself).
+Hosting is Netlify, which charges credits per production deploy (15 each; the
+free plan has 300/month). So anything that changes more often than the content
+does NOT trigger a rebuild. Instead `.github/workflows/refresh-live-data.yml`
+runs every 30 minutes on GitHub Actions (free for this public repo), regenerates
+the data and force-pushes it as a single commit to the **`live-data`** branch.
+Pages read it in the browser from
+`https://raw.githubusercontent.com/davebussell/killflare/live-data/<file>`.
 
-Data is **not** fetched in the browser at request time — this is still a fully static site.
-`scripts/fetch-fires.mjs` runs as an npm `prebuild` step, pulls fresh detections, and writes
-them to `public/live/fires.geojson` + `public/live/meta.json`, which then get baked into that
-build like any other static asset. Two things keep the map from going stale:
+| File | Script | Used by |
+|---|---|---|
+| `fires.geojson`, `meta.json` | `scripts/fetch-fires.mjs` | `/live-map/` |
+| `amazon-images.json` | `scripts/fetch-amazon-images.mjs` | product pages (`ProductImage` with `amazon`) |
 
-- `.github/workflows/deploy.yml` (existing, push-triggered) now refetches fire data on every
-  content deploy.
-- `.github/workflows/refresh-fires.yml` (new) rebuilds and redeploys the whole site every 30
-  minutes on a schedule, purely to refresh the fire snapshot — no code change needed to trigger
-  it.
+The fire script also runs as `prebuild`, so every Netlify build bakes a fallback
+copy into `/live/` in case GitHub is unreachable.
 
-Sources:
+GitHub repo secrets (Settings → Secrets and variables → Actions):
 
-- **Canada** — CWFIS `public:hotspots` WFS layer. Public, no key, no setup required.
-- **US** — NASA FIRMS Area API (VIIRS). Free, but requires a personal `MAP_KEY`:
-  1. Get one at <https://firms.modaps.eosdis.nasa.gov/api/map_key/> (instant, free, just an email).
-  2. Add it to the repo as Settings → Secrets and variables → Actions → **New repository
-     secret**, name `FIRMS_MAP_KEY`.
-  Until that secret exists, the map still works and shows Canadian hotspots — US detections are
-  just silently skipped (the page footer says so).
+- `FIRMS_MAP_KEY`: free NASA FIRMS key for US detections
+  (<https://firms.modaps.eosdis.nasa.gov/api/map_key/>). Without it the map shows
+  Canada only (CWFIS needs no key).
+- `AMAZON_CREATORS_CREDENTIAL_ID` / `AMAZON_CREATORS_CREDENTIAL_SECRET`: from
+  Associates Central → Tools → Creators API, once Amazon unlocks API access
+  for the account. Optional repo *variable* `AMAZON_CREATORS_CREDENTIAL_VERSION`
+  (default `2.1`; use `3.1` if Associates Central issues a v3 credential).
+  Without them, product pages keep the designed placeholder plates.
 
-Local dev / a build without the secret never fails: `fetch-fires.mjs` degrades to whatever
-sources it can reach and writes an empty `FeatureCollection` in the worst case.
+PA-API 5 was retired by Amazon in 2026. The Creators API replaces it, and
+`fetch-amazon-images.mjs` uses it. Images are refreshed every run rather than
+stored, and they appear only on product pages, where each image links to its
+Amazon listing. Product cards keep the plate because the whole card already
+links in-site, and Amazon images must link back to Amazon.
 
-This intentionally does **not** generate per-fire "alert" articles — it's raw satellite
-detection data with a plain-language legend, linking out to InciWeb / the CWFIS interactive map
-for anything official. Auto-writing fire-specific copy from this data is a reasonable next step,
-but it's a separate, higher-stakes decision (accuracy/liability on a safety-adjacent claim) worth
-doing deliberately rather than bundling into the data pipeline.
+The fire map is raw satellite detection data, not alerts. It links out to InciWeb
+and the CWFIS interactive map for anything official.
 
 ## Affiliate tags
 

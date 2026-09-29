@@ -60,6 +60,19 @@ import Base from '../layouts/Base.astro';
   import { Map as MapLibreMap, NavigationControl, Popup } from 'maplibre-gl';
   import 'maplibre-gl/dist/maplibre-gl.css';
 
+  // Fresh data lives on the `live-data` branch (updated every 30 min by
+  // .github/workflows/refresh-live-data.yml). The copy baked into the build at
+  // /live/ is only a fallback if GitHub is unreachable.
+  const LIVE = 'https://raw.githubusercontent.com/davebussell/killflare/live-data';
+  async function getJSON(file: string) {
+    try {
+      const r = await fetch(`${LIVE}/${file}`, { cache: 'no-store' });
+      if (r.ok) return await r.json();
+    } catch {}
+    const r = await fetch(`/live/${file}`, { cache: 'no-store' });
+    return r.json();
+  }
+
   async function initMap() {
     const container = document.getElementById('fire-map');
     if (!container) return;
@@ -74,8 +87,7 @@ import Base from '../layouts/Base.astro';
     });
     map.addControl(new NavigationControl({ showCompass: false }), 'top-right');
 
-    fetch('/live/meta.json', { cache: 'no-store' })
-      .then((r) => r.json())
+    getJSON('meta.json')
       .then((meta) => {
         const el = document.getElementById('fire-map-meta-text');
         if (!el) return;
@@ -96,8 +108,7 @@ import Base from '../layouts/Base.astro';
     map.on('load', async () => {
       const loading = container.querySelector('.fire-map__loading');
       try {
-        const res = await fetch('/live/fires.geojson', { cache: 'no-store' });
-        const data = await res.json();
+        const data = await getJSON('fires.geojson');
 
         map.addSource('fires', { type: 'geojson', data });
 
