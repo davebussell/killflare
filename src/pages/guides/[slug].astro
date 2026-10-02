@@ -4,6 +4,7 @@ import ProductCard from '../../components/ProductCard.astro';
 import Photo from '../../components/Photo.astro';
 import guides from '../../data/guides.json';
 import products from '../../data/products.json';
+import { article, breadcrumbs, graph } from '../../lib/ld';
 
 export function getStaticPaths() {
   return guides.map((g) => ({ params: { slug: g.slug }, props: { g } }));
@@ -11,9 +12,13 @@ export function getStaticPaths() {
 const { g } = Astro.props;
 const byId = (s: string) => products.find((p) => p.slug === s);
 const others = guides.filter((x) => x.slug !== g.slug);
-const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline: g.title, description: g.description, publisher: { '@type': 'Organization', name: 'Killflare' } };
+const path = `/guides/${g.slug}/`;
+const jsonLd = graph(
+  article({ path, headline: g.title, description: g.description }),
+  breadcrumbs([['Guides', '/guides/'], [g.title, path]]),
+);
 ---
-<Base title={g.title} description={g.description} ogType="article">
+<Base title={(g as any).seoTitle ?? g.title} description={g.description} ogType="article">
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <div class="gbanner">
     <Photo name={g.photo} eager={true} ratio="21 / 6" sizes="100vw" />

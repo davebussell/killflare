@@ -6,6 +6,7 @@ import Effort from '../../components/Effort.astro';
 import categories from '../../data/categories.json';
 import products from '../../data/products.json';
 import { resolveLink, HAS_AFFILIATE_TAGS } from '../../config';
+import { article, breadcrumbs, graph } from '../../lib/ld';
 
 export function getStaticPaths() {
   return products.map((p) => ({ params: { slug: p.slug }, props: { p } }));
@@ -18,14 +19,14 @@ const regionNames = p.region.map((r: string) => (r === 'CA' ? 'Canada' : 'United
 const g: any = (p as any).guide;
 const affiliate = p.links.filter((l: any) => l.kind === 'affiliate');
 const direct = p.links.filter((l: any) => l.kind === 'direct');
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Product',
-  name: p.name,
-  brand: { '@type': 'Brand', name: p.brand },
-  description: p.summary,
-  category: cat.name,
-};
+// Marked up as an editorial Article about the product, not as a Product:
+// Google's Product markup requires offers, ratings or reviews with scores,
+// none of which this site publishes (price bands only, no star ratings).
+const path = `/products/${p.slug}/`;
+const jsonLd = graph(
+  article({ path, headline: `${p.name}: ${p.pick}`, description: p.summary, about: { '@type': 'Thing', name: p.name, description: `${p.brand} · ${cat.name}` } }),
+  breadcrumbs([[hub.label, hub.href], [cat.short, `/categories/${cat.slug}/`], [p.name, path]]),
+);
 ---
 <Base title={p.name} description={`${p.pick}: ${p.summary}`} ogType="article">
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />

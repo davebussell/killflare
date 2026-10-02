@@ -46,6 +46,7 @@
   },
   {
     "slug": "sprinklers-vs-gel-vs-retardant",
+    "seoTitle": "Sprinklers vs Gel vs Retardant: Which First?",
     "title": "Sprinklers vs. Gel vs. Retardant: Which Active Defense Should You Buy First?",
     "description": "Three product categories claim to protect your house when the fire arrives. They work in different ways, on different timelines, and at very different prices.",
     "readTime": "7 min",
@@ -192,7 +193,7 @@
           "California uses three numbered zones in feet, and unlike FireSmart's voluntary guidance, the 100-foot requirement is law under Public Resources Code 4291. Zone 0 is 0 to 5 feet. Zone 1 is 5 to 30 feet. Zone 2 is 30 to 100 feet, measured from structures and decks or to the property line, whichever comes first.",
           "Tree spacing in Zone 2 varies with slope, which is the sensible part of the California approach and something FireSmart does not do. On slopes up to 20% you need 10 feet of horizontal space between canopy edges. From 20 to 40%, 20 feet. Above 40%, 30 feet. Fire moves uphill faster, so steeper ground needs wider gaps.",
           "Branches get cleared to at least 6 feet from the ground — the Board of Forestry's own guidance says 6 to 15 feet, or the lower third for small trees. And remove every branch within 10 feet of a chimney or stovepipe. FireSmart has no equivalent chimney rule, so if you are in Canada and reading American sources, that 10-foot figure is not something FireSmart asks of you.",
-          "Zone 0 — the ember-resistant first five feet — is the piece everyone is waiting on. The Board of Forestry approved the regulation on 19 August 2026. It is not yet in force: the package is still working through final administrative review with no statewide effective date set. When it does take effect, new construction complies immediately and existing homes get a phased window of three to five years. It bans combustible mulch, firewood, debris and combustible outbuildings in the first five feet, but — contrary to a lot of early reporting — it does not ban all plants there. Maintained grass, low groundcover, herbaceous plants and potted plants in non-combustible containers are permitted, as are existing trees that meet the maintenance rules.",
+          "Zone 0 — the ember-resistant first five feet — is the piece everyone is waiting on. The Board of Forestry adopted the regulation on 19 August 2026 and filed it with the Office of Administrative Law on 28 August, then withdrew that filing on 8 September before the state ruled on it. No reason was published and the Board can refile. So as of early October 2026 it is not in force and there is no statewide effective date; existing defensible-space law and any local Zone 0 ordinance still apply. When it does take effect, new construction complies immediately and existing homes get a phased window of three to five years. It bans combustible mulch, firewood, debris and combustible outbuildings in the first five feet, but — contrary to a lot of early reporting — it does not ban all plants there. Maintained grass, low groundcover, herbaceous plants and potted plants in non-combustible containers are permitted, as are existing trees that meet the maintenance rules.",
           "If you are in California, check the Board of Forestry's defensible space page before acting on any Zone 0 deadline you read elsewhere, including this one. It is the fastest-moving rule in wildfire policy right now."
         ]
       },
@@ -243,7 +244,7 @@
         "body": [
           "FireSmart Canada, 'FireSmart Begins at Home' guide and Home Ignition Zone pages. FireSmart BC landscaping best practices. CAL FIRE 'Ready for Wildfire' defensible space pages and Public Resources Code 4291. California Board of Forestry and Fire Protection, defensible space zones and the August 2026 Zone 0 rulemaking.",
           "Syphard et al., 'The role of defensible space for residential structure protection during wildfires', International Journal of Wildland Fire. Knapp et al., 'Housing arrangement and vegetation factors associated with single-family home survival in the 2018 Camp Fire', Fire Ecology 17:25 (2021). Insurance Institute for Business & Home Safety research on Zone Zero fuel coverage and near-home vegetation. USDA Forest Service and UCLA post-fire tree surveys reported via LAist.",
-          "Figures current as of September 2026. Zone 0's status in California changes frequently — verify before relying on a date."
+          "Figures current as of September 2026; Zone 0 status checked 2 October 2026. Zone 0's status in California changes frequently — verify before relying on a date."
         ]
       }
     ]
@@ -436,7 +437,7 @@
         "heading": "Smoke without flame",
         "body": [
           "Smoke and ash damage to a home that flames never reached is generally covered as physical damage from a covered peril. The disputes are not usually about whether it is covered but about the remedy: whether surfaces can be cleaned or must be replaced, and whether invisible particulates remain after cleaning.",
-          "This has become contentious enough in California that the legislature passed the Smoke Damage Recovery Act, which would set inspection deadlines, remediation standards and prompt-payment timelines, and require ALE to continue until a home is deemed safe. As of the end of August 2026 it had passed both chambers and was awaiting the Governor. Check its current status before relying on it.",
+          "This has become contentious enough in California that the legislature passed the Smoke Damage Recovery Act (AB 1795), and the Governor signed it on 15 September 2026. It presumes that smoke damage inside a wildfire's impact area came from that fire, requires insurers to pay for testing and remediation to new state standards, sets inspection and claim-handling deadlines, and bars insurers from ending ALE before the home is restored and safe to live in. It applies from 1 January 2027, so claims before then fall under the old rules.",
           "If you are pursuing a smoke claim, the practical advice from United Policyholders is to photograph visible damage, report health effects to a doctor, and consider hiring an independent Certified Industrial Hygienist to test for hidden contamination — typically $2,000 to $4,000, and often the difference between a cleaning settlement and a replacement one."
         ],
         "products": [
@@ -774,6 +775,7 @@
   },
   {
     "slug": "rural-water-supply-and-dry-hydrants",
+    "seoTitle": "Rural Water Supply: Dry Hydrants and Cisterns",
     "title": "Rural Water Supply: Dry Hydrants, Cisterns and What the Fire Department Needs",
     "description": "Past the end of the water main, the fire at your house is fought with whatever arrives on the truck plus whatever your property can supply. Here's how that actually works.",
     "readTime": "10 min",

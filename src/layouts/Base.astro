@@ -10,7 +10,26 @@ interface Props {
 }
 const { title, description, ogType = 'website' } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
-const fullTitle = title === 'Killflare' ? 'Killflare — Wildfire Home Defense Supplies, Reviewed' : `${title} · Killflare`;
+// Search results cut titles at ~60 characters: only add the brand suffix if it fits.
+const fullTitle =
+  title === 'Killflare'
+    ? 'Killflare — Wildfire Home Defense Supplies, Reviewed'
+    : `${title} · Killflare`.length <= 60 ? `${title} · Killflare` : title;
+// Meta descriptions are truncated past ~160 characters: cut at the last full
+// sentence that fits, else at a word boundary with an ellipsis.
+function clampDescription(d: string, max = 160): string {
+  const t = d.replace(/\s+/g, ' ').trim();
+  if (t.length <= max) return t;
+  const cut = t.slice(0, max);
+  // Last sentence end that isn't an abbreviation like "Dept." or "St.".
+  const ends = [...cut.matchAll(/(\S+)[.!?](?=\s|$)/g)].filter(
+    (m) => !/^(Dept|St|Mt|No|Inc|Ltd|Co|Corp|vs|etc|approx|e\.g|i\.e|U\.S|[A-Z])$/i.test(m[1]),
+  );
+  const last = ends.at(-1);
+  if (last && last.index! + last[0].length >= 70) return cut.slice(0, last.index! + last[0].length);
+  return cut.replace(/[\s,;:—–-]+\S*$/, '') + '…';
+}
+const metaDescription = clampDescription(description);
 
 // Sitewide identity. Page-level Article/Product/Place schemas stay where they
 // are and reference this Organization by @id.
@@ -42,10 +61,10 @@ const siteLd = {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
-    <meta name="description" content={description} />
+    <meta name="description" content={metaDescription} />
     <link rel="canonical" href={canonical} />
     <meta property="og:title" content={fullTitle} />
-    <meta property="og:description" content={description} />
+    <meta property="og:description" content={metaDescription} />
     <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content="Killflare" />

@@ -4,6 +4,7 @@ import CatIcon from '../../components/CatIcon.astro';
 import regions from '../../data/regions.json';
 import categories from '../../data/categories.json';
 import installers from '../../data/installers.json';
+import { article, breadcrumbs, graph } from '../../lib/ld';
 
 export function getStaticPaths() {
   return regions.map((r) => ({ params: { slug: r.slug }, props: { r } }));
@@ -14,13 +15,11 @@ const progs = installers.programs.filter((p: any) => p.province === r.code);
 const cos = installers.companies.filter((c: any) => c.provinces.includes(r.code));
 const others = regions.filter((x) => x.slug !== r.slug);
 const riskClass = r.risk.toLowerCase().replace(' ', '-');
-const jsonLd = {
-  '@context': 'https://schema.org', '@type': 'Article',
-  headline: `Wildfire preparedness in ${r.name}`,
-  description: r.lede,
-  about: { '@type': 'Place', name: r.name },
-  publisher: { '@type': 'Organization', name: 'Killflare' },
-};
+const path = `/regions/${r.slug}/`;
+const jsonLd = graph(
+  article({ path, headline: `Wildfire preparedness in ${r.name}`, description: r.lede, about: { '@type': 'Place', name: r.name } }),
+  breadcrumbs([['Regions', '/regions/'], [r.name, path]]),
+);
 ---
 <Base title={`${r.name} wildfire guide`} description={`Wildfire preparedness for ${r.name}: fire season, fuel types, recent fires, ${r.program.name}, and the gear that matters most locally.`} ogType="article">
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />

@@ -1,6 +1,6 @@
 # killflare.com
 
-Wildfire home-defense product guide. Astro static site, deployed to GitHub Pages.
+Wildfire home-defense product guide. Astro static site on Netlify (continuous deploy from `main`).
 
 ## Local
 
@@ -110,14 +110,18 @@ Pages read it in the browser from
 | `fires.geojson`, `meta.json` | `scripts/fetch-fires.mjs` | `/live-map/` |
 | `amazon-images.json` | `scripts/fetch-amazon-images.mjs` | product pages (`ProductImage` with `amazon`) |
 
+MapLibre's web worker is bundled explicitly (`?worker&url` + `setWorkerUrl`) in
+`live-map.astro`. Without it the bundled map draws only hillshade, with no roads, labels or dots.
+
 The fire script also runs as `prebuild`, so every Netlify build bakes a fallback
 copy into `/live/` in case GitHub is unreachable.
 
 GitHub repo secrets (Settings → Secrets and variables → Actions):
 
-- `FIRMS_MAP_KEY`: free NASA FIRMS key for US detections
-  (<https://firms.modaps.eosdis.nasa.gov/api/map_key/>). Without it the map shows
-  Canada only (CWFIS needs no key).
+- `FIRMS_MAP_KEY` (optional): free NASA FIRMS key, used only as a US fallback if CWFIS
+  returns no US points. CWFIS's `hotspots_last24hrs` layer already covers Canada and the US
+  (its `agency` field is the province or state; note `CA` there means California). Get a key at
+  <https://firms.modaps.eosdis.nasa.gov/api/map_key/>.
 - `AMAZON_CREATORS_CREDENTIAL_ID` / `AMAZON_CREATORS_CREDENTIAL_SECRET`: from
   Associates Central → Tools → Creators API, once Amazon unlocks API access
   for the account. Optional repo *variable* `AMAZON_CREATORS_CREDENTIAL_VERSION`
@@ -142,14 +146,14 @@ Search-and-replace before launch:
 
 Amazon search links are placeholders; swap in ASIN links (`https://www.amazon.com/dp/ASIN?tag=...`) as you settle on specific SKUs.
 
-## Deploy (GitHub Pages)
+## Deploy
 
-1. Create repo `davebussell/killflare`, push `main`.
-2. Repo Settings → Pages → Source: **GitHub Actions**. The workflow in `.github/workflows/deploy.yml` builds and deploys on every push.
-3. Settings → Pages → Custom domain: `killflare.com` (the `public/CNAME` file is already there). Tick "Enforce HTTPS" once the cert issues.
-4. GoDaddy DNS:
-   - `A` @ → 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153
-   - `CNAME` www → `davebussell.github.io`
+Netlify builds every push to `main` (`npm run build` → `dist`) and serves killflare.com.
+Netlify DNS hosts the zone. The old GitHub Pages workflow was removed on 2 October 2026.
+It was building a second copy of the site on every push, which only redirected to
+killflare.com. Turn Pages off in repo Settings → Pages.
+
+GitHub Actions now runs only `refresh-live-data.yml` (see Live data above).
 
 ## Before launch
 
