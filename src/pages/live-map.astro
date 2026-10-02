@@ -72,17 +72,30 @@ import Base from '../layouts/Base.astro';
   import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
   setWorkerUrl(workerUrl);
 
-  // Fresh data lives on the `live-data` branch (refreshed by
-  // .github/workflows/refresh-live-data.yml). The copy baked into the build at
-  // /live/ is only a fallback if GitHub is unreachable.
+  // Two copies of the data exist: the `live-data` branch (refreshed by
+  // .github/workflows/refresh-live-data.yml every few hours) and the copy
+  // baked into each Netlify build at /live/. Use whichever is newer, so a
+  // stalled refresh job or an old build can never leave the map stale or empty.
   const LIVE = 'https://raw.githubusercontent.com/davebussell/killflare/live-data';
-  async function getJSON(file: string) {
+  async function tryJSON(url: string) {
     try {
-      const r = await fetch(`${LIVE}/${file}`, { cache: 'no-store' });
-      if (r.ok) return await r.json();
-    } catch {}
-    const r = await fetch(`/live/${file}`, { cache: 'no-store' });
-    return r.json();
+      const r = await fetch(url, { cache: 'no-store' });
+      return r.ok ? await r.json() : null;
+    } catch { return null; }
+  }
+  let base: string | null = null;
+  async function pickSource() {
+    const [remote, local] = await Promise.all([tryJSON(`${LIVE}/meta.json`), tryJSON('/live/meta.json')]);
+    const t = (m: any) => (m?.generatedAt ? Date.parse(m.generatedAt) : 0);
+    const useRemote = t(remote) >= t(local) && remote;
+    base = useRemote ? LIVE : '/live';
+    return useRemote ? remote : local;
+  }
+  const metaPromise = pickSource();
+  async function getJSON(file: string) {
+    if (file === 'meta.json') return metaPromise;
+    await metaPromise;
+    return (await tryJSON(`${base}/${file}`)) ?? { type: 'FeatureCollection', features: [] };
   }
 
   const fmtTime = (iso: string) =>
