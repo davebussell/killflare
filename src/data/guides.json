@@ -87,82 +87,6 @@
     "photo": "guide-sprinklers-vs-gel-vs-retardant"
   },
   {
-    "slug": "evacuation-go-bag-checklist",
-    "title": "The Wildfire Go-Bag Checklist",
-    "description": "A 72-hour kit is the base. Here's what to add so you're not scrambling with 30 minutes' notice.",
-    "readTime": "5 min",
-    "sections": [
-      {
-        "heading": "One bag per person, packed in spring",
-        "body": "Pack in June, not when the smoke arrives. Each person gets their own bag with water, food, medications, a change of clothes, a headlamp, a phone charger and a respirator. Start from a pre-built 72-hour kit and customize.",
-        "products": [
-          "72-hour-emergency-kit",
-          "n95-p100-respirators"
-        ]
-      },
-      {
-        "heading": "Documents and devices",
-        "body": "Passports, insurance policies, deeds, prescriptions and a USB drive with everything scanned, in a fireproof pouch. A power station or large power bank keeps phones, and therefore alerts and maps, running.",
-        "products": [
-          "fireproof-document-bag",
-          "portable-power-station"
-        ]
-      },
-      {
-        "heading": "Pets",
-        "body": "A carrier for each animal, a week of food, leash, medications and vaccination records. Evacuation centres often require proof of vaccination for animals."
-      },
-      {
-        "heading": "The vehicle",
-        "body": "Keep the tank above half through fire season. Back into the driveway. Keep a paper map — cell data goes first. A second respirator set lives in the car."
-      },
-      {
-        "heading": "Before you leave the house",
-        "body": "If you have time: close all windows and doors, shut off gas at the meter, move flammable furniture inside, turn on sprinklers, apply gel, leave exterior lights on so crews can see the house through smoke, and leave a note on the door saying you've evacuated.",
-        "products": [
-          "barricade-fire-gel",
-          "wasp-wildfire-protection-full-kit"
-        ]
-      }
-    ],
-    "photo": "guide-evacuation-go-bag-checklist"
-  },
-  {
-    "slug": "smoke-season-indoor-air",
-    "title": "Surviving Smoke Season: Indoor Air Quality",
-    "description": "Wildfire smoke reaches cities hundreds of kilometres from any fire. Here's how to keep the air inside your home breathable for weeks at a time.",
-    "readTime": "5 min",
-    "sections": [
-      {
-        "heading": "The problem is PM2.5",
-        "body": "Wildfire smoke is dominated by fine particulate under 2.5 microns, which passes deep into the lungs and bloodstream. Health agencies in both Canada and the US now treat multi-week smoke events as routine. Indoor air is only cleaner than outdoor air if you make it so."
-      },
-      {
-        "heading": "Seal, then filter",
-        "body": "Close windows, seal obvious gaps, switch HVAC to recirculate, and upgrade the furnace filter to MERV 13. Then add HEPA purifiers, sized by CADR, to the rooms you sleep and spend the day in.",
-        "products": [
-          "hepa-air-purifier-large-room",
-          "corsi-rosenthal-box-kit"
-        ]
-      },
-      {
-        "heading": "Measure it",
-        "body": "A PM2.5 monitor tells you whether your purifiers are keeping up and when it's actually safe to open the windows. Outdoor AQI maps lag your street by hours.",
-        "products": [
-          "pm25-air-quality-monitor"
-        ]
-      },
-      {
-        "heading": "Outside the house",
-        "body": "NIOSH N95 or P100 respirators, properly fitted, for any time outdoors during a smoke event. Cloth and surgical masks do nothing for PM2.5.",
-        "products": [
-          "n95-p100-respirators"
-        ]
-      }
-    ],
-    "photo": "guide-smoke-season-indoor-air"
-  },
-  {
     "slug": "how-far-should-trees-be-from-your-house",
     "title": "How Far Should Trees Be From Your House?",
     "description": "The official setbacks in Canada and the US, what the research actually found, and why 'cut down all your trees' is the wrong answer.",
@@ -389,8 +313,7 @@
           "And hold on to the part that hardening does not touch. The house is a bet you place in advance and then walk away from. Leave early, follow the order, and let the building take its chances without you in it."
         ],
         "products": [
-          "noaa-weather-radio",
-          "72-hour-emergency-kit"
+          "noaa-weather-radio"
         ]
       },
       {
@@ -440,10 +363,7 @@
           "This has become contentious enough in California that the legislature passed the Smoke Damage Recovery Act (AB 1795), and the Governor signed it on 15 September 2026. It presumes that smoke damage inside a wildfire's impact area came from that fire, requires insurers to pay for testing and remediation to new state standards, sets inspection and claim-handling deadlines, and bars insurers from ending ALE before the home is restored and safe to live in. It applies from 1 January 2027, so claims before then fall under the old rules.",
           "If you are pursuing a smoke claim, the practical advice from United Policyholders is to photograph visible damage, report health effects to a doctor, and consider hiring an independent Certified Industrial Hygienist to test for hidden contamination — typically $2,000 to $4,000, and often the difference between a cleaning settlement and a replacement one."
         ],
-        "products": [
-          "pm25-air-quality-monitor",
-          "hepa-air-purifier-large-room"
-        ]
+        "products": []
       },
       {
         "heading": "The real problem is underinsurance, not denial",
@@ -493,9 +413,7 @@
           "Ask whether contents are replacement cost or actual cash value, and what mass evacuation coverage you have and what triggers it.",
           "Do it now rather than in August. Once a fire is burning nearby, Canadian insurers commonly impose binding embargoes — a freeze on new policies, coverage increases and deductible reductions within a radius of the fire. Existing coverage and automatic renewals continue, but you will not be able to improve your position. This is standard industry practice, though we could not find a regulator publishing the specific radius, so treat the distances quoted by brokers as indicative."
         ],
-        "products": [
-          "fireproof-document-bag"
-        ]
+        "products": []
       },
       {
         "heading": "Sources",

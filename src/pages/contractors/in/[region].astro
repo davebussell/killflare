@@ -1,0 +1,69 @@
+---
+import Base from '../../../layouts/Base.astro';
+import CompanyCard from '../../../components/CompanyCard.astro';
+import wildfireRegions from '../../../data/regions.json';
+import { regions, companies, programs, services, groupByRegion, SERVICE_SHORT } from '../../../lib/contractors';
+import { breadcrumbs, graph } from '../../../lib/ld';
+
+export function getStaticPaths() {
+  return regions.filter((r) => r.count > 0).map((r) => ({ params: { region: r.slug }, props: { r } }));
+}
+const { r } = Astro.props;
+const list = companies.filter((c) => c.regions.includes(r.key));
+const [group] = groupByRegion(list).filter((g) => g.region.key === r.key);
+const progs = programs.filter((p) => p.region === r.key);
+const wfGuide = r.country === 'CA' ? wildfireRegions.find((w) => w.code === r.code) : null;
+const svcCounts = services.map((s) => ({ s, n: list.filter((c) => c.services.includes(s.key)).length })).filter((x) => x.n > 0);
+const missing = services.filter((s) => !list.some((c) => c.services.includes(s.key)));
+const metros = group ? group.metros.map((m) => m.metro).filter((m) => m !== 'Region-wide') : [];
+const path = `/contractors/in/${r.slug}/`;
+const jsonLd = graph(breadcrumbs([['Contractors', '/contractors/'], [r.name, path]]));
+---
+<Base title={`Fire protection contractors in ${r.name}`} description={`${list.length} verified fire protection companies in ${r.name}${metros.length ? ` (${metros.slice(0, 4).join(', ')})` : ''}: sprinklers, alarms, extinguishers, kitchen systems and more.`}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <section class="section">
+    <div class="wrap">
+      <nav class="crumb mono" aria-label="Breadcrumb"><a href="/contractors/">Contractors</a> / {r.name}</nav>
+      <h1>Fire protection contractors in {r.name}</h1>
+      <p class="lede">{list.length} companies we verified against their own websites{metros.length ? <> in {metros.join(', ')}</> : ''}. Pick the type of work first. Each tag links to a guide on what that trade does, the licences to check and the inspection schedule the code sets.</p>
+      <ul class="chips">{svcCounts.map((x) => <li><a href={`/contractors/${x.s.key}/`}>{SERVICE_SHORT[x.s.key]} <span class="mono">{x.n}</span></a></li>)}</ul>
+      {missing.length > 0 && <p class="miss">Not yet verified here: {missing.map((s) => SERVICE_SHORT[s.key].toLowerCase()).join(', ')}. The <a href="/contractors/#associations">trade associations</a> list more firms.</p>}
+      {wfGuide && <p class="miss">Wildfire risk, fire season and provincial programs: <a href={`/regions/${wfGuide.slug}/`}>{r.name} wildfire guide →</a></p>}
+    </div>
+  </section>
+
+  {progs.length > 0 && (
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="section-head"><h2>Free and subsidised programs</h2></div>
+        <ul class="progs">{progs.map((p: any) => <li><a href={p.url} rel="noopener" target="_blank">{p.name} ↗</a><p>{p.note}</p></li>)}</ul>
+      </div>
+    </section>
+  )}
+
+  <section class="section section--tight">
+    <div class="wrap">
+      {group && group.metros.map((m) => (
+        <div class="metro">
+          <div class="section-head"><h2>{m.metro === 'Region-wide' ? `Serving all of ${r.name}` : m.metro}</h2><p>{m.cos.length} listed</p></div>
+          <div class="cogrid">{m.cos.map((c) => <CompanyCard co={c} />)}</div>
+        </div>
+      ))}
+    </div>
+  </section>
+</Base>
+<style>
+  .crumb { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-3); margin-bottom: 1.25rem; }
+  .crumb a { color: inherit; text-decoration: none; }
+  .lede { color: var(--ink-2); margin: 0.75rem 0 1.25rem; font-size: 1.1rem; max-width: var(--measure); }
+  .chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .chips a { display: inline-flex; gap: 0.4rem; align-items: center; padding: 0.3rem 0.65rem; border: 1px solid var(--line); background: var(--surface); text-decoration: none; font-size: 0.88rem; }
+  .chips a:hover { border-color: var(--ember); color: var(--ember); }
+  .chips .mono { font-size: 0.7rem; color: var(--ink-3); }
+  .miss { margin-top: 0.9rem; font-size: 0.9rem; color: var(--ink-3); max-width: var(--measure); }
+  .progs { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; border-top: 1px solid var(--line); }
+  .progs li { padding: 0.8rem 0; border-bottom: 1px solid var(--line); }
+  .progs p { font-size: 0.9rem; color: var(--ink-2); margin-top: 0.2rem; }
+  .metro { margin-bottom: 2.5rem; }
+  .cogrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+</style>

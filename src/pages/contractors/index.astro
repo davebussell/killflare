@@ -1,0 +1,142 @@
+---
+import Base from '../../layouts/Base.astro';
+import CatIcon from '../../components/CatIcon.astro';
+import { services, associations, regions, companies, programs, SERVICE_SHORT } from '../../lib/contractors';
+const icons: Record<string, string> = { sprinklers: 'ceilingsprinkler', alarms: 'panel', monitoring: 'monitor', extinguishers: 'extinguisher', kitchen: 'stove', 'special-hazard': 'cylinder', engineering: 'building', training: 'hardhat', chimney: 'chimney', wildfire: 'tree', 'emergency-lighting': 'exit', firestopping: 'blanket' };
+const count = (k: string) => companies.filter((c) => c.services.includes(k)).length;
+const ca = regions.filter((r) => r.country === 'CA' && r.count > 0);
+const us = regions.filter((r) => r.country === 'US' && r.count > 0);
+---
+<Base title="Fire protection contractors" description="Every kind of fire protection contractor for homes and businesses in Canada and the US: what they do, the codes and licences that apply, what they cost, and verified companies by city.">
+  <section class="section">
+    <div class="wrap">
+      <span class="eyebrow eyebrow--ember">Contractors</span>
+      <h1>Find the right fire protection contractor</h1>
+      <p class="lede">Fire protection is a set of separate trades, each with its own licences, standards and inspection schedule. A sprinkler fitter does not service kitchen hoods, and an alarm company is not a chimney sweep. Start by choosing the type of work. Each guide explains what that trade does, who is required to use one, what to check before hiring, and lists the companies we have verified in your area.</p>
+      <div class="notice">
+        <p><strong>How this directory works.</strong> {companies.length} companies across {ca.length + us.length} provinces, territories and states. Every listing was checked against the company's own website in October 2026 (or September 2026 for a few earlier wildfire listings), and we record what we checked. We list only what each site says. A listing is not an endorsement, and credentials are as the company states them, so verify licences yourself before you sign. We do not sell placement.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="section-head"><h2>What kind of work do you need?</h2><p>{services.length} contractor types</p></div>
+      <ul class="svcgrid">
+        {services.map((s) => (
+          <li>
+            <a href={`/contractors/${s.key}/`}>
+              <span class="svcgrid__ico"><CatIcon name={icons[s.key] ?? 'alert'} size={26} /></span>
+              <span class="svcgrid__t">{s.name}</span>
+              <span class="svcgrid__d">{s.what.split('. ')[0]}.</span>
+              <span class="svcgrid__n mono">{count(s.key)} listed</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="section-head"><h2>Browse by location</h2><p>Major metros in every province and the highest-risk US wildfire states</p></div>
+      <div class="locs">
+        <div>
+          <h3>Canada</h3>
+          <ul>{ca.map((r) => <li><a href={`/contractors/in/${r.slug}/`}>{r.name}</a> <span class="mono">{r.count}</span></li>)}</ul>
+        </div>
+        <div>
+          <h3>United States</h3>
+          <ul>{us.map((r) => <li><a href={`/contractors/in/${r.slug}/`}>{r.name}</a> <span class="mono">{r.count}</span></li>)}</ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="section-head"><h2>Before you hire anyone</h2></div>
+      <ol class="vet">
+        <li><strong>Match the trade to the job.</strong> Ask which systems the company installs and which it only services. Many firms do sprinklers, alarms and extinguishers; far fewer do kitchen systems, special-hazard gas systems or wildfire work.</li>
+        <li><strong>Check the licence yourself.</strong> Requirements are provincial and state-level. Examples: ASTTBC fire protection technicians in BC, the RBQ licence in Quebec, CFAA-trained alarm technicians in Ontario, California's C-16 contractor licence, NICET certification for US designers and technicians, WETT in Canada and CSIA in the US for chimneys.</li>
+        <li><strong>Ask which standard and edition they work to.</strong> For example NFPA 25 for sprinkler inspection, CAN/ULC-S536 for Canadian alarm inspection, NFPA 17A for kitchen systems. A good contractor answers without looking it up.</li>
+        <li><strong>Get the inspection report, not just a tag.</strong> Reports list deficiencies; tags don't. Your insurer and fire inspector will want the report.</li>
+        <li><strong>Watch for proprietary lock-in.</strong> Some alarm panels and systems can only be serviced by the installing dealer. Ask before you buy.</li>
+        <li><strong>Get two quotes and compare scope, not just price.</strong> Missing items (trip charges, parts, after-hours testing, permit fees) are where quotes differ.</li>
+      </ol>
+    </div>
+  </section>
+
+  {programs.length > 0 && (
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="notice">
+          <p><strong>Wildfire: start with the free programs.</strong> {programs.length} provincial and municipal programs in Canada will assess a property for wildfire risk, often at no cost, and some rebate the work. They are listed in the <a href="/contractors/wildfire/">wildfire contractors guide</a> and on each <a href="/regions/">regional guide</a>.</p>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="section-head" id="associations"><h2>Trade associations and official directories</h2><p>For finding firms outside the cities we cover</p></div>
+      <ul class="assoc">
+        {associations.map((a) => (
+          <li><a href={a.url} rel="noopener" target="_blank">{a.name} ↗</a><span class="mono">{a.country === 'both' ? 'CA · US' : a.country}</span><p>{a.lists}</p></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="listing">
+        <div>
+          <h2>Do fire protection work?</h2>
+          <p>If you install, inspect or service fire protection for homes or businesses in Canada or the US, tell us and we will check your website and list you. Listing is free and we do not sell placement.</p>
+        </div>
+        <form name="contractor-listing" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="lform">
+          <input type="hidden" name="form-name" value="contractor-listing" />
+          <p class="hidden"><label>Leave this empty: <input name="bot-field" /></label></p>
+          <label>Company name<input type="text" name="company" required /></label>
+          <label>Website<input type="url" name="website" placeholder="https://" required /></label>
+          <label>Email<input type="email" name="email" required /></label>
+          <label>Cities and provinces/states served<input type="text" name="areas" placeholder="Calgary, AB" required /></label>
+          <label>What do you do?<textarea name="services" rows="3" placeholder={Object.values(SERVICE_SHORT).slice(0, 5).join(', ') + '…'} required></textarea></label>
+          <button type="submit" class="btn btn--ember">Submit for review</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</Base>
+<style>
+  .lede { color: var(--ink-2); margin: 0.75rem 0 1.5rem; font-size: 1.1rem; max-width: var(--measure); }
+  .svcgrid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0; border: 1px solid var(--line); border-right: 0; border-bottom: 0; background: var(--surface); }
+  .svcgrid li { border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .svcgrid a { display: grid; grid-template-columns: auto 1fr; gap: 0.2rem 0.75rem; padding: 1.1rem 1.2rem; text-decoration: none; height: 100%; align-content: start; }
+  .svcgrid a:hover { background: var(--bg-2); }
+  .svcgrid__ico { color: var(--ember); grid-row: span 3; padding-top: 0.1rem; }
+  .svcgrid__t { font-family: var(--display); font-weight: 600; color: var(--ink); }
+  .svcgrid__d { font-size: 0.86rem; color: var(--ink-2); }
+  .svcgrid__n { font-size: 0.68rem; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 0.3rem; }
+  .locs { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem; }
+  .locs h3 { font-size: 1.1rem; margin-bottom: 0.6rem; }
+  .locs ul { list-style: none; margin: 0; padding: 0; columns: 2 150px; column-gap: 1.5rem; }
+  .locs li { padding: 0.3rem 0; break-inside: avoid; font-size: 0.95rem; }
+  .locs .mono { font-size: 0.7rem; color: var(--ink-3); }
+  .vet { margin: 0; padding-left: 1.3rem; display: grid; gap: 0.8rem; max-width: 860px; color: var(--ink-2); }
+  .vet strong { color: var(--ink); }
+  .assoc { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 2rem; }
+  .assoc li { padding: 0.8rem 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 1fr auto; gap: 0.2rem 0.75rem; }
+  .assoc a { font-weight: 600; }
+  .assoc .mono { font-size: 0.68rem; color: var(--ink-3); }
+  .assoc p { grid-column: 1 / -1; font-size: 0.86rem; color: var(--ink-2); }
+  .listing { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; background: var(--surface); border: 1px solid var(--line); padding: clamp(1.25rem, 3vw, 2rem); }
+  .listing p { color: var(--ink-2); margin-top: 0.6rem; }
+  @media (max-width: 760px) { .listing { grid-template-columns: 1fr; } }
+  .lform { display: grid; gap: 0.7rem; }
+  .lform label { display: grid; gap: 0.25rem; font-size: 0.82rem; font-weight: 500; }
+  .lform input, .lform textarea { font: inherit; padding: 0.55rem 0.65rem; border: 1px solid var(--line); background: var(--bg); color: var(--ink); border-radius: 2px; }
+  .lform input:focus-visible, .lform textarea:focus-visible { outline: 3px solid var(--amber); outline-offset: 1px; }
+  .hidden { display: none; }
+</style>

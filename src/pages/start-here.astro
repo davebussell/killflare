@@ -1,51 +1,93 @@
 ---
 import Base from '../layouts/Base.astro';
 import products from '../data/products.json';
-const byId = (s: string) => products.find((p) => p.slug === s)!;
-const steps = [
-  { tier: 'This weekend', cost: 'Under $100', zone: 'people', title: 'Get warned, get masked', body: 'Put a wildfire alert app on every phone, buy a weather radio with SAME alerting, and buy NIOSH respirators for everyone in the house. This is the cheapest and most important tier.', picks: ['noaa-weather-radio', 'n95-p100-respirators'] },
-  { tier: 'This month', cost: '$100–$500', zone: 'structure', title: 'Close the ember gaps', body: 'Screen or replace vents, screen under the deck, install metal gutter guards, cover the propane tank, and clear Zone 0 of everything that burns. Add a 10 lb extinguisher to the garage.', picks: ['stainless-ember-mesh', 'steel-micro-mesh-gutter-guard', 'propane-tank-fire-cover', '10lb-abc-extinguisher'] },
-  { tier: 'Early fire season', cost: '$100–$400', zone: 'yard', title: 'Treat and thin', body: 'Spray long-term retardant on fences, decks and mulch. Limb conifers to 2 m. Rake needle litter. Pack the go-bags while you still have a calendar, not a countdown.', picks: ['phos-chek-home-defense', 'battery-pole-saw', '72-hour-emergency-kit'] },
-  { tier: 'When you can', cost: '$500–$2,500', zone: 'structure', title: 'Add the active layer', body: 'A gutter-mount sprinkler kit, then a pump and water storage so it keeps running when the hydrants drop. A jug of gel for the last hour before you leave.', picks: ['wasp-wildfire-protection-full-kit', 'portable-gas-fire-pump', 'barricade-fire-gel'] },
-  { tier: 'Smoke season', cost: '$150–$600', zone: 'people', title: 'Clean the indoor air', body: 'One HEPA purifier per bedroom (or a Corsi-Rosenthal box), a MERV-13 furnace filter, and a PM2.5 monitor so you know when it\'s working.', picks: ['hepa-air-purifier-large-room', 'corsi-rosenthal-box-kit', 'pm25-air-quality-monitor'] },
+const byId = (s: string) => products.find((p) => p.slug === s);
+type Step = { tier: string; cost: string; zone: string; title: string; body: string; picks: string[]; link?: { href: string; label: string } };
+const paths: { key: string; label: string; intro: string; steps: Step[]; note: string }[] = [
+  {
+    key: 'home', label: 'For your home',
+    intro: 'Ranked by lives and property saved per dollar. Detection and a way out come first, because they work for every kind of fire.',
+    steps: [
+      { tier: 'This week', cost: 'Under $150', zone: 'people', title: 'Alarms that work without you', body: 'Check the manufacture date on every smoke alarm and replace any over ten years old. Fit one on every storey, inside each bedroom and in the hallway outside them, with CO alarms near sleeping areas if you have any fuel-burning appliance or an attached garage. Sealed ten-year units remove the dead-battery failure that causes most alarm failures.', picks: ['sealed-10-year-smoke-alarm', 'combination-smoke-co-alarm', 'wireless-interconnected-alarms'] },
+      { tier: 'This month', cost: '$50–$200', zone: 'people', title: 'A way out of every bedroom', body: 'Walk two exits from every room. Upstairs bedrooms without a second safe route need an escape ladder, and every child old enough to use it needs to have practised.', picks: ['fire-escape-ladder'] },
+      { tier: 'This month', cost: '$100–$250', zone: 'people', title: 'Stop the kitchen fire', body: 'Cooking starts more home fires than anything else. Keep a listed ABC extinguisher near the exit of the kitchen, a fire blanket for pan fires, and a heat alarm in the garage where smoke alarms nuisance-trip.', picks: ['10lb-abc-extinguisher', 'kitchen-fire-blanket', 'heat-alarms-home'] },
+      { tier: 'This season', cost: '$50–$400', zone: 'structure', title: 'Heating, wiring and batteries', body: 'Have the chimney inspected and swept before the heating season, keep ash in a metal can outside, charge e-bikes and tool packs away from exits, and ask an electrician about arc-fault protection on older circuits.', picks: ['metal-ash-can', 'home-lithium-ion-charging-safety', 'afci-breaker'] },
+      { tier: 'When you build or renovate', cost: '$$$', zone: 'structure', title: 'Hardwire it and sprinkler it', body: 'Hardwired interconnected alarms and an NFPA 13D sprinkler system are cheap during construction and expensive afterwards. A gut renovation is the moment.', picks: ['hardwired-interconnected-smoke-alarm', 'nfpa-13d-sprinkler-system'] },
+    ],
+    note: 'Empty homes, rentals and cottages: add monitoring so a fire is reported when no one is there to hear the alarm. See monitoring and warnings.',
+  },
+  {
+    key: 'business', label: 'For a business or building',
+    intro: 'Most of this is required by code, so the order is about compliance risk: what an inspector or insurer checks first, and what fails most often.',
+    steps: [
+      { tier: 'First', cost: 'Free', zone: 'people', title: 'Find out what you already owe', body: 'Ask your local fire department or fire marshal which code edition applies, whether your building needs a fire safety plan, and when it was last inspected. Find the last inspection reports for every system in the building. Missing paperwork is the most common finding.', picks: [], link: { href: '/contractors/training/', label: 'Fire safety plan and training contractors' } },
+      { tier: 'Every year', cost: 'Per unit', zone: 'people', title: 'Extinguishers, sized and serviced', body: 'NFPA 10 sets the type, size and spacing. Have a fire equipment company lay them out, do the annual maintenance and tag them, and do the monthly visual checks yourself. Kitchens need a Class K unit; electronics rooms may want clean agent.', picks: ['business-abc-dry-chemical', 'class-k-extinguisher', 'clean-agent-halotron-extinguisher'], link: { href: '/contractors/extinguishers/', label: 'Extinguisher service companies' } },
+      { tier: 'Every year', cost: '$$', zone: 'people', title: 'Fire alarm tested, monitoring that still connects', body: 'Annual inspection and testing is required. If the panel still reports over copper phone lines, budget for a cellular or IP communicator before the line is retired.', picks: ['fire-alarm-control-panels', 'central-station-communicators'], link: { href: '/contractors/alarms/', label: 'Fire alarm contractors' } },
+      { tier: 'Every quarter', cost: '$$', zone: 'structure', title: 'Sprinklers inspected to NFPA 25', body: 'Keep control valves open and supervised, and keep to the quarterly, annual and five-year inspection schedule. A closed valve is the most common reason sprinklers fail.', picks: ['wet-pipe-sprinklers-nfpa13', 'dry-pipe-sprinklers'], link: { href: '/contractors/sprinklers/', label: 'Sprinkler contractors' } },
+      { tier: 'Every six months', cost: '$$', zone: 'structure', title: 'Commercial kitchens', body: 'A UL 300 wet-chemical system over grease-producing appliances, inspected every six months, with hood and duct cleaning on its own schedule.', picks: ['commercial-hood-wet-chemical'], link: { href: '/contractors/kitchen/', label: 'Kitchen suppression contractors' } },
+      { tier: 'Where it applies', cost: '$$$', zone: 'structure', title: 'Special rooms and hazards', body: 'Server rooms, archives and switchgear may justify a clean agent system; battery storage needs separation and the right cabinet; emergency lighting and fire doors need monthly and annual checks.', picks: ['clean-agent-fk-5-1-12', 'lithium-ion-storage-cabinets', 'emergency-lighting-exit-signs'], link: { href: '/contractors/special-hazard/', label: 'Special hazard contractors' } },
+    ],
+    note: 'Insurers often ask for the same documents as the fire inspector. Keeping every inspection report in one place is the cheapest compliance measure there is.',
+  },
+  {
+    key: 'wildfire', label: 'For a wildfire-exposed property',
+    intro: 'Ranked by impact per dollar, not by price. A house with screened vents and a clean Immediate Zone survives more fires than one with an expensive sprinkler system and pine needles in the gutters.',
+    steps: [
+      { tier: 'This month', cost: '$100–$500', zone: 'structure', title: 'Close the ember gaps', body: 'Screen or replace vents, screen under the deck, fit metal gutter guards, cover the propane tank, and clear the first 1.5 m around the house of everything that burns.', picks: ['stainless-ember-mesh', 'steel-micro-mesh-gutter-guard', 'propane-tank-fire-cover'] },
+      { tier: 'Early fire season', cost: '$100–$400', zone: 'yard', title: 'Treat and thin', body: 'Spray long-term retardant on fences, decks and mulch. Limb conifers to 2 m. Rake needle litter. Keep a backpack pump for spot fires.', picks: ['phos-chek-home-defense', 'battery-pole-saw', 'backpack-pump-sprayer'] },
+      { tier: 'When you can', cost: '$500–$2,500', zone: 'structure', title: 'Add the active layer', body: 'A gutter-mount sprinkler kit, then a pump and water storage so it keeps running when the hydrants drop. Gel for the last hour before you leave.', picks: ['wasp-wildfire-protection-full-kit', 'portable-gas-fire-pump', 'barricade-fire-gel'] },
+      { tier: 'Before the season', cost: 'Under $100', zone: 'people', title: 'Get the warning early', body: 'Register for your municipal and provincial or state alerts, and keep a weather radio for when the cell network is congested. Leave when told to, early.', picks: ['noaa-weather-radio'], link: { href: '/live-map/', label: 'Live wildfire hotspot map' } },
+    ],
+    note: 'Many provinces will assess your property for free before you spend anything. See the wildfire contractors guide for the programs.',
+  },
 ];
 ---
-<Base title="Start here" description="The order to buy wildfire home defense supplies in, from a $50 weather radio to a pump-fed sprinkler system — ranked by impact per dollar.">
+<Base title="Start here" description="Where to start with fire protection, ranked by impact: a priority list for homes, for businesses and buildings, and for wildfire-exposed properties.">
   <section class="section">
     <div class="wrap">
       <span class="eyebrow eyebrow--ember">Start here</span>
-      <h1>Buy in this order</h1>
-      <p class="lede">Ranked by impact per dollar, not by price. A house with screened vents and a clean Zone 0 survives more fires than a house with an expensive sprinkler system and pine needles in the gutters.</p>
-
-      <ol class="steps">
-        {steps.map((s, i) => (
-          <li class={`step zone-${s.zone}`}>
-            <div class="step__n mono">{String(i + 1).padStart(2, '0')}</div>
-            <div class="step__body">
-              <div class="step__meta mono"><span>{s.tier}</span><span>{s.cost}</span></div>
-              <h2>{s.title}</h2>
-              <p>{s.body}</p>
-              <ul class="step__picks">
-                {s.picks.map((id) => { const p = byId(id); return <li><a href={`/products/${p.slug}/`}><span class="mono">{p.priceBand}</span> {p.name}</a></li>; })}
-              </ul>
-            </div>
-          </li>
-        ))}
-      </ol>
-
-      <div class="notice">
-        <p><strong>What we deliberately left off:</strong> permanently installed whole-house systems and structure wrap. Both work, both are covered in their categories, and neither belongs on a priority list until everything above is done.</p>
-      </div>
+      <h1>Where to start</h1>
+      <p class="lede">Three priority lists, each ranked by what protects people and property most per dollar and per hour. Pick the one that fits, or work through more than one.</p>
+      <nav class="tabs" aria-label="Choose a list">{paths.map((pt) => <a href={`#${pt.key}`}>{pt.label}</a>)}</nav>
+      {paths.map((pt) => (
+        <section class="path" id={pt.key}>
+          <h2 class="path__h">{pt.label}</h2>
+          <p class="path__i">{pt.intro}</p>
+          <ol class="steps">
+            {pt.steps.map((s, i) => (
+              <li class={`step zone-${s.zone}`}>
+                <div class="step__n mono">{String(i + 1).padStart(2, '0')}</div>
+                <div class="step__body">
+                  <div class="step__meta mono"><span>{s.tier}</span><span>{s.cost}</span></div>
+                  <h3>{s.title}</h3>
+                  <p>{s.body}</p>
+                  <ul class="step__picks">
+                    {s.picks.map((id) => { const p = byId(id); return p ? <li><a href={`/products/${p.slug}/`}><span class="mono">{p.priceBand}</span> {p.name}</a></li> : null; })}
+                    {s.link && <li><a href={s.link.href}><span class="mono">→</span> {s.link.label}</a></li>}
+                  </ul>
+                </div>
+              </li>
+            ))}
+          </ol>
+          <div class="notice"><p>{pt.note}</p></div>
+        </section>
+      ))}
     </div>
   </section>
 </Base>
 <style>
-  .lede { color: var(--ink-2); margin: 0.75rem 0 2.5rem; font-size: 1.1rem; }
+  .lede { color: var(--ink-2); margin: 0.75rem 0 1.5rem; font-size: 1.1rem; max-width: var(--measure); }
+  .tabs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+  .tabs a { padding: 0.45rem 0.9rem; border: 1px solid var(--line); background: var(--surface); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+  .tabs a:hover { border-color: var(--ember); color: var(--ember); }
+  .path { padding-top: clamp(2rem, 5vw, 3.5rem); scroll-margin-top: 1rem; }
+  .path__h { font-size: clamp(1.5rem, 3vw, 2rem); }
+  .path__i { color: var(--ink-2); margin: 0.5rem 0 1.5rem; max-width: var(--measure); }
   .steps { list-style: none; margin: 0 0 2rem; padding: 0; display: grid; gap: 0; border-top: 2px solid var(--ink); max-width: 900px; }
   .step { display: grid; grid-template-columns: 4.5rem 1fr; gap: 1rem; padding: 1.75rem 0; border-bottom: 1px solid var(--line); }
   .step__n { font-family: var(--display); font-weight: 700; font-size: 2rem; line-height: 1.05; color: var(--zone); letter-spacing: -0.03em; }
   .step__meta { display: flex; gap: 1.5rem; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-3); margin-bottom: 0.4rem; }
-  .step h2 { font-size: clamp(1.35rem, 2.4vw, 1.7rem); }
+  .step h3 { font-size: clamp(1.35rem, 2.4vw, 1.7rem); }
   .step p { margin-top: 0.5rem; color: var(--ink-2); }
   .step__picks { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: 0.35rem; }
   .step__picks a { text-decoration: none; font-weight: 500; display: flex; gap: 0.75rem; align-items: baseline; }

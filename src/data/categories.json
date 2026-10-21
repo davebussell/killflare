@@ -120,82 +120,29 @@
       "A pole saw for limbing conifers to 2 m from the ground is the highest-leverage tool you can buy.",
       "Battery tools are fine for maintenance; a small gas chipper pays for itself if you're thinning a treed lot.",
       "Buy a steel leaf rake and a McLeod (fire rake) — dry needle accumulation is the fuel you'll be fighting all season.",
-      "Non-combustible mulch (crushed rock, pea gravel) is a product too — plan delivery early in the season."
+      "Non-combustible mulch (crushed rock, pea gravel) is a product too — plan delivery early in the season.",
+      "A 19 L (5 gallon) backpack pump is the wildland-crew tool for spot fires in mulch, decks and grass, and it is the one piece of firefighting kit worth having for the yard."
     ],
     "photo": "defensible-space-tools",
     "pillar": "wildfire"
   },
   {
-    "slug": "go-bags-and-evacuation",
-    "name": "Go-Bags & Evacuation Kits",
-    "short": "Go-bags & evacuation",
-    "zone": "people",
-    "icon": "bag",
-    "tagline": "You leave with what you packed in June, not what you remember in August.",
-    "intro": "Evacuation orders can come with under an hour's notice. A 72-hour go-bag for each person, plus a vehicle kit and a document pouch, is the baseline. This category covers pre-built kits and the components most kits leave out — N95 respirators, headlamps, power banks and pet supplies.",
-    "buyingNotes": [
-      "Buy a pre-built 72-hour kit as a base, then customise: medications, glasses, phone chargers, cash, copies of ID.",
-      "N95 or P100 respirators for every family member — smoke exposure is the most common wildfire injury.",
-      "A fire-rated document bag for passports, insurance and deeds; scan everything to cloud storage too.",
-      "Pets need their own kit: carrier, food, leash, vaccination records.",
-      "Keep the vehicle fuelled above half a tank throughout fire season, and back it into the driveway."
-    ],
-    "photo": "go-bags-and-evacuation",
-    "pillar": "wildfire"
-  },
-  {
-    "slug": "smoke-and-air-quality",
-    "name": "Smoke & Air Quality",
-    "short": "Air purifiers & masks",
-    "zone": "people",
-    "icon": "air",
-    "tagline": "Wildfire smoke season now lasts months. Clean indoor air is a health product.",
-    "intro": "Even hundreds of kilometres from a fire, PM2.5 from wildfire smoke reaches hazardous levels for days or weeks. HEPA air purifiers sized for your rooms, MERV-13 furnace filters, portable air quality monitors and properly fitted respirators make the difference between a sealed house and a smoky one.",
-    "buyingNotes": [
-      "Size purifiers by CADR: you want at least 4–5 air changes per hour in the room where you sleep.",
-      "Upgrade your furnace filter to MERV 13 for smoke season and run the fan continuously.",
-      "A DIY Corsi-Rosenthal box (box fan + four MERV-13 filters) is a proven budget alternative.",
-      "A PM2.5 monitor tells you when to open windows again — outdoor AQI maps lag your neighbourhood.",
-      "N95 fit matters more than brand. Buy a few sizes/styles and test them."
-    ],
-    "photo": "smoke-and-air-quality",
-    "pillar": "wildfire"
-  },
-  {
-    "slug": "detection-and-alerts",
-    "name": "Detection, Alerts & Monitoring",
-    "short": "Alerts & monitoring",
-    "zone": "people",
-    "icon": "alert",
-    "tagline": "Know about the fire before the sheriff knocks.",
-    "intro": "Wildfire alert apps, weather radios, outdoor cameras with heat detection and smoke detectors that talk to your phone give you the early warning that makes everything else in this guide possible. This category is inexpensive and worth setting up first.",
-    "buyingNotes": [
-      "A NOAA / Environment Canada weather radio with battery backup works when cell towers are congested or down.",
-      "Outdoor cameras let you check your property remotely after evacuating — and confirm it's safe to return.",
-      "Wi-Fi smoke and heat detectors in the garage and attic catch ember ignitions early.",
-      "Free apps (Watch Duty in the US, provincial wildfire apps in Canada) should be on every phone in the house.",
-      "A portable power station keeps your router, cameras and phones alive through outages."
-    ],
-    "photo": "detection-and-alerts",
-    "pillar": "wildfire"
-  },
-  {
     "slug": "fire-extinguishers",
-    "name": "Extinguishers & Spot-Fire Tools",
-    "short": "Extinguishers",
-    "zone": "structure",
+    "name": "Home Extinguishers",
+    "short": "Home extinguishers",
+    "zone": "people",
     "icon": "extinguisher",
-    "tagline": "Most homes are saved by someone knocking down a spot fire in the first two minutes.",
-    "intro": "If you stay to defend (only ever with a plan and a safe exit), or return after the front passes, spot fires on decks, in mulch and under eaves are what you'll actually fight. Backpack water sprayers, ABC extinguishers and a hose with a fog nozzle are the tools for that job.",
+    "tagline": "The right extinguisher in the right room, and an honest look at the gadgets sold beside it.",
+    "intro": "A portable extinguisher is for a fire small enough to fight in its first minute, with a clear way out behind you. For a home that means a listed ABC unit of real size (not a 1 kg toy) in the kitchen, the garage and on each floor, plus knowing when to leave instead. Beside them on the shelf sit aerosol cans, throwable fire balls and other gadgets; we review those too, and most of them do not replace a listed extinguisher.",
     "buyingNotes": [
-      "A 5-gallon (19 L) backpack pump sprayer is the wildland standard — cheap, refillable and easy to aim.",
-      "Buy 10 lb ABC extinguishers for the garage and deck, not the 2.5 lb kitchen models.",
-      "A shovel and a McLeod rake let you smother and scrape smouldering material.",
-      "Fog nozzles (adjustable pattern) on a hose knock down embers far better than a jet.",
-      "Never plan to stay and defend in a crown fire. These tools are for spot fires only."
+      "Buy listed extinguishers: UL-listed in the US, ULC-listed in Canada. The rating on the label (for example 2-A:10-B:C) tells you what it is tested to put out.",
+      "A 2.5 kg (5 lb) ABC unit is the practical minimum for a kitchen; a 4.5 kg (10 lb) unit belongs in the garage and workshop.",
+      "Mount it near an exit, not beside the stove, so you can fight the fire with your escape route behind you.",
+      "Check the gauge monthly and replace disposable units after any use or once they reach the end of the life printed on them.",
+      "Aerosol cans and fire balls are not listed as fire extinguishers. Treat them as extras, never as the extinguisher for a room."
     ],
     "photo": "fire-extinguishers",
-    "pillar": "wildfire"
+    "pillar": "home"
   },
   {
     "slug": "smoke-and-co-alarms",
@@ -217,8 +164,8 @@
   },
   {
     "slug": "home-fire-monitoring",
-    "name": "Monitored Fire & Smoke Detection",
-    "short": "Monitoring",
+    "name": "Monitoring & Warnings",
+    "short": "Monitoring & warnings",
     "zone": "people",
     "icon": "monitor",
     "pillar": "home",
@@ -230,7 +177,8 @@
       "Insist on cellular backup. Wi-Fi-only monitoring dies with your router, your power, or the fire itself — which is the moment it was bought for. Several self-monitoring tiers quietly drop cellular entirely.",
       "Check the contract before the hardware. Canadian monitoring is markedly more expensive and more locked-in than American, with three and five-year terms and early termination fees still common.",
       "For an insurance discount in Canada the monitoring generally has to be ULC-certified. A cheap non-ULC contract may earn nothing at all, and no insurer we could find publishes an actual discount figure — you have to ask yours.",
-      "Budget for false alarm fees. Many municipalities bill the homeowner for preventable responses, and NIST found that alarms built to the newest standard are still not clearly better at ignoring your cooking."
+      "Budget for false alarm fees. Many municipalities bill the homeowner for preventable responses, and NIST found that alarms built to the newest standard are still not clearly better at ignoring your cooking.",
+      "For wildfire and severe-weather warnings, a weather radio with SAME alerting (NOAA Weather Radio in the US, Weatheradio Canada) keeps working when cell networks are congested."
     ]
   },
   {
@@ -339,6 +287,147 @@
       "Agree a meeting point outside and make it specific — a particular tree or the neighbour's driveway, not 'out front'. The counting happens there, and nobody goes back in.",
       "Plan for whoever needs help: small children, anyone with mobility limits, and pets. Assign a person, and have a backup for when that person is away.",
       "Sleep with bedroom doors closed. A closed door meaningfully slows fire and smoke spread, and it is the single most effective free thing in this category."
+    ]
+  },
+  {
+    "slug": "commercial-sprinklers",
+    "name": "Commercial Sprinkler Systems",
+    "short": "Sprinkler systems",
+    "zone": "structure",
+    "icon": "ceilingsprinkler",
+    "pillar": "business",
+    "photo": "fire-extinguishers",
+    "tagline": "The system that does most of the work in a commercial fire, and the one that costs most to get wrong.",
+    "intro": "Automatic sprinklers control or put out most fires in buildings that have them, and in most new commercial, institutional and multi-unit residential construction they are required by the building code rather than chosen. What you are actually choosing is the type: wet-pipe for heated space, dry-pipe or pre-action where pipes would freeze or water damage is the bigger fear, ESFR for high-piled storage, deluge for fast-spreading industrial hazards. A licensed sprinkler contractor designs the system to NFPA 13 (or 13R for low-rise residential), and the building code that adopts it differs by province and state. None of this is bought off a shelf.",
+    "buyingNotes": [
+      "Start with the occupancy and the water supply, not the hardware. A hydraulic calculation against a current flow test decides whether you need a fire pump, and the pump is often the biggest line item in a retrofit.",
+      "Get the design basis in writing: which edition of NFPA 13 or 13R, which hazard classification, and what commodity and storage height it assumes. Changing what you store later can quietly invalidate it.",
+      "Inspection, testing and maintenance follow NFPA 25 in both countries. Budget for it from day one: quarterly, annual and five-year tasks, plus antifreeze and dry-pipe work where they apply.",
+      "The most common sprinkler failure is a closed valve. Supervise or lock control valves and treat a closed valve as an emergency, not a maintenance note.",
+      "Get at least two quotes from licensed contractors, and check the licence yourself: ASTTBC registration in BC, the RBQ licence in Quebec, NICET-certified designers and a state fire protection licence such as California's C-16 in the US."
+    ]
+  },
+  {
+    "slug": "commercial-kitchen-suppression",
+    "name": "Commercial Kitchen Fire Suppression",
+    "short": "Kitchen suppression",
+    "zone": "structure",
+    "icon": "stove",
+    "pillar": "business",
+    "photo": "guide-sprinklers-vs-gel-vs-retardant",
+    "tagline": "Required over grease-producing cooking, and only as good as its last six-month service.",
+    "intro": "Restaurant and institutional kitchens are one of the few places where the codes are completely clear: a hood over grease-producing appliances needs a listed fire suppression system, the system has to meet UL 300 in the US (ULC/ORD-C1254.6 in Canada), and it has to be inspected every six months. The system is a pre-engineered wet-chemical unit that sprays a potassium-salt agent onto the appliances and into the duct, shuts off the fuel, and is backed up by a Class K portable extinguisher on the wall. You buy it from an authorized distributor of the brand, who designs, installs and services it.",
+    "buyingNotes": [
+      "Systems older than the UL 300 standard (1994) were designed for animal fats, not today's high-temperature vegetable oils. If a kitchen still has one, replacing it is not optional in most jurisdictions.",
+      "Rearranging or swapping appliances under the hood can leave them outside nozzle coverage. Tell your service company before the line changes, not after.",
+      "Semi-annual inspection is required, and fusible links have to be replaced on a fixed schedule. Keep the tags; inspectors and insurers ask for them.",
+      "The Class K extinguisher is a backup for after the system has fired, not a substitute for it.",
+      "Hood and duct cleaning is a separate trade and a separate schedule. Grease in the duct is what turns a pan fire into a building fire."
+    ]
+  },
+  {
+    "slug": "special-hazard-suppression",
+    "name": "Special Hazard & Clean Agent Systems",
+    "short": "Special hazard",
+    "zone": "structure",
+    "icon": "cylinder",
+    "pillar": "business",
+    "photo": "fire-blankets-and-wraps",
+    "tagline": "For rooms where water would do more damage than the fire: server rooms, archives, switchgear, flammable liquids.",
+    "intro": "Special hazard systems put out fires with something other than ordinary sprinkler water: a clean agent gas, inert gas, water mist, condensed aerosol, foam, CO2 or dry chemical. Each suits a different risk, and several are in the middle of a regulatory transition. 3M stopped making Novec 1230 at the end of 2025, US rules now push HFC-227ea (FM-200) toward recycled supply, and PFAS-based firefighting foams are being restricted in Canada and most US states. These systems are engineered and installed by authorized distributors, and the decision usually involves your insurer, a fire protection engineer and the authority having jurisdiction.",
+    "buyingNotes": [
+      "Decide what you are protecting first: business continuity of electronics, people in the room, or a flammable-liquid process. The answer usually picks the agent.",
+      "Total-flooding gas systems only work if the room holds the agent. Room integrity (a door-fan test) and sealing penetrations are part of the job, and remodels break it.",
+      "Ask who supplies the agent for recharges over the life of the system, and get it in writing. Agent supply is changing faster than hardware lifespans.",
+      "CO2 total flooding can kill people in the protected space. It belongs in normally unoccupied spaces with lockouts, warning signs and training.",
+      "Many of these hazards still need sprinklers as well. A clean agent system protects the equipment; the building code may still require sprinklers for the building."
+    ]
+  },
+  {
+    "slug": "equipment-suppression",
+    "name": "Equipment & Vehicle Suppression",
+    "short": "Equipment suppression",
+    "zone": "structure",
+    "icon": "gear",
+    "pillar": "business",
+    "photo": "pumps-and-water",
+    "tagline": "Small automatic systems that live inside the cabinet, machine or engine bay where the fire starts.",
+    "intro": "Some fires start inside an enclosure: an electrical cabinet, a CNC machine, a fume hood, the engine compartment of a bus or loader. Room-level systems either cannot reach them or would flood a whole building to deal with a box. Local-application systems put detection and agent right at the source, usually with a pressurised tube that bursts at the hot spot and needs no electrical power. They are bought through the makers' distributors and are often driven by insurers or fleet operators rather than building codes.",
+    "buyingNotes": [
+      "Match the agent to the equipment: clean agent for electronics, dry chemical or foam where fuel and hydraulic fluid are involved.",
+      "Ask for the listing or approval that applies to your use. Approvals differ between cabinet systems and vehicle systems, and not every product carries one.",
+      "These systems still need periodic inspection. Detection tubing ages, and a system that has quietly lost pressure protects nothing.",
+      "For vehicles and mobile equipment, check what your insurer, fleet contract or transit authority requires before choosing a brand."
+    ]
+  },
+  {
+    "slug": "commercial-fire-alarm",
+    "name": "Commercial Fire Alarm & Detection",
+    "short": "Fire alarm & detection",
+    "zone": "people",
+    "icon": "panel",
+    "pillar": "business",
+    "photo": "detection-and-alerts",
+    "tagline": "The panel, the devices on the ceiling, and the line out to the monitoring station.",
+    "intro": "A commercial fire alarm system is not a bigger home smoke alarm. It is a control panel, a network of detectors, pull stations and horn-strobes, and a connection to a monitoring station, all designed and verified to NFPA 72 in the US and to the CAN/ULC-S524 installation and S537 verification standards in Canada, then inspected every year (CAN/ULC-S536 in Canada; Ontario moved to the 2019 edition on 1 January 2026). The panel you choose sets your service costs for years, and specialist detection such as air-sampling, beam and flame detectors exists for spaces ordinary spot detectors handle badly.",
+    "buyingNotes": [
+      "Addressable panels cost more up front but identify the exact device in alarm or trouble. For anything beyond a very small building they are usually worth it.",
+      "Ask whether the panel is proprietary, meaning only one dealer can service it. Proprietary panels lock you to one service company for the life of the system.",
+      "Copper phone lines are being retired. If your panel still reports over POTS lines, budget for a cellular or IP communicator now, not after a failed test.",
+      "Annual inspection and testing is required in both countries. Keep the reports: insurers and fire inspectors ask for them.",
+      "In Canada, fire alarm monitoring that counts for code purposes has to go to a station listed to CAN/ULC-S561. In the US, look for a UL-listed central station."
+    ]
+  },
+  {
+    "slug": "business-extinguishers",
+    "name": "Portable Extinguishers for Business",
+    "short": "Business extinguishers",
+    "zone": "people",
+    "icon": "extinguisher",
+    "pillar": "business",
+    "photo": "fire-extinguishers",
+    "tagline": "Required in almost every workplace, and specific to what can burn there.",
+    "intro": "Portable extinguishers are the one piece of business fire protection you can buy over the counter, but what you need, how many, and where they hang is set by the fire code: NFPA 10 in the US, and NFPA 10 adopted through the National Fire Code of Canada and provincial codes. The right extinguisher depends on the fire class: ABC dry chemical for general use, CO2 or clean agent where residue would ruin equipment, Class K in kitchens, Class D for combustible metals. Most businesses buy and service them through a local fire equipment company, which also does the required monthly-check tags and annual maintenance.",
+    "buyingNotes": [
+      "Size and spacing come from NFPA 10, by hazard and floor area. A fire equipment company will lay them out; a big-box store will not.",
+      "Annual maintenance by a qualified technician is required, plus periodic internal examination and hydrostatic testing that depends on the extinguisher type.",
+      "Do not use water or foam on energised electrical equipment unless the unit is rated for it. Water mist extinguishers carry a C rating; ordinary water does not.",
+      "Be sceptical of 'lithium-ion' extinguishers. There is no recognised North American performance standard for them yet.",
+      "Training matters as much as the hardware. Workplace safety rules in both countries expect staff who are expected to use extinguishers to be trained."
+    ]
+  },
+  {
+    "slug": "emergency-lighting-and-doors",
+    "name": "Emergency Lighting, Exit Signs & Fire Doors",
+    "short": "Lighting & doors",
+    "zone": "people",
+    "icon": "exit",
+    "pillar": "business",
+    "photo": "go-bags-and-evacuation",
+    "tagline": "The unglamorous parts of a building that decide whether people find the way out.",
+    "intro": "Emergency lights, exit signs and fire doors are passive, cheap per unit and routinely neglected. Exit signs differ between the two countries: Canada's building code has required the green running-man pictogram in new construction since 2010, while most US jurisdictions still use red or green EXIT wording. Fire doors and the closers, latches and hold-open devices on them are part of a rated assembly, and a wedge under one breaks it. These are bought through electrical wholesalers, door-hardware suppliers and fire equipment companies, and inspected on a fixed schedule.",
+    "buyingNotes": [
+      "Test emergency lighting monthly and do a full-duration test annually. Batteries are the usual failure.",
+      "Buy the sign your jurisdiction requires. A red EXIT sign is non-compliant in new Canadian construction.",
+      "Never wedge a fire door open. If it needs to stay open, fit a listed hold-open device that releases on alarm.",
+      "Fire door assemblies are inspected annually under NFPA 80. Damaged closers, missing latches and added hardware are the usual failures."
+    ]
+  },
+  {
+    "slug": "battery-and-ev-safety",
+    "name": "Battery & EV Fire Safety",
+    "short": "Battery & EV",
+    "zone": "structure",
+    "icon": "battery",
+    "pillar": "business",
+    "photo": "ember-resistant-vents",
+    "tagline": "A fast-growing hazard where the products are ahead of the standards.",
+    "intro": "Lithium-ion batteries in tools, scooters, e-bikes, energy storage and vehicles fail differently from ordinary fires: thermal runaway generates its own heat and flammable gases and can reignite hours later. Storage cabinets, charging rules and EV fire blankets are sensible tools, but much of the market is ahead of the standards, and some claims are not backed by any recognised test. Treat this category as risk reduction around storage, charging and separation, not as a product that makes the risk go away.",
+    "buyingNotes": [
+      "Charge and store packs away from exits and combustibles, and stop using any battery that is swollen, damaged or has been in a crash.",
+      "Ask storage-cabinet makers what test the cabinet was built to and for a copy of the report. A metal box is not automatically a fire-rated one.",
+      "EV fire blankets are a containment tool for trained responders, not an extinguisher.",
+      "Large battery energy storage installations fall under NFPA 855 in the US and electrical and fire code rules in Canada. Involve the authority having jurisdiction early."
     ]
   }
 ]

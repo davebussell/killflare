@@ -2,31 +2,32 @@
 import Base from '../layouts/Base.astro';
 import { CONTACT_EMAIL, HAS_AFFILIATE_TAGS } from '../config';
 ---
-<Base title="About" description="Who runs Killflare, how we choose products, and how the site makes money.">
+<Base title="About" description="Who runs Killflare, how we research fire protection products, systems and contractors, and how the site makes money.">
   <section class="section">
     <div class="wrap">
       <span class="eyebrow eyebrow--ember">About</span>
       <h1>About Killflare</h1>
       <div class="prose about">
-        <p class="lede">Killflare exists because the advice about protecting a home from wildfire is excellent — FireSmart Canada, NFPA Firewise, CAL FIRE and the insurance research labs have done the work — but it stops at "install ember-resistant vents" without telling you which ones, or that a sprinkler kit is only as good as the water behind it. We connect the guidance to the shopping list.</p>
+        <p class="lede">Killflare explains fire protection for homes and businesses in Canada and the United States: what each product and system does, what the codes require, what it costs to buy and to keep compliant, where it is actually bought, and who installs and services it. The official guidance from NFPA, FireSmart Canada, CAL FIRE, the national codes and the insurance research labs is excellent, but it rarely tells you which product to buy, which trade to call, or what the annual inspection will cost. That is the gap we fill.</p>
 
-        <h2 id="how-we-pick">How we choose products</h2>
-        <p>We start from what the fire-science organisations recommend, then look for the products that meet those standards — WUI listings for vents, all-metal construction for sprinklers, NIOSH approval for respirators — and that are actually stocked in Canada and the United States. Where the best product is a commodity (a brass impact sprinkler, a roll of 1/8 in mesh) we say so rather than inventing a brand preference.</p>
-        <p>We show price bands ($ to $$$$) rather than prices, because prices change daily, differ between Amazon.ca and Amazon.com, and spike during fire season. Check the retailer for today's number.</p>
+        <h2 id="how-we-work">How we research</h2>
+        <p>We start from the codes and standards (NFPA, the National Building and Fire Codes of Canada, UL and ULC listings) and from published research, then look at the products and systems that meet them and are actually sold in Canada and the US. Every guide states its sources, gives costs as dated planning ranges in both currencies, and says plainly where the evidence is thin, contested or mid-rulemaking. Where no reliable public figure exists, we say so rather than invent one.</p>
+        <p>Contractor listings are checked against each company's own website, and each listing records when and what we checked. A listing is not an endorsement. Licences and credentials are as each company states them, so verify them yourself before you sign.</p>
+        <p>Where the best product is a commodity, we say so. Where a product is oversold (fire-extinguishing balls, unlisted aerosol cans, "lithium-ion extinguishers" with no recognised standard), we say that too.</p>
 
         <h2 id="disclosure">How we make money</h2>
         {HAS_AFFILIATE_TAGS ? (
-          <p>Killflare is reader-supported. Links marked as affiliate links go to Amazon and other retailers; if you buy through them we earn a small commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. Links marked as direct links go straight to the manufacturer and earn us nothing.</p>
+          <p>Killflare is reader-supported. Links marked as affiliate links go to Amazon and other retailers; if you buy through them we earn a small commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. Links to manufacturers, contractors and official bodies earn us nothing.</p>
         ) : (
-          <p>Killflare is reader-supported, but not yet earning. We have applied to retailer affiliate programs and are not currently accepted into any, so every link on this site earns us nothing today. When that changes we will say so here, and affiliate links will be labelled as such on the page. Our only current revenue is the <a href="/alerts/">$1/month Priority Alerts</a> subscription.</p>
+          <p>Killflare is reader-supported, but not yet earning. Links on this site earn us nothing today. When that changes we will say so here, and affiliate links will be labelled as such on the page.</p>
         )}
-        <p>We don't sell products, hold inventory, or accept payment for placement. No manufacturer sees a page before it's published. If a product stops being a good recommendation, it comes off the site.</p>
+        <p>We don't sell products, hold inventory, or accept payment for product placement or contractor listings. No manufacturer or contractor sees a page before it's published. If a product stops being a good recommendation, it comes off the site.</p>
 
         <h2 id="safety">A note on safety</h2>
-        <p>Nothing on this site is a reason to stay in a home under evacuation order. Every product here is meant to be set up ahead of time and left to work while you leave early. Follow the instructions of your local fire authority over anything you read here.</p>
+        <p>Nothing here is engineering advice or a substitute for your authority having jurisdiction: the local fire department, building department or fire marshal decides what your building needs. In a fire, get out and call 911. Nothing on this site is a reason to stay in a building under an evacuation order.</p>
 
         <h2 id="contact">Contact</h2>
-        <p>Corrections, product suggestions and questions: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+        <p>Corrections, product suggestions, contractor listings and questions: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
       </div>
     </div>
   </section>

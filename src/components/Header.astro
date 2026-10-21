@@ -2,27 +2,34 @@
 import Logo from './Logo.astro';
 const path = Astro.url.pathname;
 const nav = [
-  { href: '/categories/', label: 'Wildfire gear' },
-  { href: '/home-safety/', label: 'Home safety' },
-  { href: '/regions/', label: 'Regions' },
-  { href: '/live-map/', label: 'Live map' },
-  { href: '/install/', label: 'Install' },
+  { href: '/home-safety/', label: 'Home' },
+  { href: '/business/', label: 'Business' },
+  { href: '/wildfire/', label: 'Wildfire' },
+  { href: '/contractors/', label: 'Contractors' },
   { href: '/guides/', label: 'Guides' },
-  { href: '/start-here/', label: 'Start' },
+  { href: '/live-map/', label: 'Live map' },
   { href: '/about/', label: 'About' },
 ];
+// Category, product and region pages light up the pillar they belong to.
+const pillarOf = (Astro.props as any).pillar as string | undefined;
+const active = (href: string) =>
+  path.startsWith(href) ||
+  (pillarOf === 'home' && href === '/home-safety/') ||
+  (pillarOf === 'business' && href === '/business/') ||
+  (pillarOf === 'wildfire' && href === '/wildfire/') ||
+  (path.startsWith('/regions/') && href === '/wildfire/');
 ---
 <header class="hdr">
   <div class="wrap hdr__in">
     <a href="/" class="hdr__brand" aria-label="Killflare home"><Logo /></a>
     <nav class="hdr__nav" aria-label="Primary">
       {nav.map((n) => (
-        <a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}>{n.label}</a>
+        <a href={n.href} aria-current={active(n.href) ? 'page' : undefined}>{n.label}</a>
       ))}
     </nav>
   </div>
   <div class="hdr__strip" role="note">
-    <div class="wrap">Reader-supported. Some links are affiliate links — see our <a href="/about/#disclosure">disclosure</a>. Evacuate when ordered; no product replaces leaving early.</div>
+    <div class="wrap">Independent and reader-supported. Some links are affiliate links — see our <a href="/about/#disclosure">disclosure</a>. Codes vary by province, state and city: confirm with your local fire authority.</div>
   </div>
 </header>
 

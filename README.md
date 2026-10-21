@@ -1,6 +1,6 @@
 # killflare.com
 
-Wildfire home-defense product guide. Astro static site on Netlify (continuous deploy from `main`).
+Fire protection guide for homes and businesses (Canada + US). Astro static site on Netlify (continuous deploy from `main`).
 
 ## Local
 
@@ -57,43 +57,29 @@ fuel type, area burned for recent seasons, provincial agency and program links, 
 array of category slugs, and 6–9 authored sections. Rendered by `/regions/` and
 `/regions/[slug]`. Figures were checked September 2026 and should be refreshed each spring.
 
-## Installers
 
-`src/data/installers.json` holds two arrays:
+## Contractors
 
-- `companies` — only businesses verified against their own website. Each carries a `verified`
-  string saying when and what was checked, plus `services` (`install` / `equipment` /
-  `consulting` / `assessment`) which drives which section it appears in.
-- `programs` — official provincial and municipal FireSmart assessment and rebate programs,
-  keyed by province code.
+`src/data/contractors.json` (built from research files, Oct 2026):
 
-Do not add a company without checking its site and recording it in `verified`. Fabricated or
-stale listings are the fastest way to lose a directory's credibility.
+- `services` — 12 contractor types (sprinklers, alarms, monitoring, extinguishers, kitchen,
+  special-hazard, engineering, training, chimney, wildfire, emergency-lighting, firestopping),
+  each with what/whoNeeds/standards{CA,US}/frequency/credentials{CA,US}/cost/vet/sources.
+- `companies` — every listing verified against the company's own site; `verified` records what
+  was checked and when. `regions` uses `CA-BC` / `US-CA` keys (US "CA" is California).
+- `regions`, `associations`, `programs` (free wildfire assessment / rebate programs).
 
-The "get listed" form uses Netlify Forms (`data-netlify="true"`). Submissions appear under
-Forms in the Netlify dashboard for the killflare project. No backend needed.
+Pages: `/contractors/`, `/contractors/<service>/`, `/contractors/in/<region>/`.
+Do not add a company without checking its own site and recording it in `verified`.
 
-## Priority Alerts ($1/month)
+## Pillars
 
-`/alerts/` is the paid supplementary alert offer, $1/month via PayPal Subscriptions.
+Categories carry `pillar`: `home`, `business` or `wildfire`. Hubs: `/home-safety/`,
+`/business/`, `/wildfire/`; `/categories/` lists everything. Business products carry extra
+guide fields: `standards`, `whoNeeds`, `caveats`, `sources`, `costNote`.
 
-The flow is three pages:
-
-1. `/alerts/` — the offer. Renders the PayPal Smart Button from the JS SDK against plan
-   `P-5RF71429A82783118NKRSRVQ`. The `client-id` in the SDK URL is a publishable browser key,
-   not a secret, so it is fine in the repo.
-2. `/alerts/welcome/` — where PayPal sends the subscriber after approval, with the
-   subscription id on the query string as `?sub=`. PayPal hands over name and email but NOT
-   phone or postal code, and the service cannot function without those, so this page collects
-   them via a Netlify form (`alert-details`) with the subscription id in a hidden field.
-3. `/alerts/thanks/` — confirmation.
-
-To change the plan or account, edit `PAYPAL_PLAN_ID` / `PAYPAL_CLIENT_ID` at the top of
-`src/pages/alerts/index.astro`. Submissions land under Forms in the Netlify dashboard.
-
-The safety disclaimer near the top is not decorative. This service could be relied on during an
-emergency, so the page states plainly that it supplements official alerts, never replaces them,
-and that delivery can fail. Do not soften that copy.
+Retired Oct 2026 (redirects in `public/_redirects`): the paid Priority Alerts offer, smoke &
+air quality, go-bags, power stations, cameras, and the go-bag and smoke-season guides.
 
 ## Live data (fire map + Amazon images)
 

@@ -1,40 +1,54 @@
 ---
 import Base from '../../layouts/Base.astro';
 import CatIcon from '../../components/CatIcon.astro';
-import Photo from '../../components/Photo.astro';
 import categories from '../../data/categories.json';
 import products from '../../data/products.json';
+const pillars = [
+  { key: 'home', label: 'Home', href: '/home-safety/', blurb: 'Alarms, extinguishers, sprinklers, kitchens, heating, electrical and escape.' },
+  { key: 'business', label: 'Business', href: '/business/', blurb: 'Sprinkler, kitchen, clean agent and alarm systems, extinguishers and life-safety hardware.' },
+  { key: 'wildfire', label: 'Wildfire', href: '/wildfire/', blurb: 'Vents, gutters, exterior sprinklers, retardant, pumps and defensible space.' },
+];
 ---
-<Base title="Wildfire gear" description="Every category of wildfire home defense equipment we cover — from exterior sprinklers and fire gel to respirators and weather radios.">
+<Base title="All products and systems" description="Every fire protection product and system Killflare covers, for homes, businesses and wildfire-exposed properties, with what it costs and where it is bought.">
   <section class="section">
     <div class="wrap">
-      <span class="eyebrow eyebrow--ember">Wildfire gear</span>
-      <h1>Wildfire home defense</h1>
-      <p class="lede">Grouped by what they protect: the structure, the yard around it, or the people inside. For alarms, monitoring, water supply and the everyday causes of house fires, see <a href="/home-safety/">home fire safety</a>.</p>
-      <div class="grid grid--3 cats">
-        {categories.filter((c) => c.pillar === 'wildfire').map((c) => {
-          const n = products.filter((p) => p.category === c.slug).length;
-          return (
-            <a href={`/categories/${c.slug}/`} class={`card cat zone-${c.zone}`}>
-              <Photo name={c.photo} ratio="16 / 8" sizes="(max-width: 700px) 100vw, 30vw" credit={false} className="cat__img" />
-              <div class="cat__icon"><CatIcon name={c.icon} size={28} /></div>
-              <h3>{c.name}</h3>
-              <p>{c.tagline}</p>
-              <span class="cat__n mono">{n} {n === 1 ? 'pick' : 'picks'}</span>
-            </a>
-          );
-        })}
+      <span class="eyebrow eyebrow--ember">Everything we cover</span>
+      <h1>All products and systems</h1>
+      <p class="lede">{products.length} products and systems in {categories.length} categories. Each has a full guide: how it works, what the code says, what it costs over five years, and where it is actually bought.</p>
+      <div class="pillars">
+        {pillars.map((pl) => (
+          <section class={`pl pl--${pl.key}`}>
+            <h2><a href={pl.href}>{pl.label} →</a></h2>
+            <p>{pl.blurb}</p>
+            <ul>
+              {categories.filter((c) => c.pillar === pl.key).map((c) => {
+                const ps = products.filter((p) => p.category === c.slug);
+                return (
+                  <li class={`zone-${c.zone}`}>
+                    <a href={`/categories/${c.slug}/`} class="pl__cat"><CatIcon name={c.icon} size={20} /> {c.name} <span class="mono">{ps.length}</span></a>
+                    <ul class="pl__prods">{ps.map((p) => <li><a href={`/products/${p.slug}/`}>{p.name}</a></li>)}</ul>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        ))}
       </div>
     </div>
   </section>
 </Base>
 <style>
-  .lede { color: var(--ink-2); margin: 0.75rem 0 2rem; font-size: 1.1rem; }
-  .cat { padding: 0 0 1.25rem; gap: 0.5rem; border-top: 4px solid var(--zone); }
-  .cat > :global(.cat__img) { margin-bottom: 0.9rem; }
-  .cat > :not(.cat__img) { padding-inline: 1.25rem; }
-  .cat__icon { color: var(--zone); }
-  .cat h3 { text-transform: none; }
-  .cat p { font-size: 0.93rem; color: var(--ink-2); }
-  .cat__n { margin-top: auto; padding-top: 0.5rem; font-size: 0.72rem; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.1em; }
+  .lede { color: var(--ink-2); margin: 0.75rem 0 2rem; font-size: 1.1rem; max-width: var(--measure); }
+  .pillars { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+  .pl h2 { font-size: 1.4rem; border-bottom: 2px solid var(--ink); padding-bottom: 0.4rem; }
+  .pl h2 a { text-decoration: none; }
+  .pl > p { color: var(--ink-2); font-size: 0.93rem; margin: 0.6rem 0 1rem; }
+  .pl ul { list-style: none; margin: 0; padding: 0; }
+  .pl > ul > li { padding: 0.6rem 0; border-bottom: 1px solid var(--line); }
+  .pl__cat { display: flex; align-items: center; gap: 0.5rem; font-weight: 600; text-decoration: none; color: var(--ink); }
+  .pl__cat :global(svg) { color: var(--zone); flex: none; }
+  .pl__cat .mono { margin-left: auto; font-size: 0.72rem; color: var(--ink-3); }
+  .pl__prods { margin-top: 0.35rem !important; padding-left: 1.75rem !important; display: grid; gap: 0.2rem; }
+  .pl__prods a { font-size: 0.88rem; color: var(--ink-2); text-decoration: none; }
+  .pl__prods a:hover { color: var(--ember); text-decoration: underline; }
 </style>

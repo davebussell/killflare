@@ -1,0 +1,156 @@
+---
+import Base from '../../layouts/Base.astro';
+import CompanyCard from '../../components/CompanyCard.astro';
+import categories from '../../data/categories.json';
+import { services, companies, programs, groupByRegion, regionByKey, SERVICE_CATEGORIES, SERVICE_SHORT } from '../../lib/contractors';
+import { article, breadcrumbs, graph } from '../../lib/ld';
+
+export function getStaticPaths() {
+  return services.map((s) => ({ params: { service: s.key }, props: { s } }));
+}
+const { s } = Astro.props;
+const list = companies.filter((c) => c.services.includes(s.key));
+const groups = groupByRegion(list);
+const cats = (SERVICE_CATEGORIES[s.key] ?? []).map((k) => categories.find((c) => c.slug === k)).filter(Boolean) as any[];
+const progs = s.key === 'wildfire' ? programs : [];
+const others = services.filter((x) => x.key !== s.key);
+const path = `/contractors/${s.key}/`;
+const jsonLd = graph(article({ path, headline: s.name, description: s.what }), breadcrumbs([['Contractors', '/contractors/'], [s.name, path]]));
+---
+<Base title={s.name} description={`${s.what.split('. ')[0]}. Codes, licences, inspection schedules, costs and verified ${SERVICE_SHORT[s.key].toLowerCase()} contractors in Canada and the US.`}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <article class="section svc">
+    <div class="wrap">
+      <nav class="crumb mono" aria-label="Breadcrumb"><a href="/contractors/">Contractors</a> / {SERVICE_SHORT[s.key]}</nav>
+      <h1>{s.name}</h1>
+      <p class="lede">{s.what}</p>
+      <p class="jump mono"><a href="#companies">{list.length} verified {list.length === 1 ? 'company' : 'companies'} ↓</a></p>
+
+      <div class="facts">
+        <section>
+          <h2>Who needs one</h2>
+          <p>{s.whoNeeds}</p>
+        </section>
+        <section>
+          <h2>How often</h2>
+          <p>{s.frequency}</p>
+        </section>
+        <section>
+          <h2>What it costs</h2>
+          <p>{s.cost}</p>
+        </section>
+      </div>
+
+      <div class="cols">
+        <section>
+          <h2>Codes and standards</h2>
+          <dl>
+            <dt>Canada</dt><dd>{s.standards.CA}</dd>
+            <dt>United States</dt><dd>{s.standards.US}</dd>
+          </dl>
+        </section>
+        <section>
+          <h2>Licences and credentials to look for</h2>
+          <dl>
+            <dt>Canada</dt><dd>{s.credentials.CA}</dd>
+            <dt>United States</dt><dd>{s.credentials.US}</dd>
+          </dl>
+        </section>
+      </div>
+
+      <section class="vet">
+        <h2>Questions to ask and red flags</h2>
+        <ul>{s.vet.map((v: string) => <li>{v}</li>)}</ul>
+      </section>
+
+      {cats.length > 0 && (
+        <p class="rel">What they install or service: {cats.map((c, i) => <>{i > 0 && ' · '}<a href={`/categories/${c.slug}/`}>{c.name}</a></>)}</p>
+      )}
+    </div>
+  </article>
+
+  {progs.length > 0 && (
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="section-head"><h2>Free and subsidised assessment programs</h2><p>Start here before hiring anyone</p></div>
+        <ul class="progs">
+          {progs.map((p: any) => (
+            <li><span class="mono">{regionByKey(p.region)?.code}</span><div><a href={p.url} rel="noopener" target="_blank">{p.name} ↗</a><p>{p.note}</p></div></li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+
+  <section class="section section--tight" id="companies">
+    <div class="wrap">
+      <div class="section-head"><h2>Verified companies</h2><p>{list.length} listed · checked against their own websites, October 2026</p></div>
+      {groups.length > 1 && <p class="rjump mono">Jump to: {groups.map((g, i) => <>{i > 0 && ' · '}<a href={`#r-${g.region.slug}`}>{g.region.name}</a></>)}</p>}
+      {groups.length === 0 && <p class="muted">We have not yet verified any companies for this service. Use the trade associations on the <a href="/contractors/">contractors page</a>.</p>}
+      {groups.map((g) => (
+        <div class="reg" id={`r-${g.region.slug}`}>
+          <h3 class="reg__h"><a href={`/contractors/in/${g.region.slug}/`}>{g.region.name}</a> <span class="mono">{g.region.country === 'CA' ? 'Canada' : 'US'}</span></h3>
+          {g.metros.map((m) => (
+            <div class="metro">
+              <h4 class="mono">{m.metro}</h4>
+              <div class="cogrid">{m.cos.map((c) => <CompanyCard co={c} highlight={s.key} />)}</div>
+            </div>
+          ))}
+        </div>
+      ))}
+    </div>
+  </section>
+
+  {s.sources?.length > 0 && (
+    <section class="section section--tight">
+      <div class="wrap">
+        <details class="srcs">
+          <summary>Sources for this guide ({s.sources.length})</summary>
+          <ol>{s.sources.map((u: string) => <li><a href={u} rel="noopener nofollow" target="_blank">{u.replace(/^https?:\/\/(www\.)?/, '')}</a></li>)}</ol>
+        </details>
+      </div>
+    </section>
+  )}
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="section-head"><h2>Other contractor types</h2></div>
+      <ul class="others">{others.map((o) => <li><a href={`/contractors/${o.key}/`}>{o.name}</a></li>)}</ul>
+    </div>
+  </section>
+</Base>
+<style>
+  .svc { padding-bottom: 1rem; }
+  .crumb { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-3); margin-bottom: 1.25rem; }
+  .crumb a { color: inherit; text-decoration: none; }
+  .lede { color: var(--ink-2); margin: 0.75rem 0 0.75rem; font-size: 1.12rem; max-width: var(--measure); }
+  .jump a { font-size: 0.8rem; color: var(--ember); }
+  .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 0; border: 1px solid var(--line); background: var(--surface); margin: 2rem 0; }
+  .facts section { padding: 1.2rem 1.3rem; border-top: 3px solid var(--ember); }
+  .facts h2, .cols h2, .vet h2 { font-size: 1.05rem; margin-bottom: 0.5rem; }
+  .facts p { font-size: 0.93rem; color: var(--ink-2); }
+  .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+  .cols dl { margin: 0; display: grid; gap: 0.35rem; }
+  .cols dt { font-family: var(--mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-3); margin-top: 0.5rem; }
+  .cols dd { margin: 0; font-size: 0.93rem; color: var(--ink-2); }
+  .vet { margin-top: 2rem; max-width: 860px; }
+  .vet ul { margin: 0; padding-left: 1.2rem; display: grid; gap: 0.45rem; color: var(--ink-2); }
+  .rel { margin-top: 1.5rem; font-size: 0.95rem; }
+  .progs { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; border-top: 1px solid var(--line); }
+  .progs li { display: grid; grid-template-columns: 2.5rem 1fr; gap: 0.75rem; padding: 0.8rem 0; border-bottom: 1px solid var(--line); }
+  .progs .mono { font-size: 0.75rem; color: var(--ember); padding-top: 0.2rem; }
+  .progs p { font-size: 0.9rem; color: var(--ink-2); margin-top: 0.2rem; }
+  .reg { margin-bottom: 2rem; }
+  .reg__h { font-size: 1.25rem; display: flex; align-items: baseline; gap: 0.75rem; border-bottom: 1px solid var(--ink); padding-bottom: 0.35rem; margin-bottom: 0.9rem; }
+  .reg__h a { text-decoration: none; }
+  .reg__h .mono { font-size: 0.7rem; color: var(--ink-3); }
+  .metro h4 { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-3); margin: 1rem 0 0.6rem; }
+  .cogrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+  .srcs summary { cursor: pointer; font-weight: 600; }
+  .srcs ol { margin-top: 0.75rem; font-size: 0.85rem; display: grid; gap: 0.25rem; }
+  .srcs a { color: var(--ink-2); overflow-wrap: anywhere; }
+  .others { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+  .muted { color: var(--ink-3); }
+  .rjump { font-size: 0.78rem; line-height: 1.9; margin-bottom: 1.5rem; color: var(--ink-3); }
+  .reg { scroll-margin-top: 1rem; }
+</style>

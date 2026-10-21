@@ -94,8 +94,7 @@
     "priorities": [
       "ember-resistant-vents",
       "exterior-sprinklers",
-      "defensible-space-tools",
-      "go-bags-and-evacuation"
+      "defensible-space-tools"
     ],
     "lede": "Alberta learned its lesson expensively at Fort McMurray in 2016 and has been rebuilding policy around it ever since. The province's legislated fire season starts on 1 March — earlier than most homeowners expect.",
     "sections": [
@@ -162,9 +161,8 @@
     },
     "priorities": [
       "ember-resistant-vents",
-      "go-bags-and-evacuation",
       "exterior-sprinklers",
-      "detection-and-alerts"
+      "home-fire-monitoring"
     ],
     "lede": "Saskatchewan's 2025 season burned nearly 2.93 million hectares and destroyed the community of Denare Beach. If you live north of the grain belt, this is not a theoretical risk.",
     "sections": [
@@ -230,10 +228,8 @@
       "url": "https://www.gov.mb.ca/wildfire/resources.html"
     },
     "priorities": [
-      "go-bags-and-evacuation",
       "ember-resistant-vents",
-      "detection-and-alerts",
-      "smoke-and-air-quality"
+      "home-fire-monitoring"
     ],
     "lede": "Manitoba burned more than any other province in 2025 and lost two residents at Lac du Bonnet in May. The province declared two states of emergency in a single season.",
     "sections": [
@@ -300,8 +296,6 @@
     },
     "priorities": [
       "ember-resistant-vents",
-      "smoke-and-air-quality",
-      "go-bags-and-evacuation",
       "gutter-and-roof"
     ],
     "lede": "Ontario's fire problem is concentrated in the northwest, but its smoke problem is province-wide. Toronto has repeatedly ranked among the worst air quality in the world during recent seasons.",
@@ -369,8 +363,6 @@
     },
     "priorities": [
       "ember-resistant-vents",
-      "smoke-and-air-quality",
-      "go-bags-and-evacuation",
       "defensible-space-tools"
     ],
     "lede": "Quebec burned 5.2 million hectares in 2023 — the largest single-province total in Canadian record — then had one of its quietest seasons on record in 2025. Both facts should inform how you plan.",
@@ -439,8 +431,7 @@
     "priorities": [
       "ember-resistant-vents",
       "gutter-and-roof",
-      "defensible-space-tools",
-      "go-bags-and-evacuation"
+      "defensible-space-tools"
     ],
     "lede": "New Brunswick is the most heavily forested province in Canada by proportion, and its interface risk is quietly growing as rural residential development spreads into softwood plantation.",
     "sections": [
@@ -507,9 +498,7 @@
     },
     "priorities": [
       "ember-resistant-vents",
-      "gutter-and-roof",
-      "go-bags-and-evacuation",
-      "smoke-and-air-quality"
+      "gutter-and-roof"
     ],
     "lede": "Nova Scotia is the province most likely to be underestimated by its own residents. In 2023 fire destroyed roughly 151 houses in suburban Halifax and burned the largest area in provincial history in Shelburne County.",
     "sections": [
@@ -577,7 +566,6 @@
     "priorities": [
       "gutter-and-roof",
       "ember-resistant-vents",
-      "smoke-and-air-quality",
       "fire-extinguishers"
     ],
     "lede": "PEI recorded no wildfire area burned in 2025 and has the lowest wildfire risk in Canada. It still imposed a fire ban in August, and post-Fiona blowdown has changed the fuel picture.",
@@ -646,7 +634,6 @@
     "priorities": [
       "ember-resistant-vents",
       "gutter-and-roof",
-      "go-bags-and-evacuation",
       "exterior-sprinklers"
     ],
     "lede": "The 2025 Kingston fire destroyed 203 structures on the Avalon — the worst structural wildfire loss in the province's modern history, in communities that had never planned for one.",
@@ -713,9 +700,8 @@
       "url": "https://wildfires.service.yukon.ca/"
     },
     "priorities": [
-      "go-bags-and-evacuation",
       "ember-resistant-vents",
-      "detection-and-alerts",
+      "home-fire-monitoring",
       "defensible-space-tools"
     ],
     "lede": "Yukon's fires are large and mostly remote, but the territory's communities are small, dispersed and connected by single highways — which turns a distant fire into an access problem quickly.",
@@ -782,10 +768,8 @@
       "url": "https://www.enr.gov.nt.ca/en/services/wildfire-update"
     },
     "priorities": [
-      "go-bags-and-evacuation",
-      "detection-and-alerts",
-      "ember-resistant-vents",
-      "smoke-and-air-quality"
+      "home-fire-monitoring",
+      "ember-resistant-vents"
     ],
     "lede": "In August 2023, 68 percent of the Northwest Territories' population was under evacuation order, including all of Yellowknife. Enterprise was 85 to 90 percent destroyed. Nowhere in Canada has a higher per-capita wildfire exposure.",
     "sections": [
@@ -851,10 +835,8 @@
       "url": "https://www.gov.nu.ca/en/environment-and-wildlife"
     },
     "priorities": [
-      "smoke-and-air-quality",
       "fire-extinguishers",
-      "detection-and-alerts",
-      "go-bags-and-evacuation"
+      "home-fire-monitoring"
     ],
     "lede": "Nunavut sits almost entirely above the treeline and has no wildfire program, because it has essentially no wildfire. The territory's fire risk is structural, and its wildfire exposure is imported smoke.",
     "sections": [

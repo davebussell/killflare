@@ -7,13 +7,14 @@ interface Props {
   title: string;
   description: string;
   ogType?: string;
+  pillar?: string;
 }
-const { title, description, ogType = 'website' } = Astro.props;
+const { title, description, ogType = 'website', pillar } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 // Search results cut titles at ~60 characters: only add the brand suffix if it fits.
 const fullTitle =
   title === 'Killflare'
-    ? 'Killflare — Wildfire Home Defense Supplies, Reviewed'
+    ? 'Killflare — Fire Protection for Homes & Businesses'
     : `${title} · Killflare`.length <= 60 ? `${title} · Killflare` : title;
 // Meta descriptions are truncated past ~160 characters: cut at the last full
 // sentence that fits, else at a word boundary with an ellipsis.
@@ -42,7 +43,7 @@ const siteLd = {
       name: 'Killflare',
       url: new URL('/', Astro.site).href,
       logo: new URL('/og-default.png', Astro.site).href,
-      description: 'Wildfire home defense supplies, reviewed — ember-resistant gear, defensible space tools and alerts.',
+      description: 'Independent guides to fire protection for homes and businesses in Canada and the US: suppression systems, detection, extinguishers, wildfire hardening and the contractors who install and service them.',
     },
     {
       '@type': 'WebSite',
@@ -82,7 +83,7 @@ const siteLd = {
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400&family=IBM+Plex+Mono:wght@400;500&display=swap" />
   </head>
   <body>
-    <Header />
+    <Header pillar={pillar} />
     <main id="main">
       <slot />
     </main>

@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import CatIcon from '../../components/CatIcon.astro';
 import regions from '../../data/regions.json';
 import categories from '../../data/categories.json';
-import installers from '../../data/installers.json';
+import { companies, programs, regions as cRegions } from '../../lib/contractors';
 import { article, breadcrumbs, graph } from '../../lib/ld';
 
 export function getStaticPaths() {
@@ -11,8 +11,9 @@ export function getStaticPaths() {
 }
 const { r } = Astro.props;
 const cats = r.priorities.map((s: string) => categories.find((c) => c.slug === s)).filter(Boolean);
-const progs = installers.programs.filter((p: any) => p.province === r.code);
-const cos = installers.companies.filter((c: any) => c.provinces.includes(r.code));
+const progs = programs.filter((p: any) => p.region === `CA-${r.code}`);
+const cos = companies.filter((c: any) => c.regions.includes(`CA-${r.code}`));
+const cRegion = cRegions.find((x) => x.key === `CA-${r.code}`);
 const others = regions.filter((x) => x.slug !== r.slug);
 const riskClass = r.risk.toLowerCase().replace(' ', '-');
 const path = `/regions/${r.slug}/`;
@@ -21,7 +22,7 @@ const jsonLd = graph(
   breadcrumbs([['Regions', '/regions/'], [r.name, path]]),
 );
 ---
-<Base title={`${r.name} wildfire guide`} description={`Wildfire preparedness for ${r.name}: fire season, fuel types, recent fires, ${r.program.name}, and the gear that matters most locally.`} ogType="article">
+<Base pillar="wildfire" title={`${r.name} wildfire guide`} description={`Wildfire preparedness for ${r.name}: fire season, fuel types, recent fires, ${r.program.name}, and the gear that matters most locally.`} ogType="article">
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <article class={`reg risk-${riskClass}`}>
     <div class="wrap">
@@ -90,25 +91,13 @@ const jsonLd = graph(
       ) : <p class="muted">No province-specific program listed.</p>}
       {cos.length > 0 && (
         <p class="progs__more">
-          {cos.length} {cos.length === 1 ? 'company serves' : 'companies serve'} {r.short} —
-          <a href={`/install/#${r.code.toLowerCase()}`}> see the installer directory</a>.
+          {cos.length} verified fire protection {cos.length === 1 ? 'company serves' : 'companies serve'} {r.short}, {cos.filter((c: any) => c.services.includes('wildfire')).length} of them for wildfire work —
+          <a href={`/contractors/in/${cRegion?.slug}/`}> see contractors in {r.name}</a>.
         </p>
       )}
     </div>
   </section>
 
-  <section class="section section--tight">
-    <div class="wrap">
-      <aside class="aoffer">
-        <div>
-          <span class="eyebrow">Optional extra · $1/month</span>
-          <h2>Want a nudge when risk rises in {r.short}?</h2>
-          <p>Priority Alerts texts and emails you when fire activity or the danger rating changes near your postal code, plus seasonal reminders timed to {r.short}'s fire season. It supplements {r.agency.name} — it does not replace it.</p>
-        </div>
-        <a href="/alerts/" class="btn btn--ghost">How it works</a>
-      </aside>
-    </div>
-  </section>
 
   <section class="section section--tight">
     <div class="wrap">

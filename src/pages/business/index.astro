@@ -1,0 +1,45 @@
+---
+import Base from '../../layouts/Base.astro';
+import CategoryGrid from '../../components/CategoryGrid.astro';
+import contractors from '../../data/contractors.json';
+const svc = contractors.services.filter((s: any) => ['sprinklers','alarms','extinguishers','kitchen','special-hazard','monitoring'].includes(s.key));
+---
+<Base title="Business fire protection" description="Commercial sprinkler, kitchen, clean agent and special hazard systems, fire alarm and detection, extinguishers, emergency lighting and battery safety: what each does, what the code requires and how it is bought." pillar="business">
+  <section class="section">
+    <div class="wrap">
+      <span class="eyebrow eyebrow--ember">Business</span>
+      <h1>Fire protection for businesses and buildings</h1>
+      <p class="lede">Most business fire protection is required by the building and fire codes, installed by licensed contractors and inspected on a fixed schedule. Very little of it is bought off a shelf. These guides explain what each system does, which code asks for it, how it is actually bought and what it costs to keep it compliant, so you can talk to a contractor, an insurer or a fire inspector on equal terms.</p>
+      <div class="facts">
+        <div><span class="mono">01</span><p><strong>The code decides most of it.</strong> In Canada the National Building and Fire Codes, adopted province by province; in the US the IBC/IFC or NFPA 1 and 101, adopted by state and city. Your local fire authority has the final word.</p></div>
+        <div><span class="mono">02</span><p><strong>Installed systems are sold through contractors.</strong> Sprinkler, kitchen, clean agent and alarm systems come from authorized distributors and licensed installers, not retailers.</p></div>
+        <div><span class="mono">03</span><p><strong>Maintenance is where compliance fails.</strong> Closed valves, missed six-month kitchen inspections and lapsed monitoring cause more trouble than bad hardware.</p></div>
+      </div>
+      <CategoryGrid pillar="business" />
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="section-head"><h2>Who installs and services it</h2><p><a href="/contractors/">All contractor types →</a></p></div>
+      <ul class="svc">
+        {svc.map((s: any) => (
+          <li><a href={`/contractors/${s.key}/`}><strong>{s.name}</strong><span>{s.what.split('. ')[0]}.</span></a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</Base>
+<style>
+  .lede { color: var(--ink-2); margin: 0.75rem 0 1.75rem; font-size: 1.1rem; max-width: var(--measure); }
+  .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0; border: 1px solid var(--line); background: var(--surface); margin-bottom: 2.5rem; }
+  .facts > div { padding: 1.1rem 1.25rem; border-left: 3px solid var(--ember); }
+  .facts > div + div { border-top: 0; }
+  .facts .mono { font-size: 0.72rem; color: var(--ember); }
+  .facts p { font-size: 0.93rem; color: var(--ink-2); margin-top: 0.3rem; }
+  .facts strong { color: var(--ink); }
+  .svc { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0; border-top: 1px solid var(--line); }
+  .svc a { display: grid; gap: 0.25rem; padding: 1rem 0.25rem; border-bottom: 1px solid var(--line); text-decoration: none; }
+  .svc a:hover strong { color: var(--ember); }
+  .svc span { font-size: 0.9rem; color: var(--ink-2); }
+</style>

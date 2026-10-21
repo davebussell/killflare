@@ -11,10 +11,15 @@ export function getStaticPaths() {
 }
 const { cat } = Astro.props;
 const picks = products.filter((p) => p.category === cat.slug);
-const hub = cat.pillar === 'home' ? { href: '/home-safety/', label: 'Home safety' } : { href: '/categories/', label: 'Wildfire gear' };
-const zoneLabel = { structure: 'Structure', yard: 'Yard & zones', people: 'People & air' }[cat.zone];
+const hubs: Record<string, { href: string; label: string }> = {
+  home: { href: '/home-safety/', label: 'Home' },
+  business: { href: '/business/', label: 'Business' },
+  wildfire: { href: '/wildfire/', label: 'Wildfire' },
+};
+const hub = hubs[cat.pillar] ?? hubs.wildfire;
+const zoneLabel = cat.short;
 ---
-<Base title={cat.name} description={`${cat.tagline} Our picks and buying notes for ${cat.name.toLowerCase()}.`}>
+<Base title={cat.name} description={`${cat.tagline} What to buy, what the code requires and where it is bought: ${cat.name.toLowerCase()}.`} pillar={cat.pillar}>
   <div class={`catbanner zone-${cat.zone}`}>
     <Photo name={cat.photo} eager={true} ratio="21 / 6" sizes="100vw" />
   </div>
@@ -34,7 +39,7 @@ const zoneLabel = { structure: 'Structure', yard: 'Yard & zones', people: 'Peopl
 
   <section class="section section--tight">
     <div class="wrap">
-      <div class="section-head"><h2>Our picks</h2><p>{picks.length} {picks.length === 1 ? 'product' : 'products'} · price bands $ to $$$$</p></div>
+      <div class="section-head"><h2>{cat.pillar === 'business' ? 'Systems and products' : 'Our picks'}</h2><p>{picks.length} {picks.length === 1 ? 'guide' : 'guides'} · price bands $ to $$$$</p></div>
       <div class="grid grid--3">
         {picks.map((p) => <ProductCard product={p} />)}
       </div>

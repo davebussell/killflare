@@ -2,154 +2,157 @@
 import Base from '../layouts/Base.astro';
 import ProductCard from '../components/ProductCard.astro';
 import CatIcon from '../components/CatIcon.astro';
-import ZoneDiagram from '../components/ZoneDiagram.astro';
 import Photo from '../components/Photo.astro';
 import categories from '../data/categories.json';
 import products from '../data/products.json';
 import guides from '../data/guides.json';
-import regions from '../data/regions.json';
-const homeCats = categories.filter((c) => c.pillar === 'home');
+import { services, companies, regions as cRegions } from '../lib/contractors';
 
-const featuredSlugs = ['wasp-wildfire-protection-full-kit', 'phos-chek-home-defense', 'vulcan-vents', 'portable-gas-fire-pump', 'n95-p100-respirators', 'barricade-fire-gel'];
+const featuredSlugs = ['sealed-10-year-smoke-alarm', '10lb-abc-extinguisher', 'commercial-hood-wet-chemical', 'central-station-communicators', 'stainless-ember-mesh', 'wasp-wildfire-protection-full-kit'];
 const featured = featuredSlugs.map((s) => products.find((p) => p.slug === s)).filter(Boolean);
-const zones = [
-  { key: 'structure', label: 'Harden the structure', blurb: 'Vents, gutters, sprinklers, gel — what stops embers from getting in or igniting the walls.' },
-  { key: 'yard', label: 'Clear the zones', blurb: 'The tools for Zone 0 and Zone 1: the 10 metres that decide whether the house survives.' },
-  { key: 'people', label: 'Protect the people', blurb: 'Alerts, go-bags, respirators and clean indoor air for the weeks of smoke either side of a fire.' },
+const pillars = [
+  { key: 'home', label: 'Home', href: '/home-safety/', icon: 'home', blurb: 'Alarms, extinguishers, sprinklers, and the everyday causes: cooking, heating, wiring and batteries.' },
+  { key: 'business', label: 'Business', href: '/business/', icon: 'building', blurb: 'Sprinkler, kitchen, clean agent and alarm systems, extinguishers, emergency lighting: what the code requires and how it is bought.' },
+  { key: 'wildfire', label: 'Wildfire', href: '/wildfire/', icon: 'tree', blurb: 'Ember-resistant vents, gutters, exterior sprinklers, retardant, water and defensible space, by zone and by province.' },
 ];
+const count = (k: string) => products.filter((p) => categories.find((c) => c.slug === p.category)?.pillar === k).length;
+const regionCount = cRegions.filter((r) => r.count > 0).length;
+const recentGuides = guides.slice(-6).reverse();
 ---
-<Base title="Killflare" description="Independent, plain-language guides to wildfire home defense supplies — exterior sprinklers, fire gel, ember-resistant vents, pumps, go-bags and smoke protection — for homeowners in Canada and the US.">
+<Base title="Killflare" description="Independent guides to fire protection for homes and businesses in Canada and the US: what to buy, what to have installed, what the code requires, what it costs, and verified contractors by city.">
   <section class="hero">
     <div class="hero__bg"><Photo name="hero" eager={true} ratio="22 / 10" sizes="100vw" credit={false} /></div>
     <div class="wrap hero__in">
       <div class="hero__copy">
-        <span class="eyebrow eyebrow--ember">Wildfire home defense · Canada &amp; US</span>
-        <h1>Most homes are lost to embers.<br /><span class="hero__accent">Protect your Legacy</span></h1>
-        <p class="hero__lede">Killflare is a field guide to the equipment that keeps a house standing when the forest burns: what works, what's marketing, and what order to buy it in. Written for homeowners, organised around the Home Ignition Zone that FireSmart Canada and NFPA Firewise both use.</p>
+        <span class="eyebrow eyebrow--ember">Fire protection · Homes &amp; businesses · Canada &amp; US</span>
+        <h1>Most fire losses are decided before the fire starts.<br /><span class="hero__accent">Protect your Legacy</span></h1>
+        <p class="hero__lede">Killflare explains fire protection in plain language: which products and systems work, what your building code requires, what they cost to buy and to keep compliant, where they are actually sold, and which contractors install and service them.</p>
         <div class="hero__cta">
-          <a href="/start-here/" class="btn btn--ember">Start with the priority list</a>
-          <a href="/categories/" class="btn">Browse all gear</a>
+          <a href="/start-here/" class="btn btn--ember">Where to start</a>
+          <a href="/contractors/" class="btn">Find a contractor</a>
         </div>
       </div>
     </div>
-    <p class="hero__credit mono wrap">Hero photo <a href="https://unsplash.com/photos/kbTp7dBzHyY?utm_source=killflare&amp;utm_medium=referral" rel="noopener nofollow" target="_blank">Matt Palmer</a> / Unsplash
-    </p>
+    <p class="hero__credit mono wrap">Hero photo <a href="https://unsplash.com/photos/kbTp7dBzHyY?utm_source=killflare&amp;utm_medium=referral" rel="noopener nofollow" target="_blank">Matt Palmer</a> / Unsplash</p>
   </section>
 
   <section class="section section--tight">
     <div class="wrap">
-      <div class="zonewrap">
-        <div class="zonewrap__fig">
-          <ZoneDiagram />
-        </div>
-        <div class="zonewrap__copy">
-          <h2>Everything here maps to a zone</h2>
-          <p>FireSmart Canada and NFPA Firewise both work outward from the house: the closer to the walls, the stricter the rule. FireSmart calls them the Immediate Zone (the 1.5 m that must not burn), the Intermediate Zone (out to 10 m, which decides the outcome) and the Extended Zone (the thinning beyond). CAL FIRE numbers its own zones 0, 1 and 2 in feet. Every product on this site is filed by the zone it defends.</p>
-          <a href="/guides/home-ignition-zone-explained/" class="btn btn--ghost">Read the zone guide</a>
-        </div>
-      </div>
-      <div class="zones">
-        {zones.map((z) => (
-          <div class={`zone zone-${z.key}`}>
-            <h2 class="zone__h">{z.label}</h2>
-            <p>{z.blurb}</p>
-            <ul class="zone__cats">
-              {categories.filter((c) => c.pillar === 'wildfire' && c.zone === z.key).map((c) => (
-                <li><a href={`/categories/${c.slug}/`}><CatIcon name={c.icon} size={20} /> {c.name}</a></li>
-              ))}
+      <ul class="pillars">
+        {pillars.map((pl) => (
+          <li class={`pillar pillar--${pl.key}`}>
+            <a href={pl.href} class="pillar__head">
+              <span class="pillar__ico"><CatIcon name={pl.icon} size={30} /></span>
+              <span><span class="pillar__t">{pl.label}</span><span class="pillar__n mono">{count(pl.key)} guides</span></span>
+            </a>
+            <p>{pl.blurb}</p>
+            <ul class="pillar__cats">
+              {categories.filter((c) => c.pillar === pl.key).map((c) => <li><a href={`/categories/${c.slug}/`}>{c.short}</a></li>)}
             </ul>
-          </div>
+          </li>
         ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head"><h2>Three things most people get wrong</h2></div>
+      <div class="truths">
+        <article>
+          <span class="mono">Alarms</span>
+          <h3>The alarm is fine. The battery isn't.</h3>
+          <p>Most smoke alarm failures are missing or dead batteries. A sealed ten-year unit or a hardwired, interconnected system takes the human step out.</p>
+          <a href="/guides/smoke-and-co-alarms-what-the-law-says/">What to buy and what the law says →</a>
+        </article>
+        <article>
+          <span class="mono">Sprinklers</span>
+          <h3>Sprinklers rarely fail. Closed valves do.</h3>
+          <p>In NFPA's data, most sprinkler failures were systems that had been shut off before the fire. Inspection to NFPA 25 matters as much as the install.</p>
+          <a href="/contractors/sprinklers/">Sprinkler contractors and inspection schedules →</a>
+        </article>
+        <article>
+          <span class="mono">Wildfire</span>
+          <h3>Houses are lost to embers, not walls of flame.</h3>
+          <p>Vents, gutters and the first 1.5 metres around the house decide most outcomes. They are also the cheapest things to fix.</p>
+          <a href="/guides/why-houses-burn-when-the-forest-doesnt/">Why houses burn when the forest doesn't →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="cband">
+        <div>
+          <span class="eyebrow eyebrow--ember">Contractors</span>
+          <h2>The right trade for the job</h2>
+          <p>{services.length} types of fire protection contractor, what each one does, the licences to check and the inspections the code sets, with {companies.length} companies verified across {regionCount} provinces and states.</p>
+          <a href="/contractors/" class="btn btn--ember">Find a contractor</a>
+        </div>
+        <ul class="cband__svc">
+          {services.map((s) => <li><a href={`/contractors/${s.key}/`}>{s.name}</a></li>)}
+        </ul>
       </div>
     </div>
   </section>
 
   <section class="section">
     <div class="wrap">
-      <div class="section-head">
-        <h2>Our top picks</h2>
-        <p>The six products we'd buy first, in roughly this order.</p>
-      </div>
-      <div class="grid grid--3 picks">
-        {featured.map((p) => <ProductCard product={p} showCategory />)}
-      </div>
+      <div class="section-head"><h2>Where we'd start</h2><p>Six picks across home, business and wildfire. <a href="/categories/">All products and systems →</a></p></div>
+      <div class="grid grid--3 picks">{featured.map((p) => <ProductCard product={p} showCategory />)}</div>
     </div>
   </section>
 
   <section class="section section--tight">
     <div class="wrap">
       <div class="notice">
-        <p><strong>A note on water.</strong> Almost every product in the "structure" zone depends on water pressure that municipal systems lose during a major fire. If you buy one expensive thing, make it a <a href="/categories/pumps-and-water/">pump and a tank</a>, not a fancier sprinkler head.</p>
+        <p><strong>Wildfire season?</strong> Our <a href="/live-map/">live map</a> shows satellite hotspots across Canada and the US from the last 24 hours, and our <a href="/regions/">regional guides</a> cover fire season, fuel and provincial programs province by province.</p>
       </div>
     </div>
   </section>
 
   <section class="section">
     <div class="wrap">
-      <div class="section-head">
-        <h2>Where you live changes the answer</h2>
-        <p>Fire season, fuel and provincial programs, province by province.</p>
-      </div>
-      <ul class="regstrip">
-        {regions.map((r) => (
-          <li class={`regstrip__i risk-${r.risk.toLowerCase().replace(' ', '-')}`}>
-            <a href={`/regions/${r.slug}/`}><span class="mono">{r.code}</span> {r.short}</a>
-          </li>
-        ))}
-      </ul>
-      <div class="regstrip__foot">
-        <a href="/regions/" class="btn btn--ghost">All regional guides</a>
-        <p class="regstrip__offer">Or get a nudge when risk rises near you — <a href="/alerts/">Priority Alerts, $1/month</a>. A supplement to your provincial alerts, never a replacement.</p>
-      </div>
-    </div>
-  </section>
-
-
-  <section class="section">
-    <div class="wrap">
-      <div class="section-head">
-        <div>
-          <span class="eyebrow eyebrow--ember">The rest of the house</span>
-          <h2>Fire doesn't only come from outside</h2>
-        </div>
-        <p>Most house fires have nothing to do with a wildfire. Cooking, heating and electrical faults start far more of them, and a working smoke alarm still does more for survival than anything else you can buy.</p>
-      </div>
-      <ul class="homecats">
-        {homeCats.map((c) => (
-          <li class={`homecat zone-${c.zone}`}>
-            <a href={`/categories/${c.slug}/`}>
-              <span class="homecat__ico"><CatIcon name={c.icon} size={22} /></span>
-              <span class="homecat__t">{c.name}</span>
-              <span class="homecat__d">{c.tagline}</span>
-            </a>
-          </li>
-        ))}
-      </ul>
-      <div class="regstrip__foot">
-        <a href="/home-safety/" class="btn btn--ghost">All home fire safety</a>
-      </div>
-    </div>
-  </section>
-  <section class="section">
-    <div class="wrap">
-      <div class="section-head">
-        <h2>Guides</h2>
-        <p>Longer reads on the decisions behind the shopping list.</p>
-      </div>
+      <div class="section-head"><h2>Guides</h2><p><a href="/guides/">All guides →</a></p></div>
       <div class="grid grid--2">
-        {guides.map((g) => (
-          <a href={`/guides/${g.slug}/`} class="card gcard">
-            <span class="eyebrow">{g.readTime} read</span>
-            <h3>{g.title}</h3>
-            <p>{g.description}</p>
-          </a>
+        {recentGuides.map((g) => (
+          <a href={`/guides/${g.slug}/`} class="card gcard"><span class="eyebrow">{g.readTime} read</span><h3>{g.title}</h3><p>{g.description}</p></a>
         ))}
       </div>
     </div>
   </section>
 </Base>
-
 <style>
+  .pillars { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0; border: 1px solid var(--line); background: var(--surface); }
+  .pillar { padding: 1.5rem; border-top: 5px solid var(--ember); display: grid; gap: 0.75rem; align-content: start; }
+  .pillar--home { border-top-color: var(--water); }
+  .pillar--wildfire { border-top-color: var(--hunter); }
+  .pillar + .pillar { border-left: 1px solid var(--line); }
+  @media (max-width: 900px) { .pillar + .pillar { border-left: 0; } }
+  .pillar__head { display: flex; gap: 0.8rem; align-items: center; text-decoration: none; }
+  .pillar__ico { color: var(--ink); }
+  .pillar__t { display: block; font-family: var(--display); font-weight: 700; font-size: 1.5rem; color: var(--ink); line-height: 1.1; }
+  .pillar__n { display: block; font-size: 0.7rem; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.08em; }
+  .pillar p { font-size: 0.93rem; color: var(--ink-2); }
+  .pillar__cats { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.35rem; }
+  .pillar__cats a { display: inline-block; font-size: 0.82rem; padding: 0.18rem 0.5rem; border: 1px solid var(--line); text-decoration: none; color: var(--ink-2); background: var(--bg); }
+  .pillar__cats a:hover { border-color: var(--ink); color: var(--ink); }
+  .truths { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
+  .truths article { display: grid; gap: 0.5rem; align-content: start; }
+  .truths .mono { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ember); }
+  .truths h3 { font-size: 1.2rem; text-transform: none; }
+  .truths p { color: var(--ink-2); font-size: 0.95rem; }
+  .truths a { font-weight: 500; font-size: 0.92rem; }
+  .cband { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; background: var(--char); color: var(--char-ink); padding: clamp(1.5rem, 4vw, 2.5rem); }
+  .cband p { color: var(--char-ink-2); margin: 0.75rem 0 1.25rem; }
+  .cband h2 { color: var(--char-ink); }
+  .cband__svc { list-style: none; margin: 0; padding: 0; columns: 2 180px; column-gap: 1.5rem; }
+  .cband__svc li { padding: 0.35rem 0; break-inside: avoid; border-bottom: 1px solid #333936; }
+  .cband__svc a { color: var(--char-ink); text-decoration: none; font-size: 0.92rem; }
+  .cband__svc a:hover { color: var(--ember); }
+  @media (max-width: 760px) { .cband { grid-template-columns: 1fr; } }
+
   .hero { position: relative; background: var(--bg-2); border-bottom: 1px solid var(--line); overflow: hidden; isolation: isolate; }
   .hero__bg { position: absolute; inset: 0; z-index: -2; }
   .hero__bg, .hero__bg :global(.photo) { height: 100%; }

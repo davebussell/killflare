@@ -1,0 +1,20 @@
+# Removed Oct 2026: paid Priority Alerts offer
+/alerts                                     /                                       301
+/alerts/*                                   /                                       301
+# Installers became Contractors
+/install                                    /contractors/                           301
+/install/*                                  /contractors/                           301
+# Retired categories, products and guides (off-theme)
+/categories/smoke-and-air-quality/          /home-safety/                           301
+/categories/go-bags-and-evacuation/         /wildfire/                              301
+/categories/detection-and-alerts/           /categories/home-fire-monitoring/       301
+/products/n95-p100-respirators/             /wildfire/                              301
+/products/hepa-air-purifier-large-room/     /wildfire/                              301
+/products/corsi-rosenthal-box-kit/          /wildfire/                              301
+/products/pm25-air-quality-monitor/         /wildfire/                              301
+/products/72-hour-emergency-kit/            /wildfire/                              301
+/products/fireproof-document-bag/           /wildfire/                              301
+/products/outdoor-security-camera/          /categories/home-fire-monitoring/       301
+/products/portable-power-station/           /wildfire/                              301
+/guides/evacuation-go-bag-checklist/        /guides/                                301
+/guides/smoke-season-indoor-air/            /guides/                                301

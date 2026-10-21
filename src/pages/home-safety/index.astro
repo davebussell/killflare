@@ -1,7 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import CatIcon from '../../components/CatIcon.astro';
-import Photo from '../../components/Photo.astro';
+import CategoryGrid from '../../components/CategoryGrid.astro';
 import categories from '../../data/categories.json';
 import products from '../../data/products.json';
 import guides from '../../data/guides.json';
@@ -10,27 +9,14 @@ const cats = categories.filter((c) => c.pillar === 'home');
 const guideSlugs = ['smoke-and-co-alarms-what-the-law-says', 'rural-water-supply-and-dry-hydrants', 'do-you-need-residential-sprinklers'];
 const picks = guideSlugs.map((s) => guides.find((g) => g.slug === s)).filter(Boolean);
 ---
-<Base title="Home fire safety" description="Smoke and CO alarms, monitored detection, rural water supply and dry hydrants, residential sprinklers, and the everyday causes of house fires — cooking, heating, electrical.">
+<Base title="Home fire safety" description="Smoke, heat and CO alarms, extinguishers, residential sprinklers, monitoring, rural water supply, and the everyday causes of house fires: cooking, heating, electrical and lithium batteries." pillar="home">
   <section class="section">
     <div class="wrap">
       <span class="eyebrow eyebrow--ember">Home fire safety</span>
-      <h1>The rest of the house</h1>
-      <p class="lede">Killflare started with wildfire, and that is still most of what we cover. But most house fires have nothing to do with a forest. They start at the stove, in the heating system, or in the wiring — and the thing that most reliably saves the people inside is a working smoke alarm, not anything expensive.</p>
-      <p class="lede lede--sub">These pages cover detection and monitoring, the water supply question for rural properties, indoor sprinklers, and the everyday causes. Where something overlaps with wildfire we say so; where it does not — indoor sprinklers, for instance, do nothing against embers — we say that too.</p>
-      <div class="grid grid--3 cats">
-        {cats.map((c) => {
-          const n = products.filter((p) => p.category === c.slug).length;
-          return (
-            <a href={`/categories/${c.slug}/`} class={`card cat zone-${c.zone}`}>
-              <Photo name={c.photo} ratio="16 / 8" sizes="(max-width: 700px) 100vw, 30vw" credit={false} className="cat__img" />
-              <div class="cat__icon"><CatIcon name={c.icon} size={28} /></div>
-              <h3>{c.name}</h3>
-              <p>{c.tagline}</p>
-              <span class="cat__n mono">{n} {n === 1 ? 'pick' : 'picks'}</span>
-            </a>
-          );
-        })}
-      </div>
+      <h1>Fire protection for your home</h1>
+      <p class="lede">Most house fires start at the stove, in the heating system, in the wiring or, increasingly, at a charging lithium battery. What most reliably saves the people inside is cheap: working, interconnected smoke alarms and a way out of every bedroom. What saves the house is mostly prevention, plus sprinklers if you are building or gutting it.</p>
+      <p class="lede lede--sub">These guides cover detection and monitoring, extinguishers and the gadgets sold beside them, sprinklers and water supply, and each everyday cause. Where a product is oversold, we say so. For wildfire exposure, see <a href="/wildfire/">wildfire protection</a>.</p>
+      <CategoryGrid pillar="home" />
     </div>
   </section>
 
