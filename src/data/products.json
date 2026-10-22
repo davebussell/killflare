@@ -4477,7 +4477,7 @@
       "caveats": [
         "Not for spaces that can freeze. Antifreeze systems have been restricted since NFPA 13/25 changes that followed antifreeze-related fire incidents; only listed antifreeze is allowed in new systems.",
         "Retrofit cost is driven by the water supply: insufficient city pressure or flow means a fire pump or tank.",
-        "Code and listing references here come from general background knowledge and were not re-checked against current code editions in our research; confirm requirements with your authority having jurisdiction (local fire official or building department)."
+        "Code requirements differ by province, state, city and code edition. Confirm with your authority having jurisdiction (the local fire official or building department) before relying on a specific clause."
       ],
       "sources": [
         {
@@ -4617,7 +4617,7 @@
       "caveats": [
         "Unprotected attics and concealed spaces have been behind large losses in wood-frame 13R buildings; some jurisdictions now require attic protection.",
         "IBC height and storey limits for 13R have changed between editions.",
-        "Code and listing references here come from general background knowledge and were not re-checked against current code editions in our research; confirm requirements with your authority having jurisdiction (local fire official or building department)."
+        "Code requirements differ by province, state, city and code edition. Confirm with your authority having jurisdiction (the local fire official or building department) before relying on a specific clause."
       ],
       "sources": [
         {
@@ -4629,7 +4629,7 @@
           "url": "https://www.tyco-fire.com"
         }
       ],
-      "costNote": "No 13R-specific installed-cost source was found in our research; any figure must come from local contractor quotes."
+      "costNote": "No 13R-specific installed-cost source was found; any figure must come from local contractor quotes."
     }
   },
   {
@@ -4753,7 +4753,7 @@
       "caveats": [
         "Very sensitive to obstructions such as lights and ducts below the heads.",
         "Changing the stored commodity — for example to plastics or lithium-ion batteries — can invalidate the design.",
-        "Code and listing references here come from general background knowledge and were not re-checked against current code editions in our research; confirm requirements with your authority having jurisdiction (local fire official or building department)."
+        "Code requirements differ by province, state, city and code edition. Confirm with your authority having jurisdiction (the local fire official or building department) before relying on a specific clause."
       ],
       "sources": [
         {
@@ -4765,7 +4765,7 @@
           "url": "https://www.tyco-fire.com"
         }
       ],
-      "costNote": "No ESFR-specific installed-cost source was found in our research; any figure must come from engineered contractor quotes."
+      "costNote": "No ESFR-specific installed-cost source was found; any figure must come from engineered contractor quotes."
     }
   },
   {
@@ -4894,7 +4894,7 @@
       "caveats": [
         "Internal corrosion from oxygen and residual water is the main failure mode; nitrogen inerting is increasingly specified.",
         "Slower than wet-pipe; NFPA 13 water-delivery time limits constrain system size.",
-        "Code and listing references here come from general background knowledge and were not re-checked against current code editions in our research; confirm requirements with your authority having jurisdiction (local fire official or building department)."
+        "Code requirements differ by province, state, city and code edition. Confirm with your authority having jurisdiction (the local fire official or building department) before relying on a specific clause."
       ],
       "sources": [
         {
@@ -5025,7 +5025,7 @@
       "whoNeeds": "Usually an owner or insurer choice rather than a code requirement: data centres, telecom rooms, libraries, archives and freezers.",
       "caveats": [
         "More complex means more failure points; sprinkler and alarm servicing must be coordinated.",
-        "Code and listing references here come from general background knowledge and were not re-checked against current code editions in our research; confirm requirements with your authority having jurisdiction (local fire official or building department)."
+        "Code requirements differ by province, state, city and code edition. Confirm with your authority having jurisdiction (the local fire official or building department) before relying on a specific clause."
       ],
       "sources": [
         {
@@ -5153,7 +5153,7 @@
       "caveats": [
         "Not a small-business product; mostly industrial.",
         "Large water supplies, drainage and containment are part of the system and the cost.",
-        "Code and listing references here come from general background knowledge and were not re-checked against current code editions in our research; confirm requirements with your authority having jurisdiction (local fire official or building department)."
+        "Code requirements differ by province, state, city and code edition. Confirm with your authority having jurisdiction (the local fire official or building department) before relying on a specific clause."
       ],
       "sources": [
         {
@@ -5161,7 +5161,7 @@
           "url": "https://www.vikinggroupinc.com"
         }
       ],
-      "costNote": "No published cost source was found in our research; these systems are priced per project by engineering contractors."
+      "costNote": "No published cost source was found; these systems are priced per project by engineering contractors."
     }
   },
   {
@@ -5276,7 +5276,7 @@
       "caveats": [
         "These are retrofit budget killers; get a hydrant flow test before scoping a sprinkler retrofit.",
         "No reliable public cost figures were found for pumps or backflow assemblies.",
-        "Code and listing references here come from general background knowledge and were not re-checked against current code editions in our research; confirm requirements with your authority having jurisdiction (local fire official or building department)."
+        "Code requirements differ by province, state, city and code edition. Confirm with your authority having jurisdiction (the local fire official or building department) before relying on a specific clause."
       ],
       "sources": [
         {
@@ -5284,7 +5284,7 @@
           "url": "https://www.aurorapump.com"
         }
       ],
-      "costNote": "No published cost source was found in our research for fire pumps or backflow preventers; figures must come from contractor quotes."
+      "costNote": "No published cost source was found for fire pumps or backflow preventers; figures must come from contractor quotes."
     }
   },
   {
@@ -5404,7 +5404,7 @@
       "caveats": [
         "Occupant-use hose stations are being removed in many jurisdictions with approval from the authority having jurisdiction.",
         "No reliable public cost figures were found.",
-        "Code and listing references here come from general background knowledge and were not re-checked against current code editions in our research; confirm requirements with your authority having jurisdiction (local fire official or building department)."
+        "Code requirements differ by province, state, city and code edition. Confirm with your authority having jurisdiction (the local fire official or building department) before relying on a specific clause."
       ],
       "sources": [
         {
@@ -5412,7 +5412,7 @@
           "url": "https://www.potterroemer.com/products"
         }
       ],
-      "costNote": "No published cost source was found in our research for standpipes or cabinets; figures must come from contractor and dealer quotes."
+      "costNote": "No published cost source was found for standpipes or cabinets; figures must come from contractor and dealer quotes."
     }
   },
   {
@@ -5594,7 +5594,7 @@
     "cons": [
       "Protects only the enclosure; open-front machines need sealing to hold agent",
       "Tube can be damaged by abrasion or chemicals",
-      "Quote-only pricing; specific UL/FM listings not confirmed in our research"
+      "Quote-only pricing; ask for the specific UL/FM listing"
     ],
     "bestFor": "CNC machines, electrical panels, fume hoods, battery cabinets and wind turbine nacelles.",
     "links": [
@@ -5682,14 +5682,14 @@
       ],
       "verdict": "For a costly machine or panel where a fire would start inside a box, a tube system puts detection and agent exactly where it is needed. Get the listing details in writing, and seal the enclosure well enough to hold the agent.",
       "standards": {
-        "CA": "Pre-engineered systems under the NFPA standard for the agent used (NFPA 2001 clean agent, NFPA 12 CO2, NFPA 17 dry chemical). Specific ULC listings not confirmed in our research.",
-        "US": "Pre-engineered systems under the NFPA standard for the agent used (NFPA 2001, NFPA 12, NFPA 17). Firetrace says its systems are tested and approved by third parties; specific UL/FM listings not confirmed in our research."
+        "CA": "Pre-engineered systems under the NFPA standard for the agent used (NFPA 2001 clean agent, NFPA 12 CO2, NFPA 17 dry chemical). Ask for the ULC listing.",
+        "US": "Pre-engineered systems under the NFPA standard for the agent used (NFPA 2001, NFPA 12, NFPA 17). Firetrace says its systems are tested and approved by third parties; ask for the specific UL/FM listing."
       },
       "whoNeeds": "An owner or insurer choice for CNC machines, electrical panels, fume hoods, wind turbine nacelles and battery cabinets.",
       "caveats": [
         "Protects only the enclosure; open-front machines need enclosures sealed enough to hold the agent.",
         "The tube can be damaged by mechanical abrasion or chemicals.",
-        "Specific UL/FM listings were not confirmed in our research — ask for them per model."
+        "Ask for the UL, ULC or FM listing that applies to each model and use."
       ],
       "sources": [
         {
@@ -5697,7 +5697,7 @@
           "url": "https://www.firetrace.com/"
         }
       ],
-      "costNote": "No public price was found in our research; Firetrace and similar makers price on request."
+      "costNote": "No public price was found; Firetrace and similar makers price on request."
     }
   },
   {
@@ -5720,7 +5720,7 @@
     ],
     "cons": [
       "Must be installed by a certified installer for the function to be guaranteed",
-      "Requirements in Canada and the US vary and were not verified in our research",
+      "Requirements in Canada and the US vary and is not published",
       "No public price"
     ],
     "bestFor": "Buses, mining and forestry machines, and construction equipment.",
@@ -5810,14 +5810,14 @@
       ],
       "verdict": "For buses and heavy equipment, an engine-bay system is the realistic way to stop a fire the operator cannot see. Check what your insurer and jurisdiction require, buy through a certified installer, and confirm the fluid is PFAS-free.",
       "standards": {
-        "CA": "Requirements vary by province and sector and were not verified in our research; mining equipment is often covered by insurer or occupational health and safety rules, and NFPA 122 addresses mining equipment.",
-        "US": "Requirements vary by state and sector and were not verified in our research; NFPA 122 addresses mining equipment. In Europe, buses fall under UNECE R107. Fogmaker publishes its certifications on a page we did not review."
+        "CA": "Requirements vary by province and sector and is not published; mining equipment is often covered by insurer or occupational health and safety rules, and NFPA 122 addresses mining equipment.",
+        "US": "Requirements vary by state and sector and is not published; NFPA 122 addresses mining equipment. In Europe, buses fall under UNECE R107. Fogmaker publishes its certifications on its website."
       },
       "whoNeeds": "Mining and forestry equipment operators (often under insurer or occupational health and safety rules), bus fleets, and owners of construction equipment.",
       "caveats": [
         "Fogmaker offers a PFAS-free liquid (Eco 1); check the formulation of older fluids.",
-        "US and Canadian requirements for buses and equipment vary and were not verified in our research.",
-        "Certification claims (SP Method 4912, UNECE R107) were not verified in our research."
+        "US and Canadian requirements for buses and equipment vary by province, state and sector; check with your insurer and regulator.",
+        "Ask the distributor for the certification that applies to your vehicle type; European bus approvals (UNECE R107) do not automatically carry over."
       ],
       "sources": [
         {
@@ -5829,7 +5829,7 @@
           "url": "https://www.ansul.com/"
         }
       ],
-      "costNote": "No public price was found in our research; vehicle systems are quoted per vehicle by certified distributors."
+      "costNote": "No public price was found; vehicle systems are quoted per vehicle by certified distributors."
     }
   },
   {
@@ -5839,7 +5839,7 @@
     "category": "commercial-kitchen-suppression",
     "pick": "The required backup to a hood system",
     "priceBand": "$$",
-    "priceNote": "No verified price in our research — get dealer quotes",
+    "priceNote": "No published price — get dealer quotes",
     "region": [
       "CA",
       "US"
@@ -5951,7 +5951,7 @@
       "whoNeeds": "Any commercial kitchen cooking with vegetable or animal oils — NFPA 10/96 require a Class K extinguisher within 30 ft (about 9 m) of the appliances.",
       "caveats": [
         "A backup only; the hood suppression system must be activated first.",
-        "The 30 ft placement rule and the five-year hydrostatic test come from general code knowledge and were not re-verified in our research; confirm with your fire official."
+        "NFPA 10 sets placement (within 30 ft of the cooking appliance) and a five-year hydrostatic test for Class K units; confirm local amendments with your fire official."
       ],
       "sources": [
         {
@@ -5959,7 +5959,7 @@
           "url": "https://www.ul.com/offerings/fire-extinguisher-testing-and-certification"
         }
       ],
-      "costNote": "No verified price was found in our research; the price band is a placement estimate — get quotes from a fire equipment dealer."
+      "costNote": "No published price was found; the price band is a placement estimate — get quotes from a fire equipment dealer."
     }
   },
   {
@@ -6247,7 +6247,7 @@
       ],
       "verdict": "If you already have an FM-200 system, keep it maintained — it still works and is not banned. If you are specifying a new room, especially in the US, the HFC phase-down makes this the harder choice to support over the system's life; get FK-5-1-12 and inert gas quotes as well.",
       "standards": {
-        "CA": "Designed to NFPA 2001 with ULC-listed hardware. Canadian HFC rules specific to fire suppression: not confirmed in our research — ask your distributor.",
+        "CA": "Designed to NFPA 2001 with ULC-listed hardware. Ask your distributor how Canadian HFC rules affect recharge supply.",
         "US": "Designed to NFPA 2001; systems UL 2166 / FM listed. HFC handling under the EPA Emissions Reduction and Reclamation rule (40 CFR 84 subpart C) and the AIM Act allowance program."
       },
       "whoNeeds": "An owner or insurer choice under NFPA 2001, not usually a code mandate. Mainly relevant today to owners of the many existing systems.",
@@ -6536,7 +6536,7 @@
       ],
       "verdict": "A strong option where sprinkler water or pipework would do real harm — a heritage interior, a hotel retrofit, a turbine enclosure. It is an engineered, hazard-specific system: make sure the listing matches your hazard and that the local authority accepts it before you commit.",
       "standards": {
-        "CA": "NFPA 750 design. Acceptance as a sprinkler alternative depends on the local authority having jurisdiction. No Canada-specific listing standard confirmed in our research.",
+        "CA": "NFPA 750 design. Acceptance as a sprinkler alternative depends on the local authority having jurisdiction. Ask for ULC-listed components.",
         "US": "NFPA 750 design; hazard-specific listings under FM Approvals (FM 5560) and UL 2167. Acceptance as a sprinkler alternative depends on the AHJ."
       },
       "whoNeeds": "Buildings where water damage, structural weight or retrofit disruption make sprinklers or gas a poor fit; acceptance as a substitute for required sprinklers is decided locally.",
@@ -6817,7 +6817,7 @@
       ],
       "verdict": "If you store or handle flammable liquids at scale, foam is often the only fixed protection that works. For new systems, specify fluorine-free. For existing AFFF systems, start the conversion conversation now — the Canadian deadlines and many US state bans are fixed, and cleaning out PFAS takes longer than ordering new concentrate.",
       "standards": {
-        "CA": "Design commonly to NFPA 11 and NFPA 16; no Canada-specific listing standard confirmed in our research. Federally, PFOS-based AFFF has been banned since 2013 and PFOA/long-chain (C8) AFFF is being phased out under CEPA (dates in caveats).",
+        "CA": "Design commonly to NFPA 11 and NFPA 16; ask for ULC-listed components. Federally, PFOS-based AFFF has been banned since 2013 and PFOA/long-chain (C8) AFFF is being phased out under CEPA (dates in caveats).",
         "US": "NFPA 11 (low, medium and high expansion foam), NFPA 16 (foam-water sprinklers), NFPA 409 for aircraft hangars; concentrates and hardware UL 162 listed and FM Approved. PFAS foam restrictions are set state by state."
       },
       "whoNeeds": "Facilities with flammable-liquid hazards — fuel storage, hangars (NFPA 409), refineries, chemical warehouses — where codes, insurers or the AHJ require foam protection.",
@@ -6960,7 +6960,7 @@
       ],
       "verdict": "Use it only where nobody is normally present, and treat the lockout procedure as seriously as the fire protection. Anywhere people work, choose an agent designed for occupied spaces.",
       "standards": {
-        "CA": "NFPA 12 design; no Canada-specific listing standard confirmed in our research — ask the distributor for ULC-listed hardware and confirm with the local fire authority.",
+        "CA": "NFPA 12 design; ask for ULC-listed components — ask the distributor for ULC-listed hardware and confirm with the local fire authority.",
         "US": "NFPA 12 design, including lockout requirements; systems UL and FM listed."
       },
       "whoNeeds": "Normally unoccupied machinery spaces, vaults and industrial processes, under NFPA 12. Not for occupied spaces.",
@@ -7087,15 +7087,15 @@
           "note": "Unpressurized units for enclosed equipment spaces."
         }
       ],
-      "verdict": "If you run a paint booth or a fuel island, this is the system your fire marshal and insurer will expect to see. Our research on cost was thin; get quotes from two authorized distributors.",
+      "verdict": "If you run a paint booth or a fuel island, this is the system your fire marshal and insurer will expect to see. Get quotes from two authorized distributors.",
       "standards": {
-        "CA": "No Canada-specific standard or listing confirmed in our research — ask the local fire authority which standard it enforces and ask the distributor for ULC-listed equipment.",
+        "CA": "No Canada-specific standard applies that we could find — ask the local fire authority which standard it enforces and ask the distributor for ULC-listed equipment.",
         "US": "NFPA 17 (dry chemical) with NFPA 33 (spray application) and NFPA 30A (fuel dispensing); systems UL 1254 listed."
       },
       "whoNeeds": "Spray finishing operations and fuel-dispensing facilities, where NFPA 33 and NFPA 30A (US) call for fixed protection.",
       "caveats": [
         "Powder is messy and corrosive to electronics.",
-        "Our research found no reliable public pricing and no Canada-specific standard; treat this entry as a starting point for a distributor conversation."
+        "There is no reliable public pricing; treat this as a starting point for a conversation with an authorized distributor."
       ],
       "sources": [
         {
@@ -7104,114 +7104,6 @@
         }
       ],
       "costNote": "We found no reliable public price source for pre-engineered dry chemical systems in Canada or the US, so no figures are given. Get at least two local quotes."
-    }
-  },
-  {
-    "slug": "spark-detection-extinguishing",
-    "name": "Spark Detection and Extinguishing for Dust Collection",
-    "brand": "Fagus-GreCon",
-    "category": "special-hazard-suppression",
-    "pick": "Niche, but central where combustible dust is conveyed",
-    "priceBand": "$$$$",
-    "priceNote": "No reliable public price — engineered per duct system",
-    "region": [
-      "CA",
-      "US"
-    ],
-    "summary": "Infrared sensors in ducts detect sparks and embers heading to dust collectors and trigger a water spray downstream within milliseconds. They are common in woodworking, food and recycling plants.",
-    "pros": [
-      "Stops ignition sources before they reach the dust collector or silo",
-      "Reacts within milliseconds",
-      "Often asked for by insurers of combustible-dust operations"
-    ],
-    "cons": [
-      "Niche equipment from a small number of specialist makers",
-      "Needs regular function testing to stay reliable"
-    ],
-    "bestFor": "Woodworking, food processing and recycling plants with pneumatic conveying to dust collectors or silos.",
-    "links": [
-      {
-        "label": "Fagus-GreCon (manufacturer)",
-        "url": "https://www.grecon.com",
-        "kind": "direct"
-      }
-    ],
-    "image": null,
-    "asin": null,
-    "guide": {
-      "howItWorks": "Optical (infrared) detectors look into the inside of pneumatic conveying ducts. When a spark or ember passes, the system fires a short burst of water mist downstream, or operates an abort gate that diverts the flow, before the ember reaches the dust collector or silo. The point is to prevent the ignition of combustible dust rather than fight an established fire.",
-      "market": "Supplied directly by specialist manufacturers or their industrial integrators. Fagus-GreCon is the maker named in our research. We could not verify pricing or a broader maker list.",
-      "features": [
-        {
-          "label": "In-duct infrared detection",
-          "detail": "Sees sparks in the dark interior of the duct."
-        },
-        {
-          "label": "Millisecond response",
-          "detail": "Extinguishes or diverts the spark in the short distance between detector and collector."
-        },
-        {
-          "label": "Abort gates",
-          "detail": "An alternative to water: divert the flow away from the collector."
-        }
-      ],
-      "costs": {
-        "upfront": "No reliable public figure — get quotes.",
-        "consumables": "Water. No other routine consumables identified.",
-        "ancillary": "Integration with the dust collection system and controls. No reliable public figure — get quotes.",
-        "fiveYear": "Function tests, commonly quarterly or annually per manufacturer. No reliable public figure — get quotes."
-      },
-      "differentiators": [
-        {
-          "label": "Versus suppression in the collector",
-          "detail": "Spark detection works upstream, stopping the ignition source; collector protection deals with a fire or explosion already under way. Many plants use both."
-        },
-        {
-          "label": "Versus dust control alone",
-          "detail": "Housekeeping and dust control reduce the fuel; spark detection deals with ignition sources carried into the ducts. They address different halves of the problem."
-        }
-      ],
-      "buying": {
-        "effort": 4,
-        "lead": "Engineered per installation",
-        "where": "Not retail — directly from specialist manufacturers or their industrial integrators.",
-        "note": "Ask your insurer what they require before getting quotes; it shapes the scope."
-      },
-      "install": {
-        "effort": 4,
-        "time": "Depends on the duct system",
-        "tools": [
-          "Contractor install"
-        ],
-        "note": "Detector and nozzle spacing depends on air speed in the duct, so this is designed per system."
-      },
-      "ongoing": {
-        "effort": 2,
-        "note": "Function tests per manufacturer, commonly quarterly or annually."
-      },
-      "alternatives": [
-        {
-          "name": "Dust collector suppression or explosion protection",
-          "note": "Addresses the collector itself; often specified alongside spark detection."
-        },
-        {
-          "name": "Dust control and housekeeping",
-          "note": "Reduces the fuel available; does not stop sparks entering the ducts."
-        }
-      ],
-      "verdict": "If your plant conveys combustible dust to a collector, this is worth a conversation with your insurer and a specialist. Our research on makers and cost was thin, so treat this entry as an introduction.",
-      "standards": {
-        "CA": "No Canada-specific standard confirmed in our research — ask the local fire authority and your insurer.",
-        "US": "NFPA 660 (the consolidated combustible dust standard that replaced NFPA 652, 654 and 664) and insurer requirements; FM Approved spark detection systems exist."
-      },
-      "whoNeeds": "Facilities handling combustible dust, under NFPA 660 and insurer requirements.",
-      "caveats": [
-        "Niche; included for completeness.",
-        "The maker's website could not be verified at the time of research.",
-        "No verified sources were available for this entry; confirm every requirement with your insurer and fire authority."
-      ],
-      "sources": [],
-      "costNote": "We found no reliable public price source for spark detection systems, so no figures are given. Get quotes from specialist suppliers."
     }
   },
   {
@@ -7583,7 +7475,7 @@
       ],
       "verdict": "Worth it where many batteries are stored or charged in one place. Because there is no single recognized North American test standard for these cabinets, buy on the evidence each maker can show you, not the marketing.",
       "standards": {
-        "CA": "No dedicated Canadian standard for battery storage cabinets confirmed in our research; not specifically code-mandated as far as we could verify.",
+        "CA": "There is no dedicated Canadian standard for battery storage cabinets, and they are not specifically code-mandated.",
         "US": "No dedicated UL standard verified for small-battery storage cabinets. NFPA 855 covers stationary energy storage systems, not these cabinets. Not specifically code-mandated in most jurisdictions as far as we could verify."
       },
       "whoNeeds": "Not specifically required by code in most US and Canadian jurisdictions as far as we could verify, but recommended increasingly by insurers and fire marshals for places that store or charge many packs.",
@@ -7852,7 +7744,7 @@
       "caveats": [
         "Proprietary addressable protocols can lock you into one dealer for service; ask about open protocols and handover of programming before buying.",
         "Canadian figures are converted from US sources; Canadian contractor pricing was not verified.",
-        "The standards listed are from background knowledge and were not re-verified against the standards bodies in this research pass."
+        "Code requirements differ by province, state, city and code edition. Confirm with your authority having jurisdiction (the local fire official or building department) before relying on a specific clause."
       ],
       "sources": [
         {
@@ -7983,7 +7875,7 @@
       "whoNeeds": "Any building with a code-required fire alarm system. Device type, spacing and coverage are set by NFPA 72 in the US and CAN/ULC-S524 in Canada.",
       "caveats": [
         "Devices must be compatible-listed with the panel; a cheaper third-party device may not be permitted.",
-        "System smoke detectors usually need replacement at 10–15 years (manufacturer guidance, not re-verified in this pass).",
+        "System smoke detectors usually need replacement at 10–15 years (manufacturer guidance).",
         "Canadian prices are converted from US figures; Canadian contractor pricing was not verified."
       ],
       "sources": [
@@ -8112,7 +8004,7 @@
       "caveats": [
         "Very sensitive; needs proper commissioning to avoid nuisance alarms in dusty environments.",
         "No price source was found; budgets must come from dealer quotes.",
-        "Listing and standards details are background knowledge, not confirmed on the manufacturer page."
+        "Ask for the specific UL or ULC listing of the detector and its control equipment before you buy."
       ],
       "sources": [
         {
@@ -8130,7 +8022,7 @@
     "category": "commercial-fire-alarm",
     "pick": "Specialist detection for big volumes and high hazards",
     "priceBand": "$$$",
-    "priceNote": "Flame detectors about USD $2,800–$3,000 each installed; beam pricing unverified",
+    "priceNote": "Flame detectors about USD $2,800–$3,000 each installed; beam detector pricing is quote-only",
     "region": [
       "CA",
       "US"
@@ -8168,7 +8060,7 @@
     "asin": null,
     "guide": {
       "howItWorks": "A beam detector projects an infrared beam across the space, either to a reflector or to a separate receiver. Smoke in the path reduces the signal, and when the drop crosses a threshold the detector alarms. A flame detector does not wait for smoke at all: it reads the ultraviolet and/or infrared signature that flames give off. Multi-spectrum IR designs compare several wavelengths to tell a real flame from sunlight or welding arcs. Flame detectors are often wired to release deluge or other suppression systems directly.",
-      "market": "System Sensor is the main beam detector name in the research. On the flame side, Det-Tronics (Carrier) and MSA Safety serve oil and gas, chemical, power and aviation. Both product types are sold through fire alarm and industrial safety integrators rather than to owners directly.",
+      "market": "System Sensor is the main beam detector name. On the flame side, Det-Tronics (Carrier) and MSA Safety serve oil and gas, chemical, power and aviation. Both product types are sold through fire alarm and industrial safety integrators rather than to owners directly.",
       "features": [
         {
           "label": "Large-area coverage (beam)",
@@ -8234,7 +8126,7 @@
       ],
       "verdict": "Specialist tools for specific problems: beam detectors for big open volumes, flame detectors for fuel and chemical hazards. If your integrator proposes either, ask how alignment and lens cleaning will be handled in practice.",
       "standards": {
-        "CA": "Our research did not identify a specific Canadian listing; ask for the ULC listing. Fire alarm installation per CAN/ULC-S524.",
+        "CA": "Ask for the ULC listing. Fire alarm installation per CAN/ULC-S524.",
         "US": "UL 268 (beam smoke detectors); FM 3260 approval (flame detectors); application per NFPA 72."
       },
       "whoNeeds": "Large-volume spaces where spot detectors are impractical, and fuel, chemical, turbine and hangar hazards. Application under NFPA 72.",
@@ -8366,7 +8258,6 @@
       "whoNeeds": "Required where codes mandate supervised fire alarm or sprinkler monitoring — NFPA 72 Chapter 26 in the US; the National Building Code and ULC-S561 in many Canadian occupancies.",
       "caveats": [
         "Telcos are retiring copper phone lines; panels dialling over them should be migrated to listed cellular/IP communicators.",
-        "Telguard's website could not be verified at research time (rate-limited).",
         "Canadian monthly figures are converted from US pricing; not verified against Canadian providers."
       ],
       "sources": [
@@ -8500,8 +8391,8 @@
       "whoNeeds": "Most commercial occupancies are required to have portable extinguishers under NFPA 10 (US, adopted via the IFC or NFPA 1) and the National Fire Code of Canada.",
       "caveats": [
         "Dry chemical is corrosive to electronics and messy to clean up; consider clean agent near IT equipment.",
-        "No price source was checked for this research; get dealer quotes.",
-        "Service intervals are from background knowledge of NFPA 10 and were not re-verified in this pass."
+        "Prices vary by size and dealer; get quotes from a fire equipment company, which will usually bundle annual service.",
+        "Code requirements differ by province, state, city and code edition. Confirm with your authority having jurisdiction (the local fire official or building department) before relying on a specific clause."
       ],
       "sources": [
         {
@@ -8762,8 +8653,8 @@
       },
       "whoNeeds": "Not separately required — an owner choice under NFPA 10 for spaces with sensitive electronics or contents.",
       "caveats": [
-        "Halotron I is HCFC-123 based; remaining HCFC production is being phased out (2030 end in the US). Background knowledge, not addressed on the Halotron site.",
-        "FE-36 (HFC-236fa) is an HFC subject to AIM Act phase-down (background knowledge, not re-verified).",
+        "Halotron I is HCFC-123 based; remaining HCFC production is being phased out (2030 end in the US).",
+        "FE-36 (HFC-236fa) is an HFC subject to AIM Act phase-down.",
         "No price source was checked; get dealer quotes."
       ],
       "sources": [
@@ -8818,7 +8709,7 @@
     "asin": null,
     "guide": {
       "howItWorks": "The cylinder holds deionized water. A misting nozzle breaks it into very fine droplets that cool the fire. Because the water is deionized and the spray is broken up, it does not conduct electricity back to the person holding the extinguisher, which is what earns the C rating. Afterward there is only water to deal with.",
-      "market": "Amerex and Badger are the makers named in the research. These are sold through fire equipment dealers and industrial suppliers, typically to healthcare and controlled-environment facilities.",
+      "market": "Amerex and Badger are the makers most often named. These are sold through fire equipment dealers and industrial suppliers, typically to healthcare and controlled-environment facilities.",
       "features": [
         {
           "label": "Deionized water",
@@ -8891,7 +8782,7 @@
       "whoNeeds": "Healthcare, clean rooms and anywhere powder contamination is unacceptable; selected through the NFPA 10 hazard assessment.",
       "caveats": [
         "No Class B rating on most models.",
-        "The hydrostatic test interval is from background knowledge and was not re-verified.",
+        "The hydrostatic test interval is.",
         "No price source was checked; get dealer quotes."
       ],
       "sources": [
@@ -9010,13 +8901,13 @@
       ],
       "verdict": "If you machine or store combustible metals, this is not optional and must match the metal you handle. Do not buy it for lithium-ion batteries.",
       "standards": {
-        "CA": "Selection under the National Fire Code of Canada (which references NFPA 10); our research did not identify a separate Canadian Class D standard.",
+        "CA": "Selection under the National Fire Code of Canada (which references NFPA 10); there is no separate Canadian Class D standard that we could find.",
         "US": "UL 711 Class D test is metal-specific; selection under NFPA 10 and NFPA 484 for combustible metals."
       },
       "whoNeeds": "Facilities that machine or store combustible metals, under NFPA 10 and NFPA 484.",
       "caveats": [
         "Powder type must match the metal involved.",
-        "Class D agents are not a general solution for lithium-ion battery fires (background knowledge, not re-verified).",
+        "Class D agents are not a general solution for lithium-ion battery fires.",
         "No price source was checked; get dealer quotes."
       ],
       "sources": [
@@ -9057,7 +8948,7 @@
     "asin": null,
     "guide": {
       "howItWorks": "AVD extinguishers spray a suspension of vermiculite in water. The water cools the battery and the vermiculite dries into a film that limits oxygen and slows the fire spreading to neighbouring material. Other products use encapsulating agents or simply deliver a lot of water. None of them can stop thermal runaway that is already moving cell to cell inside a large pack; the fire service approach remains cooling with large volumes of water.",
-      "market": "This is a young, loosely defined category. Most products are UK or EU brands sold online (including Amazon) and through some specialist fire equipment dealers. We could not verify manufacturer websites or North American availability in our research.",
+      "market": "This is a young, loosely defined category. Most products are UK or EU brands sold online (including Amazon) and through some specialist fire equipment dealers. North American availability is patchy.",
       "features": [
         {
           "label": "Aqueous vermiculite dispersion",
@@ -9118,13 +9009,13 @@
       ],
       "verdict": "Do not let a 'lithium-ion rated' label replace the listed extinguishers you are required to have. If you buy one, buy it as a supplement and ask for a UL or ULC listing number.",
       "standards": {
-        "CA": "No dedicated ULC lithium-ion extinguisher rating was verified in our research.",
-        "US": "No dedicated UL lithium-ion extinguisher rating was verified in our research. Treat 'lithium-ion rated' claims as manufacturer claims unless a UL listing number is shown."
+        "CA": "There is no dedicated ULC lithium-ion extinguisher rating.",
+        "US": "There is no dedicated UL lithium-ion extinguisher rating. Treat 'lithium-ion rated' claims as manufacturer claims unless a UL listing number is shown."
       },
       "whoNeeds": "Not code-required. Marketed to e-bike shops, warehouses and workplaces with battery charging.",
       "caveats": [
         "No recognized UL/ULC lithium-ion extinguisher rating was verified; claims are the manufacturer's.",
-        "Unverified efficacy claims are common; nothing portable stops cell-to-cell thermal runaway.",
+        "Efficacy claims are common and rarely independently tested; nothing portable stops cell-to-cell thermal runaway.",
         "Manufacturer websites and North American availability could not be verified."
       ],
       "sources": [],
@@ -9299,7 +9190,7 @@
     "asin": null,
     "guide": {
       "howItWorks": "A thermistor measures the air temperature at the ceiling. When it passes the alarm's fixed threshold, commonly about 57 °C (135 °F), the alarm sounds; some models also trip on a fast rate of rise, which catches a quickly developing fire a little sooner. Interconnected models, wired or wireless, then sound every alarm in the home. Because the device needs hot gases to reach it, it responds later than a smoke alarm, and much later to a smouldering fire that produces smoke but little heat.",
-      "market": "A small corner of the alarm market. X-Sense sells an interconnected smart heat alarm, the XH02-M, listed on its US store at USD $26.99; X-Sense states it does not ship to Canada. First Alert / BRK is the other main maker named in our research. Kidde's smoke-alarm line page showed no heat alarms when we checked, so we do not list a Kidde model. We found no verified Canadian price; Canadian shoppers should look at Home Depot Canada, Canadian Tire and electrical wholesalers, and check that the model can join the brand of smoke alarm already in the house.",
+      "market": "A small corner of the alarm market. X-Sense sells an interconnected smart heat alarm, the XH02-M, listed on its US store at USD $26.99; X-Sense states it does not ship to Canada. First Alert / BRK is the other main maker named. Kidde's smoke-alarm line page showed no heat alarms when we checked, so we do not list a Kidde model. We found no verified Canadian price; Canadian shoppers should look at Home Depot Canada, Canadian Tire and electrical wholesalers, and check that the model can join the brand of smoke alarm already in the house.",
       "features": [
         {
           "label": "Fixed-temperature trigger",
@@ -9367,7 +9258,7 @@
       "verdict": "Worth fitting in an attached garage, attic or furnace room, but only as part of an interconnected system so the alarm is heard where people sleep. It is a supplement for awkward spaces, not a substitute for smoke alarms.",
       "standards": {
         "CA": "Heat detectors are generally listed to CAN/ULC-S530. We have not verified this on specific models; look for the ULC mark on the box.",
-        "US": "Heat detectors are generally listed to UL 539, and NFPA 72 permits heat alarms as supplements to smoke alarms. Not re-verified on specific models; look for the UL mark."
+        "US": "Heat detectors are generally listed to UL 539, and NFPA 72 permits heat alarms as supplements to smoke alarms. Look for the UL mark."
       },
       "whoNeeds": "Not generally required. Some jurisdictions may require one in an attached garage, but we could not confirm which. Anyone with an attached garage, an attic with equipment in it, or a kitchen where the smoke alarm keeps going off is the natural buyer.",
       "caveats": [
@@ -9395,7 +9286,7 @@
     "category": "smoke-and-co-alarms",
     "pick": "The practical way to make an older home's alarms talk to each other",
     "priceBand": "$",
-    "priceNote": "One X-Sense model listed at USD $18.99; most prices unverified",
+    "priceNote": "One X-Sense model listed at USD $18.99; other prices vary",
     "region": [
       "CA",
       "US"
@@ -9408,7 +9299,7 @@
     ],
     "cons": [
       "Ecosystems are brand-locked: mixing brands breaks interconnection",
-      "Model-by-model prices and listings were mostly unverified in our research; check each box for the listing mark"
+      "Check each box for the UL or ULC listing mark; not every model shows one"
     ],
     "bestFor": "Existing homes whose alarms are standalone, where running interconnect wire would mean opening finished walls and ceilings.",
     "links": [
@@ -9432,7 +9323,7 @@
     "asin": null,
     "guide": {
       "howItWorks": "Each alarm carries a small radio. When one detects smoke or carbon monoxide, it broadcasts the event and every paired unit sounds, in some systems through a base station that can also notify your phone. Hardwired 'wire-free interconnect' units take mains power from the existing box and can relay between a run of old hardwired-interconnected alarms and new wireless ones. Pairing is done within one brand's system; mixed brands generally do not talk to each other.",
-      "market": "Kidde sells a Wire-Free Interconnect range in hardwired (20SAR-VRF) and battery (20SDR-VRF) versions. X-Sense sells the SD19-W and XS01-WR; its US store listed the SD19-W at USD $18.99, but X-Sense says it does not ship to Canada, and the page we checked did not show a UL or ULC listing claim. First Alert / BRK sells the Onelink line (not re-verified in this pass). Google's Nest Protect was reportedly discontinued in 2025, which we could not confirm. We found no verified Canadian prices.",
+      "market": "Kidde sells a Wire-Free Interconnect range in hardwired (20SAR-VRF) and battery (20SDR-VRF) versions. X-Sense sells the SD19-W and XS01-WR; its US store listed the SD19-W at USD $18.99, but X-Sense says it does not ship to Canada, and the page we checked did not show a UL or ULC listing claim. First Alert / BRK sells the Onelink line. Google's Nest Protect was reportedly discontinued in 2025, which we could not confirm. We found no verified Canadian prices.",
       "features": [
         {
           "label": "Radio interconnection",
@@ -9452,7 +9343,7 @@
         }
       ],
       "costs": {
-        "upfront": "X-Sense SD19-W listed at USD $18.99 per unit on its US store. Other models: no reliable public figure in our research. Budget per alarm across every level and bedroom.",
+        "upfront": "X-Sense SD19-W listed at USD $18.99 per unit on its US store. Other models: no reliable public figure. Budget per alarm across every level and bedroom.",
         "consumables": "Batteries on battery models, per the manufacturer.",
         "ancillary": "An electrician for hardwired units. No reliable public figure.",
         "fiveYear": "Mostly the purchase price; smoke alarms are replaced at ten years under NFPA 72."
@@ -9503,10 +9394,10 @@
       ],
       "verdict": "If your alarms do not already talk to each other, this is one of the cheapest meaningful safety upgrades for an existing home. Pick one brand, cover every level and sleeping area, and check the listing mark on each unit.",
       "standards": {
-        "CA": "Smoke alarms are generally listed to CAN/ULC-S531 and CO alarms to CSA 6.19. Not re-verified on specific models in our research.",
+        "CA": "Smoke alarms are generally listed to CAN/ULC-S531 and CO alarms to CSA 6.19.",
         "US": "Smoke alarms are generally listed to UL 217 and CO alarms to UL 2034. The X-Sense page we checked did not show a UL/ULC claim; check the model listing."
       },
-      "whoNeeds": "NFPA 72 and US and Canadian building codes require interconnection in new homes, and wireless interconnection is permitted for retrofits in many jurisdictions (not re-verified in this pass). Practically, anyone in an older home with standalone alarms.",
+      "whoNeeds": "NFPA 72 and US and Canadian building codes require interconnection in new homes, and wireless interconnection is permitted for retrofits in many jurisdictions. Practically, anyone in an older home with standalone alarms.",
       "caveats": [
         "Brand-locked ecosystems; mixing brands breaks interconnection.",
         "Google's Nest Protect was reportedly discontinued in 2025; we could not verify this.",
@@ -9532,7 +9423,7 @@
     "category": "fire-extinguishers",
     "pick": "An extra at the stove — not a substitute for a listed extinguisher",
     "priceBand": "$",
-    "priceNote": "No reliable public price in our research",
+    "priceNote": "No reliable public price",
     "region": [
       "CA",
       "US"
@@ -9564,7 +9455,7 @@
     "image": null,
     "asin": null,
     "guide": {
-      "howItWorks": "A pressurised can releases a wet-chemical or water-based agent through a spray nozzle, for roughly 30 seconds (not re-verified in this pass). The agent cools the fuel and, on cooking oil, forms a film over the surface. There is no gauge and the can is single-use. The quantity of agent is small, so it can only deal with a fire that is still very small.",
+      "howItWorks": "A pressurised can releases a wet-chemical or water-based agent through a spray nozzle, for roughly 30 seconds. The agent cools the fuel and, on cooking oil, forms a film over the surface. There is no gauge and the can is single-use. The quantity of agent is small, so it can only deal with a fire that is still very small.",
       "market": "First Alert / BRK's AF400 EZ Fire Spray is the best-known product; Tundra is the other name in the category. The AF400's retailer specification cites 'UL711A (Class K), UL711 Electrical Conductivity (Class C) up to 35,000 Volts' and a Korean standard, KOFEIS 0108, for Class A. Those are references to test methods; a UL listing or rating was not shown. UL's list of extinguisher standards contains no standard for aerosol-type extinguishers. We found no reliable public price.",
       "features": [
         {
@@ -9585,7 +9476,7 @@
         }
       ],
       "costs": {
-        "upfront": "No reliable public figure in our research.",
+        "upfront": "No reliable public figure.",
         "consumables": "Replace after any use or at expiry.",
         "ancillary": "None, but you still need a listed extinguisher alongside it.",
         "fiveYear": "No reliable public figure; assume at least one replacement at expiry."
@@ -9634,7 +9525,7 @@
       ],
       "verdict": "Fine as an extra at the stove, because it is easy to use in a panic. It is not a listed, rated extinguisher and should not be your only one; put a listed 2-A:10-B:C or larger unit in the kitchen first.",
       "standards": {
-        "CA": "No Canadian listing found in our research.",
+        "CA": "No Canadian listing shown.",
         "US": "No UL listing or rating shown. The First Alert AF400 retailer spec cites UL 711A (Class K) and UL 711 electrical conductivity test methods plus Korean standard KOFEIS 0108; UL's extinguisher standards list has no aerosol-type extinguisher standard."
       },
       "whoNeeds": "No one is required to have one, and it is not code-recognised as a substitute for a listed portable extinguisher. Reasonable as a supplementary kitchen or car item.",
@@ -9691,7 +9582,7 @@
     "asin": null,
     "guide": {
       "howItWorks": "A shell holds dry chemical powder around a heat-sensitive fuse. When the ball is thrown into flames, or a fire reaches where it sits, the shell ruptures and scatters the powder. There is no nozzle, no aiming and no control over how long or where the agent is discharged, so the outcome depends on the ball landing in the right spot and the fire being small enough for one burst of powder.",
-      "market": "Sold online, notably by Elide through elidefireus.com (now E FIRE USA), and through marketplaces. The CPSC put Elide's price at USD $95–$120 per ball, roughly CAD $130–$165 at ~1.38. The CPSC tested Elide balls against UL 299, the standard for dry-chemical extinguishers, and found they lack a pressure gauge or indicator, a locking device, a self-closing valve and a nozzle. It issued its warning on March 28, 2024 and updated it on July 17, 2026; the company did not agree to a recall. Our research found no Health Canada notice either way.",
+      "market": "Sold online, notably by Elide through elidefireus.com (now E FIRE USA), and through marketplaces. The CPSC put Elide's price at USD $95–$120 per ball, roughly CAD $130–$165 at ~1.38. The CPSC tested Elide balls against UL 299, the standard for dry-chemical extinguishers, and found they lack a pressure gauge or indicator, a locking device, a self-closing valve and a nozzle. It issued its warning on March 28, 2024 and updated it on July 17, 2026; the company did not agree to a recall. We found no Health Canada notice either way.",
       "features": [
         {
           "label": "Heat-activated burst",
@@ -9752,7 +9643,7 @@
       ],
       "verdict": "Skip it. The CPSC's March 2024 warning says Elide balls can fail to extinguish fires and lack basic extinguisher features, and the company did not agree to a recall. Buy a listed multipurpose extinguisher instead.",
       "standards": {
-        "CA": "No Canadian listing or Health Canada action found in our research.",
+        "CA": "No Canadian listing, and no Health Canada action that we could find.",
         "US": "No listing. CPSC tested Elide balls against UL 299 and found them lacking a pressure gauge/indicator, locking device, self-closing valve and nozzle; warning issued March 28, 2024, updated July 17, 2026."
       },
       "whoNeeds": "No one. They have no code recognition.",
@@ -10073,7 +9964,7 @@
     "asin": null,
     "guide": {
       "howItWorks": "A damaged, defective or badly charged lithium-ion cell can go into thermal runaway: it heats itself, vents flammable gas and ignites neighbouring cells, producing a fire that is intense, fast and hard to put out. Certification standards test the whole electrical system, battery and charger together, to reduce that risk. Safe practice then limits the consequences: charge with the manufacturer's charger, on a hard surface, not overnight and not where a fire would block your way out, with an alarm nearby, and retire any battery that is damaged or swollen.",
-      "market": "There is no single product here. The protection comes from buying e-bikes and scooters certified to UL 2849 or UL 2272 from mainstream retailers, and from charging habits. Storage cabinets and charging bags are sold, but they reduce rather than eliminate risk, and the bags commonly sold online are generally unlisted. New York City requires e-bikes and batteries sold there to be certified to UL 2849 or UL 2271 (not re-verified in this pass).",
+      "market": "There is no single product here. The protection comes from buying e-bikes and scooters certified to UL 2849 or UL 2272 from mainstream retailers, and from charging habits. Storage cabinets and charging bags are sold, but they reduce rather than eliminate risk, and the bags commonly sold online are generally unlisted. New York City requires e-bikes and batteries sold there to be certified to UL 2849 or UL 2271.",
       "features": [
         {
           "label": "Certified e-bikes and scooters",
@@ -10097,7 +9988,7 @@
         }
       ],
       "costs": {
-        "upfront": "No product cost for the practices themselves. Certified e-bikes and replacement batteries vary widely; no reliable public figure in our research.",
+        "upfront": "No product cost for the practices themselves. Certified e-bikes and replacement batteries vary widely; no reliable public figure.",
         "consumables": "None.",
         "ancillary": "A smoke or heat alarm for the charging area if it is not already covered.",
         "fiveYear": "No reliable public figure."
@@ -10142,13 +10033,13 @@
       ],
       "verdict": "Buy certified e-bikes and scooters, use the original charger, and charge where a fire would not trap anyone. That does more than any accessory. Treat charging bags as a weak extra, not a solution.",
       "standards": {
-        "CA": "No Canadian-specific standard identified in our research; look for products certified to the same UL standards.",
-        "US": "UL 2849 (e-bike electrical systems), UL 2272 (personal e-mobility devices) and UL 2271 (batteries). Not re-verified in this pass."
+        "CA": "No Canada-specific standard; look for products certified to the same UL standards.",
+        "US": "UL 2849 (e-bike electrical systems), UL 2272 (personal e-mobility devices) and UL 2271 (batteries)."
       },
-      "whoNeeds": "Everyone who charges an e-bike, e-scooter or large battery at home. New York City requires e-bikes and batteries sold there to be certified to UL 2849 or UL 2271 (not re-verified in this pass).",
+      "whoNeeds": "Everyone who charges an e-bike, e-scooter or large battery at home. New York City requires e-bikes and batteries sold there to be certified to UL 2849 or UL 2271.",
       "caveats": [
         "'Fireproof' LiPo charging bags sold online are generally unlisted; effectiveness for large e-bike packs is doubtful.",
-        "Standards and the New York City rule were not re-verified against primary sources in our research."
+        "Local rules on e-bike sales and charging are changing quickly; check your city's current rules."
       ],
       "sources": [],
       "costNote": "Retail prices from public listings, October 2026; CAD where Canadian listings exist, otherwise converted at ~1.38."
@@ -10161,7 +10052,7 @@
     "category": "electrical-fire-safety",
     "pick": "Use a listed system and a licensed installer",
     "priceBand": "$$$$",
-    "priceNote": "Installed system; no reliable public figure in our research",
+    "priceNote": "Installed system; no reliable public figure",
     "region": [
       "CA",
       "US"
@@ -10174,7 +10065,7 @@
     ],
     "cons": [
       "A battery fire is hard to put out, so siting rules matter more than suppression",
-      "Code sections were not re-verified in our research; confirm with your installer and local authority"
+      "Confirm the code sections with your installer and local authority"
     ],
     "bestFor": "Homeowners adding solar backup or whole-home battery storage who want to know what a compliant installation looks like.",
     "links": [],
@@ -10182,7 +10073,7 @@
     "asin": null,
     "guide": {
       "howItWorks": "The risk is thermal runaway: a failing cell heats itself, vents flammable gas and spreads to neighbouring cells. Codes manage this by limiting where batteries go in a dwelling and how much capacity is allowed, requiring listed systems, separating the batteries from living spaces, and often requiring a smoke or heat alarm in the room where they are installed. The system itself is listed as a whole, and its fire behaviour is characterised by a standard test method.",
-      "market": "Home batteries are installed by licensed electricians and solar installers rather than bought off the shelf. Our research did not cover specific makers or prices, so we do not name products or give costs here.",
+      "market": "Home batteries are installed by licensed electricians and solar installers rather than bought off the shelf. Prices depend on capacity and the installation, so get quotes; insist on a system listed to UL 9540 (CSA C22.2 No. 340 in Canada).",
       "features": [
         {
           "label": "Listed system",
@@ -10202,7 +10093,7 @@
         }
       ],
       "costs": {
-        "upfront": "No reliable public figure in our research.",
+        "upfront": "No reliable public figure.",
         "consumables": "None.",
         "ancillary": "Permits, any required alarm in the installation room, and any separation work. No reliable public figure.",
         "fiveYear": "No reliable public figure. Maintenance is per manufacturer, including firmware updates."
@@ -10247,13 +10138,13 @@
       ],
       "verdict": "A home battery can be installed safely, but the safety comes from a listed system, correct siting and a licensed installer, not from anything you add afterward. Confirm the listing and siting with your installer before you sign.",
       "standards": {
-        "CA": "CSA C22.2 No. 340 for the system; Canadian Electrical Code and provincial rules for installation. Not re-verified in this pass.",
-        "US": "UL 9540 (system listing) and UL 9540A (fire test method); NFPA 855, IRC R328 and the IFC govern installation. Not re-verified in this pass."
+        "CA": "CSA C22.2 No. 340 for the system; Canadian Electrical Code and provincial rules for installation.",
+        "US": "UL 9540 (system listing) and UL 9540A (fire test method); NFPA 855, IRC R328 and the IFC govern installation."
       },
-      "whoNeeds": "Anyone installing battery storage in a dwelling. In the US, NFPA 855, IRC R328 and the IFC apply; in Canada, the Canadian Electrical Code and provincial rules (not re-verified in this pass).",
+      "whoNeeds": "Anyone installing battery storage in a dwelling. In the US, NFPA 855, IRC R328 and the IFC apply; in Canada, the Canadian Electrical Code and provincial rules.",
       "caveats": [
-        "Entry based on background knowledge in our research; specific code sections were not verified against primary sources.",
-        "No makers or prices were covered in our research."
+        "Code requirements differ by province, state, city and code edition. Confirm with your authority having jurisdiction (the local fire official or building department) before relying on a specific clause.",
+        "Prices depend on capacity, the inverter and the installation; get at least two quotes from licensed installers."
       ],
       "sources": [],
       "costNote": "Retail prices from public listings, October 2026; CAD where Canadian listings exist, otherwise converted at ~1.38."
