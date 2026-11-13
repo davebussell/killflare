@@ -1158,6 +1158,27 @@
       "verified": "Checked https://srtforestry.com/defensible-space/, October 2026: site loads; address 1874 Waltzer Rd, Santa Rosa, CA 95403; Sonoma County service area; defensible-space services listed. No credentials stated."
     },
     {
+      "slug": "xclusive-fire-protection-los-angeles",
+      "name": "Xclusive Fire Protection",
+      "url": "https://xclusivefireprotection.com/",
+      "country": "US",
+      "regions": [
+        "US-CA"
+      ],
+      "metro": "Los Angeles",
+      "services": [
+        "kitchen",
+        "extinguishers"
+      ],
+      "audience": [
+        "business"
+      ],
+      "summary": "Commercial kitchen fire suppression contractor serving Los Angeles, the San Fernando and San Gabriel Valleys, Ventura and Orange counties since 2016. Semi-annual hood suppression inspections and certification, Ansul service, repairs, new installs, UL 300 upgrades, food truck and spray booth suppression, hydrostatic testing, and fire extinguisher inspection, recharge and Class K service. 24/7 emergency response.",
+      "credentials": "California C-16 Fire Protection Contractor, CSLB License #1013330",
+      "phone": "(818) 206-3355",
+      "verified": "Submitted via listing form 2026-11-03; checked https://xclusivefireprotection.com/, November 2026: site loads; C-16 and CSLB License #1013330, service areas (LA County, San Fernando Valley, San Gabriel Valley, Ventura, Orange County), commercial kitchen suppression and extinguisher services and phone as listed. No street address given on the site."
+    },
+    {
       "slug": "troy-life-fire-safety-ltd-saskatoon-saskatoon",
       "name": "Troy Life & Fire Safety Ltd. (Saskatoon)",
       "url": "https://troylfs.com/saskatoon",
