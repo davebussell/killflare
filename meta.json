@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-11-21T10:41:57.064Z",
+  "counts": {
+    "total": 1651,
+    "canada": 105,
+    "us": 1546
+  },
+  "sources": {
+    "cwfis": 1651,
+    "firms": 0
+  },
+  "firmsKeyPresent": false
+}
