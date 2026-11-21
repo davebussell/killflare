@@ -1,7 +1,10 @@
 // Site-wide settings. Change them here, nowhere else.
 
-/** Contact address shown across the site and used in mailto: links. */
-export const CONTACT_EMAIL = 'dave@clickshift.ca';
+/**
+ * Contact address shown across the site and used in mailto: links. A Google Group in the Click Shift Workspace
+ * that reaches Dave and team@clickshift.ca (since 2026-11-21).
+ */
+export const CONTACT_EMAIL = 'contact@killflare.com';
 
 /**
  * Amazon Associates tracking IDs.

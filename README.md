@@ -144,6 +144,6 @@ GitHub Actions now runs only `refresh-live-data.yml` (see Live data above).
 ## Before launch
 
 - [ ] Replace affiliate tag placeholders
-- [ ] Set up `hello@killflare.com` (or change the address in `src/pages/about.astro`)
+- [x] Contact address: `contact@killflare.com` (a Google Group that reaches Dave and team@, since 2026-11-21; set in `src/config.ts`)
 - [ ] Add product images if you want them (cards are text-only by design for v1)
 - [ ] Submit `https://killflare.com/sitemap-index.xml` to Search Console
