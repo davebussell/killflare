@@ -8,7 +8,7 @@ import products from '../data/products.json';
 import guides from '../data/guides.json';
 import { services, companies, regions as cRegions } from '../lib/contractors';
 
-const featuredSlugs = ['sealed-10-year-smoke-alarm', '10lb-abc-extinguisher', 'commercial-hood-wet-chemical', 'central-station-communicators', 'stainless-ember-mesh', 'wasp-wildfire-protection-full-kit'];
+const featuredSlugs = ['sealed-10-year-smoke-alarm', '10lb-abc-extinguisher', 'commercial-hood-wet-chemical', 'central-station-communicators', 'stainless-ember-mesh', 'rainstorm-recessed-rooftop-sprinkler-system'];
 const featured = featuredSlugs.map((s) => products.find((p) => p.slug === s)).filter(Boolean);
 const pillars = [
   { key: 'home', label: 'Home', href: '/home-safety/', icon: 'home', blurb: 'Alarms, extinguishers, sprinklers, and the everyday causes: cooking, heating, wiring and batteries.' },

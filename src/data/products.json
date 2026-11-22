@@ -1,5 +1,138 @@
 [
   {
+    "slug": "rainstorm-recessed-rooftop-sprinkler-system",
+    "name": "Rainstorm Recessed Rooftop Sprinkler System",
+    "brand": "Rainstorm (Wildfire) Sprinklers",
+    "category": "exterior-sprinklers",
+    "pick": "Best recessed permanent system",
+    "priceBand": "$$$",
+    "priceNote": "Parts priced online: CA$169 per roof head; a typical home is CA$1,200–2,000 in parts before pump and water storage",
+    "region": [
+      "CA",
+      "US"
+    ],
+    "summary": "Permanently installed wildfire sprinklers recessed into the roof at the ridge, so the piping is hidden inside the roof and only a small fixed spray head shows. Matching sidewall and deck pop-up heads cover eaves, walls and decking. Designed and made in Osoyoos, BC; patents pending in Canada, the US and Australia. Any plumber, or a capable DIYer, can install it from Rainstorm's design.",
+    "pros": [
+      "Always on the roof: nothing to put up when an evacuation order comes",
+      "Recessed, nearly invisible heads with no moving parts and no seasonal removal",
+      "Ridge mounting lets water run down the roof like rain instead of spraying up under shingles and into vents",
+      "Published, per-part pricing and a manufacturer that designs the layout for you",
+      "Installed by your own plumber or yourself, not a specialist crew"
+    ],
+    "cons": [
+      "Needs roof penetrations, so best planned into a new build, re-roof or major renovation",
+      "Each head wants about 3 US gpm at 30 psi, which most taps can't supply to several heads, so plan a pump and water storage",
+      "Heads and caps are 3D-printed ABS for now; brass versions are still in development",
+      "Remote start and monitoring are not due until early 2027"
+    ],
+    "bestFor": "Owners building, re-roofing or renovating in a wildfire-prone area who want permanent roof protection without the price of a fully packaged installed system.",
+    "links": [
+      {
+        "label": "Rainstorm Sprinklers (order direct)",
+        "url": "https://rainstormsprinklers.com/#ourproducts",
+        "kind": "direct"
+      },
+      {
+        "label": "Ask Rainstorm for a system design",
+        "url": "https://rainstormsprinklers.com/#contactus",
+        "kind": "direct"
+      }
+    ],
+    "image": null,
+    "asin": null,
+    "guide": {
+      "howItWorks": "A sprinkler body drops into a hole cut at or near the roof ridge and is fastened to brackets under the deck, so only a short fixed cap and spray nozzle sit above the roofing. Under the roof, PEX or copper runs down through the building to a distribution header and a recessed wall box on the outside wall. In a fire you connect a pump drawn from a pool or tank to the wall box (or start Rainstorm's packaged pump station), and each head throws a 360° circle about 30 ft across. Because the heads sit at the top, the water runs down both slopes and into the gutters like rain. Sidewall heads wet the eaves, walls and covered decks, and flush deck pop-ups rise out of the decking. The point, as with every roof sprinkler, is keeping the surfaces wet enough that wind-driven embers go out instead of catching, often hours before the flame front arrives.",
+      "market": "Permanent residential wildfire sprinklers have meant one of two things: a packaged, professionally installed system (Frontline and its competitors, roughly US$15,000–40,000 installed), or a local contractor's custom build with exposed pipe and impact heads on the roof. Rainstorm takes a third route. It sells the components and the design and leaves the install to your plumber, so the hardware cost is closer to a good clip-on kit than to a packaged system. It is also the only system we know of that recesses the piping into the roof rather than running it over the surface. It is a young, Canadian-made product (first US shipment went to a custom home in Colorado's Vail Valley in 2026), so it has a short track record. The design is simple, with no moving parts, which counts in its favour.",
+      "features": [
+        {
+          "label": "Recessed roof head",
+          "detail": "A 9 in body as standard, with 12 in and 18 in versions for steeper or thicker roofs. Comes with a weatherproofing gasket, upper and lower caps, feed tube, nozzle, two support brackets and spacers, and installation instructions. Tell Rainstorm your roof material and slope so they send the right body."
+        },
+        {
+          "label": "Coverage",
+          "detail": "The standard nozzle sprays 360° with a 15 ft radius, about 700 sq ft per head. Rainstorm recommends heads about 12 ft apart along the ridge for overlap. 180° and other radii are available, as is a head for open cathedral ceilings."
+        },
+        {
+          "label": "Flow and pressure",
+          "detail": "About 3 US gpm per head at about 30 psi. A typical roof with 4–5 heads draws about 15 gpm, so 3–4 hours of protection is roughly 4,000 US gallons."
+        },
+        {
+          "label": "Sidewall and deck heads",
+          "detail": "Sidewall heads (recessed or exposed pipe, pendant or sidewall mount) cover overhangs, walls, patios and covered walkways. Deck pop-ups mount under 1/4–2 in decking, sit flush when idle and spray a 15 ft circle."
+        },
+        {
+          "label": "Wall box, header and pump station",
+          "detail": "The recessed wall box (1 in for up to 8 heads, 1 1/2 in for up to 16) is the hook-up point for your pump, with camlock plugs available. 4- and 8-zone headers have a main shut-off and valved takeoffs. A packaged 120 V pump station is quoted per project for a flip-a-switch setup."
+        },
+        {
+          "label": "Materials and colour",
+          "detail": "The visible cap and nozzle are 3D-printed ABS, the same plastic as roof vents and plumbing stacks. Standard colour is black; custom colours cost a little extra. Brass caps and nozzles are in development."
+        }
+      ],
+      "costs": {
+        "upfront": "Parts at Rainstorm's list prices (CAD, November 2026): roof head $169, sidewall head $59–69, wall box $199–229, 4-zone header $299, 8-zone header $449. A typical home with 5 roof heads, 4 sidewall heads, a wall box and a 4-zone header comes to about CA$1,600 in parts. Add piping and a plumber's time; a new build absorbs most of that labour.",
+        "consumables": "None. Water is the running cost: about 3 US gpm per head, so a 5-head roof uses roughly 900 US gallons an hour.",
+        "ancillary": "The water and power behind it. If you have no pool, plan on tanks or fire-department-style bladder tanks (CA$1,500–8,000), a pump (CA$800–3,000) and a generator to run it when the hydro goes out. Rainstorm's packaged pump station is quoted per project. These costs apply to any roof sprinkler worth installing.",
+        "fiveYear": "Close to nothing for the heads: no moving parts and nothing to take down. Budget an annual spring test run and pump and generator servicing."
+      },
+      "costNote": "Rainstorm's prices are its published CAD list prices as of November 2026. Shipping, taxes and import duties are extra, and delivery takes 3–4 weeks. Pump, storage and labour figures are typical planning ranges, not quotes.",
+      "differentiators": [
+        {
+          "label": "Versus clip-on kits (WASP, Platypus)",
+          "detail": "Clip-on kits are cheaper to start and need no roof work, but someone has to be home, on a ladder, with time to spare. Rainstorm is already on the roof. For a new build the parts cost about the same as a large clip-on kit."
+        },
+        {
+          "label": "Versus Frontline and packaged systems",
+          "detail": "Packaged systems come with remote activation and an installer network, at many times the price. Rainstorm sells parts and a design, installed by your own plumber, and remote control is still on its roadmap. If you won't be home and need app control today, a packaged system still wins."
+        },
+        {
+          "label": "Versus a surface-mounted custom build",
+          "detail": "Exposed pipe and impact heads on the roof weather in the sun, trap leaves and get in the way of roofing work. Rainstorm keeps the pipe inside the roof, and its ridge position wets the roof with less pressure, so less water is forced under shingles or into vents."
+        },
+        {
+          "label": "What it is not",
+          "detail": "It does not replace FireSmart work, ember-resistant vents or a cleared Zone 0. Like any roof sprinkler it relies on a water supply that outlasts the fire, and BC guidance is to keep these systems off the municipal supply during an event."
+        }
+      ],
+      "buying": {
+        "effort": 2,
+        "lead": "3–4 weeks for delivery from Osoyoos, BC",
+        "where": "Order direct from rainstormsprinklers.com, which takes orders online, or contact Rainstorm with a roof drawing and photos for a system design. It ships to Canada and the US.",
+        "note": "Send your roof plan, material and slope before you order. The design work is free and determines how many heads you need and which body length."
+      },
+      "install": {
+        "effort": 3,
+        "time": "About a day for a plumber on a new build; longer as a retrofit, depending on attic access",
+        "tools": [
+          "Your plumbing contractor, or DIY",
+          "Hole saw for the roof opening",
+          "PEX or copper tools",
+          "Roof sealant and flashing per your roofer"
+        ],
+        "note": "No specialist installer is needed. The founder installed eleven heads on his own new house in 2017 at age 72. Retrofits are possible on many homes, but they are easiest when the roof is open anyway. Coordinate with your roofer so the penetrations are flashed to the roofing manufacturer's spec."
+      },
+      "ongoing": {
+        "effort": 1,
+        "note": "Run it once each spring and watch the whole roof get wet. Drain or blow out the lines before freezing weather; the headers include a takeoff for a compressed-air fitting. Keep the pump and generator serviced, since they are what fail."
+      },
+      "alternatives": [
+        {
+          "name": "WASP full kit",
+          "note": "Clip-on, garden-hose fed and cheaper to start. You have to be there to put it up."
+        },
+        {
+          "name": "Frontline Wildfire Defense System",
+          "note": "Packaged, installed and app-controlled, at many times the price."
+        },
+        {
+          "name": "A local wildfire contractor's custom system",
+          "note": "Pipe runs over the roof surface. Price and design quality vary by installer."
+        }
+      ],
+      "verdict": "The most sensible permanent roof system we've seen for anyone building or re-roofing in fire country. It is hidden and simple, and it is priced like parts rather than a package. Budget most of the money and thought for the water and pump behind it, as Rainstorm itself advises."
+    }
+  },
+  {
     "slug": "wasp-wildfire-protection-full-kit",
     "name": "WASP Wildfire Protection Full Kit",
     "brand": "WASP Wildfire",
@@ -232,6 +365,10 @@
         "note": "Annual service before fire season, winterisation after. Test-fire it yourself in the spring — do not take the app's word for it. This is the category where 'installed and forgotten' fails most often."
       },
       "alternatives": [
+        {
+          "name": "Rainstorm Recessed Rooftop Sprinkler System",
+          "note": "Also permanent, with the pipe hidden inside the roof. You buy parts and a design and your own plumber installs it, for a fraction of the price. No remote start until 2027."
+        },
         {
           "name": "Clip-on kit plus a portable pump and tank",
           "note": "Roughly a fifth of the cost, most of the wetting, none of the remote activation. The right answer for most people."

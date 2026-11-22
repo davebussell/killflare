@@ -492,7 +492,7 @@
       "code": "BC",
       "name": "British Columbia",
       "slug": "british-columbia",
-      "count": 25
+      "count": 26
     },
     {
       "key": "CA-AB",
@@ -500,7 +500,7 @@
       "code": "AB",
       "name": "Alberta",
       "slug": "alberta",
-      "count": 15
+      "count": 16
     },
     {
       "key": "CA-SK",
@@ -508,7 +508,7 @@
       "code": "SK",
       "name": "Saskatchewan",
       "slug": "saskatchewan",
-      "count": 11
+      "count": 12
     },
     {
       "key": "CA-MB",
@@ -516,7 +516,7 @@
       "code": "MB",
       "name": "Manitoba",
       "slug": "manitoba",
-      "count": 8
+      "count": 9
     },
     {
       "key": "CA-ON",
@@ -524,7 +524,7 @@
       "code": "ON",
       "name": "Ontario",
       "slug": "ontario",
-      "count": 33
+      "count": 34
     },
     {
       "key": "CA-QC",
@@ -532,7 +532,7 @@
       "code": "QC",
       "name": "Quebec",
       "slug": "quebec",
-      "count": 19
+      "count": 20
     },
     {
       "key": "CA-NB",
@@ -540,7 +540,7 @@
       "code": "NB",
       "name": "New Brunswick",
       "slug": "new-brunswick",
-      "count": 10
+      "count": 11
     },
     {
       "key": "CA-NS",
@@ -548,7 +548,7 @@
       "code": "NS",
       "name": "Nova Scotia",
       "slug": "nova-scotia",
-      "count": 6
+      "count": 7
     },
     {
       "key": "CA-PE",
@@ -556,7 +556,7 @@
       "code": "PE",
       "name": "Prince Edward Island",
       "slug": "prince-edward-island",
-      "count": 3
+      "count": 4
     },
     {
       "key": "CA-NL",
@@ -564,7 +564,7 @@
       "code": "NL",
       "name": "Newfoundland and Labrador",
       "slug": "newfoundland-and-labrador",
-      "count": 5
+      "count": 6
     },
     {
       "key": "CA-YT",
@@ -572,7 +572,7 @@
       "code": "YT",
       "name": "Yukon",
       "slug": "yukon",
-      "count": 4
+      "count": 5
     },
     {
       "key": "CA-NT",
@@ -580,7 +580,7 @@
       "code": "NT",
       "name": "Northwest Territories",
       "slug": "northwest-territories",
-      "count": 3
+      "count": 4
     },
     {
       "key": "CA-NU",
@@ -588,7 +588,7 @@
       "code": "NU",
       "name": "Nunavut",
       "slug": "nunavut",
-      "count": 2
+      "count": 3
     },
     {
       "key": "US-CA",
@@ -596,7 +596,7 @@
       "code": "CA",
       "name": "California",
       "slug": "california",
-      "count": 21
+      "count": 22
     },
     {
       "key": "US-OR",
@@ -5174,6 +5174,40 @@
       "credentials": "Systems designed to NFPA standards; CFAA, CASA, FSSA logos shown",
       "phone": "250 860-0001",
       "verified": "Checked https://vikingfire.ca/location/kelowna-region-office/, October 2026: page loads; Kelowna office, services and building types confirmed. No street address shown."
+    },
+    {
+      "slug": "rainstorm-wildfire-sprinklers-osoyoos",
+      "name": "Rainstorm (Wildfire) Sprinklers",
+      "url": "https://rainstormsprinklers.com/",
+      "country": "CA",
+      "regions": [
+        "CA-BC",
+        "CA-AB",
+        "CA-SK",
+        "CA-MB",
+        "CA-ON",
+        "CA-QC",
+        "CA-NB",
+        "CA-NS",
+        "CA-PE",
+        "CA-NL",
+        "CA-YT",
+        "CA-NT",
+        "CA-NU"
+      ],
+      "metro": null,
+      "services": [
+        "wildfire"
+      ],
+      "audience": [
+        "home",
+        "business"
+      ],
+      "summary": "Osoyoos, BC manufacturer of permanently installed wildfire sprinklers recessed into the roof ridge, plus sidewall and deck pop-up heads, wall boxes, distribution headers and packaged pump stations. Rainstorm designs the system from your roof drawings and photos, and your own plumber (or you) installs it. Parts are sold online and ship across Canada and to the US.",
+      "credentials": "Patents pending in Canada, the US and Australia; founded by Rick Walker, a retired engineer",
+      "phone": "Via website · Osoyoos, BC",
+      "verified": "Founder Rick Walker requested a listing by email to Dave, 2026-11-20. Checked https://rainstormsprinklers.com/, November 2026: site loads; recessed rooftop, sidewall and deck pop-up products, list prices, specs (360°, 15 ft radius, about 3 gpm at 30 psi per head), patents pending (CA/US/AU) and plumber/DIY install as listed. No phone or street address on the site. Supply and design rather than installation.",
+      "note": "Roof heads CA$169 each; system design included"
     },
     {
       "slug": "okanagan-wildfire-solutions-inc-kelowna",
